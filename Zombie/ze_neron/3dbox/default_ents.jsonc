@@ -5,6 +5,28 @@
     "classname": "worldspawn",
     "hammerUniqueId": "1",
     "properties": {
+      "steamaudio_customdata_occlusion_reflection_bounces": "8",
+      "steamaudio_customdata_occlusion_reflection_rays": "8192",
+      "steamaudio_customdata_occlusion_reflection": "False",
+      "steamaudio_customdata_occlusion_pathing": "True",
+      "steamaudio_customdata_bake_materials": "False",
+      "steamaudio_customdata_bake_dimensions": "False",
+      "steamaudio_customdata_bake_occlusion": "False",
+      "steamaudio_customdata_height_above_floor": "1.5",
+      "steamaudio_customdata_grid_spacing": "6",
+      "steamaudio_customdata_filter_navmesh": "False",
+      "steamaudio_customdata_filter_volumes": "True",
+      "steamaudio_customdata_generation_type": "0",
+      "steamaudio_customdata_rebake_option": "0",
+      "steamaudio_pathing_filter_navmesh": "False",
+      "steamaudio_pathing_filter_volumes": "True",
+      "steamaudio_pathing_generation_type": "0",
+      "steamaudio_reverb_clustering_depth_threshold": "10",
+      "steamaudio_reverb_clustering_cubemap_resolution": "16",
+      "steamaudio_reverb_clustering_enable": "False",
+      "steamaudio_reverb_filter_navmesh": "False",
+      "steamaudio_reverb_filter_volumes": "True",
+      "steamaudio_reverb_generation_type": "0",
       "steamaudio_pathing_visibility_pathrange": "100",
       "steamaudio_pathing_visibility_threshold": "0.10000000149011612",
       "steamaudio_pathing_visibility_radius": "0",
@@ -52,17 +74,33 @@
     "hammerUniqueId": "5",
     "targetname": "[PR#]physbox",
     "properties": {
+      "hoverposeangles": "0.000000 0.000000 0.000000",
+      "hoverposeangles __RAW_ARRAY__ (FloatingPoint64[3])": [
+        0,
+        0,
+        0
+      ],
+      "hoverposeposition": "0.000000 0.000000 0.000000",
+      "hoverposeposition __RAW_ARRAY__ (FloatingPoint64[3])": [
+        0,
+        0,
+        0
+      ],
+      "hoverposeflags": "0",
+      "buoyancyscale": "1",
+      "masscenteroffset": "0.000000 0.000000 0.000000",
+      "masscenteroffset __RAW_ARRAY__ (FloatingPoint64[3])": [
+        0,
+        0,
+        0
+      ],
+      "gamemass": "0",
       "gibdir": "0 0 0",
       "fadescale": "1",
       "touchoutputperentitydelay": "0",
       "exploitablebyplayer": "0",
       "notsolid": "0",
-      "preferredcarryangles": "0.000000 0.000000 0.000000",
-      "preferredcarryangles __RAW_ARRAY__ (FloatingPoint64[3])": [
-        0,
-        0,
-        0
-      ],
+      "preferredcarryangles": "0 0 0",
       "enableuseoutput": "False",
       "forcetoenablemotion": "0",
       "damagetoenablemotion": "0",
@@ -102,7 +140,7 @@
       "origin": "-180.559998 290.580017 198.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "model": "maps\\prefabs\\3dbox\\entities\\physbox_5.vmdl"
+      "model": "maps/prefabs/3dbox/entities/physbox_5.vmdl"
     }
   },
   {
@@ -117,7 +155,7 @@
       "origin": "-278.059998 290.580017 179.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "model": "maps\\prefabs\\3dbox\\entities\\admin_multiple_9.vmdl"
+      "model": "maps/prefabs/3dbox/entities/admin_multiple_9.vmdl"
     },
     "connections": [
       {
@@ -165,7 +203,7 @@
       "origin": "-176.000000 283.000000 142.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "model": "maps\\prefabs\\3dbox\\entities\\brush_st2_12.vmdl"
+      "model": "maps/prefabs/3dbox/entities/brush_st2_12.vmdl"
     }
   },
   {
@@ -180,7 +218,7 @@
       "origin": "-58.059998 290.580017 179.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "model": "maps\\prefabs\\3dbox\\entities\\admin_multiple_33.vmdl"
+      "model": "maps/prefabs/3dbox/entities/admin_multiple_33.vmdl"
     },
     "connections": [
       {
@@ -205,7 +243,7 @@
       "origin": "51.939999 290.580017 179.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "model": "maps\\prefabs\\3dbox\\entities\\admin_multiple_70.vmdl"
+      "model": "maps/prefabs/3dbox/entities/admin_multiple_70.vmdl"
     },
     "connections": [
       {
@@ -230,7 +268,7 @@
       "origin": "-168.059998 290.580017 179.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "model": "maps\\prefabs\\3dbox\\entities\\admin_multiple_74.vmdl"
+      "model": "maps/prefabs/3dbox/entities/admin_multiple_74.vmdl"
     },
     "connections": [
       {
@@ -248,17 +286,33 @@
     "hammerUniqueId": "96",
     "targetname": "[PR#]physbox",
     "properties": {
+      "hoverposeangles": "0.000000 0.000000 0.000000",
+      "hoverposeangles __RAW_ARRAY__ (FloatingPoint64[3])": [
+        0,
+        0,
+        0
+      ],
+      "hoverposeposition": "0.000000 0.000000 0.000000",
+      "hoverposeposition __RAW_ARRAY__ (FloatingPoint64[3])": [
+        0,
+        0,
+        0
+      ],
+      "hoverposeflags": "0",
+      "buoyancyscale": "1",
+      "masscenteroffset": "0.000000 0.000000 0.000000",
+      "masscenteroffset __RAW_ARRAY__ (FloatingPoint64[3])": [
+        0,
+        0,
+        0
+      ],
+      "gamemass": "0",
       "gibdir": "0 0 0",
       "fadescale": "1",
       "touchoutputperentitydelay": "0",
       "exploitablebyplayer": "0",
       "notsolid": "0",
-      "preferredcarryangles": "0.000000 0.000000 0.000000",
-      "preferredcarryangles __RAW_ARRAY__ (FloatingPoint64[3])": [
-        0,
-        0,
-        0
-      ],
+      "preferredcarryangles": "0 0 0",
       "enableuseoutput": "False",
       "forcetoenablemotion": "0",
       "damagetoenablemotion": "0",
@@ -298,7 +352,7 @@
       "origin": "-70.559998 290.580017 198.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "model": "maps\\prefabs\\3dbox\\entities\\physbox_96.vmdl"
+      "model": "maps/prefabs/3dbox/entities/physbox_96.vmdl"
     }
   },
   {
@@ -336,7 +390,7 @@
       "origin": "-286.000000 283.000000 142.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "model": "maps\\prefabs\\3dbox\\entities\\brush_st1_164.vmdl"
+      "model": "maps/prefabs/3dbox/entities/brush_st1_164.vmdl"
     }
   },
   {
@@ -374,7 +428,7 @@
       "origin": "44.000000 283.000000 142.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "model": "maps\\prefabs\\3dbox\\entities\\brush_st4_176.vmdl"
+      "model": "maps/prefabs/3dbox/entities/brush_st4_176.vmdl"
     }
   },
   {
@@ -382,17 +436,33 @@
     "hammerUniqueId": "211",
     "targetname": "[PR#]physbox",
     "properties": {
+      "hoverposeangles": "0.000000 0.000000 0.000000",
+      "hoverposeangles __RAW_ARRAY__ (FloatingPoint64[3])": [
+        0,
+        0,
+        0
+      ],
+      "hoverposeposition": "0.000000 0.000000 0.000000",
+      "hoverposeposition __RAW_ARRAY__ (FloatingPoint64[3])": [
+        0,
+        0,
+        0
+      ],
+      "hoverposeflags": "0",
+      "buoyancyscale": "1",
+      "masscenteroffset": "0.000000 0.000000 0.000000",
+      "masscenteroffset __RAW_ARRAY__ (FloatingPoint64[3])": [
+        0,
+        0,
+        0
+      ],
+      "gamemass": "0",
       "gibdir": "0 0 0",
       "fadescale": "1",
       "touchoutputperentitydelay": "0",
       "exploitablebyplayer": "0",
       "notsolid": "0",
-      "preferredcarryangles": "0.000000 0.000000 0.000000",
-      "preferredcarryangles __RAW_ARRAY__ (FloatingPoint64[3])": [
-        0,
-        0,
-        0
-      ],
+      "preferredcarryangles": "0 0 0",
       "enableuseoutput": "False",
       "forcetoenablemotion": "0",
       "damagetoenablemotion": "0",
@@ -432,7 +502,7 @@
       "origin": "-290.559998 290.580017 198.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "model": "maps\\prefabs\\3dbox\\entities\\physbox_211.vmdl"
+      "model": "maps/prefabs/3dbox/entities/physbox_211.vmdl"
     }
   },
   {
@@ -470,7 +540,7 @@
       "origin": "-66.000000 283.000000 142.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "model": "maps\\prefabs\\3dbox\\entities\\brush_st3_225.vmdl"
+      "model": "maps/prefabs/3dbox/entities/brush_st3_225.vmdl"
     }
   },
   {
@@ -478,17 +548,33 @@
     "hammerUniqueId": "236",
     "targetname": "[PR#]physbox",
     "properties": {
+      "hoverposeangles": "0.000000 0.000000 0.000000",
+      "hoverposeangles __RAW_ARRAY__ (FloatingPoint64[3])": [
+        0,
+        0,
+        0
+      ],
+      "hoverposeposition": "0.000000 0.000000 0.000000",
+      "hoverposeposition __RAW_ARRAY__ (FloatingPoint64[3])": [
+        0,
+        0,
+        0
+      ],
+      "hoverposeflags": "0",
+      "buoyancyscale": "1",
+      "masscenteroffset": "0.000000 0.000000 0.000000",
+      "masscenteroffset __RAW_ARRAY__ (FloatingPoint64[3])": [
+        0,
+        0,
+        0
+      ],
+      "gamemass": "0",
       "gibdir": "0 0 0",
       "fadescale": "1",
       "touchoutputperentitydelay": "0",
       "exploitablebyplayer": "0",
       "notsolid": "0",
-      "preferredcarryangles": "0.000000 0.000000 0.000000",
-      "preferredcarryangles __RAW_ARRAY__ (FloatingPoint64[3])": [
-        0,
-        0,
-        0
-      ],
+      "preferredcarryangles": "0 0 0",
       "enableuseoutput": "False",
       "forcetoenablemotion": "0",
       "damagetoenablemotion": "0",
@@ -528,7 +614,7 @@
       "origin": "39.440002 290.580017 198.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "model": "maps\\prefabs\\3dbox\\entities\\physbox_236.vmdl"
+      "model": "maps/prefabs/3dbox/entities/physbox_236.vmdl"
     }
   },
   {
@@ -566,7 +652,7 @@
       "origin": "154.000000 283.000000 142.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "model": "maps\\prefabs\\3dbox\\entities\\brush_st4_boss_238.vmdl"
+      "model": "maps/prefabs/3dbox/entities/brush_st4_boss_238.vmdl"
     }
   },
   {
@@ -574,17 +660,33 @@
     "hammerUniqueId": "241",
     "targetname": "[PR#]physbox",
     "properties": {
+      "hoverposeangles": "0.000000 0.000000 0.000000",
+      "hoverposeangles __RAW_ARRAY__ (FloatingPoint64[3])": [
+        0,
+        0,
+        0
+      ],
+      "hoverposeposition": "0.000000 0.000000 0.000000",
+      "hoverposeposition __RAW_ARRAY__ (FloatingPoint64[3])": [
+        0,
+        0,
+        0
+      ],
+      "hoverposeflags": "0",
+      "buoyancyscale": "1",
+      "masscenteroffset": "0.000000 0.000000 0.000000",
+      "masscenteroffset __RAW_ARRAY__ (FloatingPoint64[3])": [
+        0,
+        0,
+        0
+      ],
+      "gamemass": "0",
       "gibdir": "0 0 0",
       "fadescale": "1",
       "touchoutputperentitydelay": "0",
       "exploitablebyplayer": "0",
       "notsolid": "0",
-      "preferredcarryangles": "0.000000 0.000000 0.000000",
-      "preferredcarryangles __RAW_ARRAY__ (FloatingPoint64[3])": [
-        0,
-        0,
-        0
-      ],
+      "preferredcarryangles": "0 0 0",
       "enableuseoutput": "False",
       "forcetoenablemotion": "0",
       "damagetoenablemotion": "0",
@@ -624,7 +726,7 @@
       "origin": "149.440002 290.580017 198.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "model": "maps\\prefabs\\3dbox\\entities\\physbox_241.vmdl"
+      "model": "maps/prefabs/3dbox/entities/physbox_241.vmdl"
     }
   },
   {
@@ -639,7 +741,7 @@
       "origin": "161.940002 290.580017 179.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "model": "maps\\prefabs\\3dbox\\entities\\admin_multiple_243.vmdl"
+      "model": "maps/prefabs/3dbox/entities/admin_multiple_243.vmdl"
     },
     "connections": [
       {
@@ -664,7 +766,7 @@
       "origin": "271.940002 290.580017 179.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "model": "maps\\prefabs\\3dbox\\entities\\admin_multiple_245.vmdl"
+      "model": "maps/prefabs/3dbox/entities/admin_multiple_245.vmdl"
     },
     "connections": [
       {
@@ -712,7 +814,7 @@
       "origin": "264.000000 283.000000 142.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "model": "maps\\prefabs\\3dbox\\entities\\brush_rtv_247.vmdl"
+      "model": "maps/prefabs/3dbox/entities/brush_rtv_247.vmdl"
     }
   },
   {
@@ -720,17 +822,33 @@
     "hammerUniqueId": "250",
     "targetname": "[PR#]physbox",
     "properties": {
+      "hoverposeangles": "0.000000 0.000000 0.000000",
+      "hoverposeangles __RAW_ARRAY__ (FloatingPoint64[3])": [
+        0,
+        0,
+        0
+      ],
+      "hoverposeposition": "0.000000 0.000000 0.000000",
+      "hoverposeposition __RAW_ARRAY__ (FloatingPoint64[3])": [
+        0,
+        0,
+        0
+      ],
+      "hoverposeflags": "0",
+      "buoyancyscale": "1",
+      "masscenteroffset": "0.000000 0.000000 0.000000",
+      "masscenteroffset __RAW_ARRAY__ (FloatingPoint64[3])": [
+        0,
+        0,
+        0
+      ],
+      "gamemass": "0",
       "gibdir": "0 0 0",
       "fadescale": "1",
       "touchoutputperentitydelay": "0",
       "exploitablebyplayer": "0",
       "notsolid": "0",
-      "preferredcarryangles": "0.000000 0.000000 0.000000",
-      "preferredcarryangles __RAW_ARRAY__ (FloatingPoint64[3])": [
-        0,
-        0,
-        0
-      ],
+      "preferredcarryangles": "0 0 0",
       "enableuseoutput": "False",
       "forcetoenablemotion": "0",
       "damagetoenablemotion": "0",
@@ -770,7 +888,7 @@
       "origin": "259.440002 290.580017 198.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "model": "maps\\prefabs\\3dbox\\entities\\physbox_250.vmdl"
+      "model": "maps/prefabs/3dbox/entities/physbox_250.vmdl"
     }
   },
   {
@@ -1848,7 +1966,7 @@
       "origin": "0.000000 -264.000000 0.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "model": "maps\\prefabs\\3dbox\\entities\\unnamed_355.vmdl"
+      "model": "maps/prefabs/3dbox/entities/unnamed_355.vmdl"
     }
   },
   {
@@ -1856,6 +1974,7 @@
     "hammerUniqueId": "362",
     "targetname": "[PR#]sky_ship_movelinear",
     "properties": {
+      "allowmovablenavmeshdockingonentireentity": "False",
       "uselocaloffset": "False",
       "spawnflags": "8",
       "renderfx": "kRenderFxNone",
@@ -1891,7 +2010,7 @@
       "origin": "-616.000000 2215.000000 204.000000",
       "angles": "0.000000 180.000031 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "model": "maps\\prefabs\\3dbox\\entities\\sky_ship_movelinear_362.vmdl"
+      "model": "maps/prefabs/3dbox/entities/sky_ship_movelinear_362.vmdl"
     },
     "connections": [
       {
@@ -1941,6 +2060,7 @@
     "hammerUniqueId": "364",
     "targetname": "[PR#]sky_ship2_movelinear",
     "properties": {
+      "allowmovablenavmeshdockingonentireentity": "False",
       "uselocaloffset": "False",
       "spawnflags": "0",
       "renderfx": "kRenderFxNone",
@@ -1976,7 +2096,7 @@
       "origin": "1500.000000 -1584.000000 1998.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "model": "maps\\prefabs\\3dbox\\entities\\sky_ship2_movelinear_364.vmdl"
+      "model": "maps/prefabs/3dbox/entities/sky_ship2_movelinear_364.vmdl"
     }
   },
   {
@@ -1984,6 +2104,7 @@
     "hammerUniqueId": "365",
     "targetname": "[PR#]sky_ship2_movelinear",
     "properties": {
+      "allowmovablenavmeshdockingonentireentity": "False",
       "uselocaloffset": "False",
       "spawnflags": "0",
       "renderfx": "kRenderFxNone",
@@ -2019,7 +2140,7 @@
       "origin": "1136.000000 -1584.000000 1998.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "model": "maps\\prefabs\\3dbox\\entities\\sky_ship2_movelinear_365.vmdl"
+      "model": "maps/prefabs/3dbox/entities/sky_ship2_movelinear_365.vmdl"
     }
   },
   {
@@ -2182,9 +2303,9 @@
     "classname": "light_environment",
     "hammerUniqueId": "556",
     "properties": {
-      "bakedshadowindex": "0",
       "brightness_legacy": "-nan(ind)",
       "brightness_lumens": "0",
+      "allow_sst_generation": "False",
       "occlusion_exponent": "1.000000",
       "fully_occluded_fraction": "1.000000",
       "max_occlusion_distance": "16.000000",
@@ -2203,7 +2324,7 @@
       "shadowpriority": "-1",
       "rendertocubemaps": "True",
       "style": "0",
-      "directlight": "3",
+      "directlight": "2",
       "bouncescale": "1",
       "skycolor": "151 151 151",
       "skycolor __RAW_ARRAY__ (UInt64[3])": [
@@ -2249,6 +2370,7 @@
     "hammerUniqueId": "558",
     "targetname": "[PR#]sky_ship2",
     "properties": {
+      "allowmovablenavmeshdockingonentireentity": "False",
       "uselocaloffset": "False",
       "spawnflags": "0",
       "renderfx": "kRenderFxNone",
@@ -2284,7 +2406,7 @@
       "origin": "1315.011719 -522.000000 2528.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "model": "maps\\prefabs\\3dbox\\entities\\sky_ship2_558.vmdl"
+      "model": "maps/prefabs/3dbox/entities/sky_ship2_558.vmdl"
     }
   },
   {
@@ -2316,6 +2438,64 @@
         "target": "[PR#]template_kiki_time_counter",
         "input": "add",
         "param": "1",
+        "delay": 0,
+        "limit": -1
+      }
+    ]
+  },
+  {
+    "classname": "logic_relay",
+    "hammerUniqueId": "560",
+    "targetname": "[PR#]map_ex+_enidnu_relay",
+    "properties": {
+      "startdisabled": "True",
+      "triggeronce": "False",
+      "fastretrigger": "False",
+      "passthroughcaller": "False",
+      "health": "0",
+      "spawnflags": "0",
+      "origin": "404.103363 334.559418 72.000000",
+      "angles": "0.000000 0.000000 0.000000",
+      "scales": "1.000000 1.000000 1.000000"
+    },
+    "connections": [
+      {
+        "output": "OnTrigger",
+        "target": "[PR#]enidnu_noobmode_particle",
+        "input": "Start",
+        "param": "",
+        "delay": 0,
+        "limit": 1
+      },
+      {
+        "output": "OnTrigger",
+        "target": "[PR#]enidnu_noobmode_trigger",
+        "input": "Enable",
+        "param": "",
+        "delay": 0,
+        "limit": 1
+      },
+      {
+        "output": "OnTrigger",
+        "target": "!self",
+        "input": "Kill",
+        "param": "",
+        "delay": 0.1,
+        "limit": 1
+      },
+      {
+        "output": "OnTrigger",
+        "target": "[PR#]st4_sk_movelinear",
+        "input": "Open",
+        "param": "",
+        "delay": 0,
+        "limit": 1
+      },
+      {
+        "output": "OnTrigger",
+        "target": "[PR#]zitem_ghost_knife_maker",
+        "input": "forcespawn",
+        "param": "",
         "delay": 0,
         "limit": -1
       }
