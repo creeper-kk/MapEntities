@@ -8425,6 +8425,14 @@
         "param": "",
         "delay": 0,
         "limit": -1
+      },
+      {
+        "output": "OnMapSpawn",
+        "target": "[PR#]player",
+        "input": "RemoveContext",
+        "param": "player_squash",
+        "delay": 0,
+        "limit": -1
       }
     ]
   },
@@ -9043,6 +9051,7 @@
     "hammerUniqueId": "1771",
     "targetname": "[PR#]human_item_filter",
     "properties": {
+      "filter07": "[PR#]item_squash_filter",
       "filter06": "[PR#]item_gatlingpea_filter",
       "filter05": "[PR#]item_doublepea_filter",
       "filter04": "[PR#]item_fumeshroom_filter",
@@ -9196,6 +9205,14 @@
         "target": "!activator",
         "input": "RemoveContext",
         "param": "player_gatlingpea",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnTrigger",
+        "target": "!activator",
+        "input": "RemoveContext",
+        "param": "[PR#]item_squash_filter",
         "delay": 0,
         "limit": -1
       }
@@ -10637,7 +10654,7 @@
     "hammerUniqueId": "1840",
     "targetname": "[PR#]lv3_item_maker_counter",
     "properties": {
-      "max": "2",
+      "max": "3",
       "min": "0",
       "startvalue": "0",
       "startdisabled": "False",

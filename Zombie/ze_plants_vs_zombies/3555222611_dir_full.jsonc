@@ -11413,6 +11413,14 @@
             "param": "",
             "delay": 0,
             "limit": -1
+          },
+          {
+            "output": "OnMapSpawn",
+            "target": "[PR#]player",
+            "input": "RemoveContext",
+            "param": "player_squash",
+            "delay": 0,
+            "limit": -1
           }
         ]
       },
@@ -12031,6 +12039,7 @@
         "hammerUniqueId": "1771",
         "targetname": "[PR#]human_item_filter",
         "properties": {
+          "filter07": "[PR#]item_squash_filter",
           "filter06": "[PR#]item_gatlingpea_filter",
           "filter05": "[PR#]item_doublepea_filter",
           "filter04": "[PR#]item_fumeshroom_filter",
@@ -12184,6 +12193,14 @@
             "target": "!activator",
             "input": "RemoveContext",
             "param": "player_gatlingpea",
+            "delay": 0,
+            "limit": -1
+          },
+          {
+            "output": "OnTrigger",
+            "target": "!activator",
+            "input": "RemoveContext",
+            "param": "[PR#]item_squash_filter",
             "delay": 0,
             "limit": -1
           }
@@ -13625,7 +13642,7 @@
         "hammerUniqueId": "1840",
         "targetname": "[PR#]lv3_item_maker_counter",
         "properties": {
-          "max": "2",
+          "max": "3",
           "min": "0",
           "startvalue": "0",
           "startdisabled": "False",
@@ -102247,9 +102264,9 @@
           "clientsideentity": "0",
           "uselocaloffset": "False",
           "parentname": "[PR#]item_squash_phy&0000",
-          "origin": "36.000000 -1.000000 58.000000",
+          "origin": "56.000000 -1.000000 68.000000",
           "angles": "-0.000000 179.999939 0.000000",
-          "scales": "0.120769 0.120769 0.120769",
+          "scales": "0.183569 0.183569 0.183569",
           "_template_lump_ent_index": "0"
         }
       },
@@ -102579,7 +102596,7 @@
           "nodmgforce": "False",
           "forgivedelay": "3",
           "damagemodel": "0",
-          "damagetype": "0",
+          "damagetype": "1024",
           "damagecap": "20",
           "damage": "40000",
           "filtername": "[PR#]zombie",

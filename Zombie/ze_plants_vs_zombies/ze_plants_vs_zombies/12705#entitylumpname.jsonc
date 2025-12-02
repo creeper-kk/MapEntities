@@ -57,9 +57,9 @@
       "clientsideentity": "0",
       "uselocaloffset": "False",
       "parentname": "[PR#]item_squash_phy&0000",
-      "origin": "36.000000 -1.000000 58.000000",
+      "origin": "56.000000 -1.000000 68.000000",
       "angles": "-0.000000 179.999939 0.000000",
-      "scales": "0.120769 0.120769 0.120769",
+      "scales": "0.183569 0.183569 0.183569",
       "_template_lump_ent_index": "0"
     }
   },
@@ -389,7 +389,7 @@
       "nodmgforce": "False",
       "forgivedelay": "3",
       "damagemodel": "0",
-      "damagetype": "0",
+      "damagetype": "1024",
       "damagecap": "20",
       "damage": "40000",
       "filtername": "[PR#]zombie",
