@@ -672,6 +672,14 @@
         "param": "",
         "delay": 0,
         "limit": -1
+      },
+      {
+        "output": "OnEqualTo",
+        "target": "[PR#]ZombieItem_Smiler_Com_StealthIn",
+        "input": "SetValue",
+        "param": "-1",
+        "delay": 0,
+        "limit": -1
       }
     ]
   },
@@ -782,6 +790,14 @@
         "input": "StopSound",
         "param": "",
         "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnEqualTo",
+        "target": "[PR#]ZombieItem_Smiler_Com_StealthIn",
+        "input": "SetValue",
+        "param": "0",
+        "delay": 40,
         "limit": -1
       }
     ]
@@ -894,6 +910,14 @@
       {
         "output": "OnTrigger",
         "target": "[PR#]ZombieItem_Smiler_Com_StealthOut",
+        "input": "SetValue",
+        "param": "0",
+        "delay": 40,
+        "limit": -1
+      },
+      {
+        "output": "OnTrigger",
+        "target": "[PR#]ZombieItem_Smiler_Com_StealthIn",
         "input": "SetValue",
         "param": "0",
         "delay": 40,
@@ -1157,7 +1181,7 @@
       "propdata": "0",
       "spawnflags": "49152",
       "uselocaloffset": "False",
-      "parentname": "[PR#]ZombieItem_Smiler_Knife",
+      "parentname": "[PR#]ZombieItem_Smiler_Part",
       "nointerpolate": "False",
       "performancemode": "PM_NORMAL",
       "exploderadius": "0",

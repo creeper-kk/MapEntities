@@ -130,7 +130,7 @@
         "target": "!activator",
         "input": "AddContext",
         "param": "Painful:1",
-        "delay": 0.5,
+        "delay": 0.1,
         "limit": -1
       },
       {
@@ -155,6 +155,14 @@
         "input": "ForceSpawnAtEntityOrigin",
         "param": "!activator",
         "delay": 10,
+        "limit": 1
+      },
+      {
+        "output": "OnTrigger",
+        "target": "!activator",
+        "input": "RemoveContext",
+        "param": "Painful",
+        "delay": 10.1,
         "limit": 1
       }
     ]

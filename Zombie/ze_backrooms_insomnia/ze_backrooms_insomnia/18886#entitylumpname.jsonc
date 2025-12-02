@@ -718,6 +718,14 @@
         "param": "",
         "delay": 0.1,
         "limit": -1
+      },
+      {
+        "output": "OnStartTouch",
+        "target": "!activator",
+        "input": "RemoveContext",
+        "param": "Painful",
+        "delay": 0,
+        "limit": -1
       }
     ]
   }

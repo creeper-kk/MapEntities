@@ -434,10 +434,11 @@
     }
   },
   {
-    "classname": "trigger_once",
+    "classname": "trigger_multiple",
     "hammerUniqueId": "19101",
     "targetname": "[PR#]Item_AlmondWater_Cure&0000",
     "properties": {
+      "wait": "1",
       "startdisabled": "True",
       "filtername": "[PR#]ZombieItem_Sfx_SkinStealer_Filter",
       "spawnflags": "268439553",
@@ -493,10 +494,11 @@
     ]
   },
   {
-    "classname": "trigger_once",
+    "classname": "trigger_multiple",
     "hammerUniqueId": "25835",
     "targetname": "[PR#]Item_AlmondWater_Cure&0000",
     "properties": {
+      "wait": "1",
       "filtername": "[PR#]LiquidPainer_Filter",
       "spawnflags": "268439553",
       "startdisabled": "True",
@@ -515,6 +517,14 @@
         "input": "CancelPending",
         "param": "",
         "delay": 0.1,
+        "limit": -1
+      },
+      {
+        "output": "OnStartTouch",
+        "target": "!activator",
+        "input": "RemoveContext",
+        "param": "Painful",
+        "delay": 0,
         "limit": -1
       }
     ]

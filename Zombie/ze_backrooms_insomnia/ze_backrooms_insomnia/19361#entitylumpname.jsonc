@@ -621,7 +621,7 @@
         "limit": 1
       },
       {
-        "output": "OnCase24",
+        "output": "OnCase24NO",
         "target": "[PR#]Container_MidV1_Case&0000",
         "input": "InValue",
         "param": "LP",
@@ -629,7 +629,7 @@
         "limit": 1
       },
       {
-        "output": "OnCase25",
+        "output": "OnCase25NO",
         "target": "[PR#]Container_MidV1_Case&0000",
         "input": "InValue",
         "param": "LP",

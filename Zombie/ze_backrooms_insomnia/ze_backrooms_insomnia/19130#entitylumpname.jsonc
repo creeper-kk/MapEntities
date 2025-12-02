@@ -1338,7 +1338,7 @@
         "input": "Kill",
         "param": "",
         "delay": 8,
-        "limit": 1
+        "limit": -1
       },
       {
         "output": "OnTrigger",
@@ -1346,7 +1346,7 @@
         "input": "Kill",
         "param": "",
         "delay": 8,
-        "limit": 1
+        "limit": -1
       },
       {
         "output": "OnTrigger",
@@ -1354,7 +1354,7 @@
         "input": "Kill",
         "param": "",
         "delay": 8,
-        "limit": 1
+        "limit": -1
       },
       {
         "output": "OnTrigger",
@@ -1442,6 +1442,22 @@
         "input": "Keyvalue",
         "param": "absvelocity 0 0 0",
         "delay": 6.01,
+        "limit": -1
+      },
+      {
+        "output": "OnTrigger",
+        "target": "[PR#]ZombieItem_Partygoer_Model",
+        "input": "SetAnimation",
+        "param": "walk",
+        "delay": 15,
+        "limit": -1
+      },
+      {
+        "output": "OnTrigger",
+        "target": "[PR#]ZombieItem_Partygoer_Model",
+        "input": "SetIdleAnimationLooping",
+        "param": "walk",
+        "delay": 15,
         "limit": -1
       }
     ]

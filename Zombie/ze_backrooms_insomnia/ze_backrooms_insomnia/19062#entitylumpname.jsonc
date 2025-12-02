@@ -92,7 +92,7 @@
     },
     "connections": [
       {
-        "output": "OnUser1",
+        "output": "OnUser1NO",
         "target": "[PR#]ZombieItem_Bacteria_R_Fog",
         "input": "Kill",
         "param": "",
@@ -212,7 +212,7 @@
         "limit": -1
       },
       {
-        "output": "OnUser1",
+        "output": "OnUser1NO",
         "target": "[PR#]ZombieItem_Bacteria_R2_Fog",
         "input": "Kill",
         "param": "",
@@ -220,7 +220,7 @@
         "limit": -1
       },
       {
-        "output": "OnUser1",
+        "output": "OnUser1NO",
         "target": "[PR#]ZombieItem_Bacteria_R_Fog3",
         "input": "Kill",
         "param": "",
