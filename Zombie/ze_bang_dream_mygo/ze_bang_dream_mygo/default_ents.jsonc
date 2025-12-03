@@ -393,7 +393,7 @@
       "skyname": "materials/skybox/mygo_skybox.vmat",
       "startdisabled": "False",
       "uselocaloffset": "False",
-      "origin": "-3152.000000 -3488.000000 -1296.000000",
+      "origin": "-3168.000000 -3488.000000 -1296.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
     }
@@ -691,7 +691,7 @@
       ],
       "enabled": "True",
       "uselocaloffset": "False",
-      "origin": "-3168.000000 -3488.000000 -1296.000000",
+      "origin": "-3184.000000 -3488.000000 -1296.000000",
       "angles": "72.545212 293.238037 -4.428354",
       "scales": "1.000000 1.000000 1.000000"
     }
@@ -8975,14 +8975,6 @@
         "output": "OnMapSpawn",
         "target": "[PR#]cmd",
         "input": "Command",
-        "param": "sv_accelerate 5.5",
-        "delay": 0,
-        "limit": -1
-      },
-      {
-        "output": "OnMapSpawn",
-        "target": "[PR#]cmd",
-        "input": "Command",
         "param": "say 《迷途之子》",
         "delay": 1,
         "limit": -1
@@ -9009,6 +9001,22 @@
         "input": "Command",
         "param": "say **SIRloin**",
         "delay": 4,
+        "limit": -1
+      },
+      {
+        "output": "OnMapSpawn",
+        "target": "[PR#]player",
+        "input": "RemoveContext",
+        "param": "player_brick",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnMapSpawn",
+        "target": "[PR#]player",
+        "input": "RemoveContext",
+        "param": "player_perfect",
+        "delay": 0,
         "limit": -1
       }
     ]
@@ -16536,9 +16544,9 @@
       },
       {
         "output": "OnTrigger",
-        "target": "[PR#]cmd",
-        "input": "Command",
-        "param": "sv_accelerate 10",
+        "target": "[PR#]accelerate_control_script",
+        "input": "RunScriptInput",
+        "param": "accelerate 10",
         "delay": 30,
         "limit": 1
       }
@@ -16672,6 +16680,14 @@
         "target": "!activator",
         "input": "AddContext",
         "param": "player_hurt:1",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnPass",
+        "target": "!activator",
+        "input": "RemoveContext",
+        "param": "player_perfect",
         "delay": 0,
         "limit": -1
       }
@@ -17034,7 +17050,7 @@
     "targetname": "[PR#]music_game_brick_perfect_text",
     "properties": {
       "message": "Perfect!",
-      "origin": "-8208.000000 -6160.000000 1888.000000",
+      "origin": "-8208.000000 -6144.000000 1888.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
     }
@@ -17045,7 +17061,7 @@
     "targetname": "[PR#]music_game_brick_miss_text",
     "properties": {
       "message": "Miss",
-      "origin": "-8176.000000 -6160.000000 1888.000000",
+      "origin": "-8176.000000 -6144.000000 1888.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
     }
@@ -17056,7 +17072,7 @@
     "targetname": "[PR#]music_game_brick_great_text",
     "properties": {
       "message": "Great!",
-      "origin": "-8192.000000 -6160.000000 1888.000000",
+      "origin": "-8192.000000 -6144.000000 1888.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
     }
@@ -17168,7 +17184,7 @@
       "min": "0",
       "startvalue": "0",
       "startdisabled": "False",
-      "origin": "-8208.000000 -6144.000000 1888.000000",
+      "origin": "-8208.000000 -6128.000000 1888.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
     },
@@ -17308,7 +17324,7 @@
       "min": "0",
       "startvalue": "0",
       "startdisabled": "False",
-      "origin": "-8208.000000 -6128.000000 1888.000000",
+      "origin": "-8208.000000 -6112.000000 1888.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
     },
@@ -17346,7 +17362,7 @@
     "properties": {
       "comparevalue": "19",
       "initialvalue": "0",
-      "origin": "-8192.000000 -6128.000000 1888.000000",
+      "origin": "-8192.000000 -6112.000000 1888.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
     },
@@ -18066,7 +18082,7 @@
     "properties": {
       "comparevalue": "30719",
       "initialvalue": "0",
-      "origin": "-8192.000000 -6144.000000 1888.000000",
+      "origin": "-8192.000000 -6128.000000 1888.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
     },
@@ -19501,7 +19517,7 @@
       "fastretrigger": "False",
       "triggeronce": "False",
       "startdisabled": "False",
-      "origin": "-8208.000000 -6080.000000 1888.000000",
+      "origin": "-8208.000000 -6064.000000 1888.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
     },
@@ -24717,7 +24733,7 @@
       ],
       "fullbright": "False",
       "enabled": "True",
-      "message": "2025/11/23",
+      "message": "2025/12/3",
       "lightmapstatic": "0",
       "rendertocubemaps": "False",
       "object_culling": "0",
@@ -26252,7 +26268,7 @@
       "min": "0",
       "startvalue": "0",
       "startdisabled": "False",
-      "origin": "-8176.000000 -6112.000000 1888.000000",
+      "origin": "-8176.000000 -6096.000000 1888.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
     },
@@ -26300,7 +26316,7 @@
       "min": "0",
       "startvalue": "1",
       "startdisabled": "False",
-      "origin": "-8192.000000 -6112.000000 1888.000000",
+      "origin": "-8192.000000 -6096.000000 1888.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
     },
@@ -26340,7 +26356,7 @@
       "min": "0",
       "startvalue": "1",
       "startdisabled": "False",
-      "origin": "-8160.000000 -6112.000000 1888.000000",
+      "origin": "-8160.000000 -6096.000000 1888.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
     },
@@ -26388,7 +26404,7 @@
       "fastretrigger": "False",
       "triggeronce": "False",
       "startdisabled": "False",
-      "origin": "-8208.000000 -6112.000000 1888.000000",
+      "origin": "-8208.000000 -6096.000000 1888.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
     },
@@ -26800,7 +26816,7 @@
     "properties": {
       "comparevalue": "300",
       "initialvalue": "0",
-      "origin": "-8176.000000 -6128.000000 1888.000000",
+      "origin": "-8176.000000 -6112.000000 1888.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
     },
@@ -26881,7 +26897,7 @@
       "fastretrigger": "False",
       "triggeronce": "False",
       "startdisabled": "False",
-      "origin": "-8208.000000 -6096.000000 1888.000000",
+      "origin": "-8208.000000 -6080.000000 1888.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
     },
@@ -27179,9 +27195,9 @@
       },
       {
         "output": "OnTrigger",
-        "target": "[PR#]cmd",
-        "input": "Command",
-        "param": "sv_accelerate 10",
+        "target": "[PR#]accelerate_control_script",
+        "input": "RunScriptInput",
+        "param": "accelerate 10",
         "delay": 5,
         "limit": -1
       }
@@ -32290,9 +32306,9 @@
       },
       {
         "output": "OnTrigger",
-        "target": "[PR#]cmd",
-        "input": "Command",
-        "param": "sv_accelerate 10",
+        "target": "[PR#]accelerate_control_script",
+        "input": "RunScriptInput",
+        "param": "accelerate 10",
         "delay": 5,
         "limit": -1
       }
@@ -32561,7 +32577,7 @@
       ],
       "fullbright": "True",
       "enabled": "True",
-      "message": "最新谱面\n歌曲名：命に嫌われている\n难度：★★★☆☆\n谱师：羽丘耐扣王\n标签：[术曲][Bang Dream][Afterglow]\n           [多人]",
+      "message": "最新谱面\n歌曲名：Jericho\n难度：★★☆☆☆\n谱师：Ciel\n标签：[古代种][神器][跳刀]",
       "lightmapstatic": "0",
       "rendertocubemaps": "False",
       "object_culling": "0",
@@ -32601,7 +32617,7 @@
         "output": "OnTrigger",
         "target": "[PR#]music_list_script",
         "input": "RunScriptInput",
-        "param": "HatedByLife",
+        "param": "Jericho",
         "delay": 0,
         "limit": -1
       },
@@ -32609,7 +32625,7 @@
         "output": "OnTrigger",
         "target": "[PR#]cmd",
         "input": "Command",
-        "param": "say 即将演奏《命に嫌われている》",
+        "param": "say 即将演奏《Jericho》",
         "delay": 0,
         "limit": -1
       },
@@ -33188,6 +33204,186 @@
       "scales": "1.000000 1.000000 1.000000",
       "worldname": "maps\\ze_bang_dream_mygo",
       "entitylumpname": "4323#entityLumpName"
+    }
+  },
+  {
+    "classname": "point_script",
+    "hammerUniqueId": "4328",
+    "targetname": "[PR#]accelerate_control_script",
+    "properties": {
+      "cs_script": "scripts/vscripts/accelerate_control.vjs",
+      "origin": "-3152.000000 -3488.000000 -1296.000000",
+      "angles": "0.000000 0.000000 0.000000",
+      "scales": "1.000000 1.000000 1.000000"
+    }
+  },
+  {
+    "classname": "point_soundevent",
+    "hammerUniqueId": "4329",
+    "targetname": "[PR#]music_seeyouagain",
+    "properties": {
+      "entityindexselection": "0",
+      "saveandrestore": "False",
+      "stoponnew": "True",
+      "tolocalplayer": "False",
+      "startonspawn": "False",
+      "soundname": "SeeYouAgain",
+      "uselocaloffset": "False",
+      "origin": "-7856.000000 -6256.000000 1888.000000",
+      "angles": "0.000000 0.000000 0.000000",
+      "scales": "1.000000 1.000000 1.000000"
+    }
+  },
+  {
+    "classname": "point_template",
+    "hammerUniqueId": "4330",
+    "targetname": "[PR#]music_vote_hatedbylife_temp",
+    "properties": {
+      "template03": "[PR#]music_vote_hatedbylife_break",
+      "template02": "[PR#]music_vote_hatedbylife_text",
+      "template01": "[PR#]music_vote_hatedbylife_relay",
+      "clientonlyentitybehavior": "CREATE_FOR_CURRENTLY_CONNECTED_CLIENTS_ONLY",
+      "spawngrouptype": "INSERT_INTO_POINT_TEMPLATE_SPAWN_GROUP",
+      "timeoutinterval": "0",
+      "asynchronous": "False",
+      "spawnflags": "2",
+      "clientsideentity": "0",
+      "uselocaloffset": "False",
+      "origin": "-8576.000000 -1472.000000 216.000000",
+      "angles": "0.000000 0.000000 0.000000",
+      "scales": "1.000000 1.000000 1.000000",
+      "worldname": "maps\\ze_bang_dream_mygo",
+      "entitylumpname": "4330#entityLumpName"
+    }
+  },
+  {
+    "classname": "point_template",
+    "hammerUniqueId": "4335",
+    "targetname": "[PR#]music_vote_musicacaelestis_temp",
+    "properties": {
+      "template03": "[PR#]music_vote_musicacaelestis_break",
+      "template02": "[PR#]music_vote_musicacaelestis_text",
+      "template01": "[PR#]music_vote_musicacaelestis_relay",
+      "clientonlyentitybehavior": "CREATE_FOR_CURRENTLY_CONNECTED_CLIENTS_ONLY",
+      "spawngrouptype": "INSERT_INTO_POINT_TEMPLATE_SPAWN_GROUP",
+      "timeoutinterval": "0",
+      "asynchronous": "False",
+      "spawnflags": "2",
+      "clientsideentity": "0",
+      "uselocaloffset": "False",
+      "origin": "-8576.000000 -1280.000000 216.000000",
+      "angles": "0.000000 0.000000 0.000000",
+      "scales": "1.000000 1.000000 1.000000",
+      "worldname": "maps\\ze_bang_dream_mygo",
+      "entitylumpname": "4335#entityLumpName"
+    }
+  },
+  {
+    "classname": "point_template",
+    "hammerUniqueId": "4340",
+    "targetname": "[PR#]music_vote_seeyouagain_temp",
+    "properties": {
+      "template03": "[PR#]music_vote_seeyouagain_break",
+      "template02": "[PR#]music_vote_seeyouagain_text",
+      "template01": "[PR#]music_vote_seeyouagain_relay",
+      "clientonlyentitybehavior": "CREATE_FOR_CURRENTLY_CONNECTED_CLIENTS_ONLY",
+      "spawngrouptype": "INSERT_INTO_POINT_TEMPLATE_SPAWN_GROUP",
+      "timeoutinterval": "0",
+      "asynchronous": "False",
+      "spawnflags": "2",
+      "clientsideentity": "0",
+      "uselocaloffset": "False",
+      "origin": "-8576.000000 -1088.000000 216.000000",
+      "angles": "0.000000 0.000000 0.000000",
+      "scales": "1.000000 1.000000 1.000000",
+      "worldname": "maps\\ze_bang_dream_mygo",
+      "entitylumpname": "4340#entityLumpName"
+    }
+  },
+  {
+    "classname": "point_soundevent",
+    "hammerUniqueId": "4345",
+    "targetname": "[PR#]music_kimitoatsumatteseizaninaretara",
+    "properties": {
+      "entityindexselection": "0",
+      "saveandrestore": "False",
+      "stoponnew": "True",
+      "tolocalplayer": "False",
+      "startonspawn": "False",
+      "soundname": "KimitoatsumatteSeizaninaretara",
+      "uselocaloffset": "False",
+      "origin": "-7840.000000 -6256.000000 1888.000000",
+      "angles": "0.000000 0.000000 0.000000",
+      "scales": "1.000000 1.000000 1.000000"
+    }
+  },
+  {
+    "classname": "point_soundevent",
+    "hammerUniqueId": "4346",
+    "targetname": "[PR#]music_musicacaelestis",
+    "properties": {
+      "entityindexselection": "0",
+      "saveandrestore": "False",
+      "stoponnew": "True",
+      "tolocalplayer": "False",
+      "startonspawn": "False",
+      "soundname": "MusicaCaelestis",
+      "uselocaloffset": "False",
+      "origin": "-7824.000000 -6256.000000 1888.000000",
+      "angles": "0.000000 0.000000 0.000000",
+      "scales": "1.000000 1.000000 1.000000"
+    }
+  },
+  {
+    "classname": "point_template",
+    "hammerUniqueId": "4347",
+    "targetname": "[PR#]music_vote_kimitoatsumatteseizaninaretara_temp",
+    "properties": {
+      "template03": "[PR#]music_vote_kimitoatsumatteseizaninaretara_break",
+      "template02": "[PR#]music_vote_kimitoatsumatteseizaninaretara_text",
+      "template01": "[PR#]music_vote_kimitoatsumatteseizaninaretara_relay",
+      "clientonlyentitybehavior": "CREATE_FOR_CURRENTLY_CONNECTED_CLIENTS_ONLY",
+      "spawngrouptype": "INSERT_INTO_POINT_TEMPLATE_SPAWN_GROUP",
+      "timeoutinterval": "0",
+      "asynchronous": "False",
+      "spawnflags": "2",
+      "clientsideentity": "0",
+      "uselocaloffset": "False",
+      "origin": "-8576.000000 -896.000000 216.000000",
+      "angles": "0.000000 0.000000 0.000000",
+      "scales": "1.000000 1.000000 1.000000",
+      "worldname": "maps\\ze_bang_dream_mygo",
+      "entitylumpname": "4347#entityLumpName"
+    }
+  },
+  {
+    "classname": "point_soundevent",
+    "hammerUniqueId": "4352",
+    "targetname": "[PR#]music_jericho",
+    "properties": {
+      "entityindexselection": "0",
+      "saveandrestore": "False",
+      "stoponnew": "True",
+      "tolocalplayer": "False",
+      "startonspawn": "False",
+      "soundname": "Jericho",
+      "uselocaloffset": "False",
+      "origin": "-7808.000000 -6256.000000 1888.000000",
+      "angles": "0.000000 0.000000 0.000000",
+      "scales": "1.000000 1.000000 1.000000"
+    }
+  },
+  {
+    "classname": "filter_activator_context",
+    "hammerUniqueId": "4353",
+    "targetname": "[PR#]music_game_not_perfect_filter",
+    "properties": {
+      "responsecontext": "player_perfect",
+      "negated": "1",
+      "clientsideentity": "0",
+      "origin": "-8208.000000 -6160.000000 1888.000000",
+      "angles": "0.000000 0.000000 0.000000",
+      "scales": "1.000000 1.000000 1.000000"
     }
   }
 ]

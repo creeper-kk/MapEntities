@@ -56,14 +56,6 @@
       },
       {
         "output": "OnFullyOpen",
-        "target": "[PR#]music_game_brick2_relay*",
-        "input": "Kill",
-        "param": "",
-        "delay": 0.1,
-        "limit": -1
-      },
-      {
-        "output": "OnFullyOpen",
         "target": "[PR#]music_game_brick2_perfect_trigger&0000",
         "input": "Kill",
         "param": "",
@@ -218,6 +210,14 @@
         "param": "",
         "delay": 0,
         "limit": -1
+      },
+      {
+        "output": "OnStartTouch",
+        "target": "!activator",
+        "input": "AddContext",
+        "param": "player_perfect:1",
+        "delay": 0,
+        "limit": -1
       }
     ]
   },
@@ -278,10 +278,18 @@
       },
       {
         "output": "OnSpawn",
-        "target": "[PR#]music_game_brick3_2_move4",
+        "target": "[PR#]music_game_brick3_2_move4*",
         "input": "Open",
         "param": "",
         "delay": 0.05,
+        "limit": -1
+      },
+      {
+        "output": "OnSpawn",
+        "target": "!self",
+        "input": "Kill",
+        "param": "",
+        "delay": 0,
         "limit": -1
       }
     ]
@@ -362,7 +370,7 @@
     "targetname": "[PR#]music_game_brick2_great_trigger&0000",
     "properties": {
       "wait": "1",
-      "filtername": "[PR#]music_game_not_brick_filter",
+      "filtername": "[PR#]music_game_not_perfect_filter",
       "spawnflags": "4097",
       "startdisabled": "True",
       "uselocaloffset": "False",

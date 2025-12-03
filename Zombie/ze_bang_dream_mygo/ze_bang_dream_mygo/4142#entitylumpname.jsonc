@@ -165,6 +165,14 @@
         "param": "",
         "delay": 0,
         "limit": -1
+      },
+      {
+        "output": "OnStartTouch",
+        "target": "!activator",
+        "input": "AddContext",
+        "param": "player_perfect:1",
+        "delay": 0,
+        "limit": -1
       }
     ]
   },
@@ -325,7 +333,7 @@
     "targetname": "[PR#]music_game_brick3_great_trigger&0000",
     "properties": {
       "wait": "1",
-      "filtername": "[PR#]music_game_not_brick_filter",
+      "filtername": "[PR#]music_game_not_perfect_filter",
       "spawnflags": "4097",
       "startdisabled": "True",
       "uselocaloffset": "False",
@@ -618,6 +626,14 @@
         "param": "",
         "delay": 0,
         "limit": -1
+      },
+      {
+        "output": "OnFullyOpen",
+        "target": "[PR#]sound_hit_long",
+        "input": "StopSound",
+        "param": "",
+        "delay": 0,
+        "limit": -1
       }
     ]
   },
@@ -716,7 +732,7 @@
     },
     "connections": [
       {
-        "output": "OnTouching",
+        "output": "OnStartTouch",
         "target": "!activator",
         "input": "AddContext",
         "param": "player_brick:1",

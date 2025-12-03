@@ -3358,7 +3358,7 @@
           "skyname": "materials/skybox/mygo_skybox.vmat",
           "startdisabled": "False",
           "uselocaloffset": "False",
-          "origin": "-3152.000000 -3488.000000 -1296.000000",
+          "origin": "-3168.000000 -3488.000000 -1296.000000",
           "angles": "0.000000 0.000000 0.000000",
           "scales": "1.000000 1.000000 1.000000"
         }
@@ -3656,7 +3656,7 @@
           ],
           "enabled": "True",
           "uselocaloffset": "False",
-          "origin": "-3168.000000 -3488.000000 -1296.000000",
+          "origin": "-3184.000000 -3488.000000 -1296.000000",
           "angles": "72.545212 293.238037 -4.428354",
           "scales": "1.000000 1.000000 1.000000"
         }
@@ -11940,14 +11940,6 @@
             "output": "OnMapSpawn",
             "target": "[PR#]cmd",
             "input": "Command",
-            "param": "sv_accelerate 5.5",
-            "delay": 0,
-            "limit": -1
-          },
-          {
-            "output": "OnMapSpawn",
-            "target": "[PR#]cmd",
-            "input": "Command",
             "param": "say 《迷途之子》",
             "delay": 1,
             "limit": -1
@@ -11974,6 +11966,22 @@
             "input": "Command",
             "param": "say **SIRloin**",
             "delay": 4,
+            "limit": -1
+          },
+          {
+            "output": "OnMapSpawn",
+            "target": "[PR#]player",
+            "input": "RemoveContext",
+            "param": "player_brick",
+            "delay": 0,
+            "limit": -1
+          },
+          {
+            "output": "OnMapSpawn",
+            "target": "[PR#]player",
+            "input": "RemoveContext",
+            "param": "player_perfect",
+            "delay": 0,
             "limit": -1
           }
         ]
@@ -19501,9 +19509,9 @@
           },
           {
             "output": "OnTrigger",
-            "target": "[PR#]cmd",
-            "input": "Command",
-            "param": "sv_accelerate 10",
+            "target": "[PR#]accelerate_control_script",
+            "input": "RunScriptInput",
+            "param": "accelerate 10",
             "delay": 30,
             "limit": 1
           }
@@ -19637,6 +19645,14 @@
             "target": "!activator",
             "input": "AddContext",
             "param": "player_hurt:1",
+            "delay": 0,
+            "limit": -1
+          },
+          {
+            "output": "OnPass",
+            "target": "!activator",
+            "input": "RemoveContext",
+            "param": "player_perfect",
             "delay": 0,
             "limit": -1
           }
@@ -19999,7 +20015,7 @@
         "targetname": "[PR#]music_game_brick_perfect_text",
         "properties": {
           "message": "Perfect!",
-          "origin": "-8208.000000 -6160.000000 1888.000000",
+          "origin": "-8208.000000 -6144.000000 1888.000000",
           "angles": "0.000000 0.000000 0.000000",
           "scales": "1.000000 1.000000 1.000000"
         }
@@ -20010,7 +20026,7 @@
         "targetname": "[PR#]music_game_brick_miss_text",
         "properties": {
           "message": "Miss",
-          "origin": "-8176.000000 -6160.000000 1888.000000",
+          "origin": "-8176.000000 -6144.000000 1888.000000",
           "angles": "0.000000 0.000000 0.000000",
           "scales": "1.000000 1.000000 1.000000"
         }
@@ -20021,7 +20037,7 @@
         "targetname": "[PR#]music_game_brick_great_text",
         "properties": {
           "message": "Great!",
-          "origin": "-8192.000000 -6160.000000 1888.000000",
+          "origin": "-8192.000000 -6144.000000 1888.000000",
           "angles": "0.000000 0.000000 0.000000",
           "scales": "1.000000 1.000000 1.000000"
         }
@@ -20133,7 +20149,7 @@
           "min": "0",
           "startvalue": "0",
           "startdisabled": "False",
-          "origin": "-8208.000000 -6144.000000 1888.000000",
+          "origin": "-8208.000000 -6128.000000 1888.000000",
           "angles": "0.000000 0.000000 0.000000",
           "scales": "1.000000 1.000000 1.000000"
         },
@@ -20273,7 +20289,7 @@
           "min": "0",
           "startvalue": "0",
           "startdisabled": "False",
-          "origin": "-8208.000000 -6128.000000 1888.000000",
+          "origin": "-8208.000000 -6112.000000 1888.000000",
           "angles": "0.000000 0.000000 0.000000",
           "scales": "1.000000 1.000000 1.000000"
         },
@@ -20311,7 +20327,7 @@
         "properties": {
           "comparevalue": "19",
           "initialvalue": "0",
-          "origin": "-8192.000000 -6128.000000 1888.000000",
+          "origin": "-8192.000000 -6112.000000 1888.000000",
           "angles": "0.000000 0.000000 0.000000",
           "scales": "1.000000 1.000000 1.000000"
         },
@@ -21031,7 +21047,7 @@
         "properties": {
           "comparevalue": "30719",
           "initialvalue": "0",
-          "origin": "-8192.000000 -6144.000000 1888.000000",
+          "origin": "-8192.000000 -6128.000000 1888.000000",
           "angles": "0.000000 0.000000 0.000000",
           "scales": "1.000000 1.000000 1.000000"
         },
@@ -22466,7 +22482,7 @@
           "fastretrigger": "False",
           "triggeronce": "False",
           "startdisabled": "False",
-          "origin": "-8208.000000 -6080.000000 1888.000000",
+          "origin": "-8208.000000 -6064.000000 1888.000000",
           "angles": "0.000000 0.000000 0.000000",
           "scales": "1.000000 1.000000 1.000000"
         },
@@ -27682,7 +27698,7 @@
           ],
           "fullbright": "False",
           "enabled": "True",
-          "message": "2025/11/23",
+          "message": "2025/12/3",
           "lightmapstatic": "0",
           "rendertocubemaps": "False",
           "object_culling": "0",
@@ -29217,7 +29233,7 @@
           "min": "0",
           "startvalue": "0",
           "startdisabled": "False",
-          "origin": "-8176.000000 -6112.000000 1888.000000",
+          "origin": "-8176.000000 -6096.000000 1888.000000",
           "angles": "0.000000 0.000000 0.000000",
           "scales": "1.000000 1.000000 1.000000"
         },
@@ -29265,7 +29281,7 @@
           "min": "0",
           "startvalue": "1",
           "startdisabled": "False",
-          "origin": "-8192.000000 -6112.000000 1888.000000",
+          "origin": "-8192.000000 -6096.000000 1888.000000",
           "angles": "0.000000 0.000000 0.000000",
           "scales": "1.000000 1.000000 1.000000"
         },
@@ -29305,7 +29321,7 @@
           "min": "0",
           "startvalue": "1",
           "startdisabled": "False",
-          "origin": "-8160.000000 -6112.000000 1888.000000",
+          "origin": "-8160.000000 -6096.000000 1888.000000",
           "angles": "0.000000 0.000000 0.000000",
           "scales": "1.000000 1.000000 1.000000"
         },
@@ -29353,7 +29369,7 @@
           "fastretrigger": "False",
           "triggeronce": "False",
           "startdisabled": "False",
-          "origin": "-8208.000000 -6112.000000 1888.000000",
+          "origin": "-8208.000000 -6096.000000 1888.000000",
           "angles": "0.000000 0.000000 0.000000",
           "scales": "1.000000 1.000000 1.000000"
         },
@@ -29765,7 +29781,7 @@
         "properties": {
           "comparevalue": "300",
           "initialvalue": "0",
-          "origin": "-8176.000000 -6128.000000 1888.000000",
+          "origin": "-8176.000000 -6112.000000 1888.000000",
           "angles": "0.000000 0.000000 0.000000",
           "scales": "1.000000 1.000000 1.000000"
         },
@@ -29846,7 +29862,7 @@
           "fastretrigger": "False",
           "triggeronce": "False",
           "startdisabled": "False",
-          "origin": "-8208.000000 -6096.000000 1888.000000",
+          "origin": "-8208.000000 -6080.000000 1888.000000",
           "angles": "0.000000 0.000000 0.000000",
           "scales": "1.000000 1.000000 1.000000"
         },
@@ -30144,9 +30160,9 @@
           },
           {
             "output": "OnTrigger",
-            "target": "[PR#]cmd",
-            "input": "Command",
-            "param": "sv_accelerate 10",
+            "target": "[PR#]accelerate_control_script",
+            "input": "RunScriptInput",
+            "param": "accelerate 10",
             "delay": 5,
             "limit": -1
           }
@@ -35255,9 +35271,9 @@
           },
           {
             "output": "OnTrigger",
-            "target": "[PR#]cmd",
-            "input": "Command",
-            "param": "sv_accelerate 10",
+            "target": "[PR#]accelerate_control_script",
+            "input": "RunScriptInput",
+            "param": "accelerate 10",
             "delay": 5,
             "limit": -1
           }
@@ -35526,7 +35542,7 @@
           ],
           "fullbright": "True",
           "enabled": "True",
-          "message": "最新谱面\n歌曲名：命に嫌われている\n难度：★★★☆☆\n谱师：羽丘耐扣王\n标签：[术曲][Bang Dream][Afterglow]\n           [多人]",
+          "message": "最新谱面\n歌曲名：Jericho\n难度：★★☆☆☆\n谱师：Ciel\n标签：[古代种][神器][跳刀]",
           "lightmapstatic": "0",
           "rendertocubemaps": "False",
           "object_culling": "0",
@@ -35566,7 +35582,7 @@
             "output": "OnTrigger",
             "target": "[PR#]music_list_script",
             "input": "RunScriptInput",
-            "param": "HatedByLife",
+            "param": "Jericho",
             "delay": 0,
             "limit": -1
           },
@@ -35574,7 +35590,7 @@
             "output": "OnTrigger",
             "target": "[PR#]cmd",
             "input": "Command",
-            "param": "say 即将演奏《命に嫌われている》",
+            "param": "say 即将演奏《Jericho》",
             "delay": 0,
             "limit": -1
           },
@@ -36153,6 +36169,714 @@
           "scales": "1.000000 1.000000 1.000000",
           "worldname": "maps\\ze_bang_dream_mygo",
           "entitylumpname": "4323#entityLumpName"
+        }
+      },
+      {
+        "classname": "point_script",
+        "hammerUniqueId": "4328",
+        "targetname": "[PR#]accelerate_control_script",
+        "properties": {
+          "cs_script": "scripts/vscripts/accelerate_control.vjs",
+          "origin": "-3152.000000 -3488.000000 -1296.000000",
+          "angles": "0.000000 0.000000 0.000000",
+          "scales": "1.000000 1.000000 1.000000"
+        }
+      },
+      {
+        "classname": "point_soundevent",
+        "hammerUniqueId": "4329",
+        "targetname": "[PR#]music_seeyouagain",
+        "properties": {
+          "entityindexselection": "0",
+          "saveandrestore": "False",
+          "stoponnew": "True",
+          "tolocalplayer": "False",
+          "startonspawn": "False",
+          "soundname": "SeeYouAgain",
+          "uselocaloffset": "False",
+          "origin": "-7856.000000 -6256.000000 1888.000000",
+          "angles": "0.000000 0.000000 0.000000",
+          "scales": "1.000000 1.000000 1.000000"
+        }
+      },
+      {
+        "classname": "point_template",
+        "hammerUniqueId": "4330",
+        "targetname": "[PR#]music_vote_hatedbylife_temp",
+        "properties": {
+          "template03": "[PR#]music_vote_hatedbylife_break",
+          "template02": "[PR#]music_vote_hatedbylife_text",
+          "template01": "[PR#]music_vote_hatedbylife_relay",
+          "clientonlyentitybehavior": "CREATE_FOR_CURRENTLY_CONNECTED_CLIENTS_ONLY",
+          "spawngrouptype": "INSERT_INTO_POINT_TEMPLATE_SPAWN_GROUP",
+          "timeoutinterval": "0",
+          "asynchronous": "False",
+          "spawnflags": "2",
+          "clientsideentity": "0",
+          "uselocaloffset": "False",
+          "origin": "-8576.000000 -1472.000000 216.000000",
+          "angles": "0.000000 0.000000 0.000000",
+          "scales": "1.000000 1.000000 1.000000",
+          "worldname": "maps\\ze_bang_dream_mygo",
+          "entitylumpname": "4330#entityLumpName"
+        }
+      },
+      {
+        "classname": "point_template",
+        "hammerUniqueId": "4335",
+        "targetname": "[PR#]music_vote_musicacaelestis_temp",
+        "properties": {
+          "template03": "[PR#]music_vote_musicacaelestis_break",
+          "template02": "[PR#]music_vote_musicacaelestis_text",
+          "template01": "[PR#]music_vote_musicacaelestis_relay",
+          "clientonlyentitybehavior": "CREATE_FOR_CURRENTLY_CONNECTED_CLIENTS_ONLY",
+          "spawngrouptype": "INSERT_INTO_POINT_TEMPLATE_SPAWN_GROUP",
+          "timeoutinterval": "0",
+          "asynchronous": "False",
+          "spawnflags": "2",
+          "clientsideentity": "0",
+          "uselocaloffset": "False",
+          "origin": "-8576.000000 -1280.000000 216.000000",
+          "angles": "0.000000 0.000000 0.000000",
+          "scales": "1.000000 1.000000 1.000000",
+          "worldname": "maps\\ze_bang_dream_mygo",
+          "entitylumpname": "4335#entityLumpName"
+        }
+      },
+      {
+        "classname": "point_template",
+        "hammerUniqueId": "4340",
+        "targetname": "[PR#]music_vote_seeyouagain_temp",
+        "properties": {
+          "template03": "[PR#]music_vote_seeyouagain_break",
+          "template02": "[PR#]music_vote_seeyouagain_text",
+          "template01": "[PR#]music_vote_seeyouagain_relay",
+          "clientonlyentitybehavior": "CREATE_FOR_CURRENTLY_CONNECTED_CLIENTS_ONLY",
+          "spawngrouptype": "INSERT_INTO_POINT_TEMPLATE_SPAWN_GROUP",
+          "timeoutinterval": "0",
+          "asynchronous": "False",
+          "spawnflags": "2",
+          "clientsideentity": "0",
+          "uselocaloffset": "False",
+          "origin": "-8576.000000 -1088.000000 216.000000",
+          "angles": "0.000000 0.000000 0.000000",
+          "scales": "1.000000 1.000000 1.000000",
+          "worldname": "maps\\ze_bang_dream_mygo",
+          "entitylumpname": "4340#entityLumpName"
+        }
+      },
+      {
+        "classname": "point_soundevent",
+        "hammerUniqueId": "4345",
+        "targetname": "[PR#]music_kimitoatsumatteseizaninaretara",
+        "properties": {
+          "entityindexselection": "0",
+          "saveandrestore": "False",
+          "stoponnew": "True",
+          "tolocalplayer": "False",
+          "startonspawn": "False",
+          "soundname": "KimitoatsumatteSeizaninaretara",
+          "uselocaloffset": "False",
+          "origin": "-7840.000000 -6256.000000 1888.000000",
+          "angles": "0.000000 0.000000 0.000000",
+          "scales": "1.000000 1.000000 1.000000"
+        }
+      },
+      {
+        "classname": "point_soundevent",
+        "hammerUniqueId": "4346",
+        "targetname": "[PR#]music_musicacaelestis",
+        "properties": {
+          "entityindexselection": "0",
+          "saveandrestore": "False",
+          "stoponnew": "True",
+          "tolocalplayer": "False",
+          "startonspawn": "False",
+          "soundname": "MusicaCaelestis",
+          "uselocaloffset": "False",
+          "origin": "-7824.000000 -6256.000000 1888.000000",
+          "angles": "0.000000 0.000000 0.000000",
+          "scales": "1.000000 1.000000 1.000000"
+        }
+      },
+      {
+        "classname": "point_template",
+        "hammerUniqueId": "4347",
+        "targetname": "[PR#]music_vote_kimitoatsumatteseizaninaretara_temp",
+        "properties": {
+          "template03": "[PR#]music_vote_kimitoatsumatteseizaninaretara_break",
+          "template02": "[PR#]music_vote_kimitoatsumatteseizaninaretara_text",
+          "template01": "[PR#]music_vote_kimitoatsumatteseizaninaretara_relay",
+          "clientonlyentitybehavior": "CREATE_FOR_CURRENTLY_CONNECTED_CLIENTS_ONLY",
+          "spawngrouptype": "INSERT_INTO_POINT_TEMPLATE_SPAWN_GROUP",
+          "timeoutinterval": "0",
+          "asynchronous": "False",
+          "spawnflags": "2",
+          "clientsideentity": "0",
+          "uselocaloffset": "False",
+          "origin": "-8576.000000 -896.000000 216.000000",
+          "angles": "0.000000 0.000000 0.000000",
+          "scales": "1.000000 1.000000 1.000000",
+          "worldname": "maps\\ze_bang_dream_mygo",
+          "entitylumpname": "4347#entityLumpName"
+        }
+      },
+      {
+        "classname": "point_soundevent",
+        "hammerUniqueId": "4352",
+        "targetname": "[PR#]music_jericho",
+        "properties": {
+          "entityindexselection": "0",
+          "saveandrestore": "False",
+          "stoponnew": "True",
+          "tolocalplayer": "False",
+          "startonspawn": "False",
+          "soundname": "Jericho",
+          "uselocaloffset": "False",
+          "origin": "-7808.000000 -6256.000000 1888.000000",
+          "angles": "0.000000 0.000000 0.000000",
+          "scales": "1.000000 1.000000 1.000000"
+        }
+      },
+      {
+        "classname": "filter_activator_context",
+        "hammerUniqueId": "4353",
+        "targetname": "[PR#]music_game_not_perfect_filter",
+        "properties": {
+          "responsecontext": "player_perfect",
+          "negated": "1",
+          "clientsideentity": "0",
+          "origin": "-8208.000000 -6160.000000 1888.000000",
+          "angles": "0.000000 0.000000 0.000000",
+          "scales": "1.000000 1.000000 1.000000"
+        }
+      }
+    ],
+    "4347#entitylumpname": [
+      {
+        "classname": "logic_relay",
+        "hammerUniqueId": "4348",
+        "targetname": "[PR#]music_vote_kimitoatsumatteseizaninaretara_relay",
+        "properties": {
+          "passthroughcaller": "False",
+          "fastretrigger": "False",
+          "triggeronce": "False",
+          "startdisabled": "False",
+          "origin": "0.000000 16.000000 0.000000",
+          "angles": "-0.000000 0.000000 0.000000",
+          "scales": "1.000000 1.000000 1.000000",
+          "_template_lump_ent_index": "0"
+        },
+        "connections": [
+          {
+            "output": "OnTrigger",
+            "target": "[PR#]music_list_script",
+            "input": "RunScriptInput",
+            "param": "KimitoatsumatteSeizaninaretara",
+            "delay": 0,
+            "limit": -1
+          },
+          {
+            "output": "OnTrigger",
+            "target": "[PR#]cmd",
+            "input": "Command",
+            "param": "say 即将演奏《星座になれたら》",
+            "delay": 0,
+            "limit": -1
+          },
+          {
+            "output": "OnTrigger",
+            "target": "[PR#]music_game_runspeed1.4_relay",
+            "input": "Trigger",
+            "param": "",
+            "delay": 0,
+            "limit": -1
+          }
+        ]
+      },
+      {
+        "classname": "point_worldtext",
+        "hammerUniqueId": "4351",
+        "targetname": "[PR#]music_vote_kimitoatsumatteseizaninaretara_text",
+        "properties": {
+          "depth_render_offset": "0.125",
+          "reorient_mode": "0",
+          "justify_vertical": "2",
+          "justify_horizontal": "0",
+          "font_name": "Arial Black",
+          "font_size": "100",
+          "world_units_per_pixel": "0.10000000149011612",
+          "color": "255 255 255",
+          "color __RAW_ARRAY__ (UInt64[3])": [
+            255,
+            255,
+            255
+          ],
+          "fullbright": "True",
+          "enabled": "True",
+          "message": "歌曲名：星座になれたら\n难度：★★★★☆\n谱师：無玖\n标签：[孤独摇滚][少女乐队]",
+          "lightmapstatic": "0",
+          "rendertocubemaps": "False",
+          "object_culling": "0",
+          "fademaxdist": "0",
+          "fademindist": "-1",
+          "disablereceiveshadows": "False",
+          "rendercolor": "255 255 255",
+          "rendercolor __RAW_ARRAY__ (UInt64[3])": [
+            255,
+            255,
+            255
+          ],
+          "renderamt": "255",
+          "rendermode": "kRenderNormal",
+          "renderfx": "kRenderFxNone",
+          "uselocaloffset": "False",
+          "origin": "8.000000 -64.000000 40.000000",
+          "angles": "-0.000000 90.000000 89.999969",
+          "scales": "1.000000 1.000000 1.000000",
+          "_template_lump_ent_index": "1"
+        }
+      },
+      {
+        "classname": "func_breakable",
+        "hammerUniqueId": "4349",
+        "targetname": "[PR#]music_vote_kimitoatsumatteseizaninaretara_break",
+        "properties": {
+          "physdamagescale": "1",
+          "overrideblocklos": "0",
+          "gamemass": "0",
+          "minhealthdmg": "0",
+          "lightmapstatic": "0",
+          "rendertocubemaps": "False",
+          "object_culling": "0",
+          "fademaxdist": "0",
+          "fademindist": "-1",
+          "disablereceiveshadows": "False",
+          "rendercolor": "255 255 255",
+          "rendercolor __RAW_ARRAY__ (UInt64[3])": [
+            255,
+            255,
+            255
+          ],
+          "renderamt": "255",
+          "rendermode": "kRenderNormal",
+          "renderfx": "kRenderFxNone",
+          "pressuredelay": "0",
+          "explodemagnitude": "0",
+          "spawnobject": "0",
+          "nodamageforces": "False",
+          "explosion": "0",
+          "material": "10",
+          "health": "0",
+          "propdata": "0",
+          "spawnflags": "1",
+          "uselocaloffset": "False",
+          "nointerpolate": "False",
+          "performancemode": "PM_NORMAL",
+          "exploderadius": "0",
+          "explodedamage": "0",
+          "disableshadows": "0",
+          "origin": "-8.000000 0.000000 0.000000",
+          "angles": "-0.000000 0.000000 0.000000",
+          "scales": "1.000000 1.000000 1.000000",
+          "model": "maps/ze_bang_dream_mygo/entities/music_vote_kimitoatsumatteseizaninaretara_break_4349.vmdl",
+          "_template_lump_ent_index": "2"
+        }
+      }
+    ],
+    "4340#entitylumpname": [
+      {
+        "classname": "logic_relay",
+        "hammerUniqueId": "4341",
+        "targetname": "[PR#]music_vote_seeyouagain_relay",
+        "properties": {
+          "passthroughcaller": "False",
+          "fastretrigger": "False",
+          "triggeronce": "False",
+          "startdisabled": "False",
+          "origin": "0.000000 16.000000 0.000000",
+          "angles": "-0.000000 0.000000 0.000000",
+          "scales": "1.000000 1.000000 1.000000",
+          "_template_lump_ent_index": "0"
+        },
+        "connections": [
+          {
+            "output": "OnTrigger",
+            "target": "[PR#]music_list_script",
+            "input": "RunScriptInput",
+            "param": "SeeYouAgain",
+            "delay": 0,
+            "limit": -1
+          },
+          {
+            "output": "OnTrigger",
+            "target": "[PR#]cmd",
+            "input": "Command",
+            "param": "say 即将演奏《See You Again》",
+            "delay": 0,
+            "limit": -1
+          },
+          {
+            "output": "OnTrigger",
+            "target": "[PR#]music_game_runspeed1.1_relay",
+            "input": "Trigger",
+            "param": "",
+            "delay": 0,
+            "limit": -1
+          }
+        ]
+      },
+      {
+        "classname": "point_worldtext",
+        "hammerUniqueId": "4344",
+        "targetname": "[PR#]music_vote_seeyouagain_text",
+        "properties": {
+          "depth_render_offset": "0.125",
+          "reorient_mode": "0",
+          "justify_vertical": "2",
+          "justify_horizontal": "0",
+          "font_name": "Arial Black",
+          "font_size": "100",
+          "world_units_per_pixel": "0.10000000149011612",
+          "color": "255 255 255",
+          "color __RAW_ARRAY__ (UInt64[3])": [
+            255,
+            255,
+            255
+          ],
+          "fullbright": "True",
+          "enabled": "True",
+          "message": "歌曲名：See You Again\n难度：★★★☆☆\n谱师：花泽爱吃香菜\n标签：[速度与激情][牢大]",
+          "lightmapstatic": "0",
+          "rendertocubemaps": "False",
+          "object_culling": "0",
+          "fademaxdist": "0",
+          "fademindist": "-1",
+          "disablereceiveshadows": "False",
+          "rendercolor": "255 255 255",
+          "rendercolor __RAW_ARRAY__ (UInt64[3])": [
+            255,
+            255,
+            255
+          ],
+          "renderamt": "255",
+          "rendermode": "kRenderNormal",
+          "renderfx": "kRenderFxNone",
+          "uselocaloffset": "False",
+          "origin": "8.000000 -64.000000 40.000000",
+          "angles": "-0.000000 90.000000 89.999969",
+          "scales": "1.000000 1.000000 1.000000",
+          "_template_lump_ent_index": "1"
+        }
+      },
+      {
+        "classname": "func_breakable",
+        "hammerUniqueId": "4342",
+        "targetname": "[PR#]music_vote_seeyouagain_break",
+        "properties": {
+          "physdamagescale": "1",
+          "overrideblocklos": "0",
+          "gamemass": "0",
+          "minhealthdmg": "0",
+          "lightmapstatic": "0",
+          "rendertocubemaps": "False",
+          "object_culling": "0",
+          "fademaxdist": "0",
+          "fademindist": "-1",
+          "disablereceiveshadows": "False",
+          "rendercolor": "255 255 255",
+          "rendercolor __RAW_ARRAY__ (UInt64[3])": [
+            255,
+            255,
+            255
+          ],
+          "renderamt": "255",
+          "rendermode": "kRenderNormal",
+          "renderfx": "kRenderFxNone",
+          "pressuredelay": "0",
+          "explodemagnitude": "0",
+          "spawnobject": "0",
+          "nodamageforces": "False",
+          "explosion": "0",
+          "material": "10",
+          "health": "0",
+          "propdata": "0",
+          "spawnflags": "1",
+          "uselocaloffset": "False",
+          "nointerpolate": "False",
+          "performancemode": "PM_NORMAL",
+          "exploderadius": "0",
+          "explodedamage": "0",
+          "disableshadows": "0",
+          "origin": "-8.000000 0.000000 0.000000",
+          "angles": "-0.000000 0.000000 0.000000",
+          "scales": "1.000000 1.000000 1.000000",
+          "model": "maps/ze_bang_dream_mygo/entities/music_vote_seeyouagain_break_4342.vmdl",
+          "_template_lump_ent_index": "2"
+        }
+      }
+    ],
+    "4335#entitylumpname": [
+      {
+        "classname": "logic_relay",
+        "hammerUniqueId": "4336",
+        "targetname": "[PR#]music_vote_musicacaelestis_relay",
+        "properties": {
+          "passthroughcaller": "False",
+          "fastretrigger": "False",
+          "triggeronce": "False",
+          "startdisabled": "False",
+          "origin": "0.000000 16.000000 0.000000",
+          "angles": "-0.000000 0.000000 0.000000",
+          "scales": "1.000000 1.000000 1.000000",
+          "_template_lump_ent_index": "0"
+        },
+        "connections": [
+          {
+            "output": "OnTrigger",
+            "target": "[PR#]music_list_script",
+            "input": "RunScriptInput",
+            "param": "MusicaCaelestis",
+            "delay": 0,
+            "limit": -1
+          },
+          {
+            "output": "OnTrigger",
+            "target": "[PR#]cmd",
+            "input": "Command",
+            "param": "say 即将演奏《天球(そら)のMúsica》",
+            "delay": 0,
+            "limit": -1
+          },
+          {
+            "output": "OnTrigger",
+            "target": "[PR#]music_game_runspeed1.7_relay",
+            "input": "Trigger",
+            "param": "",
+            "delay": 0,
+            "limit": -1
+          }
+        ]
+      },
+      {
+        "classname": "point_worldtext",
+        "hammerUniqueId": "4339",
+        "targetname": "[PR#]music_vote_musicacaelestis_text",
+        "properties": {
+          "depth_render_offset": "0.125",
+          "reorient_mode": "0",
+          "justify_vertical": "2",
+          "justify_horizontal": "0",
+          "font_name": "Arial Black",
+          "font_size": "100",
+          "world_units_per_pixel": "0.10000000149011612",
+          "color": "255 255 255",
+          "color __RAW_ARRAY__ (UInt64[3])": [
+            255,
+            255,
+            255
+          ],
+          "fullbright": "True",
+          "enabled": "True",
+          "message": "歌曲名：天球(そら)のMúsica\n难度：★★★★★\n谱师：花泽爱吃香菜\n标签：[Bang Dream][Ave Mujica]\n           [魔王谱]",
+          "lightmapstatic": "0",
+          "rendertocubemaps": "False",
+          "object_culling": "0",
+          "fademaxdist": "0",
+          "fademindist": "-1",
+          "disablereceiveshadows": "False",
+          "rendercolor": "255 255 255",
+          "rendercolor __RAW_ARRAY__ (UInt64[3])": [
+            255,
+            255,
+            255
+          ],
+          "renderamt": "255",
+          "rendermode": "kRenderNormal",
+          "renderfx": "kRenderFxNone",
+          "uselocaloffset": "False",
+          "origin": "8.000000 -64.000000 40.000000",
+          "angles": "-0.000000 90.000000 89.999969",
+          "scales": "1.000000 1.000000 1.000000",
+          "_template_lump_ent_index": "1"
+        }
+      },
+      {
+        "classname": "func_breakable",
+        "hammerUniqueId": "4337",
+        "targetname": "[PR#]music_vote_musicacaelestis_break",
+        "properties": {
+          "physdamagescale": "1",
+          "overrideblocklos": "0",
+          "gamemass": "0",
+          "minhealthdmg": "0",
+          "lightmapstatic": "0",
+          "rendertocubemaps": "False",
+          "object_culling": "0",
+          "fademaxdist": "0",
+          "fademindist": "-1",
+          "disablereceiveshadows": "False",
+          "rendercolor": "255 255 255",
+          "rendercolor __RAW_ARRAY__ (UInt64[3])": [
+            255,
+            255,
+            255
+          ],
+          "renderamt": "255",
+          "rendermode": "kRenderNormal",
+          "renderfx": "kRenderFxNone",
+          "pressuredelay": "0",
+          "explodemagnitude": "0",
+          "spawnobject": "0",
+          "nodamageforces": "False",
+          "explosion": "0",
+          "material": "10",
+          "health": "0",
+          "propdata": "0",
+          "spawnflags": "1",
+          "uselocaloffset": "False",
+          "nointerpolate": "False",
+          "performancemode": "PM_NORMAL",
+          "exploderadius": "0",
+          "explodedamage": "0",
+          "disableshadows": "0",
+          "origin": "-8.000000 0.000000 0.000000",
+          "angles": "-0.000000 0.000000 0.000000",
+          "scales": "1.000000 1.000000 1.000000",
+          "model": "maps/ze_bang_dream_mygo/entities/music_vote_musicacaelestis_break_4337.vmdl",
+          "_template_lump_ent_index": "2"
+        }
+      }
+    ],
+    "4330#entitylumpname": [
+      {
+        "classname": "logic_relay",
+        "hammerUniqueId": "4331",
+        "targetname": "[PR#]music_vote_hatedbylife_relay",
+        "properties": {
+          "passthroughcaller": "False",
+          "fastretrigger": "False",
+          "triggeronce": "False",
+          "startdisabled": "False",
+          "origin": "0.000000 16.000000 0.000000",
+          "angles": "-0.000000 0.000000 0.000000",
+          "scales": "1.000000 1.000000 1.000000",
+          "_template_lump_ent_index": "0"
+        },
+        "connections": [
+          {
+            "output": "OnTrigger",
+            "target": "[PR#]music_list_script",
+            "input": "RunScriptInput",
+            "param": "HatedByLife",
+            "delay": 0,
+            "limit": -1
+          },
+          {
+            "output": "OnTrigger",
+            "target": "[PR#]cmd",
+            "input": "Command",
+            "param": "say 即将演奏《命に嫌われている》",
+            "delay": 0,
+            "limit": -1
+          },
+          {
+            "output": "OnTrigger",
+            "target": "[PR#]music_game_runspeed1.2_relay",
+            "input": "Trigger",
+            "param": "",
+            "delay": 0,
+            "limit": -1
+          }
+        ]
+      },
+      {
+        "classname": "point_worldtext",
+        "hammerUniqueId": "4334",
+        "targetname": "[PR#]music_vote_hatedbylife_text",
+        "properties": {
+          "depth_render_offset": "0.125",
+          "reorient_mode": "0",
+          "justify_vertical": "2",
+          "justify_horizontal": "0",
+          "font_name": "Arial Black",
+          "font_size": "100",
+          "world_units_per_pixel": "0.10000000149011612",
+          "color": "255 255 255",
+          "color __RAW_ARRAY__ (UInt64[3])": [
+            255,
+            255,
+            255
+          ],
+          "fullbright": "True",
+          "enabled": "True",
+          "message": "歌曲名：命に嫌われている\n难度：★★★☆☆\n谱师：羽丘耐扣王\n标签：[术曲][Bang Dream][Afterglow]\n           [多人]",
+          "lightmapstatic": "0",
+          "rendertocubemaps": "False",
+          "object_culling": "0",
+          "fademaxdist": "0",
+          "fademindist": "-1",
+          "disablereceiveshadows": "False",
+          "rendercolor": "255 255 255",
+          "rendercolor __RAW_ARRAY__ (UInt64[3])": [
+            255,
+            255,
+            255
+          ],
+          "renderamt": "255",
+          "rendermode": "kRenderNormal",
+          "renderfx": "kRenderFxNone",
+          "uselocaloffset": "False",
+          "origin": "8.000000 -64.000000 40.000000",
+          "angles": "-0.000000 90.000000 89.999969",
+          "scales": "1.000000 1.000000 1.000000",
+          "_template_lump_ent_index": "1"
+        }
+      },
+      {
+        "classname": "func_breakable",
+        "hammerUniqueId": "4332",
+        "targetname": "[PR#]music_vote_hatedbylife_break",
+        "properties": {
+          "physdamagescale": "1",
+          "overrideblocklos": "0",
+          "gamemass": "0",
+          "minhealthdmg": "0",
+          "lightmapstatic": "0",
+          "rendertocubemaps": "False",
+          "object_culling": "0",
+          "fademaxdist": "0",
+          "fademindist": "-1",
+          "disablereceiveshadows": "False",
+          "rendercolor": "255 255 255",
+          "rendercolor __RAW_ARRAY__ (UInt64[3])": [
+            255,
+            255,
+            255
+          ],
+          "renderamt": "255",
+          "rendermode": "kRenderNormal",
+          "renderfx": "kRenderFxNone",
+          "pressuredelay": "0",
+          "explodemagnitude": "0",
+          "spawnobject": "0",
+          "nodamageforces": "False",
+          "explosion": "0",
+          "material": "10",
+          "health": "0",
+          "propdata": "0",
+          "spawnflags": "1",
+          "uselocaloffset": "False",
+          "nointerpolate": "False",
+          "performancemode": "PM_NORMAL",
+          "exploderadius": "0",
+          "explodedamage": "0",
+          "disableshadows": "0",
+          "origin": "-8.000000 0.000000 0.000000",
+          "angles": "-0.000000 0.000000 0.000000",
+          "scales": "1.000000 1.000000 1.000000",
+          "model": "maps/ze_bang_dream_mygo/entities/music_vote_hatedbylife_break_4332.vmdl",
+          "_template_lump_ent_index": "2"
         }
       }
     ],
@@ -38012,14 +38736,6 @@
           },
           {
             "output": "OnFullyOpen",
-            "target": "[PR#]music_game_brick2_relay*",
-            "input": "Kill",
-            "param": "",
-            "delay": 0.1,
-            "limit": -1
-          },
-          {
-            "output": "OnFullyOpen",
             "target": "[PR#]music_game_brick2_perfect_trigger&0000",
             "input": "Kill",
             "param": "",
@@ -38174,6 +38890,14 @@
             "param": "",
             "delay": 0,
             "limit": -1
+          },
+          {
+            "output": "OnStartTouch",
+            "target": "!activator",
+            "input": "AddContext",
+            "param": "player_perfect:1",
+            "delay": 0,
+            "limit": -1
           }
         ]
       },
@@ -38234,10 +38958,18 @@
           },
           {
             "output": "OnSpawn",
-            "target": "[PR#]music_game_brick3_2_move3",
+            "target": "[PR#]music_game_brick3_2_move3*",
             "input": "Open",
             "param": "",
             "delay": 0.05,
+            "limit": -1
+          },
+          {
+            "output": "OnSpawn",
+            "target": "!self",
+            "input": "Kill",
+            "param": "",
+            "delay": 0,
             "limit": -1
           }
         ]
@@ -38318,7 +39050,7 @@
         "targetname": "[PR#]music_game_brick2_great_trigger&0000",
         "properties": {
           "wait": "1",
-          "filtername": "[PR#]music_game_not_brick_filter",
+          "filtername": "[PR#]music_game_not_perfect_filter",
           "spawnflags": "4097",
           "startdisabled": "True",
           "uselocaloffset": "False",
@@ -38552,14 +39284,6 @@
           },
           {
             "output": "OnFullyOpen",
-            "target": "[PR#]music_game_brick2_relay*",
-            "input": "Kill",
-            "param": "",
-            "delay": 0.1,
-            "limit": -1
-          },
-          {
-            "output": "OnFullyOpen",
             "target": "[PR#]music_game_brick2_perfect_trigger&0000",
             "input": "Kill",
             "param": "",
@@ -38714,6 +39438,14 @@
             "param": "",
             "delay": 0,
             "limit": -1
+          },
+          {
+            "output": "OnStartTouch",
+            "target": "!activator",
+            "input": "AddContext",
+            "param": "player_perfect:1",
+            "delay": 0,
+            "limit": -1
           }
         ]
       },
@@ -38774,10 +39506,18 @@
           },
           {
             "output": "OnSpawn",
-            "target": "[PR#]music_game_brick3_2_move7",
+            "target": "[PR#]music_game_brick3_2_move7*",
             "input": "Open",
             "param": "",
             "delay": 0.05,
+            "limit": -1
+          },
+          {
+            "output": "OnSpawn",
+            "target": "!self",
+            "input": "Kill",
+            "param": "",
+            "delay": 0,
             "limit": -1
           }
         ]
@@ -38858,7 +39598,7 @@
         "targetname": "[PR#]music_game_brick2_great_trigger&0000",
         "properties": {
           "wait": "1",
-          "filtername": "[PR#]music_game_not_brick_filter",
+          "filtername": "[PR#]music_game_not_perfect_filter",
           "spawnflags": "4097",
           "startdisabled": "True",
           "uselocaloffset": "False",
@@ -39092,14 +39832,6 @@
           },
           {
             "output": "OnFullyOpen",
-            "target": "[PR#]music_game_brick2_relay*",
-            "input": "Kill",
-            "param": "",
-            "delay": 0.1,
-            "limit": -1
-          },
-          {
-            "output": "OnFullyOpen",
             "target": "[PR#]music_game_brick2_perfect_trigger&0000",
             "input": "Kill",
             "param": "",
@@ -39254,6 +39986,14 @@
             "param": "",
             "delay": 0,
             "limit": -1
+          },
+          {
+            "output": "OnStartTouch",
+            "target": "!activator",
+            "input": "AddContext",
+            "param": "player_perfect:1",
+            "delay": 0,
+            "limit": -1
           }
         ]
       },
@@ -39314,10 +40054,18 @@
           },
           {
             "output": "OnSpawn",
-            "target": "[PR#]music_game_brick3_2_move2",
+            "target": "[PR#]music_game_brick3_2_move2*",
             "input": "Open",
             "param": "",
             "delay": 0.05,
+            "limit": -1
+          },
+          {
+            "output": "OnSpawn",
+            "target": "!self",
+            "input": "Kill",
+            "param": "",
+            "delay": 0,
             "limit": -1
           }
         ]
@@ -39398,7 +40146,7 @@
         "targetname": "[PR#]music_game_brick2_great_trigger&0000",
         "properties": {
           "wait": "1",
-          "filtername": "[PR#]music_game_not_brick_filter",
+          "filtername": "[PR#]music_game_not_perfect_filter",
           "spawnflags": "4097",
           "startdisabled": "True",
           "uselocaloffset": "False",
@@ -39632,14 +40380,6 @@
           },
           {
             "output": "OnFullyOpen",
-            "target": "[PR#]music_game_brick2_relay*",
-            "input": "Kill",
-            "param": "",
-            "delay": 0.1,
-            "limit": -1
-          },
-          {
-            "output": "OnFullyOpen",
             "target": "[PR#]music_game_brick2_perfect_trigger&0000",
             "input": "Kill",
             "param": "",
@@ -39794,6 +40534,14 @@
             "param": "",
             "delay": 0,
             "limit": -1
+          },
+          {
+            "output": "OnStartTouch",
+            "target": "!activator",
+            "input": "AddContext",
+            "param": "player_perfect:1",
+            "delay": 0,
+            "limit": -1
           }
         ]
       },
@@ -39854,10 +40602,18 @@
           },
           {
             "output": "OnSpawn",
-            "target": "[PR#]music_game_brick3_2_move1",
+            "target": "[PR#]music_game_brick3_2_move1*",
             "input": "Open",
             "param": "",
             "delay": 0.05,
+            "limit": -1
+          },
+          {
+            "output": "OnSpawn",
+            "target": "!self",
+            "input": "Kill",
+            "param": "",
+            "delay": 0,
             "limit": -1
           }
         ]
@@ -39938,7 +40694,7 @@
         "targetname": "[PR#]music_game_brick2_great_trigger&0000",
         "properties": {
           "wait": "1",
-          "filtername": "[PR#]music_game_not_brick_filter",
+          "filtername": "[PR#]music_game_not_perfect_filter",
           "spawnflags": "4097",
           "startdisabled": "True",
           "uselocaloffset": "False",
@@ -40172,14 +40928,6 @@
           },
           {
             "output": "OnFullyOpen",
-            "target": "[PR#]music_game_brick2_relay*",
-            "input": "Kill",
-            "param": "",
-            "delay": 0.1,
-            "limit": -1
-          },
-          {
-            "output": "OnFullyOpen",
             "target": "[PR#]music_game_brick2_perfect_trigger&0000",
             "input": "Kill",
             "param": "",
@@ -40334,6 +41082,14 @@
             "param": "",
             "delay": 0,
             "limit": -1
+          },
+          {
+            "output": "OnStartTouch",
+            "target": "!activator",
+            "input": "AddContext",
+            "param": "player_perfect:1",
+            "delay": 0,
+            "limit": -1
           }
         ]
       },
@@ -40394,10 +41150,18 @@
           },
           {
             "output": "OnSpawn",
-            "target": "[PR#]music_game_brick3_2_move4",
+            "target": "[PR#]music_game_brick3_2_move4*",
             "input": "Open",
             "param": "",
             "delay": 0.05,
+            "limit": -1
+          },
+          {
+            "output": "OnSpawn",
+            "target": "!self",
+            "input": "Kill",
+            "param": "",
+            "delay": 0,
             "limit": -1
           }
         ]
@@ -40478,7 +41242,7 @@
         "targetname": "[PR#]music_game_brick2_great_trigger&0000",
         "properties": {
           "wait": "1",
-          "filtername": "[PR#]music_game_not_brick_filter",
+          "filtername": "[PR#]music_game_not_perfect_filter",
           "spawnflags": "4097",
           "startdisabled": "True",
           "uselocaloffset": "False",
@@ -40712,14 +41476,6 @@
           },
           {
             "output": "OnFullyOpen",
-            "target": "[PR#]music_game_brick2_relay*",
-            "input": "Kill",
-            "param": "",
-            "delay": 0.1,
-            "limit": -1
-          },
-          {
-            "output": "OnFullyOpen",
             "target": "[PR#]music_game_brick2_perfect_trigger&0000",
             "input": "Kill",
             "param": "",
@@ -40874,6 +41630,14 @@
             "param": "",
             "delay": 0,
             "limit": -1
+          },
+          {
+            "output": "OnStartTouch",
+            "target": "!activator",
+            "input": "AddContext",
+            "param": "player_perfect:1",
+            "delay": 0,
+            "limit": -1
           }
         ]
       },
@@ -40934,10 +41698,18 @@
           },
           {
             "output": "OnSpawn",
-            "target": "[PR#]music_game_brick3_2_move6",
+            "target": "[PR#]music_game_brick3_2_move6*",
             "input": "Open",
             "param": "",
             "delay": 0.05,
+            "limit": -1
+          },
+          {
+            "output": "OnSpawn",
+            "target": "!self",
+            "input": "Kill",
+            "param": "",
+            "delay": 0,
             "limit": -1
           }
         ]
@@ -41018,7 +41790,7 @@
         "targetname": "[PR#]music_game_brick2_great_trigger&0000",
         "properties": {
           "wait": "1",
-          "filtername": "[PR#]music_game_not_brick_filter",
+          "filtername": "[PR#]music_game_not_perfect_filter",
           "spawnflags": "4097",
           "startdisabled": "True",
           "uselocaloffset": "False",
@@ -41252,14 +42024,6 @@
           },
           {
             "output": "OnFullyOpen",
-            "target": "[PR#]music_game_brick5_relay*",
-            "input": "Kill",
-            "param": "",
-            "delay": 0.1,
-            "limit": -1
-          },
-          {
-            "output": "OnFullyOpen",
             "target": "[PR#]music_game_brick5_perfect_trigger&0000",
             "input": "Kill",
             "param": "",
@@ -41321,14 +42085,6 @@
             "param": "",
             "delay": 0.1,
             "limit": -1
-          },
-          {
-            "output": "OnFullyOpen",
-            "target": "[PR#]sound_hit_long",
-            "input": "StopSound",
-            "param": "",
-            "delay": 0.05,
-            "limit": -1
           }
         ]
       },
@@ -41375,6 +42131,14 @@
             "target": "[PR#]music_game_brick_perfect_text",
             "input": "ShowHudHint",
             "param": "",
+            "delay": 0,
+            "limit": -1
+          },
+          {
+            "output": "OnStartTouch",
+            "target": "!activator",
+            "input": "AddContext",
+            "param": "player_perfect:1",
             "delay": 0,
             "limit": -1
           }
@@ -41441,6 +42205,14 @@
             "input": "Open",
             "param": "",
             "delay": 0.05,
+            "limit": -1
+          },
+          {
+            "output": "OnSpawn",
+            "target": "!self",
+            "input": "Kill",
+            "param": "",
+            "delay": 0,
             "limit": -1
           }
         ]
@@ -41521,7 +42293,7 @@
         "targetname": "[PR#]music_game_brick5_great_trigger&0000",
         "properties": {
           "wait": "1",
-          "filtername": "[PR#]music_game_not_brick_filter",
+          "filtername": "[PR#]music_game_not_perfect_filter",
           "spawnflags": "4097",
           "startdisabled": "True",
           "uselocaloffset": "False",
@@ -41755,14 +42527,6 @@
           },
           {
             "output": "OnFullyOpen",
-            "target": "[PR#]music_game_brick5_relay*",
-            "input": "Kill",
-            "param": "",
-            "delay": 0.1,
-            "limit": -1
-          },
-          {
-            "output": "OnFullyOpen",
             "target": "[PR#]music_game_brick5_perfect_trigger&0000",
             "input": "Kill",
             "param": "",
@@ -41824,14 +42588,6 @@
             "param": "",
             "delay": 0.1,
             "limit": -1
-          },
-          {
-            "output": "OnFullyOpen",
-            "target": "[PR#]sound_hit_long",
-            "input": "StopSound",
-            "param": "",
-            "delay": 0.05,
-            "limit": -1
           }
         ]
       },
@@ -41878,6 +42634,14 @@
             "target": "[PR#]music_game_brick_perfect_text",
             "input": "ShowHudHint",
             "param": "",
+            "delay": 0,
+            "limit": -1
+          },
+          {
+            "output": "OnStartTouch",
+            "target": "!activator",
+            "input": "AddContext",
+            "param": "player_perfect:1",
             "delay": 0,
             "limit": -1
           }
@@ -41944,6 +42708,14 @@
             "input": "Open",
             "param": "",
             "delay": 0.05,
+            "limit": -1
+          },
+          {
+            "output": "OnSpawn",
+            "target": "!self",
+            "input": "Kill",
+            "param": "",
+            "delay": 0,
             "limit": -1
           }
         ]
@@ -42024,7 +42796,7 @@
         "targetname": "[PR#]music_game_brick5_great_trigger&0000",
         "properties": {
           "wait": "1",
-          "filtername": "[PR#]music_game_not_brick_filter",
+          "filtername": "[PR#]music_game_not_perfect_filter",
           "spawnflags": "4097",
           "startdisabled": "True",
           "uselocaloffset": "False",
@@ -42258,14 +43030,6 @@
           },
           {
             "output": "OnFullyOpen",
-            "target": "[PR#]music_game_brick5_relay*",
-            "input": "Kill",
-            "param": "",
-            "delay": 0.1,
-            "limit": -1
-          },
-          {
-            "output": "OnFullyOpen",
             "target": "[PR#]music_game_brick5_perfect_trigger&0000",
             "input": "Kill",
             "param": "",
@@ -42327,14 +43091,6 @@
             "param": "",
             "delay": 0.1,
             "limit": -1
-          },
-          {
-            "output": "OnFullyOpen",
-            "target": "[PR#]sound_hit_long",
-            "input": "StopSound",
-            "param": "",
-            "delay": 0.05,
-            "limit": -1
           }
         ]
       },
@@ -42381,6 +43137,14 @@
             "target": "[PR#]music_game_brick_perfect_text",
             "input": "ShowHudHint",
             "param": "",
+            "delay": 0,
+            "limit": -1
+          },
+          {
+            "output": "OnStartTouch",
+            "target": "!activator",
+            "input": "AddContext",
+            "param": "player_perfect:1",
             "delay": 0,
             "limit": -1
           }
@@ -42447,6 +43211,14 @@
             "input": "Open",
             "param": "",
             "delay": 0.05,
+            "limit": -1
+          },
+          {
+            "output": "OnSpawn",
+            "target": "!self",
+            "input": "Kill",
+            "param": "",
+            "delay": 0,
             "limit": -1
           }
         ]
@@ -42527,7 +43299,7 @@
         "targetname": "[PR#]music_game_brick5_great_trigger&0000",
         "properties": {
           "wait": "1",
-          "filtername": "[PR#]music_game_not_brick_filter",
+          "filtername": "[PR#]music_game_not_perfect_filter",
           "spawnflags": "4097",
           "startdisabled": "True",
           "uselocaloffset": "False",
@@ -42761,14 +43533,6 @@
           },
           {
             "output": "OnFullyOpen",
-            "target": "[PR#]music_game_brick5_relay*",
-            "input": "Kill",
-            "param": "",
-            "delay": 0.1,
-            "limit": -1
-          },
-          {
-            "output": "OnFullyOpen",
             "target": "[PR#]music_game_brick5_perfect_trigger&0000",
             "input": "Kill",
             "param": "",
@@ -42830,14 +43594,6 @@
             "param": "",
             "delay": 0.1,
             "limit": -1
-          },
-          {
-            "output": "OnFullyOpen",
-            "target": "[PR#]sound_hit_long",
-            "input": "StopSound",
-            "param": "",
-            "delay": 0.05,
-            "limit": -1
           }
         ]
       },
@@ -42884,6 +43640,14 @@
             "target": "[PR#]music_game_brick_perfect_text",
             "input": "ShowHudHint",
             "param": "",
+            "delay": 0,
+            "limit": -1
+          },
+          {
+            "output": "OnStartTouch",
+            "target": "!activator",
+            "input": "AddContext",
+            "param": "player_perfect:1",
             "delay": 0,
             "limit": -1
           }
@@ -42950,6 +43714,14 @@
             "input": "Open",
             "param": "",
             "delay": 0.05,
+            "limit": -1
+          },
+          {
+            "output": "OnSpawn",
+            "target": "!self",
+            "input": "Kill",
+            "param": "",
+            "delay": 0,
             "limit": -1
           }
         ]
@@ -43030,7 +43802,7 @@
         "targetname": "[PR#]music_game_brick5_great_trigger&0000",
         "properties": {
           "wait": "1",
-          "filtername": "[PR#]music_game_not_brick_filter",
+          "filtername": "[PR#]music_game_not_perfect_filter",
           "spawnflags": "4097",
           "startdisabled": "True",
           "uselocaloffset": "False",
@@ -43264,14 +44036,6 @@
           },
           {
             "output": "OnFullyOpen",
-            "target": "[PR#]music_game_brick5_relay*",
-            "input": "Kill",
-            "param": "",
-            "delay": 0.1,
-            "limit": -1
-          },
-          {
-            "output": "OnFullyOpen",
             "target": "[PR#]music_game_brick5_perfect_trigger&0000",
             "input": "Kill",
             "param": "",
@@ -43333,14 +44097,6 @@
             "param": "",
             "delay": 0.1,
             "limit": -1
-          },
-          {
-            "output": "OnFullyOpen",
-            "target": "[PR#]sound_hit_long",
-            "input": "StopSound",
-            "param": "",
-            "delay": 0.05,
-            "limit": -1
           }
         ]
       },
@@ -43387,6 +44143,14 @@
             "target": "[PR#]music_game_brick_perfect_text",
             "input": "ShowHudHint",
             "param": "",
+            "delay": 0,
+            "limit": -1
+          },
+          {
+            "output": "OnStartTouch",
+            "target": "!activator",
+            "input": "AddContext",
+            "param": "player_perfect:1",
             "delay": 0,
             "limit": -1
           }
@@ -43453,6 +44217,14 @@
             "input": "Open",
             "param": "",
             "delay": 0.05,
+            "limit": -1
+          },
+          {
+            "output": "OnSpawn",
+            "target": "!self",
+            "input": "Kill",
+            "param": "",
+            "delay": 0,
             "limit": -1
           }
         ]
@@ -43533,7 +44305,7 @@
         "targetname": "[PR#]music_game_brick5_great_trigger&0000",
         "properties": {
           "wait": "1",
-          "filtername": "[PR#]music_game_not_brick_filter",
+          "filtername": "[PR#]music_game_not_perfect_filter",
           "spawnflags": "4097",
           "startdisabled": "True",
           "uselocaloffset": "False",
@@ -43767,14 +44539,6 @@
           },
           {
             "output": "OnFullyOpen",
-            "target": "[PR#]music_game_brick5_relay*",
-            "input": "Kill",
-            "param": "",
-            "delay": 0.1,
-            "limit": -1
-          },
-          {
-            "output": "OnFullyOpen",
             "target": "[PR#]music_game_brick5_perfect_trigger&0000",
             "input": "Kill",
             "param": "",
@@ -43836,14 +44600,6 @@
             "param": "",
             "delay": 0.1,
             "limit": -1
-          },
-          {
-            "output": "OnFullyOpen",
-            "target": "[PR#]sound_hit_long",
-            "input": "StopSound",
-            "param": "",
-            "delay": 0.05,
-            "limit": -1
           }
         ]
       },
@@ -43890,6 +44646,14 @@
             "target": "[PR#]music_game_brick_perfect_text",
             "input": "ShowHudHint",
             "param": "",
+            "delay": 0,
+            "limit": -1
+          },
+          {
+            "output": "OnStartTouch",
+            "target": "!activator",
+            "input": "AddContext",
+            "param": "player_perfect:1",
             "delay": 0,
             "limit": -1
           }
@@ -43956,6 +44720,14 @@
             "input": "Open",
             "param": "",
             "delay": 0.05,
+            "limit": -1
+          },
+          {
+            "output": "OnSpawn",
+            "target": "!self",
+            "input": "Kill",
+            "param": "",
+            "delay": 0,
             "limit": -1
           }
         ]
@@ -44036,7 +44808,7 @@
         "targetname": "[PR#]music_game_brick5_great_trigger&0000",
         "properties": {
           "wait": "1",
-          "filtername": "[PR#]music_game_not_brick_filter",
+          "filtername": "[PR#]music_game_not_perfect_filter",
           "spawnflags": "4097",
           "startdisabled": "True",
           "uselocaloffset": "False",
@@ -44379,6 +45151,14 @@
             "param": "",
             "delay": 0,
             "limit": -1
+          },
+          {
+            "output": "OnStartTouch",
+            "target": "!activator",
+            "input": "AddContext",
+            "param": "player_perfect:1",
+            "delay": 0,
+            "limit": -1
           }
         ]
       },
@@ -44539,7 +45319,7 @@
         "targetname": "[PR#]music_game_brick3_great_trigger&0000",
         "properties": {
           "wait": "1",
-          "filtername": "[PR#]music_game_not_brick_filter",
+          "filtername": "[PR#]music_game_not_perfect_filter",
           "spawnflags": "4097",
           "startdisabled": "True",
           "uselocaloffset": "False",
@@ -44832,6 +45612,14 @@
             "param": "",
             "delay": 0,
             "limit": -1
+          },
+          {
+            "output": "OnFullyOpen",
+            "target": "[PR#]sound_hit_long",
+            "input": "StopSound",
+            "param": "",
+            "delay": 0,
+            "limit": -1
           }
         ]
       },
@@ -44930,7 +45718,7 @@
         },
         "connections": [
           {
-            "output": "OnTouching",
+            "output": "OnStartTouch",
             "target": "!activator",
             "input": "AddContext",
             "param": "player_brick:1",
@@ -45129,6 +45917,14 @@
             "param": "",
             "delay": 0,
             "limit": -1
+          },
+          {
+            "output": "OnStartTouch",
+            "target": "!activator",
+            "input": "AddContext",
+            "param": "player_perfect:1",
+            "delay": 0,
+            "limit": -1
           }
         ]
       },
@@ -45289,7 +46085,7 @@
         "targetname": "[PR#]music_game_brick3_great_trigger&0000",
         "properties": {
           "wait": "1",
-          "filtername": "[PR#]music_game_not_brick_filter",
+          "filtername": "[PR#]music_game_not_perfect_filter",
           "spawnflags": "4097",
           "startdisabled": "True",
           "uselocaloffset": "False",
@@ -45582,6 +46378,14 @@
             "param": "",
             "delay": 0,
             "limit": -1
+          },
+          {
+            "output": "OnFullyOpen",
+            "target": "[PR#]sound_hit_long",
+            "input": "StopSound",
+            "param": "",
+            "delay": 0,
+            "limit": -1
           }
         ]
       },
@@ -45680,7 +46484,7 @@
         },
         "connections": [
           {
-            "output": "OnTouching",
+            "output": "OnStartTouch",
             "target": "!activator",
             "input": "AddContext",
             "param": "player_brick:1",
@@ -45879,6 +46683,14 @@
             "param": "",
             "delay": 0,
             "limit": -1
+          },
+          {
+            "output": "OnStartTouch",
+            "target": "!activator",
+            "input": "AddContext",
+            "param": "player_perfect:1",
+            "delay": 0,
+            "limit": -1
           }
         ]
       },
@@ -46039,7 +46851,7 @@
         "targetname": "[PR#]music_game_brick3_great_trigger&0000",
         "properties": {
           "wait": "1",
-          "filtername": "[PR#]music_game_not_brick_filter",
+          "filtername": "[PR#]music_game_not_perfect_filter",
           "spawnflags": "4097",
           "startdisabled": "True",
           "uselocaloffset": "False",
@@ -46332,6 +47144,14 @@
             "param": "",
             "delay": 0,
             "limit": -1
+          },
+          {
+            "output": "OnFullyOpen",
+            "target": "[PR#]sound_hit_long",
+            "input": "StopSound",
+            "param": "",
+            "delay": 0,
+            "limit": -1
           }
         ]
       },
@@ -46430,7 +47250,7 @@
         },
         "connections": [
           {
-            "output": "OnTouching",
+            "output": "OnStartTouch",
             "target": "!activator",
             "input": "AddContext",
             "param": "player_brick:1",
@@ -46629,6 +47449,14 @@
             "param": "",
             "delay": 0,
             "limit": -1
+          },
+          {
+            "output": "OnStartTouch",
+            "target": "!activator",
+            "input": "AddContext",
+            "param": "player_perfect:1",
+            "delay": 0,
+            "limit": -1
           }
         ]
       },
@@ -46789,7 +47617,7 @@
         "targetname": "[PR#]music_game_brick3_great_trigger&0000",
         "properties": {
           "wait": "1",
-          "filtername": "[PR#]music_game_not_brick_filter",
+          "filtername": "[PR#]music_game_not_perfect_filter",
           "spawnflags": "4097",
           "startdisabled": "True",
           "uselocaloffset": "False",
@@ -47082,6 +47910,14 @@
             "param": "",
             "delay": 0,
             "limit": -1
+          },
+          {
+            "output": "OnFullyOpen",
+            "target": "[PR#]sound_hit_long",
+            "input": "StopSound",
+            "param": "",
+            "delay": 0,
+            "limit": -1
           }
         ]
       },
@@ -47180,7 +48016,7 @@
         },
         "connections": [
           {
-            "output": "OnTouching",
+            "output": "OnStartTouch",
             "target": "!activator",
             "input": "AddContext",
             "param": "player_brick:1",
@@ -47379,6 +48215,14 @@
             "param": "",
             "delay": 0,
             "limit": -1
+          },
+          {
+            "output": "OnStartTouch",
+            "target": "!activator",
+            "input": "AddContext",
+            "param": "player_perfect:1",
+            "delay": 0,
+            "limit": -1
           }
         ]
       },
@@ -47539,7 +48383,7 @@
         "targetname": "[PR#]music_game_brick3_great_trigger&0000",
         "properties": {
           "wait": "1",
-          "filtername": "[PR#]music_game_not_brick_filter",
+          "filtername": "[PR#]music_game_not_perfect_filter",
           "spawnflags": "4097",
           "startdisabled": "True",
           "uselocaloffset": "False",
@@ -47832,6 +48676,14 @@
             "param": "",
             "delay": 0,
             "limit": -1
+          },
+          {
+            "output": "OnFullyOpen",
+            "target": "[PR#]sound_hit_long",
+            "input": "StopSound",
+            "param": "",
+            "delay": 0,
+            "limit": -1
           }
         ]
       },
@@ -47930,7 +48782,7 @@
         },
         "connections": [
           {
-            "output": "OnTouching",
+            "output": "OnStartTouch",
             "target": "!activator",
             "input": "AddContext",
             "param": "player_brick:1",
@@ -48129,6 +48981,14 @@
             "param": "",
             "delay": 0,
             "limit": -1
+          },
+          {
+            "output": "OnStartTouch",
+            "target": "!activator",
+            "input": "AddContext",
+            "param": "player_perfect:1",
+            "delay": 0,
+            "limit": -1
           }
         ]
       },
@@ -48289,7 +49149,7 @@
         "targetname": "[PR#]music_game_brick3_great_trigger&0000",
         "properties": {
           "wait": "1",
-          "filtername": "[PR#]music_game_not_brick_filter",
+          "filtername": "[PR#]music_game_not_perfect_filter",
           "spawnflags": "4097",
           "startdisabled": "True",
           "uselocaloffset": "False",
@@ -48582,6 +49442,14 @@
             "param": "",
             "delay": 0,
             "limit": -1
+          },
+          {
+            "output": "OnFullyOpen",
+            "target": "[PR#]sound_hit_long",
+            "input": "StopSound",
+            "param": "",
+            "delay": 0,
+            "limit": -1
           }
         ]
       },
@@ -48680,7 +49548,7 @@
         },
         "connections": [
           {
-            "output": "OnTouching",
+            "output": "OnStartTouch",
             "target": "!activator",
             "input": "AddContext",
             "param": "player_brick:1",
@@ -50476,14 +51344,6 @@
           },
           {
             "output": "OnFullyOpen",
-            "target": "[PR#]music_game_brick5_relay*",
-            "input": "Kill",
-            "param": "",
-            "delay": 0.1,
-            "limit": -1
-          },
-          {
-            "output": "OnFullyOpen",
             "target": "[PR#]music_game_brick5_perfect_trigger&0000",
             "input": "Kill",
             "param": "",
@@ -50545,14 +51405,6 @@
             "param": "",
             "delay": 0.1,
             "limit": -1
-          },
-          {
-            "output": "OnFullyOpen",
-            "target": "[PR#]sound_hit_long",
-            "input": "StopSound",
-            "param": "",
-            "delay": 0.05,
-            "limit": -1
           }
         ]
       },
@@ -50599,6 +51451,14 @@
             "target": "[PR#]music_game_brick_perfect_text",
             "input": "ShowHudHint",
             "param": "",
+            "delay": 0,
+            "limit": -1
+          },
+          {
+            "output": "OnStartTouch",
+            "target": "!activator",
+            "input": "AddContext",
+            "param": "player_perfect:1",
             "delay": 0,
             "limit": -1
           }
@@ -50665,6 +51525,14 @@
             "input": "Open",
             "param": "",
             "delay": 0.05,
+            "limit": -1
+          },
+          {
+            "output": "OnSpawn",
+            "target": "!self",
+            "input": "Kill",
+            "param": "",
+            "delay": 0,
             "limit": -1
           }
         ]
@@ -50745,7 +51613,7 @@
         "targetname": "[PR#]music_game_brick5_great_trigger&0000",
         "properties": {
           "wait": "1",
-          "filtername": "[PR#]music_game_not_brick_filter",
+          "filtername": "[PR#]music_game_not_perfect_filter",
           "spawnflags": "4097",
           "startdisabled": "True",
           "uselocaloffset": "False",
@@ -51080,6 +51948,14 @@
             "param": "",
             "delay": 0,
             "limit": -1
+          },
+          {
+            "output": "OnStartTouch",
+            "target": "!activator",
+            "input": "AddContext",
+            "param": "player_perfect:1",
+            "delay": 0,
+            "limit": -1
           }
         ]
       },
@@ -51216,7 +52092,7 @@
         "targetname": "[PR#]music_game_brick4_great_trigger&0000",
         "properties": {
           "wait": "1",
-          "filtername": "[PR#]music_game_not_brick_filter",
+          "filtername": "[PR#]music_game_not_perfect_filter",
           "spawnflags": "4097",
           "startdisabled": "True",
           "uselocaloffset": "False",
@@ -51559,6 +52435,14 @@
             "param": "",
             "delay": 0,
             "limit": -1
+          },
+          {
+            "output": "OnStartTouch",
+            "target": "!activator",
+            "input": "AddContext",
+            "param": "player_perfect:1",
+            "delay": 0,
+            "limit": -1
           }
         ]
       },
@@ -51719,7 +52603,7 @@
         "targetname": "[PR#]music_game_brick3_great_trigger&0000",
         "properties": {
           "wait": "1",
-          "filtername": "[PR#]music_game_not_brick_filter",
+          "filtername": "[PR#]music_game_not_perfect_filter",
           "spawnflags": "4097",
           "startdisabled": "True",
           "uselocaloffset": "False",
@@ -52012,6 +52896,14 @@
             "param": "",
             "delay": 0,
             "limit": -1
+          },
+          {
+            "output": "OnFullyOpen",
+            "target": "[PR#]sound_hit_long",
+            "input": "StopSound",
+            "param": "",
+            "delay": 0,
+            "limit": -1
           }
         ]
       },
@@ -52110,7 +53002,7 @@
         },
         "connections": [
           {
-            "output": "OnTouching",
+            "output": "OnStartTouch",
             "target": "!activator",
             "input": "AddContext",
             "param": "player_brick:1",
@@ -52193,14 +53085,6 @@
           {
             "output": "OnFullyOpen",
             "target": "[PR#]music_game_brick2_move&0000",
-            "input": "Kill",
-            "param": "",
-            "delay": 0.1,
-            "limit": -1
-          },
-          {
-            "output": "OnFullyOpen",
-            "target": "[PR#]music_game_brick2_relay*",
             "input": "Kill",
             "param": "",
             "delay": 0.1,
@@ -52362,6 +53246,14 @@
             "param": "",
             "delay": 0,
             "limit": -1
+          },
+          {
+            "output": "OnStartTouch",
+            "target": "!activator",
+            "input": "AddContext",
+            "param": "player_perfect:1",
+            "delay": 0,
+            "limit": -1
           }
         ]
       },
@@ -52422,10 +53314,18 @@
           },
           {
             "output": "OnSpawn",
-            "target": "[PR#]music_game_brick3_2_move5",
+            "target": "[PR#]music_game_brick3_2_move5*",
             "input": "Open",
             "param": "",
             "delay": 0.05,
+            "limit": -1
+          },
+          {
+            "output": "OnSpawn",
+            "target": "!self",
+            "input": "Kill",
+            "param": "",
+            "delay": 0,
             "limit": -1
           }
         ]
@@ -52506,7 +53406,7 @@
         "targetname": "[PR#]music_game_brick2_great_trigger&0000",
         "properties": {
           "wait": "1",
-          "filtername": "[PR#]music_game_not_brick_filter",
+          "filtername": "[PR#]music_game_not_perfect_filter",
           "spawnflags": "4097",
           "startdisabled": "True",
           "uselocaloffset": "False",
@@ -52857,6 +53757,14 @@
             "param": "",
             "delay": 0,
             "limit": -1
+          },
+          {
+            "output": "OnStartTouch",
+            "target": "!activator",
+            "input": "AddContext",
+            "param": "player_perfect:1",
+            "delay": 0,
+            "limit": -1
           }
         ]
       },
@@ -52993,7 +53901,7 @@
         "targetname": "[PR#]music_game_brick1_great_trigger&0000",
         "properties": {
           "wait": "1",
-          "filtername": "[PR#]music_game_not_brick_filter",
+          "filtername": "[PR#]music_game_not_perfect_filter",
           "spawnflags": "4097",
           "startdisabled": "True",
           "uselocaloffset": "False",

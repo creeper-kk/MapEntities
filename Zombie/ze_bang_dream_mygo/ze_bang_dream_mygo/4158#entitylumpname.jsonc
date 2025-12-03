@@ -56,14 +56,6 @@
       },
       {
         "output": "OnFullyOpen",
-        "target": "[PR#]music_game_brick5_relay*",
-        "input": "Kill",
-        "param": "",
-        "delay": 0.1,
-        "limit": -1
-      },
-      {
-        "output": "OnFullyOpen",
         "target": "[PR#]music_game_brick5_perfect_trigger&0000",
         "input": "Kill",
         "param": "",
@@ -125,14 +117,6 @@
         "param": "",
         "delay": 0.1,
         "limit": -1
-      },
-      {
-        "output": "OnFullyOpen",
-        "target": "[PR#]sound_hit_long",
-        "input": "StopSound",
-        "param": "",
-        "delay": 0.05,
-        "limit": -1
       }
     ]
   },
@@ -179,6 +163,14 @@
         "target": "[PR#]music_game_brick_perfect_text",
         "input": "ShowHudHint",
         "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnStartTouch",
+        "target": "!activator",
+        "input": "AddContext",
+        "param": "player_perfect:1",
         "delay": 0,
         "limit": -1
       }
@@ -245,6 +237,14 @@
         "input": "Open",
         "param": "",
         "delay": 0.05,
+        "limit": -1
+      },
+      {
+        "output": "OnSpawn",
+        "target": "!self",
+        "input": "Kill",
+        "param": "",
+        "delay": 0,
         "limit": -1
       }
     ]
@@ -325,7 +325,7 @@
     "targetname": "[PR#]music_game_brick5_great_trigger&0000",
     "properties": {
       "wait": "1",
-      "filtername": "[PR#]music_game_not_brick_filter",
+      "filtername": "[PR#]music_game_not_perfect_filter",
       "spawnflags": "4097",
       "startdisabled": "True",
       "uselocaloffset": "False",
