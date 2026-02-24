@@ -3246,5 +3246,42 @@
       "light_probe_atlas_y": "1",
       "light_probe_atlas_z": "1"
     }
+  },
+  {
+    "classname": "info_particle_system",
+    "hammerUniqueId": "1115",
+    "targetname": "[PR#]skybox_ring",
+    "properties": {
+      "uselocaloffset": "False",
+      "clientsideentity": "0",
+      "effect_name": "particles/nyafi_skybox_ring.vpcf",
+      "start_active": "True",
+      "no_save": "False",
+      "snapshot_mesh": "0",
+      "data_cp": "-1",
+      "data_cp_value": "0.000000 0.000000 0.000000",
+      "data_cp_value __RAW_ARRAY__ (FloatingPoint64[3])": [
+        0,
+        0,
+        0
+      ],
+      "tint_cp": "-1",
+      "tint_cp_color": "255 255 255",
+      "tint_cp_color __RAW_ARRAY__ (UInt64[3])": [
+        255,
+        255,
+        255
+      ],
+      "cpoint1_parent": "0",
+      "cpoint2_parent": "0",
+      "cpoint3_parent": "0",
+      "cpoint4_parent": "0",
+      "cpoint5_parent": "0",
+      "cpoint6_parent": "0",
+      "cpoint7_parent": "0",
+      "origin": "0.000000 0.000000 -960.000000",
+      "angles": "0.000000 0.000000 0.000000",
+      "scales": "1.000000 1.000000 1.000000"
+    }
   }
 ]

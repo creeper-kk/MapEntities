@@ -493,14 +493,6 @@
         "param": "90",
         "delay": 0,
         "limit": -1
-      },
-      {
-        "output": "OnTrigger",
-        "target": "[PR#]flipswitch_failsafe2_relay1",
-        "input": "Trigger",
-        "param": "",
-        "delay": 20,
-        "limit": -1
       }
     ]
   },
@@ -620,14 +612,6 @@
         "input": "SetSpeedReal",
         "param": "120",
         "delay": 0.02,
-        "limit": -1
-      },
-      {
-        "output": "OnTrigger",
-        "target": "[PR#]colorswitch_hudhint2",
-        "input": "Kill",
-        "param": "",
-        "delay": 0,
         "limit": -1
       },
       {
@@ -2009,17 +1993,6 @@
         0
       ],
       "scales": "1.000000 1.000000 1.000000"
-    }
-  },
-  {
-    "classname": "func_buyzone",
-    "hammerUniqueId": "674",
-    "properties": {
-      "teamnum": "0",
-      "origin": "15456.000000 15452.500000 13952.000000",
-      "angles": "0.000000 0.000000 0.000000",
-      "scales": "1.000000 1.000000 1.000000",
-      "model": "maps/ze_toggle_theory/entities/unnamed_674.vmdl"
     }
   },
   {
@@ -12428,7 +12401,7 @@
       "wheels": "0",
       "orientationtype": "0",
       "velocitytype": "0",
-      "startspeed": "220",
+      "startspeed": "250",
       "target": "[PR#]st2_ele1_p1",
       "disableshadows": "0",
       "speed": "0",
@@ -17862,14 +17835,6 @@
         "input": "SetSpeed",
         "param": "5",
         "delay": 5.2,
-        "limit": -1
-      },
-      {
-        "output": "OnUser1",
-        "target": "[PR#]d_train_start_random",
-        "input": "Enable",
-        "param": "",
-        "delay": 0,
         "limit": -1
       }
     ]
@@ -27492,7 +27457,7 @@
         "target": "[PR#]st2_door8_break2",
         "input": "Break",
         "param": "",
-        "delay": 8,
+        "delay": 11,
         "limit": -1
       }
     ]
@@ -40091,6 +40056,14 @@
         "param": "",
         "delay": 188.87,
         "limit": -1
+      },
+      {
+        "output": "OnUser1",
+        "target": "[PR#]fade_blackbars",
+        "input": "DestroyImmediately",
+        "param": "",
+        "delay": 205,
+        "limit": -1
       }
     ]
   },
@@ -40217,14 +40190,6 @@
         "input": "Command",
         "param": "say ** Final outer elevator is ascending **",
         "delay": 120,
-        "limit": -1
-      },
-      {
-        "output": "OnTrigger",
-        "target": "[PR#]d_train_start_random",
-        "input": "Enable",
-        "param": "",
-        "delay": 0,
         "limit": -1
       },
       {
@@ -50935,7 +50900,7 @@
         "target": "[PR#]d_train_trailer_timer_stop",
         "input": "Enable",
         "param": "",
-        "delay": 5,
+        "delay": 3,
         "limit": -1
       },
       {
@@ -50988,7 +50953,7 @@
     "targetname": "[PR#]d_train_trailer_timer_stop",
     "properties": {
       "initialdelay": "0",
-      "upperrandombound": "6",
+      "upperrandombound": "5",
       "lowerrandombound": "0",
       "pauseafterfiring": "False",
       "userandomtime": "True",
@@ -51118,33 +51083,6 @@
     }
   },
   {
-    "classname": "logic_timer",
-    "hammerUniqueId": "11680",
-    "targetname": "[PR#]d_train_start_random",
-    "properties": {
-      "initialdelay": "0",
-      "upperrandombound": "55",
-      "lowerrandombound": "25",
-      "pauseafterfiring": "False",
-      "userandomtime": "True",
-      "spawnflags": "0",
-      "startdisabled": "True",
-      "origin": "13520.000000 6200.000000 -13880.000000",
-      "angles": "0.000000 0.000000 0.000000",
-      "scales": "1.000000 1.000000 1.000000"
-    },
-    "connections": [
-      {
-        "output": "OnTimer",
-        "target": "[PR#]d_train_case",
-        "input": "PickRandomShuffle",
-        "param": "",
-        "delay": 0,
-        "limit": -1
-      }
-    ]
-  },
-  {
     "classname": "point_template",
     "hammerUniqueId": "11747",
     "targetname": "[PR#]d_train_trailer_temp2",
@@ -51159,7 +51097,7 @@
       "asynchronous": "False",
       "spawnflags": "2",
       "clientsideentity": "0",
-      "origin": "-8832.000977 6080.000000 -13880.000000",
+      "origin": "-3184.000000 6080.000000 -13880.000000",
       "angles": "0.000000 179.999969 0.000000",
       "scales": "1.000000 1.000000 1.000000",
       "worldname": "maps\\ze_toggle_theory",
@@ -51175,7 +51113,7 @@
       "fastretrigger": "False",
       "triggeronce": "False",
       "startdisabled": "False",
-      "origin": "-8488.000977 6184.000000 -13880.000000",
+      "origin": "-2840.000000 6184.000000 -13880.000000",
       "angles": "0.000000 179.999969 0.000000",
       "scales": "1.000000 1.000000 1.000000"
     },
@@ -51225,7 +51163,7 @@
       "userandomtime": "False",
       "spawnflags": "0",
       "startdisabled": "True",
-      "origin": "-8504.000977 6184.000000 -13880.000000",
+      "origin": "-2856.000000 6184.000000 -13880.000000",
       "angles": "0.000000 179.999969 0.000000",
       "scales": "1.000000 1.000000 1.000000"
     },
@@ -51252,7 +51190,7 @@
       "userandomtime": "True",
       "spawnflags": "0",
       "startdisabled": "True",
-      "origin": "-8504.000977 6200.000000 -13880.000000",
+      "origin": "-2856.000000 6200.000000 -13880.000000",
       "angles": "0.000000 179.999969 0.000000",
       "scales": "1.000000 1.000000 1.000000"
     },
@@ -51281,13 +51219,13 @@
     "targetname": "[PR#]d_train_start_timer2",
     "properties": {
       "initialdelay": "0",
-      "upperrandombound": "20",
+      "upperrandombound": "10",
       "lowerrandombound": "0",
       "pauseafterfiring": "False",
       "userandomtime": "True",
       "spawnflags": "0",
       "startdisabled": "True",
-      "origin": "-8488.000977 6200.000000 -13880.000000",
+      "origin": "-2840.000000 6200.000000 -13880.000000",
       "angles": "0.000000 179.999969 0.000000",
       "scales": "1.000000 1.000000 1.000000"
     },
@@ -51311,27 +51249,6 @@
     ]
   },
   {
-    "classname": "point_template",
-    "hammerUniqueId": "11755",
-    "targetname": "[PR#]d_train_main_temp2",
-    "properties": {
-      "uselocaloffset": "False",
-      "template02": "[PR#]d_train_move3",
-      "template01": "[PR#]d_train_main2",
-      "clientonlyentitybehavior": "CREATE_FOR_CURRENTLY_CONNECTED_CLIENTS_ONLY",
-      "spawngrouptype": "INSERT_INTO_POINT_TEMPLATE_SPAWN_GROUP",
-      "timeoutinterval": "0",
-      "asynchronous": "False",
-      "spawnflags": "2",
-      "clientsideentity": "0",
-      "origin": "-8144.000977 6080.000000 -13880.000000",
-      "angles": "0.000000 179.999969 0.000000",
-      "scales": "1.000000 1.000000 1.000000",
-      "worldname": "maps\\ze_toggle_theory",
-      "entitylumpname": "11755#entityLumpName"
-    }
-  },
-  {
     "classname": "env_entity_maker",
     "hammerUniqueId": "11756",
     "targetname": "[PR#]d_train_trailer_maker2",
@@ -51348,60 +51265,10 @@
       "entitytemplate": "[PR#]d_train_trailer_temp2",
       "spawnflags": "0",
       "uselocaloffset": "False",
-      "origin": "-8816.000977 6080.000000 -13880.000000",
+      "origin": "-3168.000000 6080.000000 -13880.000000",
       "angles": "0.000000 179.999969 0.000000",
       "scales": "1.000000 1.000000 1.000000"
     }
-  },
-  {
-    "classname": "env_entity_maker",
-    "hammerUniqueId": "11757",
-    "targetname": "[PR#]d_train_main_maker2",
-    "properties": {
-      "postspawninheritangles": "False",
-      "postspawndirectionvariance": "0.15000000596046448",
-      "postspawndirection": "0.000000 0.000000 0.000000",
-      "postspawndirection __RAW_ARRAY__ (FloatingPoint64[3])": [
-        0,
-        0,
-        0
-      ],
-      "postspawnspeed": "0",
-      "entitytemplate": "[PR#]d_train_main_temp2",
-      "spawnflags": "0",
-      "uselocaloffset": "False",
-      "origin": "-8128.000977 6080.000000 -13880.000000",
-      "angles": "0.000000 179.999969 0.000000",
-      "scales": "1.000000 1.000000 1.000000"
-    }
-  },
-  {
-    "classname": "logic_case",
-    "hammerUniqueId": "11758",
-    "targetname": "[PR#]d_train_case",
-    "properties": {
-      "origin": "13504.000000 6200.000000 -13880.000000",
-      "angles": "0.000000 0.000000 0.000000",
-      "scales": "1.000000 1.000000 1.000000"
-    },
-    "connections": [
-      {
-        "output": "OnCase01",
-        "target": "[PR#]d_train_start_timer",
-        "input": "Enable",
-        "param": "",
-        "delay": 0,
-        "limit": -1
-      },
-      {
-        "output": "OnCase02",
-        "target": "[PR#]d_train_start_timer2",
-        "input": "Enable",
-        "param": "",
-        "delay": 0,
-        "limit": -1
-      }
-    ]
   },
   {
     "classname": "func_button",
@@ -51446,14 +51313,6 @@
         "target": "[PR#]cmd",
         "input": "Command",
         "param": "say ** Main Gate is opening in 20 seconds **",
-        "delay": 0,
-        "limit": -1
-      },
-      {
-        "output": "OnPressed",
-        "target": "[PR#]d_train_start_random",
-        "input": "Enable",
-        "param": "",
         "delay": 0,
         "limit": -1
       },
@@ -51511,6 +51370,14 @@
         "input": "FireUser2",
         "param": "",
         "delay": 37,
+        "limit": -1
+      },
+      {
+        "output": "OnPressed",
+        "target": "[PR#]flipswitch_failsafe2_relay1",
+        "input": "Trigger",
+        "param": "",
+        "delay": 10,
         "limit": -1
       }
     ]
@@ -57059,14 +56926,6 @@
       },
       {
         "output": "OnPressed",
-        "target": "[PR#]d_train_start_random",
-        "input": "Disable",
-        "param": "",
-        "delay": 0,
-        "limit": -1
-      },
-      {
-        "output": "OnPressed",
         "target": "[PR#]st1_door9",
         "input": "FireUser1",
         "param": "",
@@ -57299,14 +57158,6 @@
       },
       {
         "output": "OnPressed",
-        "target": "[PR#]d_train_start_random",
-        "input": "Enable",
-        "param": "",
-        "delay": 0,
-        "limit": -1
-      },
-      {
-        "output": "OnPressed",
         "target": "[PR#]st1_door12",
         "input": "FireUser1",
         "param": "",
@@ -57423,6 +57274,14 @@
         "input": "Command",
         "param": "say ** Keep defending this place until the door opens! **",
         "delay": 1,
+        "limit": -1
+      },
+      {
+        "output": "OnPressed",
+        "target": "[PR#]st1_break",
+        "input": "Break",
+        "param": "",
+        "delay": 40,
         "limit": -1
       }
     ]
@@ -58157,7 +58016,7 @@
         "output": "OnPressed",
         "target": "[PR#]st2_ele1",
         "input": "SetSpeedReal",
-        "param": "200",
+        "param": "250",
         "delay": 15.02,
         "limit": -1
       }
@@ -58259,7 +58118,7 @@
       },
       {
         "output": "OnPressed",
-        "target": "[PR#]alfi_tp",
+        "target": "[PR#]tp_tp",
         "input": "Enable",
         "param": "",
         "delay": 30,
@@ -58267,7 +58126,7 @@
       },
       {
         "output": "OnPressed",
-        "target": "[PR#]alfi_tp",
+        "target": "[PR#]tp_tp",
         "input": "Kill",
         "param": "",
         "delay": 31,
@@ -58279,6 +58138,14 @@
         "input": "SetSpeedReal",
         "param": "100",
         "delay": 21,
+        "limit": -1
+      },
+      {
+        "output": "OnPressed",
+        "target": "[PR#]st2_boost_failsafe",
+        "input": "Kill",
+        "param": "",
+        "delay": 37,
         "limit": -1
       }
     ]
@@ -77847,7 +77714,7 @@
       "bouncelight": "1",
       "skirt": "0.10000000149011612",
       "range": "256",
-      "brightness_lumens": "75",
+      "brightness_lumens": "200",
       "colortemperature": "6600",
       "color": "255 181 181",
       "color __RAW_ARRAY__ (UInt64[3])": [
@@ -77858,10 +77725,10 @@
       "colormode": "0",
       "directlight": "1",
       "enabled": "True",
-      "brightness_legacy": "0.0742190033197403",
-      "brightness": "-3.7382800579071045",
-      "brightness_nits": "10",
-      "brightness_candelas": "6",
+      "brightness_legacy": "0.1992190033197403",
+      "brightness": "-2.320310115814209",
+      "brightness_nits": "28",
+      "brightness_candelas": "16",
       "brightness_units": "1",
       "clientsideentity": "1",
       "uselocaloffset": "False",
@@ -77925,7 +77792,7 @@
       "bouncelight": "1",
       "skirt": "0.10000000149011612",
       "range": "256",
-      "brightness_lumens": "75",
+      "brightness_lumens": "200",
       "colortemperature": "6600",
       "color": "255 181 181",
       "color __RAW_ARRAY__ (UInt64[3])": [
@@ -77936,10 +77803,10 @@
       "colormode": "0",
       "directlight": "1",
       "enabled": "True",
-      "brightness_legacy": "0.0742190033197403",
-      "brightness": "-3.7382800579071045",
-      "brightness_nits": "10",
-      "brightness_candelas": "6",
+      "brightness_legacy": "0.1992190033197403",
+      "brightness": "-2.320310115814209",
+      "brightness_nits": "28",
+      "brightness_candelas": "16",
       "brightness_units": "1",
       "clientsideentity": "1",
       "uselocaloffset": "False",
@@ -81980,10 +81847,10 @@
       "precomputedobbangles0": "0.000000 -45.000004 0.000000",
       "precomputedobborigin0": "328.980957 -8959.996094 -15146.257812",
       "precomputedboundsmaxs": "2547.827637 -7674.270508 -14502.218750",
-      "precomputedboundsmins": "-51.792969 -10247.202148 -16039.859375",
-      "precomputedobbextent": "1299.838379 1284.799805 768.820312",
+      "precomputedboundsmins": "-51.792969 -10247.202148 -16044.277344",
+      "precomputedobbextent": "1299.838379 1284.799805 771.029297",
       "precomputedobbangles": "-0.000000 2.000000 0.000000",
-      "precomputedobborigin": "1248.202393 -8966.564453 -15271.039062",
+      "precomputedobborigin": "1248.202393 -8966.564453 -15273.248047",
       "precomputedfieldsvalid": "1",
       "fade_size_end": "0.02500000037252903",
       "fade_size_start": "0.05000000074505806",
@@ -82051,9 +81918,9 @@
       "precomputedobbextent2": "26.057678 26.058594 12.572266",
       "precomputedobbangles2": "-0.000000 0.000000 0.000000",
       "precomputedobborigin2": "831.999512 -8960.002930 -14988.489258",
-      "precomputedobbextent1": "603.459961 916.561279 509.574219",
-      "precomputedobbangles1": "42.999992 1.000000 -3.000000",
-      "precomputedobborigin1": "903.035645 -8948.451172 -15758.259766",
+      "precomputedobbextent1": "634.534180 910.955078 589.945312",
+      "precomputedobbangles1": "-45.000004 0.000000 0.000000",
+      "precomputedobborigin1": "800.470703 -8959.182617 -15867.748047",
       "precomputedobbextent0": "655.946045 650.058105 612.678223",
       "precomputedobbangles0": "1.000000 45.000000 -0.000000",
       "precomputedobborigin0": "-84.681946 -8957.458984 -15128.947266",
@@ -82129,9 +81996,9 @@
       "precomputedobbextent2": "26.056671 26.058594 12.572266",
       "precomputedobbangles2": "-0.000000 0.000000 0.000000",
       "precomputedobborigin2": "448.001495 -8960.002930 -14988.489258",
-      "precomputedobbextent1": "599.328613 647.365234 647.364990",
-      "precomputedobbangles1": "-0.000000 0.000000 45.000004",
-      "precomputedobborigin1": "718.853516 -8960.009766 -15917.422852",
+      "precomputedobbextent1": "615.479980 910.956055 419.533203",
+      "precomputedobbangles1": "45.000004 0.000000 0.000000",
+      "precomputedobborigin1": "586.554688 -8959.181641 -15733.775391",
       "precomputedobbextent0": "649.909668 649.806641 586.992188",
       "precomputedobbangles0": "-0.000000 45.000004 0.000000",
       "precomputedobborigin0": "-470.950195 -8960.083984 -15099.641602",
@@ -102186,29 +102053,29 @@
     "hammerUniqueId": "17512",
     "properties": {
       "precomputedsubfrusta": "6",
-      "precomputedobbextent5": "24.061279 11.574219 24.059082",
+      "precomputedobbextent5": "24.061279 11.574219 24.063965",
       "precomputedobbangles5": "-0.000000 0.000000 0.000000",
-      "precomputedobborigin5": "3303.993164 13940.511719 -13728.001953",
-      "precomputedobbextent4": "125.439941 105.578125 118.996582",
-      "precomputedobbangles4": "45.000000 -1.000000 -2.000000",
-      "precomputedobborigin4": "3132.808105 13856.869141 -13721.685547",
-      "precomputedobbextent3": "126.991211 102.906738 141.712402",
-      "precomputedobbangles3": "8.000000 -45.999996 -1.000000",
-      "precomputedobborigin3": "3468.297363 13907.250000 -13693.656250",
-      "precomputedobbextent2": "125.061035 163.382812 125.059326",
-      "precomputedobbangles2": "45.000004 0.000000 0.000000",
-      "precomputedobborigin2": "3303.998047 13914.631836 -13551.224609",
-      "precomputedobbextent1": "73.888184 45.286621 35.880859",
+      "precomputedobborigin5": "3303.993164 13940.511719 -13727.998047",
+      "precomputedobbextent4": "232.764160 201.927734 258.678711",
+      "precomputedobbangles4": "-45.000000 3.999999 -8.000000",
+      "precomputedobborigin4": "2957.475098 13768.952148 -13696.189453",
+      "precomputedobbextent3": "257.938965 210.604492 274.604492",
+      "precomputedobbangles3": "7.000000 -46.999996 -1.999999",
+      "precomputedobborigin3": "3642.653809 13879.776367 -13642.219727",
+      "precomputedobbextent2": "256.055908 334.542480 256.061035",
+      "precomputedobbangles2": "-45.000004 0.000000 0.000000",
+      "precomputedobborigin2": "3303.996582 13900.623047 -13365.966797",
+      "precomputedobbextent1": "73.888306 45.273926 35.880859",
       "precomputedobbangles1": "0.000000 0.000000 -5.000000",
-      "precomputedobborigin1": "3304.719238 13910.084961 -13763.300781",
-      "precomputedobbextent0": "125.061768 125.061523 163.719727",
+      "precomputedobborigin1": "3304.719238 13910.098633 -13763.301758",
+      "precomputedobbextent0": "256.061279 256.060547 276.971191",
       "precomputedobbangles0": "0.000000 -45.000004 0.000000",
-      "precomputedobborigin0": "3304.000488 13751.224609 -13715.137695",
-      "precomputedboundsmaxs": "3554.046875 14081.275391 -13477.937500",
-      "precomputedboundsmins": "3054.885498 13677.956055 -13877.497070",
-      "precomputedobbextent": "249.715088 159.020508 231.624268",
-      "precomputedobbangles": "1.000000 1.000000 -21.999996",
-      "precomputedobborigin": "3306.562500 13850.530273 -13676.825195",
+      "precomputedobborigin0": "3304.000488 13565.962891 -13643.396484",
+      "precomputedboundsmaxs": "3776.171631 14242.748047 -13216.006836",
+      "precomputedboundsmins": "2793.586914 13415.938477 -13920.321289",
+      "precomputedobbextent": "493.139160 308.827148 445.690186",
+      "precomputedobbangles": "1.000000 3.000000 -25.999996",
+      "precomputedobborigin": "3296.704590 13773.827148 -13578.979492",
       "precomputedfieldsvalid": "1",
       "fade_size_end": "0.02500000037252903",
       "fade_size_start": "0.05000000074505806",
@@ -102235,8 +102102,8 @@
       "bouncescale": "1",
       "bouncelight": "1",
       "skirt": "0.10000000149011612",
-      "range": "250",
-      "brightness_lumens": "250",
+      "range": "512",
+      "brightness_lumens": "500",
       "colortemperature": "6600",
       "color": "255 255 228",
       "color __RAW_ARRAY__ (UInt64[3])": [
@@ -102247,10 +102114,10 @@
       "colormode": "0",
       "directlight": "1",
       "enabled": "True",
-      "brightness_legacy": "0.25",
-      "brightness": "-2",
-      "brightness_nits": "34",
-      "brightness_candelas": "20",
+      "brightness_legacy": "0.5",
+      "brightness": "-1",
+      "brightness_nits": "69",
+      "brightness_candelas": "40",
       "brightness_units": "1",
       "clientsideentity": "1",
       "uselocaloffset": "False",
@@ -102264,29 +102131,29 @@
     "hammerUniqueId": "17514",
     "properties": {
       "precomputedsubfrusta": "6",
-      "precomputedobbextent5": "24.061279 11.574219 24.059082",
+      "precomputedobbextent5": "24.061279 11.574219 24.063965",
       "precomputedobbangles5": "-0.000000 0.000000 0.000000",
-      "precomputedobborigin5": "2783.993164 13940.511719 -13728.001953",
-      "precomputedobbextent4": "101.451172 126.890625 175.040527",
-      "precomputedobbangles4": "-7.000000 -40.000000 3.999999",
-      "precomputedobborigin4": "2626.095703 13899.398438 -13724.526367",
-      "precomputedobbextent3": "126.722168 100.605469 139.266602",
-      "precomputedobbangles3": "7.999999 -45.000000 0.000000",
-      "precomputedobborigin3": "2946.835205 13907.351562 -13691.044922",
-      "precomputedobbextent2": "125.061523 163.382812 125.059326",
-      "precomputedobbangles2": "45.000004 0.000000 0.000000",
-      "precomputedobborigin2": "2783.997559 13914.631836 -13551.225586",
-      "precomputedobbextent1": "52.850586 86.711426 125.061279",
+      "precomputedobborigin5": "2783.993164 13940.511719 -13727.998047",
+      "precomputedobbextent4": "151.300049 179.428711 293.993164",
+      "precomputedobbangles4": "-46.000000 0.000001 -25.000000",
+      "precomputedobborigin4": "2495.104004 13877.751953 -13647.056641",
+      "precomputedobbextent3": "196.410156 257.981934 274.382324",
+      "precomputedobbangles3": "3.000000 42.999996 7.000000",
+      "precomputedobborigin3": "3113.365967 13869.418945 -13641.129883",
+      "precomputedobbextent2": "256.055908 334.542480 255.291992",
+      "precomputedobbangles2": "-45.000004 0.000000 0.000000",
+      "precomputedobborigin2": "2784.540039 13900.623047 -13366.509766",
+      "precomputedobbextent1": "52.850586 108.036133 135.833496",
       "precomputedobbangles1": "45.000004 0.000000 0.000000",
-      "precomputedobborigin1": "2732.938965 13865.441406 -13853.714844",
-      "precomputedobbextent0": "125.062012 125.061035 163.719727",
-      "precomputedobbangles0": "0.000000 -45.000004 0.000000",
-      "precomputedobborigin0": "2783.999023 13751.223633 -13715.137695",
-      "precomputedboundsmaxs": "3033.410889 14081.275391 -13477.937500",
-      "precomputedboundsmins": "2540.503662 13677.956055 -13920.120117",
-      "precomputedobbextent": "243.551392 163.586914 230.543213",
-      "precomputedobbangles": "-7.000000 -2.000000 -20.000002",
-      "precomputedobborigin": "2782.022949 13853.441406 -13679.689453",
+      "precomputedobborigin1": "2725.322266 13844.149414 -13861.331055",
+      "precomputedobbextent0": "241.910645 256.061279 276.971191",
+      "precomputedobbangles0": "-0.000000 45.000004 0.000000",
+      "precomputedobborigin0": "2794.005859 13575.968750 -13643.396484",
+      "precomputedboundsmaxs": "3294.943115 14242.748047 -13216.006836",
+      "precomputedboundsmins": "2285.187988 13429.086914 -13920.300781",
+      "precomputedobbextent": "438.515625 438.343262 352.146973",
+      "precomputedobbangles": "-0.000000 28.000000 0.000000",
+      "precomputedobborigin": "2841.168457 13874.925781 -13568.154297",
       "precomputedfieldsvalid": "1",
       "fade_size_end": "0.02500000037252903",
       "fade_size_start": "0.05000000074505806",
@@ -102313,8 +102180,8 @@
       "bouncescale": "1",
       "bouncelight": "1",
       "skirt": "0.10000000149011612",
-      "range": "250",
-      "brightness_lumens": "250",
+      "range": "512",
+      "brightness_lumens": "500",
       "colortemperature": "6600",
       "color": "255 255 228",
       "color __RAW_ARRAY__ (UInt64[3])": [
@@ -102325,10 +102192,10 @@
       "colormode": "0",
       "directlight": "1",
       "enabled": "True",
-      "brightness_legacy": "0.25",
-      "brightness": "-2",
-      "brightness_nits": "34",
-      "brightness_candelas": "20",
+      "brightness_legacy": "0.5",
+      "brightness": "-1",
+      "brightness_nits": "69",
+      "brightness_candelas": "40",
       "brightness_units": "1",
       "clientsideentity": "1",
       "uselocaloffset": "False",
@@ -102342,29 +102209,29 @@
     "hammerUniqueId": "17517",
     "properties": {
       "precomputedsubfrusta": "6",
-      "precomputedobbextent5": "24.063354 11.575195 24.065918",
+      "precomputedobbextent5": "24.063354 11.575195 24.060059",
       "precomputedobbangles5": "-0.000000 0.000000 0.000000",
-      "precomputedobborigin5": "2367.993164 14332.509766 -13439.998047",
-      "precomputedobbextent4": "124.996826 100.357422 121.210938",
-      "precomputedobbangles4": "-45.000004 0.000000 0.000000",
-      "precomputedobborigin4": "2193.992676 14243.820312 -13442.675781",
-      "precomputedobbextent3": "122.619873 103.539551 125.061523",
-      "precomputedobbangles3": "-45.000004 0.000000 0.000000",
-      "precomputedobborigin3": "2543.048828 14246.884766 -13441.724609",
-      "precomputedobbextent2": "128.041382 76.086426 63.621094",
+      "precomputedobborigin5": "2367.993164 14332.509766 -13440.007812",
+      "precomputedobbextent4": "374.524658 196.387695 192.440918",
+      "precomputedobbangles4": "-0.000000 0.000000 0.000000",
+      "precomputedobborigin4": "1992.537842 14147.997070 -13504.001953",
+      "precomputedobbextent3": "374.920166 300.840820 314.580078",
+      "precomputedobbangles3": "-30.000000 6.000000 -1.000000",
+      "precomputedobborigin3": "2847.156250 14086.626953 -13472.863281",
+      "precomputedobbextent2": "128.041382 76.101074 63.621094",
       "precomputedobbangles2": "-0.000000 0.000000 0.000000",
-      "precomputedobborigin2": "2368.031738 14268.048828 -13375.441406",
-      "precomputedobbextent1": "125.062012 100.385742 124.719971",
-      "precomputedobbangles1": "45.000004 0.000000 0.000000",
-      "precomputedobborigin1": "2368.241211 14243.800781 -13616.533203",
-      "precomputedobbextent0": "125.062012 125.061035 152.476074",
-      "precomputedobbangles0": "0.000000 -45.000004 0.000000",
-      "precomputedobborigin0": "2367.999512 14143.220703 -13464.263672",
-      "precomputedboundsmaxs": "2618.046875 14351.708984 -13300.275391",
-      "precomputedboundsmins": "2117.960938 14069.953125 -13686.449219",
-      "precomputedobbextent": "250.046448 139.229492 191.002930",
-      "precomputedobbangles": "-2.000000 1.000000 0.000000",
-      "precomputedobborigin": "2371.880859 14209.231445 -13495.510742",
+      "precomputedobborigin2": "2368.031738 14268.035156 -13375.441406",
+      "precomputedobbextent1": "255.959595 144.091309 126.468262",
+      "precomputedobbangles1": "1.000000 -0.000000 2.000000",
+      "precomputedobborigin1": "2370.260254 14203.658203 -13571.552734",
+      "precomputedobbextent0": "260.288574 375.060547 355.209473",
+      "precomputedobbangles0": "-0.000000 45.000004 0.000000",
+      "precomputedobborigin0": "2449.156250 13870.826172 -13478.392578",
+      "precomputedboundsmaxs": "3118.035889 14423.631836 -12984.466797",
+      "precomputedboundsmins": "1617.979980 13646.014648 -13821.634766",
+      "precomputedobbextent": "750.031738 381.058594 357.458496",
+      "precomputedobbangles": "-12.999999 2.000000 3.999999",
+      "precomputedobborigin": "2394.178467 14021.108398 -13508.064453",
       "precomputedfieldsvalid": "1",
       "fade_size_end": "0.02500000037252903",
       "fade_size_start": "0.05000000074505806",
@@ -102391,7 +102258,7 @@
       "bouncescale": "1",
       "bouncelight": "1",
       "skirt": "0.10000000149011612",
-      "range": "250",
+      "range": "750",
       "brightness_lumens": "250",
       "colortemperature": "6600",
       "color": "255 255 228",
@@ -102420,29 +102287,29 @@
     "hammerUniqueId": "17519",
     "properties": {
       "precomputedsubfrusta": "6",
-      "precomputedobbextent5": "24.064392 11.573730 24.067871",
+      "precomputedobbextent5": "24.064392 11.573730 24.068848",
       "precomputedobbangles5": "-0.000000 0.000000 0.000000",
       "precomputedobborigin5": "1919.993164 14332.507812 -13440.001953",
-      "precomputedobbextent4": "121.211426 100.357910 125.059326",
-      "precomputedobbangles4": "45.000004 0.000000 0.000000",
-      "precomputedobborigin4": "1745.949219 14243.820312 -13442.719727",
-      "precomputedobbextent3": "121.211426 100.417480 125.061035",
-      "precomputedobbangles3": "-45.000004 0.000000 0.000000",
-      "precomputedobborigin3": "2094.053223 14243.763672 -13442.721680",
-      "precomputedobbextent2": "128.069885 76.089844 63.616211",
+      "precomputedobbextent4": "159.681152 172.139648 192.276855",
+      "precomputedobbangles4": "-0.000000 0.000000 0.000000",
+      "precomputedobborigin4": "1759.381348 14172.087891 -13504.009766",
+      "precomputedobbextent3": "374.564209 201.512207 199.243652",
+      "precomputedobbangles3": "-1.000000 0.000000 1.000000",
+      "precomputedobborigin3": "2296.614258 14148.532227 -13501.468750",
+      "precomputedobbextent2": "128.064148 76.098633 63.616211",
       "precomputedobbangles2": "-0.000000 0.000000 0.000000",
-      "precomputedobborigin2": "1920.010986 14268.052734 -13375.446289",
-      "precomputedobbextent1": "125.061279 100.386230 125.061523",
-      "precomputedobbangles1": "-45.000004 0.000000 0.000000",
-      "precomputedobborigin1": "1920.000977 14243.800781 -13616.775391",
-      "precomputedobbextent0": "125.061523 125.061523 152.466797",
-      "precomputedobbangles0": "0.000000 -45.000004 0.000000",
-      "precomputedobborigin0": "1920.000000 14143.220703 -13464.273438",
-      "precomputedboundsmaxs": "2170.046875 14344.195312 -13311.780273",
-      "precomputedboundsmins": "1669.960815 14069.953125 -13690.034180",
-      "precomputedobbextent": "250.043030 137.121094 189.126953",
+      "precomputedobborigin2": "1920.016602 14268.043945 -13375.446289",
+      "precomputedobbextent1": "256.071533 140.142090 127.664062",
+      "precomputedobbangles1": "-0.000000 0.000000 0.000000",
+      "precomputedobborigin1": "1920.028076 14204.072266 -13568.601562",
+      "precomputedobbextent0": "344.213989 183.717285 192.337402",
+      "precomputedobbangles0": "-0.000000 0.000000 0.000000",
+      "precomputedobborigin0": "1943.899536 14135.341797 -13504.001953",
+      "precomputedboundsmaxs": "2670.035889 14348.231445 -13297.812500",
+      "precomputedboundsmins": "1599.765625 13946.298828 -13696.333008",
+      "precomputedobbextent": "535.135132 200.966309 199.260254",
       "precomputedobbangles": "-0.000000 0.000000 0.000000",
-      "precomputedobborigin": "1920.003906 14207.074219 -13500.907227",
+      "precomputedobborigin": "2134.900879 14147.265625 -13497.072266",
       "precomputedfieldsvalid": "1",
       "fade_size_end": "0.02500000037252903",
       "fade_size_start": "0.05000000074505806",
@@ -102469,7 +102336,7 @@
       "bouncescale": "1",
       "bouncelight": "1",
       "skirt": "0.10000000149011612",
-      "range": "250",
+      "range": "750",
       "brightness_lumens": "250",
       "colortemperature": "6600",
       "color": "255 255 228",
@@ -108869,6 +108736,14 @@
         "param": "",
         "delay": 1,
         "limit": -1
+      },
+      {
+        "output": "OnMapSpawn",
+        "target": "[PR#]vote_kill_relay",
+        "input": "Trigger",
+        "param": "",
+        "delay": 0,
+        "limit": 1
       }
     ]
   },
@@ -119226,8 +119101,8 @@
       "rendermode": "kRenderNormal",
       "renderfx": "kRenderFxNone",
       "uselocaloffset": "False",
-      "origin": "1752.000000 -8416.000000 -15352.000000",
-      "angles": "0.000000 0.000000 90.000000",
+      "origin": "1752.000000 -8440.000000 -15359.999023",
+      "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
     }
   },
@@ -119385,7 +119260,7 @@
   {
     "classname": "trigger_multiple",
     "hammerUniqueId": "19726",
-    "targetname": "[PR#]alfi_tp",
+    "targetname": "[PR#]tp_tp",
     "properties": {
       "wait": "0",
       "filtername": "[PR#]filter_ct",
@@ -119395,8 +119270,18 @@
       "origin": "13168.000000 -7856.000000 -14288.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "model": "maps/ze_toggle_theory/entities/alfi_tp_19726.vmdl"
-    }
+      "model": "maps/ze_toggle_theory/entities/tp_tp_19726.vmdl"
+    },
+    "connections": [
+      {
+        "output": "OnStartTouch",
+        "target": "[PR#]alfi_dest",
+        "input": "Teleport",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      }
+    ]
   },
   {
     "classname": "point_teleport",
@@ -125464,6 +125349,22 @@
         "param": "",
         "delay": 0,
         "limit": -1
+      },
+      {
+        "output": "OnCase04",
+        "target": "[PR#]ciallo_sfx",
+        "input": "FireUser4",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnCase05",
+        "target": "[PR#]ciallo_sfx",
+        "input": "FireUser4",
+        "param": "",
+        "delay": 0,
+        "limit": -1
       }
     ]
   },
@@ -125996,8 +125897,8 @@
       "rendermode": "kRenderNormal",
       "renderfx": "kRenderFxNone",
       "uselocaloffset": "False",
-      "origin": "-1312.000000 -8432.000000 -15551.999023",
-      "angles": "0.000000 0.000000 0.000000",
+      "origin": "-1288.000000 -8384.000000 -15548.000977",
+      "angles": "0.000000 0.000000 89.999985",
       "scales": "1.000000 1.000000 1.000000"
     }
   },
@@ -127925,7 +127826,7 @@
       "light_probe_size_z": "59",
       "light_probe_atlas_x": "1",
       "light_probe_atlas_y": "1",
-      "light_probe_atlas_z": "245"
+      "light_probe_atlas_z": "249"
     }
   },
   {
@@ -127961,7 +127862,7 @@
       "light_probe_size_z": "41",
       "light_probe_atlas_x": "133",
       "light_probe_atlas_y": "1",
-      "light_probe_atlas_z": "245"
+      "light_probe_atlas_z": "249"
     }
   },
   {
@@ -127997,7 +127898,7 @@
       "light_probe_size_z": "39",
       "light_probe_atlas_x": "133",
       "light_probe_atlas_y": "117",
-      "light_probe_atlas_z": "245"
+      "light_probe_atlas_z": "249"
     }
   },
   {
@@ -128031,7 +127932,7 @@
       "light_probe_size_x": "81",
       "light_probe_size_y": "128",
       "light_probe_size_z": "46",
-      "light_probe_atlas_x": "1",
+      "light_probe_atlas_x": "69",
       "light_probe_atlas_y": "29",
       "light_probe_atlas_z": "133"
     }
@@ -128069,7 +127970,7 @@
       "light_probe_size_z": "57",
       "light_probe_atlas_x": "1",
       "light_probe_atlas_y": "137",
-      "light_probe_atlas_z": "245"
+      "light_probe_atlas_z": "249"
     }
   },
   {
@@ -128103,9 +128004,9 @@
       "light_probe_size_x": "50",
       "light_probe_size_y": "50",
       "light_probe_size_z": "40",
-      "light_probe_atlas_x": "97",
-      "light_probe_atlas_y": "237",
-      "light_probe_atlas_z": "133"
+      "light_probe_atlas_x": "217",
+      "light_probe_atlas_y": "193",
+      "light_probe_atlas_z": "1"
     }
   },
   {
@@ -128139,8 +128040,8 @@
       "light_probe_size_x": "64",
       "light_probe_size_y": "60",
       "light_probe_size_z": "54",
-      "light_probe_atlas_x": "157",
-      "light_probe_atlas_y": "181",
+      "light_probe_atlas_x": "1",
+      "light_probe_atlas_y": "45",
       "light_probe_atlas_z": "133"
     }
   },
@@ -128175,8 +128076,8 @@
       "light_probe_size_x": "76",
       "light_probe_size_y": "83",
       "light_probe_size_z": "63",
-      "light_probe_atlas_x": "229",
-      "light_probe_atlas_y": "1",
+      "light_probe_atlas_x": "165",
+      "light_probe_atlas_y": "181",
       "light_probe_atlas_z": "133"
     }
   },
@@ -128211,9 +128112,9 @@
       "light_probe_size_x": "26",
       "light_probe_size_y": "21",
       "light_probe_size_z": "27",
-      "light_probe_atlas_x": "145",
-      "light_probe_atlas_y": "125",
-      "light_probe_atlas_z": "77"
+      "light_probe_atlas_x": "165",
+      "light_probe_atlas_y": "269",
+      "light_probe_atlas_z": "133"
     }
   },
   {
@@ -128247,8 +128148,8 @@
       "light_probe_size_x": "48",
       "light_probe_size_y": "54",
       "light_probe_size_z": "71",
-      "light_probe_atlas_x": "145",
-      "light_probe_atlas_y": "81",
+      "light_probe_atlas_x": "157",
+      "light_probe_atlas_y": "177",
       "light_probe_atlas_z": "1"
     }
   },
@@ -128268,11 +128169,11 @@
         1024,
         4832
       ],
-      "box_mins": "-832.000000 -1296.000000 -64.000000",
+      "box_mins": "-832.000000 -1296.000000 -480.026367",
       "box_mins __RAW_ARRAY__ (FloatingPoint64[3])": [
         -832,
         -1296,
-        -64
+        -480.0263671875
       ],
       "startdisabled": "False",
       "uselocaloffset": "False",
@@ -128282,9 +128183,9 @@
       "handshake": "785293456",
       "light_probe_size_x": "35",
       "light_probe_size_y": "49",
-      "light_probe_size_z": "102",
-      "light_probe_atlas_x": "209",
-      "light_probe_atlas_y": "149",
+      "light_probe_size_z": "111",
+      "light_probe_atlas_x": "281",
+      "light_probe_atlas_y": "1",
       "light_probe_atlas_z": "1"
     }
   },
@@ -128319,7 +128220,7 @@
       "light_probe_size_x": "128",
       "light_probe_size_y": "53",
       "light_probe_size_z": "89",
-      "light_probe_atlas_x": "97",
+      "light_probe_atlas_x": "165",
       "light_probe_atlas_y": "1",
       "light_probe_atlas_z": "133"
     }
@@ -128340,11 +128241,11 @@
         2976,
         4944
       ],
-      "box_mins": "-3008.000000 -1872.000000 -240.000000",
+      "box_mins": "-4032.000000 -1872.000000 -432.000000",
       "box_mins __RAW_ARRAY__ (FloatingPoint64[3])": [
-        -3008,
+        -4032,
         -1872,
-        -240
+        -432
       ],
       "startdisabled": "False",
       "uselocaloffset": "False",
@@ -128352,10 +128253,10 @@
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
       "handshake": "785293458",
-      "light_probe_size_x": "98",
+      "light_probe_size_x": "120",
       "light_probe_size_y": "101",
-      "light_probe_size_z": "108",
-      "light_probe_atlas_x": "209",
+      "light_probe_size_z": "112",
+      "light_probe_atlas_x": "157",
       "light_probe_atlas_y": "1",
       "light_probe_atlas_z": "1"
     }
@@ -128391,8 +128292,8 @@
       "light_probe_size_x": "27",
       "light_probe_size_y": "22",
       "light_probe_size_z": "108",
-      "light_probe_atlas_x": "277",
-      "light_probe_atlas_y": "105",
+      "light_probe_atlas_x": "281",
+      "light_probe_atlas_y": "53",
       "light_probe_atlas_z": "1"
     }
   },
@@ -128412,9 +128313,9 @@
         1024,
         4544
       ],
-      "box_mins": "-1248.000000 -2480.000000 -2368.000000",
+      "box_mins": "-3520.000000 -2480.000000 -2368.000000",
       "box_mins __RAW_ARRAY__ (FloatingPoint64[3])": [
-        -1248,
+        -3520,
         -2480,
         -2368
       ],
@@ -128424,11 +128325,11 @@
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
       "handshake": "785293460",
-      "light_probe_size_x": "47",
+      "light_probe_size_x": "88",
       "light_probe_size_y": "64",
       "light_probe_size_z": "128",
-      "light_probe_atlas_x": "1",
-      "light_probe_atlas_y": "201",
+      "light_probe_atlas_x": "65",
+      "light_probe_atlas_y": "1",
       "light_probe_atlas_z": "1"
     }
   },
@@ -128463,9 +128364,9 @@
       "light_probe_size_x": "50",
       "light_probe_size_y": "107",
       "light_probe_size_z": "62",
-      "light_probe_atlas_x": "145",
-      "light_probe_atlas_y": "137",
-      "light_probe_atlas_z": "1"
+      "light_probe_atlas_x": "245",
+      "light_probe_atlas_y": "181",
+      "light_probe_atlas_z": "133"
     }
   },
   {
@@ -128499,8 +128400,8 @@
       "light_probe_size_x": "46",
       "light_probe_size_y": "57",
       "light_probe_size_z": "128",
-      "light_probe_atlas_x": "65",
-      "light_probe_atlas_y": "1",
+      "light_probe_atlas_x": "1",
+      "light_probe_atlas_y": "201",
       "light_probe_atlas_z": "1"
     }
   },
@@ -128572,7 +128473,7 @@
       "light_probe_size_y": "20",
       "light_probe_size_z": "128",
       "light_probe_atlas_x": "1",
-      "light_probe_atlas_y": "269",
+      "light_probe_atlas_y": "261",
       "light_probe_atlas_z": "1"
     }
   },
@@ -128608,7 +128509,7 @@
       "light_probe_size_y": "40",
       "light_probe_size_z": "128",
       "light_probe_atlas_x": "65",
-      "light_probe_atlas_y": "61",
+      "light_probe_atlas_y": "69",
       "light_probe_atlas_z": "1"
     }
   },
@@ -128643,8 +128544,8 @@
       "light_probe_size_x": "27",
       "light_probe_size_y": "128",
       "light_probe_size_z": "116",
-      "light_probe_atlas_x": "113",
-      "light_probe_atlas_y": "1",
+      "light_probe_atlas_x": "65",
+      "light_probe_atlas_y": "113",
       "light_probe_atlas_z": "1"
     }
   },
@@ -128679,8 +128580,8 @@
       "light_probe_size_x": "26",
       "light_probe_size_y": "34",
       "light_probe_size_z": "128",
-      "light_probe_atlas_x": "65",
-      "light_probe_atlas_y": "141",
+      "light_probe_atlas_x": "113",
+      "light_probe_atlas_y": "105",
       "light_probe_atlas_z": "1"
     }
   },
@@ -128715,7 +128616,7 @@
       "light_probe_size_x": "128",
       "light_probe_size_y": "120",
       "light_probe_size_z": "88",
-      "light_probe_atlas_x": "97",
+      "light_probe_atlas_x": "165",
       "light_probe_atlas_y": "57",
       "light_probe_atlas_z": "133"
     }
@@ -128753,7 +128654,7 @@
       "light_probe_size_z": "59",
       "light_probe_atlas_x": "1",
       "light_probe_atlas_y": "117",
-      "light_probe_atlas_z": "245"
+      "light_probe_atlas_z": "249"
     }
   },
   {
@@ -128789,7 +128690,7 @@
       "light_probe_size_z": "55",
       "light_probe_atlas_x": "1",
       "light_probe_atlas_y": "257",
-      "light_probe_atlas_z": "245"
+      "light_probe_atlas_z": "249"
     }
   },
   {
@@ -130822,9 +130723,9 @@
       "light_probe_size_x": "18",
       "light_probe_size_y": "18",
       "light_probe_size_z": "6",
-      "light_probe_atlas_x": "97",
-      "light_probe_atlas_y": "237",
-      "light_probe_atlas_z": "177"
+      "light_probe_atlas_x": "213",
+      "light_probe_atlas_y": "269",
+      "light_probe_atlas_z": "133"
     }
   },
   {
@@ -139706,11 +139607,11 @@
       "precomputedobbextent0": "125.062988 176.201660 125.058594",
       "precomputedobbangles0": "45.000004 0.000000 0.000000",
       "precomputedobborigin0": "1399.226074 -9312.458984 -15679.998047",
-      "precomputedboundsmaxs": "1606.305786 -9061.942383 -15429.945312",
+      "precomputedboundsmaxs": "1606.304688 -9061.942383 -15429.945312",
       "precomputedboundsmins": "1325.965576 -9562.050781 -15872.153320",
-      "precomputedobbextent": "140.170105 250.054199 221.104004",
+      "precomputedobbextent": "140.169556 250.054199 221.104004",
       "precomputedobbangles": "-0.000000 0.000000 0.000000",
-      "precomputedobborigin": "1466.135742 -9311.996094 -15651.048828",
+      "precomputedobborigin": "1466.135132 -9311.996094 -15651.048828",
       "precomputedfieldsvalid": "1",
       "fade_size_end": "0.02500000037252903",
       "fade_size_start": "0.05000000074505806",
@@ -140166,14 +140067,6 @@
       },
       {
         "output": "OnUser1",
-        "target": "[PR#]d_train_start_random",
-        "input": "Disable",
-        "param": "",
-        "delay": 0,
-        "limit": -1
-      },
-      {
-        "output": "OnUser1",
         "target": "!self",
         "input": "StartBackward",
         "param": "",
@@ -140190,8 +140083,8 @@
       },
       {
         "output": "OnUser1",
-        "target": "[PR#]d_train_start_timer",
-        "input": "Enable",
+        "target": "[PR#]d_train_case",
+        "input": "PickRandom",
         "param": "",
         "delay": 30,
         "limit": -1
@@ -140256,8 +140149,8 @@
       "light_probe_size_x": "35",
       "light_probe_size_y": "34",
       "light_probe_size_z": "128",
-      "light_probe_atlas_x": "65",
-      "light_probe_atlas_y": "105",
+      "light_probe_atlas_x": "113",
+      "light_probe_atlas_y": "69",
       "light_probe_atlas_z": "1"
     }
   },
@@ -140292,8 +140185,8 @@
       "light_probe_size_x": "21",
       "light_probe_size_y": "15",
       "light_probe_size_z": "50",
-      "light_probe_atlas_x": "193",
-      "light_probe_atlas_y": "245",
+      "light_probe_atlas_x": "37",
+      "light_probe_atlas_y": "109",
       "light_probe_atlas_z": "133"
     }
   },
@@ -140328,9 +140221,9 @@
       "light_probe_size_x": "49",
       "light_probe_size_y": "24",
       "light_probe_size_z": "50",
-      "light_probe_atlas_x": "97",
-      "light_probe_atlas_y": "209",
-      "light_probe_atlas_z": "133"
+      "light_probe_atlas_x": "217",
+      "light_probe_atlas_y": "165",
+      "light_probe_atlas_z": "1"
     }
   },
   {
@@ -140364,8 +140257,8 @@
       "light_probe_size_x": "31",
       "light_probe_size_y": "50",
       "light_probe_size_z": "50",
-      "light_probe_atlas_x": "145",
-      "light_probe_atlas_y": "249",
+      "light_probe_atlas_x": "157",
+      "light_probe_atlas_y": "233",
       "light_probe_atlas_z": "1"
     }
   },
@@ -140400,8 +140293,8 @@
       "light_probe_size_x": "32",
       "light_probe_size_y": "43",
       "light_probe_size_z": "50",
-      "light_probe_atlas_x": "157",
-      "light_probe_atlas_y": "245",
+      "light_probe_atlas_x": "1",
+      "light_probe_atlas_y": "109",
       "light_probe_atlas_z": "133"
     }
   },
@@ -140421,11 +140314,11 @@
         704,
         5056
       ],
-      "box_mins": "-1344.000000 -1232.000000 -128.000000",
+      "box_mins": "-1344.000000 -1232.000000 -320.000000",
       "box_mins __RAW_ARRAY__ (FloatingPoint64[3])": [
         -1344,
         -1232,
-        -128
+        -320
       ],
       "startdisabled": "False",
       "uselocaloffset": "False",
@@ -140435,10 +140328,10 @@
       "handshake": "785293478",
       "light_probe_size_x": "66",
       "light_probe_size_y": "41",
-      "light_probe_size_z": "108",
-      "light_probe_atlas_x": "209",
-      "light_probe_atlas_y": "105",
-      "light_probe_atlas_z": "1"
+      "light_probe_size_z": "112",
+      "light_probe_atlas_x": "1",
+      "light_probe_atlas_y": "1",
+      "light_probe_atlas_z": "133"
     }
   },
   {
@@ -140457,11 +140350,11 @@
         1312,
         4944
       ],
-      "box_mins": "-288.000000 -608.000000 -176.000000",
+      "box_mins": "-288.000000 -608.000000 -432.000000",
       "box_mins __RAW_ARRAY__ (FloatingPoint64[3])": [
         -288,
         -608,
-        -176
+        -432
       ],
       "startdisabled": "False",
       "uselocaloffset": "False",
@@ -140471,9 +140364,9 @@
       "handshake": "785293479",
       "light_probe_size_x": "19",
       "light_probe_size_y": "40",
-      "light_probe_size_z": "107",
-      "light_probe_atlas_x": "277",
-      "light_probe_atlas_y": "129",
+      "light_probe_size_z": "112",
+      "light_probe_atlas_x": "65",
+      "light_probe_atlas_y": "245",
       "light_probe_atlas_z": "1"
     }
   },
@@ -140493,11 +140386,11 @@
         624,
         4944
       ],
-      "box_mins": "-2304.000000 -1520.000000 -240.000000",
+      "box_mins": "-2304.000000 -2560.000000 -432.000000",
       "box_mins __RAW_ARRAY__ (FloatingPoint64[3])": [
         -2304,
-        -1520,
-        -240
+        -2560,
+        -432
       ],
       "startdisabled": "False",
       "uselocaloffset": "False",
@@ -140506,10 +140399,10 @@
       "scales": "1.000000 1.000000 1.000000",
       "handshake": "785293480",
       "light_probe_size_x": "56",
-      "light_probe_size_y": "45",
-      "light_probe_size_z": "108",
-      "light_probe_atlas_x": "145",
-      "light_probe_atlas_y": "33",
+      "light_probe_size_y": "67",
+      "light_probe_size_z": "112",
+      "light_probe_atlas_x": "157",
+      "light_probe_atlas_y": "105",
       "light_probe_atlas_z": "1"
     }
   },
@@ -140529,11 +140422,11 @@
         512,
         4944
       ],
-      "box_mins": "-1760.000000 -832.000000 -272.000000",
+      "box_mins": "-1760.000000 -832.000000 -432.000000",
       "box_mins __RAW_ARRAY__ (FloatingPoint64[3])": [
         -1760,
         -832,
-        -272
+        -432
       ],
       "startdisabled": "False",
       "uselocaloffset": "False",
@@ -140543,9 +140436,9 @@
       "handshake": "785293481",
       "light_probe_size_x": "62",
       "light_probe_size_y": "28",
-      "light_probe_size_z": "109",
-      "light_probe_atlas_x": "145",
-      "light_probe_atlas_y": "1",
+      "light_probe_size_z": "112",
+      "light_probe_atlas_x": "217",
+      "light_probe_atlas_y": "105",
       "light_probe_atlas_z": "1"
     }
   },
@@ -140565,11 +140458,11 @@
         456,
         4944
       ],
-      "box_mins": "-1760.000000 -768.000000 -240.000000",
+      "box_mins": "-1760.000000 -768.000000 -432.000000",
       "box_mins __RAW_ARRAY__ (FloatingPoint64[3])": [
         -1760,
         -768,
-        -240
+        -432
       ],
       "startdisabled": "False",
       "uselocaloffset": "False",
@@ -140579,8 +140472,8 @@
       "handshake": "785293482",
       "light_probe_size_x": "94",
       "light_probe_size_y": "26",
-      "light_probe_size_z": "108",
-      "light_probe_atlas_x": "1",
+      "light_probe_size_z": "112",
+      "light_probe_atlas_x": "69",
       "light_probe_atlas_y": "1",
       "light_probe_atlas_z": "133"
     }
@@ -140601,11 +140494,11 @@
         800,
         1456
       ],
-      "box_mins": "-832.000000 -1088.000000 -176.000000",
+      "box_mins": "-832.000000 -1088.000000 -192.000000",
       "box_mins __RAW_ARRAY__ (FloatingPoint64[3])": [
         -832,
         -1088,
-        -176
+        -192
       ],
       "startdisabled": "False",
       "uselocaloffset": "False",
@@ -140615,10 +140508,10 @@
       "handshake": "785293483",
       "light_probe_size_x": "35",
       "light_probe_size_y": "40",
-      "light_probe_size_z": "34",
-      "light_probe_atlas_x": "145",
-      "light_probe_atlas_y": "81",
-      "light_probe_atlas_z": "77"
+      "light_probe_size_z": "35",
+      "light_probe_atlas_x": "217",
+      "light_probe_atlas_y": "245",
+      "light_probe_atlas_z": "1"
     }
   },
   {
@@ -140652,9 +140545,9 @@
       "light_probe_size_x": "56",
       "light_probe_size_y": "24",
       "light_probe_size_z": "71",
-      "light_probe_atlas_x": "97",
-      "light_probe_atlas_y": "181",
-      "light_probe_atlas_z": "133"
+      "light_probe_atlas_x": "217",
+      "light_probe_atlas_y": "137",
+      "light_probe_atlas_z": "1"
     }
   },
   {
@@ -140688,9 +140581,9 @@
       "light_probe_size_x": "18",
       "light_probe_size_y": "18",
       "light_probe_size_z": "27",
-      "light_probe_atlas_x": "185",
-      "light_probe_atlas_y": "81",
-      "light_probe_atlas_z": "77"
+      "light_probe_atlas_x": "193",
+      "light_probe_atlas_y": "269",
+      "light_probe_atlas_z": "133"
     }
   },
   {
@@ -140703,11 +140596,11 @@
       "voxelize": "True",
       "flood_fill": "True",
       "voxel_size": "48.000000",
-      "box_maxs": "5304.000000 2056.000000 976.000000",
+      "box_maxs": "5304.000000 2056.000000 544.000000",
       "box_maxs __RAW_ARRAY__ (FloatingPoint64[3])": [
         5304,
         2056,
-        976
+        544
       ],
       "box_mins": "-3272.000000 -2272.000000 -736.000000",
       "box_mins __RAW_ARRAY__ (FloatingPoint64[3])": [
@@ -140723,10 +140616,10 @@
       "handshake": "785293486",
       "light_probe_size_x": "128",
       "light_probe_size_y": "65",
-      "light_probe_size_z": "25",
-      "light_probe_atlas_x": "133",
-      "light_probe_atlas_y": "233",
-      "light_probe_atlas_z": "245"
+      "light_probe_size_z": "19",
+      "light_probe_atlas_x": "165",
+      "light_probe_atlas_y": "181",
+      "light_probe_atlas_z": "201"
     }
   },
   {
@@ -151792,11 +151685,11 @@
         1024,
         4832
       ],
-      "box_mins": "-832.000000 -1296.000000 -64.000000",
+      "box_mins": "-832.000000 -1296.000000 -480.026367",
       "box_mins __RAW_ARRAY__ (FloatingPoint64[3])": [
         -832,
         -1296,
-        -64
+        -480.0263671875
       ],
       "startdisabled": "False",
       "uselocaloffset": "False",
@@ -151862,11 +151755,11 @@
         2976,
         4944
       ],
-      "box_mins": "-3008.000000 -1872.000000 -240.000000",
+      "box_mins": "-4032.000000 -1872.000000 -432.000000",
       "box_mins __RAW_ARRAY__ (FloatingPoint64[3])": [
-        -3008,
+        -4032,
         -1872,
-        -240
+        -432
       ],
       "startdisabled": "False",
       "uselocaloffset": "False",
@@ -151897,11 +151790,11 @@
         416,
         4944
       ],
-      "box_mins": "-560.000000 -624.000000 -240.000000",
+      "box_mins": "-560.000000 -624.000000 -176.000000",
       "box_mins __RAW_ARRAY__ (FloatingPoint64[3])": [
         -560,
         -624,
-        -240
+        -176
       ],
       "startdisabled": "False",
       "uselocaloffset": "False",
@@ -151932,9 +151825,9 @@
         1024,
         4544
       ],
-      "box_mins": "-1248.000000 -2480.000000 -2368.000000",
+      "box_mins": "-3520.000000 -2480.000000 -2368.000000",
       "box_mins __RAW_ARRAY__ (FloatingPoint64[3])": [
-        -1248,
+        -3520,
         -2480,
         -2368
       ],
@@ -152562,11 +152455,11 @@
         704,
         5056
       ],
-      "box_mins": "-1344.000000 -1232.000000 -128.000000",
+      "box_mins": "-1344.000000 -1232.000000 -1852.000000",
       "box_mins __RAW_ARRAY__ (FloatingPoint64[3])": [
         -1344,
         -1232,
-        -128
+        -1852
       ],
       "startdisabled": "False",
       "uselocaloffset": "False",
@@ -152597,11 +152490,11 @@
         1312,
         4944
       ],
-      "box_mins": "-288.000000 -608.000000 -176.000000",
+      "box_mins": "-288.000000 -608.000000 -432.000000",
       "box_mins __RAW_ARRAY__ (FloatingPoint64[3])": [
         -288,
         -608,
-        -176
+        -432
       ],
       "startdisabled": "False",
       "uselocaloffset": "False",
@@ -152632,11 +152525,11 @@
         624,
         4944
       ],
-      "box_mins": "-2304.000000 -1520.000000 -240.000000",
+      "box_mins": "-2304.000000 -2560.000000 -432.000000",
       "box_mins __RAW_ARRAY__ (FloatingPoint64[3])": [
         -2304,
-        -1520,
-        -240
+        -2560,
+        -432
       ],
       "startdisabled": "False",
       "uselocaloffset": "False",
@@ -152667,11 +152560,11 @@
         512,
         4944
       ],
-      "box_mins": "-1760.000000 -832.000000 -272.000000",
+      "box_mins": "-1760.000000 -832.000000 -432.000000",
       "box_mins __RAW_ARRAY__ (FloatingPoint64[3])": [
         -1760,
         -832,
-        -272
+        -432
       ],
       "startdisabled": "False",
       "uselocaloffset": "False",
@@ -152702,11 +152595,11 @@
         456,
         4944
       ],
-      "box_mins": "-1760.000000 -768.000000 -240.000000",
+      "box_mins": "-1760.000000 -768.000000 -432.000000",
       "box_mins __RAW_ARRAY__ (FloatingPoint64[3])": [
         -1760,
         -768,
-        -240
+        -432
       ],
       "startdisabled": "False",
       "uselocaloffset": "False",
@@ -152737,11 +152630,11 @@
         800,
         1456
       ],
-      "box_mins": "-832.000000 -1088.000000 -176.000000",
+      "box_mins": "-832.000000 -1088.000000 -192.000000",
       "box_mins __RAW_ARRAY__ (FloatingPoint64[3])": [
         -832,
         -1088,
-        -176
+        -192
       ],
       "startdisabled": "False",
       "uselocaloffset": "False",
@@ -152836,11 +152729,11 @@
       "bakefarz": "4096",
       "cubemaptexture": "maps/ze_toggle_theory/cubemaps/env_cubemap_array.vtex",
       "indoor_outdoor_level": "0",
-      "box_maxs": "5304.000000 2056.000000 976.000000",
+      "box_maxs": "5304.000000 2056.000000 800.000000",
       "box_maxs __RAW_ARRAY__ (FloatingPoint64[3])": [
         5304,
         2056,
-        976
+        800
       ],
       "box_mins": "-3272.000000 -2272.000000 -736.000000",
       "box_mins __RAW_ARRAY__ (FloatingPoint64[3])": [
@@ -152867,16 +152760,16 @@
       "voxelize": "True",
       "flood_fill": "True",
       "voxel_size": "48.000000",
-      "box_maxs": "1400.000000 8152.000000 960.000000",
+      "box_maxs": "1400.000000 8152.000000 800.000000",
       "box_maxs __RAW_ARRAY__ (FloatingPoint64[3])": [
         1400,
         8152,
-        960
+        800
       ],
-      "box_mins": "-3272.000000 -1832.000000 -736.000000",
+      "box_mins": "-3272.000000 -4712.000000 -736.000000",
       "box_mins __RAW_ARRAY__ (FloatingPoint64[3])": [
         -3272,
-        -1832,
+        -4712,
         -736
       ],
       "startdisabled": "False",
@@ -152885,10 +152778,10 @@
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
       "handshake": "785293528",
-      "light_probe_size_x": "60",
+      "light_probe_size_x": "46",
       "light_probe_size_y": "128",
-      "light_probe_size_z": "22",
-      "light_probe_atlas_x": "1",
+      "light_probe_size_z": "15",
+      "light_probe_atlas_x": "69",
       "light_probe_atlas_y": "161",
       "light_probe_atlas_z": "133"
     }
@@ -152907,16 +152800,16 @@
       "bakefarz": "4096",
       "cubemaptexture": "maps/ze_toggle_theory/cubemaps/env_cubemap_array.vtex",
       "indoor_outdoor_level": "0",
-      "box_maxs": "1400.000000 8152.000000 960.000000",
+      "box_maxs": "1400.000000 8152.000000 800.000000",
       "box_maxs __RAW_ARRAY__ (FloatingPoint64[3])": [
         1400,
         8152,
-        960
+        800
       ],
-      "box_mins": "-3272.000000 -1832.000000 -736.000000",
+      "box_mins": "-3272.000000 -4712.000000 -736.000000",
       "box_mins __RAW_ARRAY__ (FloatingPoint64[3])": [
         -3272,
-        -1832,
+        -4712,
         -736
       ],
       "startdisabled": "False",
@@ -153281,48 +153174,6 @@
   },
   {
     "classname": "point_worldtext",
-    "hammerUniqueId": "25505",
-    "targetname": "[PR#]baka",
-    "properties": {
-      "depth_render_offset": "0.125",
-      "reorient_mode": "0",
-      "justify_vertical": "1",
-      "justify_horizontal": "1",
-      "font_name": "Trebuchet MS",
-      "font_size": "25",
-      "world_units_per_pixel": "0.25",
-      "color": "118 118 118",
-      "color __RAW_ARRAY__ (UInt64[3])": [
-        118,
-        118,
-        118
-      ],
-      "fullbright": "True",
-      "enabled": "True",
-      "message": "BAKA!!!!! What are you doing up here???\n",
-      "lightmapstatic": "0",
-      "rendertocubemaps": "False",
-      "object_culling": "0",
-      "fademaxdist": "0",
-      "fademindist": "-1",
-      "disablereceiveshadows": "False",
-      "rendercolor": "255 255 255",
-      "rendercolor __RAW_ARRAY__ (UInt64[3])": [
-        255,
-        255,
-        255
-      ],
-      "renderamt": "255",
-      "rendermode": "kRenderNormal",
-      "renderfx": "kRenderFxNone",
-      "uselocaloffset": "False",
-      "origin": "12480.000000 -8704.000000 -14752.000000",
-      "angles": "0.000000 90.000008 90.000000",
-      "scales": "1.000000 1.000000 1.000000"
-    }
-  },
-  {
-    "classname": "point_worldtext",
     "hammerUniqueId": "25507",
     "targetname": "[PR#]creator_text",
     "properties": {
@@ -153341,7 +153192,7 @@
       ],
       "fullbright": "True",
       "enabled": "True",
-      "message": "v1.13",
+      "message": "v1.16",
       "lightmapstatic": "0",
       "rendertocubemaps": "False",
       "object_culling": "0",
@@ -154803,30 +154654,6 @@
       },
       {
         "output": "OnTrigger",
-        "target": "[PR#]item_colorswitch_math",
-        "input": "SetValue",
-        "param": "2",
-        "delay": 0,
-        "limit": -1
-      },
-      {
-        "output": "OnTrigger",
-        "target": "[PR#]colorswitch_hudhint1",
-        "input": "Kill",
-        "param": "",
-        "delay": 0,
-        "limit": -1
-      },
-      {
-        "output": "OnTrigger",
-        "target": "[PR#]flipswitch_failsafe2_relay1",
-        "input": "Trigger",
-        "param": "",
-        "delay": 20,
-        "limit": -1
-      },
-      {
-        "output": "OnTrigger",
         "target": "[PR#]st3_bigrot_ftp",
         "input": "Kill",
         "param": "",
@@ -154861,6 +154688,30 @@
         "output": "OnTrigger",
         "target": "[PR#]st3_bigrot_plat2_ex",
         "input": "Open",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnTrigger",
+        "target": "[PR#]vote_text",
+        "input": "SetMessage",
+        "param": "BACK TO NORMAL MODE",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnTrigger",
+        "target": "[PR#]vote_relay_ex",
+        "input": "Disable",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnTrigger",
+        "target": "[PR#]vote_relay_normal",
+        "input": "Enable",
         "param": "",
         "delay": 0,
         "limit": -1
@@ -156116,7 +155967,7 @@
     "targetname": "[PR#]colorswitch_hudhint1",
     "properties": {
       "message": "3 USE ONLY! Press E to change the color of the humans!",
-      "origin": "5776.000000 10336.000000 -14024.000000",
+      "origin": "5776.000000 10328.000000 -14024.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
     }
@@ -157969,7 +157820,7 @@
         "output": "OnStartTouch",
         "target": "!activator",
         "input": "KeyValue",
-        "param": "speed 0.5",
+        "param": "speed 0.6",
         "delay": 0,
         "limit": -1
       },
@@ -158179,23 +158030,12 @@
     ]
   },
   {
-    "classname": "env_hudhint",
-    "hammerUniqueId": "25748",
-    "targetname": "[PR#]colorswitch_hudhint2",
-    "properties": {
-      "message": "1 USE ONLY! Press E to change the color of the humans!",
-      "origin": "5776.000000 10320.000000 -14024.000000",
-      "angles": "0.000000 0.000000 0.000000",
-      "scales": "1.000000 1.000000 1.000000"
-    }
-  },
-  {
     "classname": "trigger_multiple",
     "hammerUniqueId": "25750",
     "targetname": "[PR#]st3_colorswitch_failsafe_tp",
     "properties": {
       "wait": "1",
-      "filtername": "[PR#]item_colorswitch_context",
+      "filtername": "[PR#]colorswitch_multi",
       "spawnflags": "4097",
       "startdisabled": "False",
       "uselocaloffset": "False",
@@ -158222,7 +158062,7 @@
     "targetname": "[PR#]st3_colorswitch_failsafe_tp",
     "properties": {
       "wait": "1",
-      "filtername": "[PR#]item_colorswitch_context",
+      "filtername": "[PR#]colorswitch_multi",
       "spawnflags": "4097",
       "startdisabled": "False",
       "uselocaloffset": "False",
@@ -158249,7 +158089,7 @@
     "targetname": "[PR#]st3_colorswitch_failsafe_tp",
     "properties": {
       "wait": "1",
-      "filtername": "[PR#]item_colorswitch_context",
+      "filtername": "[PR#]colorswitch_multi",
       "spawnflags": "4097",
       "startdisabled": "False",
       "uselocaloffset": "False",
@@ -158276,7 +158116,7 @@
     "targetname": "[PR#]st3_colorswitch_failsafe_tp",
     "properties": {
       "wait": "1",
-      "filtername": "[PR#]item_colorswitch_context",
+      "filtername": "[PR#]colorswitch_multi",
       "spawnflags": "4097",
       "startdisabled": "False",
       "uselocaloffset": "False",
@@ -158303,7 +158143,7 @@
     "targetname": "[PR#]st3_colorswitch_failsafe_tp",
     "properties": {
       "wait": "1",
-      "filtername": "[PR#]item_colorswitch_context",
+      "filtername": "[PR#]colorswitch_multi",
       "spawnflags": "4097",
       "startdisabled": "False",
       "uselocaloffset": "False",
@@ -159177,6 +159017,912 @@
         "target": "!activator",
         "input": "KeyValue",
         "param": "speed 1",
+        "delay": 0,
+        "limit": -1
+      }
+    ]
+  },
+  {
+    "classname": "env_entity_maker",
+    "hammerUniqueId": "25976",
+    "targetname": "[PR#]bakabox_main_maker",
+    "properties": {
+      "postspawninheritangles": "False",
+      "postspawndirectionvariance": "0.15000000596046448",
+      "postspawndirection": "0.000000 0.000000 0.000000",
+      "postspawndirection __RAW_ARRAY__ (FloatingPoint64[3])": [
+        0,
+        0,
+        0
+      ],
+      "postspawnspeed": "0",
+      "spawnflags": "0",
+      "uselocaloffset": "False",
+      "origin": "14400.000000 15232.000000 13864.000000",
+      "angles": "0.000000 0.000000 0.000000",
+      "scales": "1.000000 1.000000 1.000000"
+    }
+  },
+  {
+    "classname": "point_template",
+    "hammerUniqueId": "25977",
+    "targetname": "[PR#]bakabox_main_temp",
+    "properties": {
+      "template01": "[PR#]bakabox_break",
+      "clientonlyentitybehavior": "CREATE_FOR_CURRENTLY_CONNECTED_CLIENTS_ONLY",
+      "spawngrouptype": "INSERT_INTO_POINT_TEMPLATE_SPAWN_GROUP",
+      "timeoutinterval": "0",
+      "asynchronous": "False",
+      "clientsideentity": "0",
+      "spawnflags": "2",
+      "uselocaloffset": "False",
+      "origin": "14400.000000 15232.000000 13840.000000",
+      "angles": "0.000000 0.000000 0.000000",
+      "scales": "1.000000 1.000000 1.000000",
+      "worldname": "maps\\ze_toggle_theory",
+      "entitylumpname": "25977#entityLumpName"
+    }
+  },
+  {
+    "classname": "env_entity_maker",
+    "hammerUniqueId": "25978",
+    "targetname": "[PR#]bakabox_particle_maker",
+    "properties": {
+      "postspawninheritangles": "False",
+      "postspawndirectionvariance": "0.15000000596046448",
+      "postspawndirection": "0.000000 0.000000 0.000000",
+      "postspawndirection __RAW_ARRAY__ (FloatingPoint64[3])": [
+        0,
+        0,
+        0
+      ],
+      "postspawnspeed": "0",
+      "entitytemplate": "[PR#]bakabox_particle_temp",
+      "spawnflags": "0",
+      "uselocaloffset": "False",
+      "origin": "14464.000000 15232.000000 13840.000000",
+      "angles": "0.000000 0.000000 0.000000",
+      "scales": "1.000000 1.000000 1.000000"
+    }
+  },
+  {
+    "classname": "point_template",
+    "hammerUniqueId": "25979",
+    "targetname": "[PR#]bakabox_particle_temp",
+    "properties": {
+      "template03": "[PR#]baka_sfx",
+      "template02": "[PR#]baka_relay",
+      "template01": "[PR#]bakabox_particle",
+      "clientonlyentitybehavior": "CREATE_FOR_CURRENTLY_CONNECTED_CLIENTS_ONLY",
+      "spawngrouptype": "INSERT_INTO_POINT_TEMPLATE_SPAWN_GROUP",
+      "timeoutinterval": "0",
+      "asynchronous": "False",
+      "spawnflags": "2",
+      "clientsideentity": "0",
+      "uselocaloffset": "False",
+      "origin": "14464.000000 15232.000000 13840.000000",
+      "angles": "0.000000 0.000000 0.000000",
+      "scales": "1.000000 1.000000 1.000000",
+      "worldname": "maps\\ze_toggle_theory",
+      "entitylumpname": "25979#entityLumpName"
+    }
+  },
+  {
+    "classname": "func_button",
+    "hammerUniqueId": "25986",
+    "targetname": "[PR#]baka_button",
+    "properties": {
+      "spawnflags": "17409",
+      "forcenpcexclude": "False",
+      "lip": "0",
+      "wait": "-1",
+      "speed": "0",
+      "movedir": "0.000000 0.000000 0.000000",
+      "movedir __RAW_ARRAY__ (FloatingPoint64[3])": [
+        0,
+        0,
+        0
+      ],
+      "lightmapstatic": "0",
+      "rendertocubemaps": "False",
+      "object_culling": "0",
+      "fademaxdist": "0",
+      "fademindist": "-1",
+      "disablereceiveshadows": "False",
+      "rendercolor": "255 255 255",
+      "rendercolor __RAW_ARRAY__ (UInt64[3])": [
+        255,
+        255,
+        255
+      ],
+      "renderamt": "255",
+      "rendermode": "kRenderNormal",
+      "renderfx": "kRenderFxNone",
+      "uselocaloffset": "False",
+      "origin": "13238.000000 -7903.000000 -14286.000000",
+      "angles": "0.000000 0.000000 0.000000",
+      "scales": "1.000000 1.000000 1.000000",
+      "model": "maps/ze_toggle_theory/entities/baka_button_25986.vmdl"
+    },
+    "connections": [
+      {
+        "output": "OnPressed",
+        "target": "[PR#]baka_case",
+        "input": "PickRandom",
+        "param": "",
+        "delay": 0,
+        "limit": 1
+      }
+    ]
+  },
+  {
+    "classname": "logic_case",
+    "hammerUniqueId": "25987",
+    "targetname": "[PR#]baka_case",
+    "properties": {
+      "origin": "13272.000000 -7872.000000 -14328.000000",
+      "angles": "0.000000 0.000000 0.000000",
+      "scales": "1.000000 1.000000 1.000000"
+    },
+    "connections": [
+      {
+        "output": "OnCase01",
+        "target": "[PR#]baka_main_relay",
+        "input": "Trigger",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      }
+    ]
+  },
+  {
+    "classname": "logic_relay",
+    "hammerUniqueId": "25988",
+    "targetname": "[PR#]baka_main_relay",
+    "properties": {
+      "passthroughcaller": "False",
+      "fastretrigger": "False",
+      "triggeronce": "False",
+      "startdisabled": "False",
+      "origin": "13256.000000 -7872.000000 -14328.000000",
+      "angles": "0.000000 0.000000 0.000000",
+      "scales": "1.000000 1.000000 1.000000"
+    },
+    "connections": [
+      {
+        "output": "OnTrigger",
+        "target": "[PR#]bakabox_particle_maker",
+        "input": "ForceSpawnAtEntityOrigin",
+        "param": "[PR#]baka_button",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnTrigger",
+        "target": "[PR#]bakabox_particle_maker",
+        "input": "ForceSpawnAtEntityOrigin",
+        "param": "[PR#]baka_button",
+        "delay": 1,
+        "limit": -1
+      },
+      {
+        "output": "OnTrigger",
+        "target": "[PR#]bakabox_particle_maker",
+        "input": "ForceSpawnAtEntityOrigin",
+        "param": "[PR#]baka_button",
+        "delay": 2,
+        "limit": -1
+      },
+      {
+        "output": "OnTrigger",
+        "target": "[PR#]bakabox_particle_maker",
+        "input": "ForceSpawnAtEntityOrigin",
+        "param": "[PR#]baka_button",
+        "delay": 3,
+        "limit": -1
+      },
+      {
+        "output": "OnTrigger",
+        "target": "[PR#]bakabox_particle",
+        "input": "Kill",
+        "param": "",
+        "delay": 4,
+        "limit": -1
+      }
+    ]
+  },
+  {
+    "classname": "point_worldtext",
+    "hammerUniqueId": "25996",
+    "targetname": "[PR#]baka",
+    "properties": {
+      "depth_render_offset": "0.125",
+      "reorient_mode": "0",
+      "justify_vertical": "1",
+      "justify_horizontal": "1",
+      "font_name": "Trebuchet MS",
+      "font_size": "25",
+      "world_units_per_pixel": "0.25",
+      "color": "118 118 118",
+      "color __RAW_ARRAY__ (UInt64[3])": [
+        118,
+        118,
+        118
+      ],
+      "fullbright": "True",
+      "enabled": "True",
+      "message": "BAKA!!!!!\nWhat are you doing up here???\n",
+      "lightmapstatic": "0",
+      "rendertocubemaps": "False",
+      "object_culling": "0",
+      "fademaxdist": "0",
+      "fademindist": "-1",
+      "disablereceiveshadows": "False",
+      "rendercolor": "255 255 255",
+      "rendercolor __RAW_ARRAY__ (UInt64[3])": [
+        255,
+        255,
+        255
+      ],
+      "renderamt": "255",
+      "rendermode": "kRenderNormal",
+      "renderfx": "kRenderFxNone",
+      "uselocaloffset": "False",
+      "origin": "12480.000000 -8704.000977 -14736.000000",
+      "angles": "0.000000 90.000015 90.000000",
+      "scales": "1.000000 1.000000 1.000000"
+    }
+  },
+  {
+    "classname": "point_template",
+    "hammerUniqueId": "11755",
+    "targetname": "[PR#]d_train_main_temp2",
+    "properties": {
+      "uselocaloffset": "False",
+      "template02": "[PR#]d_train_move3",
+      "template01": "[PR#]d_train_main2",
+      "clientonlyentitybehavior": "CREATE_FOR_CURRENTLY_CONNECTED_CLIENTS_ONLY",
+      "spawngrouptype": "INSERT_INTO_POINT_TEMPLATE_SPAWN_GROUP",
+      "timeoutinterval": "0",
+      "asynchronous": "False",
+      "spawnflags": "2",
+      "clientsideentity": "0",
+      "origin": "-2496.000000 6080.000000 -13880.000000",
+      "angles": "0.000000 179.999969 0.000000",
+      "scales": "1.000000 1.000000 1.000000",
+      "worldname": "maps\\ze_toggle_theory",
+      "entitylumpname": "11755#entityLumpName"
+    }
+  },
+  {
+    "classname": "env_entity_maker",
+    "hammerUniqueId": "11757",
+    "targetname": "[PR#]d_train_main_maker2",
+    "properties": {
+      "postspawninheritangles": "False",
+      "postspawndirectionvariance": "0.15000000596046448",
+      "postspawndirection": "0.000000 0.000000 0.000000",
+      "postspawndirection __RAW_ARRAY__ (FloatingPoint64[3])": [
+        0,
+        0,
+        0
+      ],
+      "postspawnspeed": "0",
+      "entitytemplate": "[PR#]d_train_main_temp2",
+      "spawnflags": "0",
+      "uselocaloffset": "False",
+      "origin": "-2480.000000 6080.000000 -13880.000000",
+      "angles": "0.000000 179.999969 0.000000",
+      "scales": "1.000000 1.000000 1.000000"
+    }
+  },
+  {
+    "classname": "logic_case",
+    "hammerUniqueId": "11758",
+    "targetname": "[PR#]d_train_case",
+    "properties": {
+      "origin": "13504.000000 6224.000000 -13880.000000",
+      "angles": "0.000000 0.000000 0.000000",
+      "scales": "1.000000 1.000000 1.000000"
+    },
+    "connections": [
+      {
+        "output": "OnCase01",
+        "target": "[PR#]d_train_start_timer",
+        "input": "Enable",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnCase02",
+        "target": "[PR#]d_train_start_timer2",
+        "input": "Enable",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      }
+    ]
+  },
+  {
+    "classname": "func_breakable",
+    "hammerUniqueId": "25998",
+    "targetname": "[PR#]st1_break",
+    "properties": {
+      "physdamagescale": "1",
+      "overrideblocklos": "0",
+      "gamemass": "0",
+      "minhealthdmg": "0",
+      "lightmapstatic": "0",
+      "rendertocubemaps": "False",
+      "object_culling": "0",
+      "fademaxdist": "0",
+      "fademindist": "-1",
+      "disablereceiveshadows": "False",
+      "rendercolor": "255 255 255",
+      "rendercolor __RAW_ARRAY__ (UInt64[3])": [
+        255,
+        255,
+        255
+      ],
+      "renderamt": "255",
+      "rendermode": "kRenderNormal",
+      "renderfx": "kRenderFxNone",
+      "pressuredelay": "0",
+      "explodemagnitude": "0",
+      "spawnobject": "0",
+      "nodamageforces": "False",
+      "explosion": "0",
+      "material": "0",
+      "health": "0",
+      "propdata": "0",
+      "nointerpolate": "False",
+      "performancemode": "PM_NORMAL",
+      "exploderadius": "0",
+      "explodedamage": "0",
+      "disableshadows": "0",
+      "spawnflags": "1",
+      "uselocaloffset": "False",
+      "origin": "8216.000000 -8960.000000 -15388.000000",
+      "angles": "0.000000 0.000000 0.000000",
+      "scales": "1.000000 1.000000 1.000000",
+      "model": "maps/ze_toggle_theory/entities/st1_break_25998.vmdl"
+    }
+  },
+  {
+    "classname": "func_breakable",
+    "hammerUniqueId": "25999",
+    "targetname": "[PR#]st1_break",
+    "properties": {
+      "physdamagescale": "1",
+      "overrideblocklos": "0",
+      "gamemass": "0",
+      "minhealthdmg": "0",
+      "lightmapstatic": "0",
+      "rendertocubemaps": "False",
+      "object_culling": "0",
+      "fademaxdist": "0",
+      "fademindist": "-1",
+      "disablereceiveshadows": "False",
+      "rendercolor": "255 255 255",
+      "rendercolor __RAW_ARRAY__ (UInt64[3])": [
+        255,
+        255,
+        255
+      ],
+      "renderamt": "255",
+      "rendermode": "kRenderNormal",
+      "renderfx": "kRenderFxNone",
+      "pressuredelay": "0",
+      "explodemagnitude": "0",
+      "spawnobject": "0",
+      "nodamageforces": "False",
+      "explosion": "0",
+      "material": "0",
+      "health": "0",
+      "propdata": "0",
+      "nointerpolate": "False",
+      "performancemode": "PM_NORMAL",
+      "exploderadius": "0",
+      "explodedamage": "0",
+      "disableshadows": "0",
+      "spawnflags": "1",
+      "uselocaloffset": "False",
+      "origin": "9046.000000 -9640.000000 -15280.000000",
+      "angles": "0.000000 270.000000 0.000000",
+      "scales": "1.000000 1.000000 1.000000",
+      "model": "maps/ze_toggle_theory/entities/st1_break_25999.vmdl"
+    }
+  },
+  {
+    "classname": "func_breakable",
+    "hammerUniqueId": "26000",
+    "targetname": "[PR#]st1_break",
+    "properties": {
+      "physdamagescale": "1",
+      "overrideblocklos": "0",
+      "gamemass": "0",
+      "minhealthdmg": "0",
+      "lightmapstatic": "0",
+      "rendertocubemaps": "False",
+      "object_culling": "0",
+      "fademaxdist": "0",
+      "fademindist": "-1",
+      "disablereceiveshadows": "False",
+      "rendercolor": "255 255 255",
+      "rendercolor __RAW_ARRAY__ (UInt64[3])": [
+        255,
+        255,
+        255
+      ],
+      "renderamt": "255",
+      "rendermode": "kRenderNormal",
+      "renderfx": "kRenderFxNone",
+      "pressuredelay": "0",
+      "explodemagnitude": "0",
+      "spawnobject": "0",
+      "nodamageforces": "False",
+      "explosion": "0",
+      "material": "0",
+      "health": "0",
+      "propdata": "0",
+      "nointerpolate": "False",
+      "performancemode": "PM_NORMAL",
+      "exploderadius": "0",
+      "explodedamage": "0",
+      "disableshadows": "0",
+      "spawnflags": "1",
+      "uselocaloffset": "False",
+      "origin": "9046.000000 -8280.000000 -15280.000000",
+      "angles": "0.000000 270.000000 0.000000",
+      "scales": "1.000000 1.000000 1.000000",
+      "model": "maps/ze_toggle_theory/entities/st1_break_26000.vmdl"
+    }
+  },
+  {
+    "classname": "point_script",
+    "hammerUniqueId": "26001",
+    "targetname": "[PR#]map_script",
+    "properties": {
+      "cs_script": "scripts/vscripts/vote.vjs",
+      "origin": "-3528.000000 -13696.000000 -15864.000000",
+      "angles": "0.000000 90.000000 0.000000",
+      "scales": "1.000000 1.000000 1.000000"
+    }
+  },
+  {
+    "classname": "trigger_multiple",
+    "hammerUniqueId": "26002",
+    "targetname": "[PR#]vote_trig",
+    "properties": {
+      "wait": "0",
+      "filtername": "[PR#]filter_ct",
+      "spawnflags": "4097",
+      "startdisabled": "False",
+      "uselocaloffset": "False",
+      "origin": "-3520.000000 -13696.000000 -15848.000000",
+      "angles": "0.000000 0.000000 0.000000",
+      "scales": "1.000000 1.000000 1.000000",
+      "model": "maps/ze_toggle_theory/entities/vote_trig_26002.vmdl"
+    },
+    "connections": [
+      {
+        "output": "OnStartTouch",
+        "target": "[PR#]map_script",
+        "input": "RunScriptInput",
+        "param": "vote_add",
+        "delay": 0,
+        "limit": -1
+      }
+    ]
+  },
+  {
+    "classname": "point_worldtext",
+    "hammerUniqueId": "26004",
+    "targetname": "[PR#]vote_count",
+    "properties": {
+      "depth_render_offset": "0.125",
+      "reorient_mode": "0",
+      "justify_vertical": "1",
+      "justify_horizontal": "1",
+      "font_name": "Trebuchet MS",
+      "font_size": "75",
+      "world_units_per_pixel": "0.25",
+      "color": "255 255 0",
+      "color __RAW_ARRAY__ (UInt64[3])": [
+        255,
+        255,
+        0
+      ],
+      "fullbright": "True",
+      "enabled": "True",
+      "message": "0 / 35",
+      "lightmapstatic": "0",
+      "rendertocubemaps": "False",
+      "object_culling": "0",
+      "fademaxdist": "0",
+      "fademindist": "-1",
+      "disablereceiveshadows": "False",
+      "rendercolor": "255 255 255",
+      "rendercolor __RAW_ARRAY__ (UInt64[3])": [
+        255,
+        255,
+        255
+      ],
+      "renderamt": "255",
+      "rendermode": "kRenderNormal",
+      "renderfx": "kRenderFxNone",
+      "uselocaloffset": "False",
+      "origin": "-3584.000000 -13696.000000 -15816.000000",
+      "angles": "0.000000 90.000000 90.000000",
+      "scales": "1.000000 1.000000 1.000000"
+    }
+  },
+  {
+    "classname": "logic_relay",
+    "hammerUniqueId": "26009",
+    "targetname": "[PR#]vote_relay_ex",
+    "properties": {
+      "passthroughcaller": "False",
+      "fastretrigger": "False",
+      "triggeronce": "False",
+      "startdisabled": "False",
+      "origin": "-3512.000000 -13696.000000 -15864.000000",
+      "angles": "0.000000 90.000000 0.000000",
+      "scales": "1.000000 1.000000 1.000000"
+    },
+    "connections": [
+      {
+        "output": "OnTrigger",
+        "target": "[PR#]cmd",
+        "input": "Command",
+        "param": "say ** CHALLENGE MODE HAS BEEN VOTED **",
+        "delay": 0,
+        "limit": 1
+      },
+      {
+        "output": "OnTrigger",
+        "target": "[PR#]cmd",
+        "input": "Command",
+        "param": "say ** RESTARTING ROUND **",
+        "delay": 1,
+        "limit": 1
+      },
+      {
+        "output": "OnTrigger",
+        "target": "[PR#]cmd",
+        "input": "Command",
+        "param": "say ** RESTARTING ROUND **",
+        "delay": 1.5,
+        "limit": 1
+      },
+      {
+        "output": "OnTrigger",
+        "target": "[PR#]cmd",
+        "input": "Command",
+        "param": "say ** RESTARTING ROUND **",
+        "delay": 2,
+        "limit": 1
+      },
+      {
+        "output": "OnTrigger",
+        "target": "[PR#]vote_trig",
+        "input": "Kill",
+        "param": "",
+        "delay": 0,
+        "limit": 1
+      },
+      {
+        "output": "OnTrigger",
+        "target": "[PR#]vote_count",
+        "input": "Disable",
+        "param": "",
+        "delay": 0,
+        "limit": 1
+      },
+      {
+        "output": "OnTrigger",
+        "target": "[PR#]vote_passed",
+        "input": "Enable",
+        "param": "",
+        "delay": 0,
+        "limit": 1
+      },
+      {
+        "output": "OnTrigger",
+        "target": "[PR#]cmd",
+        "input": "Command",
+        "param": "mp_restartgame 1",
+        "delay": 3,
+        "limit": 1
+      },
+      {
+        "output": "OnTrigger",
+        "target": "[PR#]Level_Counter",
+        "input": "SetValue",
+        "param": "4",
+        "delay": 0,
+        "limit": -1
+      }
+    ]
+  },
+  {
+    "classname": "point_worldtext",
+    "hammerUniqueId": "26011",
+    "targetname": "[PR#]vote_passed",
+    "properties": {
+      "depth_render_offset": "0.125",
+      "reorient_mode": "0",
+      "justify_vertical": "1",
+      "justify_horizontal": "1",
+      "font_name": "Trebuchet MS",
+      "font_size": "75",
+      "world_units_per_pixel": "0.25",
+      "color": "127 255 0",
+      "color __RAW_ARRAY__ (UInt64[3])": [
+        127,
+        255,
+        0
+      ],
+      "fullbright": "True",
+      "enabled": "False",
+      "message": "VOTE PASSED",
+      "lightmapstatic": "0",
+      "rendertocubemaps": "False",
+      "object_culling": "0",
+      "fademaxdist": "0",
+      "fademindist": "-1",
+      "disablereceiveshadows": "False",
+      "rendercolor": "255 255 255",
+      "rendercolor __RAW_ARRAY__ (UInt64[3])": [
+        255,
+        255,
+        255
+      ],
+      "renderamt": "255",
+      "rendermode": "kRenderNormal",
+      "renderfx": "kRenderFxNone",
+      "uselocaloffset": "False",
+      "origin": "-3584.000000 -13696.000000 -15816.000000",
+      "angles": "0.000000 90.000000 90.000000",
+      "scales": "1.000000 1.000000 1.000000"
+    }
+  },
+  {
+    "classname": "point_worldtext",
+    "hammerUniqueId": "26012",
+    "targetname": "[PR#]vote_text",
+    "properties": {
+      "depth_render_offset": "0.125",
+      "reorient_mode": "0",
+      "justify_vertical": "1",
+      "justify_horizontal": "1",
+      "font_name": "Trebuchet MS",
+      "font_size": "50",
+      "world_units_per_pixel": "0.25",
+      "color": "255 255 0",
+      "color __RAW_ARRAY__ (UInt64[3])": [
+        255,
+        255,
+        0
+      ],
+      "fullbright": "True",
+      "enabled": "True",
+      "message": "SKIP TO CHALLENGE MODE",
+      "lightmapstatic": "0",
+      "rendertocubemaps": "False",
+      "object_culling": "0",
+      "fademaxdist": "0",
+      "fademindist": "-1",
+      "disablereceiveshadows": "False",
+      "rendercolor": "255 255 255",
+      "rendercolor __RAW_ARRAY__ (UInt64[3])": [
+        255,
+        255,
+        255
+      ],
+      "renderamt": "255",
+      "rendermode": "kRenderNormal",
+      "renderfx": "kRenderFxNone",
+      "uselocaloffset": "False",
+      "origin": "-3584.000000 -13696.000000 -15800.000000",
+      "angles": "0.000000 90.000000 90.000000",
+      "scales": "1.000000 1.000000 1.000000"
+    }
+  },
+  {
+    "classname": "logic_relay",
+    "hammerUniqueId": "26013",
+    "targetname": "[PR#]vote_relay_normal",
+    "properties": {
+      "passthroughcaller": "False",
+      "fastretrigger": "False",
+      "triggeronce": "False",
+      "startdisabled": "True",
+      "origin": "-3496.000000 -13696.000000 -15864.000000",
+      "angles": "0.000000 90.000000 0.000000",
+      "scales": "1.000000 1.000000 1.000000"
+    },
+    "connections": [
+      {
+        "output": "OnTrigger",
+        "target": "[PR#]cmd",
+        "input": "Command",
+        "param": "say ** NORMAL MODE HAS BEEN VOTED **",
+        "delay": 0,
+        "limit": 1
+      },
+      {
+        "output": "OnTrigger",
+        "target": "[PR#]cmd",
+        "input": "Command",
+        "param": "say ** RESTARTING ROUND **",
+        "delay": 1,
+        "limit": 1
+      },
+      {
+        "output": "OnTrigger",
+        "target": "[PR#]cmd",
+        "input": "Command",
+        "param": "say ** RESTARTING ROUND **",
+        "delay": 1.5,
+        "limit": 1
+      },
+      {
+        "output": "OnTrigger",
+        "target": "[PR#]cmd",
+        "input": "Command",
+        "param": "say ** RESTARTING ROUND **",
+        "delay": 2,
+        "limit": 1
+      },
+      {
+        "output": "OnTrigger",
+        "target": "[PR#]vote_count",
+        "input": "Disable",
+        "param": "",
+        "delay": 0,
+        "limit": 1
+      },
+      {
+        "output": "OnTrigger",
+        "target": "[PR#]vote_passed",
+        "input": "Enable",
+        "param": "",
+        "delay": 0,
+        "limit": 1
+      },
+      {
+        "output": "OnTrigger",
+        "target": "[PR#]cmd",
+        "input": "Command",
+        "param": "mp_restartgame 1",
+        "delay": 3,
+        "limit": 1
+      },
+      {
+        "output": "OnTrigger",
+        "target": "[PR#]vote_trig",
+        "input": "Kill",
+        "param": "",
+        "delay": 0,
+        "limit": 1
+      },
+      {
+        "output": "OnTrigger",
+        "target": "[PR#]Level_Counter",
+        "input": "SetValue",
+        "param": "1",
+        "delay": 0,
+        "limit": -1
+      }
+    ]
+  },
+  {
+    "classname": "trigger_multiple",
+    "hammerUniqueId": "26019",
+    "targetname": "[PR#]st2_boost_failsafe",
+    "properties": {
+      "wait": "0",
+      "filtername": "[PR#]filter_t",
+      "spawnflags": "4097",
+      "startdisabled": "False",
+      "uselocaloffset": "False",
+      "origin": "11116.000000 -6084.000000 -13740.000000",
+      "angles": "0.000000 0.000000 0.000000",
+      "scales": "1.000000 1.000000 1.000000",
+      "model": "maps/ze_toggle_theory/entities/st2_boost_failsafe_26019.vmdl"
+    },
+    "connections": [
+      {
+        "output": "OnStartTouch",
+        "target": "[PR#]st2_start_dest_case",
+        "input": "PickRandomShuffle",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      }
+    ]
+  },
+  {
+    "classname": "trigger_push",
+    "hammerUniqueId": "26021",
+    "targetname": "[PR#]st2_boost_failsafe",
+    "properties": {
+      "triggeronstarttouch": "False",
+      "speed": "300",
+      "pushdir": "0.000000 -90.000000 0.000000",
+      "pushdir __RAW_ARRAY__ (FloatingPoint64[3])": [
+        0,
+        -90,
+        0
+      ],
+      "filtername": "[PR#]filter_ct",
+      "spawnflags": "4097",
+      "startdisabled": "False",
+      "uselocaloffset": "False",
+      "origin": "10976.000000 -5416.000000 -13744.000000",
+      "angles": "0.000000 0.000000 0.000000",
+      "scales": "1.000000 1.000000 1.000000",
+      "model": "maps/ze_toggle_theory/entities/st2_boost_failsafe_26021.vmdl"
+    }
+  },
+  {
+    "classname": "filter_multi",
+    "hammerUniqueId": "26022",
+    "targetname": "[PR#]colorswitch_multi",
+    "properties": {
+      "filter02": "[PR#]filter_t",
+      "filter01": "[PR#]item_colorswitch_context",
+      "filtertype": "0",
+      "responsecontext": "filter_colorswitch",
+      "negated": "0",
+      "clientsideentity": "0",
+      "origin": "5744.000000 10312.000000 -14024.000000",
+      "angles": "0.000000 90.000000 0.000000",
+      "scales": "1.000000 1.000000 1.000000"
+    },
+    "connections": [
+      {
+        "output": "OnPass",
+        "target": "[PR#]item_colorswitch_compare",
+        "input": "Compare",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnPass",
+        "target": "!activator",
+        "input": "KeyValue",
+        "param": "health 500000",
+        "delay": 0,
+        "limit": -1
+      }
+    ]
+  },
+  {
+    "classname": "trigger_multiple",
+    "hammerUniqueId": "26023",
+    "targetname": "[PR#]st3_colorswitch_failsafe_tp",
+    "properties": {
+      "wait": "1",
+      "filtername": "[PR#]colorswitch_multi",
+      "spawnflags": "4097",
+      "startdisabled": "False",
+      "uselocaloffset": "False",
+      "parentname": "[PR#]st3_door5",
+      "origin": "-2064.000000 11984.000000 -13824.000000",
+      "angles": "0.000000 90.000000 0.000000",
+      "scales": "1.000000 1.000000 1.000000",
+      "model": "maps/ze_toggle_theory/entities/st3_colorswitch_failsafe_tp_26023.vmdl"
+    },
+    "connections": [
+      {
+        "output": "OnStartTouch",
+        "target": "[PR#]st3_start_dest_case",
+        "input": "PickRandomShuffle",
+        "param": "",
         "delay": 0,
         "limit": -1
       }

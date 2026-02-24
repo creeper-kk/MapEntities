@@ -2841,7 +2841,7 @@
       "clientsideentity": "0",
       "uselocaloffset": "False",
       "parentname": "[PR#]d_train_move2",
-      "origin": "-22390.500000 -320.000000 33.000000",
+      "origin": "-16742.500000 -320.000000 33.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
       "_template_lump_ent_index": "29"
@@ -2937,7 +2937,7 @@
       "clientsideentity": "0",
       "uselocaloffset": "False",
       "parentname": "[PR#]d_train_move2",
-      "origin": "-22970.500000 -322.000000 33.000000",
+      "origin": "-17322.500000 -322.000000 33.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
       "_template_lump_ent_index": "30"
