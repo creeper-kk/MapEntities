@@ -4553,30 +4553,6 @@
       },
       {
         "output": "OnTrigger",
-        "target": "[PR#]music_case",
-        "input": "AddOutput",
-        "param": "OnCase01>music>SetSoundEventName>Music.ZardonicTakeOver>0.01>1",
-        "delay": 0.06,
-        "limit": -1
-      },
-      {
-        "output": "OnTrigger",
-        "target": "[PR#]music_case",
-        "input": "AddOutput",
-        "param": "OnCase01>music>StopSound>>0.00>1",
-        "delay": 0.06,
-        "limit": -1
-      },
-      {
-        "output": "OnTrigger",
-        "target": "[PR#]music_case",
-        "input": "AddOutput",
-        "param": "OnCase01>music>StartSound>>0.02>1",
-        "delay": 0.06,
-        "limit": -1
-      },
-      {
-        "output": "OnTrigger",
         "target": "[PR#]item_limit_template2",
         "input": "Kill",
         "param": "",
@@ -4755,7 +4731,7 @@
         "output": "OnTrigger",
         "target": "[PR#]music_case",
         "input": "AddOutput",
-        "param": "OnCase02>music>SetSoundEventName>Music.PendulumAntiHero>0.01>1",
+        "param": "OnCase01>music>SetSoundEventName>Music.PendulumAntiHero>0.01>1",
         "delay": 0.06,
         "limit": -1
       },
@@ -4763,7 +4739,7 @@
         "output": "OnTrigger",
         "target": "[PR#]music_case",
         "input": "AddOutput",
-        "param": "OnCase02>music>StartSound>>0.02>1",
+        "param": "OnCase01>music>StartSound>>0.02>1",
         "delay": 0.06,
         "limit": -1
       },
@@ -4771,7 +4747,7 @@
         "output": "OnTrigger",
         "target": "[PR#]music_case",
         "input": "AddOutput",
-        "param": "OnCase02>music>StopSound>>0.00>1",
+        "param": "OnCase01>music>StopSound>>0.00>1",
         "delay": 0.06,
         "limit": -1
       },
@@ -4803,7 +4779,7 @@
         "output": "OnTrigger",
         "target": "[PR#]music_case",
         "input": "AddOutput",
-        "param": "OnCase03>music>SetSoundEventName>Music.ColourFast>0.01>1",
+        "param": "OnCase02>music>SetSoundEventName>Music.SubFocusElevate>0.01>1",
         "delay": 0.06,
         "limit": -1
       },
@@ -4811,7 +4787,7 @@
         "output": "OnTrigger",
         "target": "[PR#]music_case",
         "input": "AddOutput",
-        "param": "OnCase03>music>StartSound>>0.02>1",
+        "param": "OnCase02>music>StartSound>>0.02>1",
         "delay": 0.06,
         "limit": -1
       },
@@ -4819,32 +4795,8 @@
         "output": "OnTrigger",
         "target": "[PR#]music_case",
         "input": "AddOutput",
-        "param": "OnCase03>music>StopSound>>0.00>1",
+        "param": "OnCase02>music>StopSound>>0.00>1",
         "delay": 0.06,
-        "limit": -1
-      },
-      {
-        "output": "OnTrigger",
-        "target": "[PR#]music_case2",
-        "input": "AddOutput",
-        "param": "OnCase05>music>SetSoundEventName>Music.PendulumArchangel2>0.01>1",
-        "delay": 0.04,
-        "limit": -1
-      },
-      {
-        "output": "OnTrigger",
-        "target": "[PR#]music_case2",
-        "input": "AddOutput",
-        "param": "OnCase05>music>StartSound>>0.02>1",
-        "delay": 0.04,
-        "limit": -1
-      },
-      {
-        "output": "OnTrigger",
-        "target": "[PR#]music_case2",
-        "input": "AddOutput",
-        "param": "OnCase05>music>StopSound>>0.00>1",
-        "delay": 0.04,
         "limit": -1
       }
     ]

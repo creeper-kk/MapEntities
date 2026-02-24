@@ -50,7 +50,7 @@
         255
       ],
       "renderamt": "255",
-      "rendermode": "2",
+      "rendermode": "kRenderNormal",
       "renderfx": "0",
       "breakablecontentstype": "BC_DEFAULT",
       "burstscale": "100",
@@ -334,6 +334,7 @@
     "hammerUniqueId": "4840",
     "targetname": "[PR#]Venat_mini_boss_physbox",
     "properties": {
+      "fluiddragscale": "1",
       "hoverposeangles": "0.000000 0.000000 0.000000",
       "hoverposeangles __RAW_ARRAY__ (FloatingPoint64[3])": [
         0,

@@ -192,6 +192,14 @@
         "param": "",
         "delay": 0.3,
         "limit": -1
+      },
+      {
+        "output": "OnHealthChanged",
+        "target": "[PR#]boss_HP_Branch",
+        "input": "Test",
+        "param": "",
+        "delay": 0,
+        "limit": -1
       }
     ]
   },
@@ -381,7 +389,7 @@
     },
     "connections": [
       {
-        "output": "OnHitMin",
+        "output": "",
         "target": "[PR#]Mojie_miniboss_model",
         "input": "FireUser1",
         "param": "",
@@ -389,7 +397,7 @@
         "limit": -1
       },
       {
-        "output": "OnHitMin",
+        "output": "",
         "target": "[PR#]cmd",
         "input": "Command",
         "param": "say **[Bash] Adrammelech vanquished! Path is clear!**",
@@ -397,7 +405,7 @@
         "limit": -1
       },
       {
-        "output": "OnHitMin",
+        "output": "",
         "target": "[PR#]Mojie_miniboss_part",
         "input": "Kill",
         "param": "",
@@ -405,7 +413,7 @@
         "limit": -1
       },
       {
-        "output": "OnHitMin",
+        "output": "",
         "target": "[PR#]Mojie_miniboss_ultima_relay",
         "input": "CancelPending",
         "param": "",
@@ -413,7 +421,7 @@
         "limit": -1
       },
       {
-        "output": "OnHitMin",
+        "output": "",
         "target": "[PR#]Mojie_miniboss_ultima_relay",
         "input": "Kill",
         "param": "",
@@ -421,7 +429,7 @@
         "limit": -1
       },
       {
-        "output": "OnHitMin",
+        "output": "",
         "target": "[PR#]Mojie_miniboss_hurt2",
         "input": "Kill",
         "param": "",
@@ -429,7 +437,7 @@
         "limit": -1
       },
       {
-        "output": "OnHitMin",
+        "output": "",
         "target": "[PR#]Mojie_miniboss_par2",
         "input": "Kill",
         "param": "",
@@ -437,9 +445,17 @@
         "limit": -1
       },
       {
-        "output": "OnHitMin",
+        "output": "",
         "target": "[PR#]Mojie_miniboss_hurt",
         "input": "Kill",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnHitMin",
+        "target": "[PR#]Mojie_miniboss_break",
+        "input": "FireUser3",
         "param": "",
         "delay": 0,
         "limit": -1
@@ -516,7 +532,7 @@
         255
       ],
       "renderamt": "255",
-      "rendermode": "2",
+      "rendermode": "kRenderNormal",
       "renderfx": "0",
       "breakablecontentstype": "BC_DEFAULT",
       "burstscale": "100",
@@ -664,6 +680,14 @@
         "target": "[PR#]bosshp_script_mojie",
         "input": "AddHealth",
         "param": "1,45",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnStartTouch",
+        "target": "[PR#]Mojie_miniboss_counter",
+        "input": "Add",
+        "param": "45",
         "delay": 0,
         "limit": -1
       }

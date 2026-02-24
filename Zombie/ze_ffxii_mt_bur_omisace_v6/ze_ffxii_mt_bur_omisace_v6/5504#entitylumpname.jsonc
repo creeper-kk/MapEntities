@@ -132,7 +132,7 @@
         181
       ],
       "renderamt": "255",
-      "rendermode": "2",
+      "rendermode": "kRenderNormal",
       "renderfx": "0",
       "breakablecontentstype": "BC_DEFAULT",
       "burstscale": "100",
@@ -265,6 +265,14 @@
         "param": "1,56",
         "delay": 0,
         "limit": -1
+      },
+      {
+        "output": "OnStartTouch",
+        "target": "[PR#]Ending_boss1_laser_counter",
+        "input": "Add",
+        "param": "56",
+        "delay": 0,
+        "limit": -1
       }
     ]
   },
@@ -344,6 +352,14 @@
         "output": "OnStartTouch",
         "target": "[PR#]bosshp_script_zar",
         "input": "GrenadeDamage",
+        "param": "22",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnStartTouch",
+        "target": "[PR#]Ending_boss1_laser_counter",
+        "input": "Subtract",
         "param": "22",
         "delay": 0,
         "limit": -1
@@ -1046,6 +1062,7 @@
     "hammerUniqueId": "6093",
     "targetname": "[PR#]Ending_boss1_laser_Physbox",
     "properties": {
+      "fluiddragscale": "1",
       "hoverposeangles": "0.000000 0.000000 0.000000",
       "hoverposeangles __RAW_ARRAY__ (FloatingPoint64[3])": [
         0,
@@ -1243,6 +1260,14 @@
         "input": "Disable",
         "param": "",
         "delay": 0.3,
+        "limit": -1
+      },
+      {
+        "output": "OnHealthChanged",
+        "target": "[PR#]Ending_boss1_laser_counter",
+        "input": "Subtract",
+        "param": "1",
+        "delay": 0,
         "limit": -1
       }
     ]
@@ -1484,14 +1509,6 @@
         "param": "",
         "delay": 0,
         "limit": 1
-      },
-      {
-        "output": "OnStartTouch",
-        "target": "[PR#]Ending_boss1_laser_start_relay",
-        "input": "Trigger",
-        "param": "",
-        "delay": 0,
-        "limit": 1
       }
     ]
   },
@@ -1511,12 +1528,12 @@
     },
     "connections": [
       {
-        "output": "OnTrigger",
+        "output": "OnStartTouch",
         "target": "[PR#]Ending_boss1_laser_start_relay",
         "input": "Trigger",
         "param": "",
         "delay": 0,
-        "limit": -1
+        "limit": 1
       }
     ]
   },
@@ -1666,7 +1683,7 @@
         "output": "OnTrigger",
         "target": "[PR#]MusicParam",
         "input": "SetFloatValue",
-        "param": "0.800000",
+        "param": "1.000000",
         "delay": 6,
         "limit": -1
       },

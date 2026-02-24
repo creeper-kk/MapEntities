@@ -221,7 +221,7 @@
         255
       ],
       "renderamt": "255",
-      "rendermode": "2",
+      "rendermode": "kRenderNormal",
       "renderfx": "0",
       "breakablecontentstype": "BC_DEFAULT",
       "burstscale": "100",
@@ -474,7 +474,7 @@
         255
       ],
       "renderamt": "245",
-      "rendermode": "2",
+      "rendermode": "kRenderNormal",
       "renderfx": "0",
       "breakablecontentstype": "BC_DEFAULT",
       "burstscale": "100",

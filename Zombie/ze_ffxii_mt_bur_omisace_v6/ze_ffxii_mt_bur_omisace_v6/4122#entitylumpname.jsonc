@@ -172,7 +172,7 @@
       "uselocaloffset": "False",
       "parentname": "[PR#]Vertical_laser3_model&0000",
       "origin": "-97.000000 -0.799988 0.000000",
-      "angles": "-0.000000 0.000000 -93.499992",
+      "angles": "-0.000000 0.000000 -90.000000",
       "scales": "1.000000 1.000000 1.000000",
       "_template_lump_ent_index": "3"
     }

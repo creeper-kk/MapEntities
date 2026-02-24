@@ -88,6 +88,14 @@
         "param": "39",
         "delay": 0,
         "limit": -1
+      },
+      {
+        "output": "OnHurtPlayer",
+        "target": "[PR#]ending_boss2_laser_HP",
+        "input": "Subtract",
+        "param": "39",
+        "delay": 0,
+        "limit": -1
       }
     ]
   },

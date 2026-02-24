@@ -5,6 +5,28 @@
     "classname": "worldspawn",
     "hammerUniqueId": "1",
     "properties": {
+      "steamaudio_customdata_occlusion_reflection_bounces": "8",
+      "steamaudio_customdata_occlusion_reflection_rays": "8192",
+      "steamaudio_customdata_occlusion_reflection": "False",
+      "steamaudio_customdata_occlusion_pathing": "True",
+      "steamaudio_customdata_bake_materials": "False",
+      "steamaudio_customdata_bake_dimensions": "False",
+      "steamaudio_customdata_bake_occlusion": "False",
+      "steamaudio_customdata_height_above_floor": "1.5",
+      "steamaudio_customdata_grid_spacing": "6",
+      "steamaudio_customdata_filter_navmesh": "False",
+      "steamaudio_customdata_filter_volumes": "True",
+      "steamaudio_customdata_generation_type": "0",
+      "steamaudio_customdata_rebake_option": "0",
+      "steamaudio_pathing_filter_navmesh": "False",
+      "steamaudio_pathing_filter_volumes": "True",
+      "steamaudio_pathing_generation_type": "0",
+      "steamaudio_reverb_clustering_depth_threshold": "10",
+      "steamaudio_reverb_clustering_cubemap_resolution": "16",
+      "steamaudio_reverb_clustering_enable": "False",
+      "steamaudio_reverb_filter_navmesh": "False",
+      "steamaudio_reverb_filter_volumes": "True",
+      "steamaudio_reverb_generation_type": "0",
       "steamaudio_pathing_visibility_pathrange": "100",
       "steamaudio_pathing_visibility_threshold": "0.10000000149011612",
       "steamaudio_pathing_visibility_radius": "0",
@@ -497,7 +519,7 @@
       "origin": "-198.000000 -14.500000 -962.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "model": "maps\\ze_ffxii_mt_bur_omisace_v6_skybox\\entities\\skybox_fortress_temple_floor_777.vmdl"
+      "model": "maps/ze_ffxii_mt_bur_omisace_v6_skybox/entities/skybox_fortress_temple_floor_777.vmdl"
     }
   },
   {
@@ -600,7 +622,7 @@
       "origin": "910.000000 86.000000 767.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "model": "maps\\ze_ffxii_mt_bur_omisace_v6_skybox\\entities\\skybox_fortress_rot_786.vmdl"
+      "model": "maps/ze_ffxii_mt_bur_omisace_v6_skybox/entities/skybox_fortress_rot_786.vmdl"
     },
     "connections": [
       {
@@ -647,7 +669,7 @@
       "origin": "910.000000 220.000000 767.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "model": "maps\\ze_ffxii_mt_bur_omisace_v6_skybox\\entities\\skybox_fortress_rot_799.vmdl"
+      "model": "maps/ze_ffxii_mt_bur_omisace_v6_skybox/entities/skybox_fortress_rot_799.vmdl"
     }
   },
   {
@@ -684,7 +706,7 @@
       "origin": "-19.000000 479.000000 767.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "model": "maps\\ze_ffxii_mt_bur_omisace_v6_skybox\\entities\\skybox_fortress_rot_813.vmdl"
+      "model": "maps/ze_ffxii_mt_bur_omisace_v6_skybox/entities/skybox_fortress_rot_813.vmdl"
     }
   },
   {
@@ -721,7 +743,7 @@
       "origin": "-19.000000 -187.000000 767.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "model": "maps\\ze_ffxii_mt_bur_omisace_v6_skybox\\entities\\skybox_fortress_rot_826.vmdl"
+      "model": "maps/ze_ffxii_mt_bur_omisace_v6_skybox/entities/skybox_fortress_rot_826.vmdl"
     }
   },
   {
@@ -758,7 +780,7 @@
       "origin": "193.000000 -60.000000 839.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "model": "maps\\ze_ffxii_mt_bur_omisace_v6_skybox\\entities\\skybox_fortress_rot_839.vmdl"
+      "model": "maps/ze_ffxii_mt_bur_omisace_v6_skybox/entities/skybox_fortress_rot_839.vmdl"
     }
   },
   {
@@ -795,7 +817,7 @@
       "origin": "193.000000 -60.000000 863.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "model": "maps\\ze_ffxii_mt_bur_omisace_v6_skybox\\entities\\skybox_fortress_rot_852.vmdl"
+      "model": "maps/ze_ffxii_mt_bur_omisace_v6_skybox/entities/skybox_fortress_rot_852.vmdl"
     }
   },
   {
@@ -832,7 +854,7 @@
       "origin": "193.000000 362.000000 863.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "model": "maps\\ze_ffxii_mt_bur_omisace_v6_skybox\\entities\\skybox_fortress_rot_865.vmdl"
+      "model": "maps/ze_ffxii_mt_bur_omisace_v6_skybox/entities/skybox_fortress_rot_865.vmdl"
     }
   },
   {
@@ -869,7 +891,7 @@
       "origin": "193.000000 362.000000 839.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "model": "maps\\ze_ffxii_mt_bur_omisace_v6_skybox\\entities\\skybox_fortress_rot_878.vmdl"
+      "model": "maps/ze_ffxii_mt_bur_omisace_v6_skybox/entities/skybox_fortress_rot_878.vmdl"
     }
   },
   {
@@ -906,7 +928,7 @@
       "origin": "-218.000000 8.000000 797.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "model": "maps\\ze_ffxii_mt_bur_omisace_v6_skybox\\entities\\skybox_fortress_rot_891.vmdl"
+      "model": "maps/ze_ffxii_mt_bur_omisace_v6_skybox/entities/skybox_fortress_rot_891.vmdl"
     }
   },
   {
@@ -943,7 +965,7 @@
       "origin": "-218.000000 8.000000 773.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "model": "maps\\ze_ffxii_mt_bur_omisace_v6_skybox\\entities\\skybox_fortress_rot_904.vmdl"
+      "model": "maps/ze_ffxii_mt_bur_omisace_v6_skybox/entities/skybox_fortress_rot_904.vmdl"
     }
   },
   {
@@ -980,7 +1002,7 @@
       "origin": "-218.000000 284.000000 773.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "model": "maps\\ze_ffxii_mt_bur_omisace_v6_skybox\\entities\\skybox_fortress_rot_917.vmdl"
+      "model": "maps/ze_ffxii_mt_bur_omisace_v6_skybox/entities/skybox_fortress_rot_917.vmdl"
     }
   },
   {
@@ -1017,7 +1039,7 @@
       "origin": "-218.000000 284.000000 797.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "model": "maps\\ze_ffxii_mt_bur_omisace_v6_skybox\\entities\\skybox_fortress_rot_930.vmdl"
+      "model": "maps/ze_ffxii_mt_bur_omisace_v6_skybox/entities/skybox_fortress_rot_930.vmdl"
     }
   },
   {
@@ -1739,6 +1761,7 @@
     "hammerUniqueId": "958",
     "targetname": "[PR#]skybox_imperial_army_move",
     "properties": {
+      "allowmovablenavmeshdockingonentireentity": "False",
       "fadescale": "1",
       "createmovablenavmesh": "False",
       "createnavobstacle": "False",
@@ -1775,7 +1798,7 @@
       "origin": "504.000000 153.000000 170.579956",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "model": "maps\\ze_ffxii_mt_bur_omisace_v6_skybox\\entities\\skybox_imperial_army_move_958.vmdl"
+      "model": "maps/ze_ffxii_mt_bur_omisace_v6_skybox/entities/skybox_imperial_army_move_958.vmdl"
     },
     "connections": [
       {
@@ -1801,6 +1824,7 @@
     "hammerUniqueId": "960",
     "targetname": "[PR#]skybox_imperial_army_move2",
     "properties": {
+      "allowmovablenavmeshdockingonentireentity": "False",
       "fadescale": "1",
       "createmovablenavmesh": "False",
       "createnavobstacle": "False",
@@ -1837,7 +1861,7 @@
       "origin": "504.000000 153.000000 234.579956",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "model": "maps\\ze_ffxii_mt_bur_omisace_v6_skybox\\entities\\skybox_imperial_army_move2_960.vmdl"
+      "model": "maps/ze_ffxii_mt_bur_omisace_v6_skybox/entities/skybox_imperial_army_move2_960.vmdl"
     },
     "connections": [
       {
@@ -2126,17 +2150,11 @@
     }
   },
   {
-    "classname": "env_combined_light_probe_volume",
+    "classname": "env_light_probe_volume",
     "hammerUniqueId": "1019",
     "properties": {
+      "lightprobetexture_dlshd": "maps\\ze_ffxii_mt_bur_omisace_v6_skybox/lightmaps/env_light_probe_volume_atlas_dlshd.vtex",
       "lightprobetexture": "maps\\ze_ffxii_mt_bur_omisace_v6_skybox/lightmaps/env_light_probe_volume_atlas.vtex",
-      "clientsideentity": "1",
-      "edge_fade_dists": "0.000000 0.000000 0.000000",
-      "edge_fade_dists __RAW_ARRAY__ (FloatingPoint64[3])": [
-        0,
-        0,
-        0
-      ],
       "indoor_outdoor_level": "0",
       "voxelize": "True",
       "flood_fill": "True",
@@ -2153,8 +2171,6 @@
         -4560,
         -4616
       ],
-      "bakefarz": "4096",
-      "cubemaptexture": "maps/ze_ffxii_mt_bur_omisace_v6_skybox/cubemaps/env_cubemap_array.vtex",
       "startdisabled": "False",
       "uselocaloffset": "False",
       "origin": "672.000000 136.000000 704.000000",
@@ -2164,25 +2180,17 @@
       "light_probe_size_x": "59",
       "light_probe_size_y": "128",
       "light_probe_size_z": "105",
-      "lightprobetexture_dlshd": "maps\\ze_ffxii_mt_bur_omisace_v6_skybox/lightmaps/env_light_probe_volume_atlas_dlshd.vtex",
-      "array_index": "0",
       "light_probe_atlas_x": "73",
       "light_probe_atlas_y": "1",
       "light_probe_atlas_z": "1"
     }
   },
   {
-    "classname": "env_combined_light_probe_volume",
+    "classname": "env_light_probe_volume",
     "hammerUniqueId": "1020",
     "properties": {
+      "lightprobetexture_dlshd": "maps\\ze_ffxii_mt_bur_omisace_v6_skybox/lightmaps/env_light_probe_volume_atlas_dlshd.vtex",
       "lightprobetexture": "maps\\ze_ffxii_mt_bur_omisace_v6_skybox/lightmaps/env_light_probe_volume_atlas.vtex",
-      "clientsideentity": "1",
-      "edge_fade_dists": "0.000000 0.000000 0.000000",
-      "edge_fade_dists __RAW_ARRAY__ (FloatingPoint64[3])": [
-        0,
-        0,
-        0
-      ],
       "indoor_outdoor_level": "0",
       "voxelize": "True",
       "flood_fill": "True",
@@ -2199,8 +2207,6 @@
         -4560,
         -4616
       ],
-      "bakefarz": "4096",
-      "cubemaptexture": "maps/ze_ffxii_mt_bur_omisace_v6_skybox/cubemaps/env_cubemap_array.vtex",
       "startdisabled": "False",
       "uselocaloffset": "False",
       "origin": "-16.000000 136.000000 704.000000",
@@ -2210,8 +2216,6 @@
       "light_probe_size_x": "67",
       "light_probe_size_y": "128",
       "light_probe_size_z": "105",
-      "lightprobetexture_dlshd": "maps\\ze_ffxii_mt_bur_omisace_v6_skybox/lightmaps/env_light_probe_volume_atlas_dlshd.vtex",
-      "array_index": "1",
       "light_probe_atlas_x": "1",
       "light_probe_atlas_y": "1",
       "light_probe_atlas_z": "1"
@@ -2241,8 +2245,11 @@
     "hammerUniqueId": "1022",
     "properties": {
       "bakedshadowindex": "0",
+      "light_map_uniqueid": "-80351054",
+      "light_path_uniqueid": "-1099511467",
       "brightness_legacy": "-nan(ind)",
       "brightness_lumens": "0",
+      "allow_sst_generation": "False",
       "indirectlight": "1",
       "sunspreadangle": "0.500000",
       "_ambientscalehdr": "0.650000",
@@ -2367,5 +2374,75 @@
         "limit": -1
       }
     ]
+  },
+  {
+    "classname": "env_cubemap_box",
+    "hammerUniqueId": "1027",
+    "properties": {
+      "clientsideentity": "1",
+      "edge_fade_dists": "0.000000 0.000000 0.000000",
+      "edge_fade_dists __RAW_ARRAY__ (FloatingPoint64[3])": [
+        0,
+        0,
+        0
+      ],
+      "bakefarz": "4096",
+      "cubemaptexture": "maps/ze_ffxii_mt_bur_omisace_v6_skybox/cubemaps/env_cubemap_array.vtex",
+      "indoor_outdoor_level": "0",
+      "box_maxs": "3696.000000 4432.000000 2824.000000",
+      "box_maxs __RAW_ARRAY__ (FloatingPoint64[3])": [
+        3696,
+        4432,
+        2824
+      ],
+      "box_mins": "-504.000000 -4560.000000 -4616.000000",
+      "box_mins __RAW_ARRAY__ (FloatingPoint64[3])": [
+        -504,
+        -4560,
+        -4616
+      ],
+      "startdisabled": "False",
+      "uselocaloffset": "False",
+      "origin": "672.000000 136.000000 704.000000",
+      "angles": "0.000000 0.000000 0.000000",
+      "scales": "1.000000 1.000000 1.000000",
+      "handshake": "125189904",
+      "array_index": "0"
+    }
+  },
+  {
+    "classname": "env_cubemap_box",
+    "hammerUniqueId": "1028",
+    "properties": {
+      "clientsideentity": "1",
+      "edge_fade_dists": "0.000000 0.000000 0.000000",
+      "edge_fade_dists __RAW_ARRAY__ (FloatingPoint64[3])": [
+        0,
+        0,
+        0
+      ],
+      "bakefarz": "4096",
+      "cubemaptexture": "maps/ze_ffxii_mt_bur_omisace_v6_skybox/cubemaps/env_cubemap_array.vtex",
+      "indoor_outdoor_level": "0",
+      "box_maxs": "208.000000 4432.000000 2824.000000",
+      "box_maxs __RAW_ARRAY__ (FloatingPoint64[3])": [
+        208,
+        4432,
+        2824
+      ],
+      "box_mins": "-4504.000000 -4560.000000 -4616.000000",
+      "box_mins __RAW_ARRAY__ (FloatingPoint64[3])": [
+        -4504,
+        -4560,
+        -4616
+      ],
+      "startdisabled": "False",
+      "uselocaloffset": "False",
+      "origin": "-16.000000 136.000000 704.000000",
+      "angles": "0.000000 0.000000 0.000000",
+      "scales": "1.000000 1.000000 1.000000",
+      "handshake": "125189905",
+      "array_index": "1"
+    }
   }
 ]

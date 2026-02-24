@@ -6,6 +6,7 @@
     "hammerUniqueId": "3666",
     "targetname": "[PR#]Adrammelech_boss_physbox",
     "properties": {
+      "fluiddragscale": "1",
       "hoverposeangles": "0.000000 0.000000 0.000000",
       "hoverposeangles __RAW_ARRAY__ (FloatingPoint64[3])": [
         0,
@@ -252,6 +253,14 @@
         "param": "",
         "delay": 0.3,
         "limit": -1
+      },
+      {
+        "output": "OnHealthChanged",
+        "target": "[PR#]Adrammelech_boss_counter",
+        "input": "Subtract",
+        "param": "1",
+        "delay": 0,
+        "limit": -1
       }
     ]
   },
@@ -271,7 +280,7 @@
     },
     "connections": [
       {
-        "output": "OnHitMin",
+        "output": "",
         "target": "[PR#]Yellow_triple_Light*",
         "input": "Kill",
         "param": "",
@@ -279,7 +288,7 @@
         "limit": -1
       },
       {
-        "output": "OnHitMin",
+        "output": "",
         "target": "[PR#]Adrammelech_boss_in_*",
         "input": "Kill",
         "param": "",
@@ -287,7 +296,7 @@
         "limit": -1
       },
       {
-        "output": "OnHitMin",
+        "output": "",
         "target": "[PR#]Adrammelech_boss_light",
         "input": "Disable",
         "param": "",
@@ -295,7 +304,7 @@
         "limit": -1
       },
       {
-        "output": "OnHitMin",
+        "output": "",
         "target": "[PR#]Adrammelech_boss_light",
         "input": "Kill",
         "param": "",
@@ -303,7 +312,7 @@
         "limit": -1
       },
       {
-        "output": "OnHitMin",
+        "output": "",
         "target": "[PR#]Adrammelech_boss_timer",
         "input": "Kill",
         "param": "",
@@ -311,7 +320,7 @@
         "limit": -1
       },
       {
-        "output": "OnHitMin",
+        "output": "",
         "target": "[PR#]Adrammelech_boss_case",
         "input": "Kill",
         "param": "",
@@ -319,7 +328,7 @@
         "limit": -1
       },
       {
-        "output": "OnHitMin",
+        "output": "",
         "target": "[PR#]Adrammelech_Boss_Nade",
         "input": "Kill",
         "param": "",
@@ -327,7 +336,7 @@
         "limit": -1
       },
       {
-        "output": "OnHitMin",
+        "output": "",
         "target": "[PR#]Adrammelech_boss_physbox",
         "input": "Kill",
         "param": "",
@@ -335,7 +344,7 @@
         "limit": -1
       },
       {
-        "output": "OnHitMin",
+        "output": "",
         "target": "[PR#]Adrammelech_boss_model",
         "input": "FireUser1",
         "param": "",
@@ -343,7 +352,7 @@
         "limit": -1
       },
       {
-        "output": "OnHitMin",
+        "output": "",
         "target": "[PR#]Adrammelech_boss_part",
         "input": "FireUser2",
         "param": "",
@@ -351,7 +360,7 @@
         "limit": -1
       },
       {
-        "output": "OnHitMin",
+        "output": "",
         "target": "[PR#]cmd",
         "input": "Command",
         "param": "say **The Adrammelech has vanquished!**",
@@ -359,7 +368,7 @@
         "limit": -1
       },
       {
-        "output": "OnHitMin",
+        "output": "",
         "target": "[PR#]Adrammelech_boss_floor",
         "input": "FireUser1",
         "param": "",
@@ -367,7 +376,7 @@
         "limit": -1
       },
       {
-        "output": "OnHitMin",
+        "output": "",
         "target": "!self",
         "input": "Kill",
         "param": "",
@@ -375,7 +384,7 @@
         "limit": -1
       },
       {
-        "output": "OnHitMin",
+        "output": "",
         "target": "[PR#]Adrammelech_boss_ambient_002",
         "input": "StartSound",
         "param": "",
@@ -383,7 +392,7 @@
         "limit": -1
       },
       {
-        "output": "OnHitMin",
+        "output": "",
         "target": "[PR#]cmd",
         "input": "Command",
         "param": "say **[Bash] Don't let zombies cross the bridge! Its last hold defend until something happen!",
@@ -391,7 +400,7 @@
         "limit": -1
       },
       {
-        "output": "OnHitMin",
+        "output": "",
         "target": "[PR#]Adrammelech_boss_afk_hurt",
         "input": "Enable",
         "param": "",
@@ -399,7 +408,7 @@
         "limit": -1
       },
       {
-        "output": "OnHitMin",
+        "output": "",
         "target": "[PR#]stage2_teleport_afk_001",
         "input": "Enable",
         "param": "",
@@ -407,11 +416,19 @@
         "limit": -1
       },
       {
-        "output": "OnHitMin",
+        "output": "",
         "target": "!self",
         "input": "Kill",
         "param": "",
         "delay": 6.05,
+        "limit": -1
+      },
+      {
+        "output": "OnHitMin",
+        "target": "[PR#]Adrammelech_boss_physbox",
+        "input": "FireUser3",
+        "param": "",
+        "delay": 0,
         "limit": -1
       }
     ]
@@ -482,7 +499,7 @@
         255
       ],
       "renderamt": "255",
-      "rendermode": "2",
+      "rendermode": "kRenderNormal",
       "renderfx": "0",
       "breakablecontentstype": "BC_DEFAULT",
       "burstscale": "100",
@@ -609,6 +626,14 @@
         "param": "1,60",
         "delay": 0,
         "limit": -1
+      },
+      {
+        "output": "OnStartTouch",
+        "target": "[PR#]Adrammelech_boss_counter",
+        "input": "Add",
+        "param": "60",
+        "delay": 0,
+        "limit": -1
       }
     ]
   },
@@ -692,6 +717,14 @@
         "output": "OnStartTouch",
         "target": "[PR#]bosshp_script_Adrammelech",
         "input": "GrenadeDamage",
+        "param": "39",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnStartTouch",
+        "target": "[PR#]Adrammelech_boss_counter",
+        "input": "Subtract",
         "param": "39",
         "delay": 0,
         "limit": -1

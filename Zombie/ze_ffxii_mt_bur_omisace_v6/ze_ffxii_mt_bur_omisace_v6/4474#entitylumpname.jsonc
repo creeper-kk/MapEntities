@@ -31,6 +31,14 @@
         "param": "1,73",
         "delay": 0,
         "limit": -1
+      },
+      {
+        "output": "OnStartTouch",
+        "target": "[PR#]ending_boss2_laser_HP",
+        "input": "Add",
+        "param": "73",
+        "delay": 0,
+        "limit": -1
       }
     ]
   },
@@ -165,7 +173,7 @@
         "output": "OnTrigger",
         "target": "[PR#]MusicParam",
         "input": "SetFloatValue",
-        "param": "0.800000",
+        "param": "1.000000",
         "delay": 7,
         "limit": 1
       },
@@ -972,7 +980,7 @@
         "output": "OnUser3",
         "target": "[PR#]MusicParam",
         "input": "SetFloatValue",
-        "param": "0.800000",
+        "param": "1.000000",
         "delay": 2,
         "limit": -1
       },
@@ -1014,6 +1022,14 @@
         "input": "Deactivate",
         "param": "",
         "delay": 2,
+        "limit": -1
+      },
+      {
+        "output": "OnHealthChanged",
+        "target": "[PR#]ending_boss2_laser_HP",
+        "input": "Subtract",
+        "param": "1",
+        "delay": 0,
         "limit": -1
       }
     ]
@@ -1274,6 +1290,14 @@
         "target": "[PR#]Nade_case",
         "input": "StartSound",
         "param": "",
+        "delay": 0.25,
+        "limit": -1
+      },
+      {
+        "output": "OnStartTouch",
+        "target": "[PR#]ending_boss2_laser_HP",
+        "input": "Subtract",
+        "param": "28",
         "delay": 0.25,
         "limit": -1
       }
@@ -1621,7 +1645,7 @@
         "output": "OnHitMin",
         "target": "[PR#]MusicParam",
         "input": "SetFloatValue",
-        "param": "0.800000",
+        "param": "1.000000",
         "delay": 2,
         "limit": -1
       },

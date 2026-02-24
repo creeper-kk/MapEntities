@@ -170,7 +170,7 @@
         255
       ],
       "renderamt": "255",
-      "rendermode": "2",
+      "rendermode": "kRenderNormal",
       "renderfx": "kRenderFxNone",
       "breakablecontentstype": "BC_DEFAULT",
       "burstscale": "100",

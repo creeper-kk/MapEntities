@@ -397,6 +397,7 @@
     "hammerUniqueId": "4666",
     "targetname": "[PR#]Gabranth_boss2_Hitbox",
     "properties": {
+      "fluiddragscale": "1",
       "hoverposeangles": "0.000000 0.000000 0.000000",
       "hoverposeangles __RAW_ARRAY__ (FloatingPoint64[3])": [
         0,
@@ -868,6 +869,14 @@
         "param": "",
         "delay": 2,
         "limit": -1
+      },
+      {
+        "output": "OnUser3",
+        "target": "!self",
+        "input": "Kill",
+        "param": "",
+        "delay": 0,
+        "limit": -1
       }
     ]
   },
@@ -954,6 +963,14 @@
         "param": "62",
         "delay": 0,
         "limit": -1
+      },
+      {
+        "output": "OnStartTouch",
+        "target": "[PR#]Gabranth_boss2_attack_HP1",
+        "input": "Subtract",
+        "param": "62",
+        "delay": 0,
+        "limit": -1
       }
     ]
   },
@@ -962,6 +979,7 @@
     "hammerUniqueId": "4669",
     "targetname": "[PR#]Gabranth_boss2_Phys",
     "properties": {
+      "fluiddragscale": "1",
       "hoverposeangles": "0.000000 0.000000 0.000000",
       "hoverposeangles __RAW_ARRAY__ (FloatingPoint64[3])": [
         0,
@@ -1266,7 +1284,7 @@
         "limit": -1
       },
       {
-        "output": "OnTrigger",
+        "output": "",
         "target": "[PR#]Item_aqua_Filter",
         "input": "AddOutput",
         "param": "OnPass>bosshp_script>ItemDamage>Aqua,750>0>-1",
@@ -1274,7 +1292,7 @@
         "limit": -1
       },
       {
-        "output": "OnTrigger",
+        "output": "",
         "target": "[PR#]Item_dark_Filter",
         "input": "AddOutput",
         "param": "OnPass>bosshp_script>ItemDamage>Dark,750>0>-1",
@@ -1282,7 +1300,7 @@
         "limit": -1
       },
       {
-        "output": "OnTrigger",
+        "output": "",
         "target": "[PR#]Item_Fire_Filter",
         "input": "AddOutput",
         "param": "OnPass>bosshp_script>ItemDamage>Fire,750>0>-1",
@@ -1290,7 +1308,7 @@
         "limit": -1
       },
       {
-        "output": "OnTrigger",
+        "output": "",
         "target": "[PR#]Item_Thunder_Filter",
         "input": "AddOutput",
         "param": "OnPass>bosshp_script>ItemDamage>Thunder,750>0>-1",
@@ -1298,7 +1316,7 @@
         "limit": -1
       },
       {
-        "output": "OnTrigger",
+        "output": "",
         "target": "[PR#]Item_Sand_Filter",
         "input": "AddOutput",
         "param": "OnPass>bosshp_script>ItemDamage>Sand,750>0>-1",
@@ -1306,7 +1324,7 @@
         "limit": -1
       },
       {
-        "output": "OnTrigger",
+        "output": "",
         "target": "[PR#]Item_limit_Filter",
         "input": "AddOutput",
         "param": "OnPass>bosshp_script>ItemDamage>Limit,5000>0>-1",
@@ -1338,7 +1356,7 @@
         "limit": -1
       },
       {
-        "output": "OnTrigger",
+        "output": "",
         "target": "[PR#]Item_poison_Filter",
         "input": "AddOutput",
         "param": "OnPass>bosshp_script>ItemDamage>Poison,750>0>-1",
@@ -1370,7 +1388,7 @@
         "limit": -1
       },
       {
-        "output": "OnTrigger",
+        "output": "",
         "target": "[PR#]Item_crossbow_Filter",
         "input": "AddOutput",
         "param": "OnPass>bosshp_script>ItemDamage>Crossbow,75>0>-1",
@@ -1378,7 +1396,7 @@
         "limit": -1
       },
       {
-        "output": "OnTrigger",
+        "output": "",
         "target": "[PR#]Item_shield_Filter",
         "input": "AddOutput",
         "param": "OnPass>bosshp_script>ItemDamage>Shield,500>0>-1",
@@ -1386,7 +1404,7 @@
         "limit": -1
       },
       {
-        "output": "OnTrigger",
+        "output": "",
         "target": "[PR#]Item_Cortahombres_Filter",
         "input": "AddOutput",
         "param": "OnPass>bosshp_script>ItemDamage>Cortahombres,500>0>-1",
@@ -1394,7 +1412,7 @@
         "limit": -1
       },
       {
-        "output": "OnTrigger",
+        "output": "",
         "target": "[PR#]Item_Dragon_Whisker_Filter",
         "input": "AddOutput",
         "param": "OnPass>bosshp_script>ItemDamage>Dragon,500>0>-1",
@@ -1402,7 +1420,7 @@
         "limit": -1
       },
       {
-        "output": "OnTrigger",
+        "output": "",
         "target": "[PR#]Item_shield2_Filter",
         "input": "AddOutput",
         "param": "OnPass>bosshp_script>ItemDamage>Shield2,500>0>-1",
@@ -1410,7 +1428,7 @@
         "limit": -1
       },
       {
-        "output": "OnTrigger",
+        "output": "",
         "target": "[PR#]Item_loxley_bow_Filter",
         "input": "AddOutput",
         "param": "OnPass>bosshp_script>ItemDamage>Bow,500>0>-1",
@@ -1434,7 +1452,7 @@
         "limit": -1
       },
       {
-        "output": "OnTrigger",
+        "output": "",
         "target": "[PR#]bosshp_script",
         "input": "StartBoss",
         "param": "Gabranth_boss2_Hitbox,bosshp_script,boss_hud,[Gabranth],100,1,4",
@@ -1442,7 +1460,7 @@
         "limit": -1
       },
       {
-        "output": "OnTrigger",
+        "output": "",
         "target": "[PR#]showhud_timer",
         "input": "Enable",
         "param": "",
@@ -1455,6 +1473,110 @@
         "input": "Enable",
         "param": "",
         "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnTrigger",
+        "target": "[PR#]Item_aqua_Filter",
+        "input": "AddOutput",
+        "param": "OnPass>Gabranth_boss2_attack_HP1>Subtract>750>0>-1",
+        "delay": 0.01,
+        "limit": -1
+      },
+      {
+        "output": "OnTrigger",
+        "target": "[PR#]Item_dark_Filter",
+        "input": "AddOutput",
+        "param": "OnPass>Gabranth_boss2_attack_HP1>Subtract>750>0>-1",
+        "delay": 0.01,
+        "limit": -1
+      },
+      {
+        "output": "OnTrigger",
+        "target": "[PR#]Item_Fire_Filter",
+        "input": "AddOutput",
+        "param": "OnPass>Gabranth_boss2_attack_HP1>Subtract>750>0>-1",
+        "delay": 0.01,
+        "limit": -1
+      },
+      {
+        "output": "OnTrigger",
+        "target": "[PR#]Item_Thunder_Filter",
+        "input": "AddOutput",
+        "param": "OnPass>Gabranth_boss2_attack_HP1>Subtract>750>0>-1",
+        "delay": 0.01,
+        "limit": -1
+      },
+      {
+        "output": "OnTrigger",
+        "target": "[PR#]Item_Sand_Filter",
+        "input": "AddOutput",
+        "param": "OnPass>Gabranth_boss2_attack_HP1>Subtract>750>0>-1",
+        "delay": 0.01,
+        "limit": -1
+      },
+      {
+        "output": "OnTrigger",
+        "target": "[PR#]Item_limit_Filter",
+        "input": "AddOutput",
+        "param": "OnPass>Gabranth_boss2_attack_HP1>Subtract>5000>0>-1",
+        "delay": 0.01,
+        "limit": -1
+      },
+      {
+        "output": "OnTrigger",
+        "target": "[PR#]Item_poison_Filter",
+        "input": "AddOutput",
+        "param": "OnPass>Gabranth_boss2_attack_HP1>Subtract>750>0>-1",
+        "delay": 0.01,
+        "limit": -1
+      },
+      {
+        "output": "OnTrigger",
+        "target": "[PR#]Item_crossbow_Filter",
+        "input": "AddOutput",
+        "param": "OnPass>Gabranth_boss2_attack_HP1>Subtract>75>0>-1",
+        "delay": 0.01,
+        "limit": -1
+      },
+      {
+        "output": "OnTrigger",
+        "target": "[PR#]Item_shield_Filter",
+        "input": "AddOutput",
+        "param": "OnPass>Gabranth_boss2_attack_HP1>Subtract>500>0>-1",
+        "delay": 0.01,
+        "limit": -1
+      },
+      {
+        "output": "OnTrigger",
+        "target": "[PR#]Item_Cortahombres_Filter",
+        "input": "AddOutput",
+        "param": "OnPass>Gabranth_boss2_attack_HP1>Subtract>500>0>-1",
+        "delay": 0.01,
+        "limit": -1
+      },
+      {
+        "output": "OnTrigger",
+        "target": "[PR#]Item_Dragon_Whisker_Filter",
+        "input": "AddOutput",
+        "param": "OnPass>Gabranth_boss2_attack_HP1>Subtract>500>0>-1",
+        "delay": 0.01,
+        "limit": -1
+      },
+      {
+        "output": "OnTrigger",
+        "target": "[PR#]Item_shield2_Filter",
+        "input": "AddOutput",
+        "param": "OnPass>Gabranth_boss2_attack_HP1>Subtract>500>0>-1",
+        "delay": 0.01,
+        "limit": -1
+      },
+      {
+        "output": "OnTrigger",
+        "target": "[PR#]Item_loxley_bow_Filter",
+        "input": "AddOutput",
+        "param": "OnPass>Gabranth_boss2_attack_HP1>Subtract>500>0>-1",
+        "delay": 0.01,
         "limit": -1
       }
     ]
@@ -1745,7 +1867,7 @@
     },
     "connections": [
       {
-        "output": "OnHitMin",
+        "output": "",
         "target": "[PR#]Exodus_limit_*",
         "input": "Kill",
         "param": "",
@@ -1753,7 +1875,7 @@
         "limit": -1
       },
       {
-        "output": "OnHitMin",
+        "output": "",
         "target": "[PR#]zodiark2_limit_*",
         "input": "Kill",
         "param": "",
@@ -1761,7 +1883,7 @@
         "limit": -1
       },
       {
-        "output": "OnHitMin",
+        "output": "",
         "target": "[PR#]chaos2_limit_*",
         "input": "Kill",
         "param": "",
@@ -1769,7 +1891,7 @@
         "limit": -1
       },
       {
-        "output": "OnHitMin",
+        "output": "",
         "target": "[PR#]mateus_limit_*",
         "input": "Kill",
         "param": "",
@@ -1777,7 +1899,7 @@
         "limit": -1
       },
       {
-        "output": "OnHitMin",
+        "output": "",
         "target": "[PR#]adrammelech_limit_*",
         "input": "Kill",
         "param": "",
@@ -1785,7 +1907,7 @@
         "limit": -1
       },
       {
-        "output": "OnHitMin",
+        "output": "",
         "target": "[PR#]ultima_limit_*",
         "input": "Kill",
         "param": "",
@@ -1793,7 +1915,7 @@
         "limit": -1
       },
       {
-        "output": "OnHitMin",
+        "output": "",
         "target": "[PR#]belias_limit*",
         "input": "Kill",
         "param": "",
@@ -1801,7 +1923,7 @@
         "limit": -1
       },
       {
-        "output": "OnHitMin",
+        "output": "",
         "target": "[PR#]zelara_limit*",
         "input": "Kill",
         "param": "",
@@ -1809,7 +1931,7 @@
         "limit": -1
       },
       {
-        "output": "OnHitMin",
+        "output": "",
         "target": "[PR#]Gabranth_boss2_*",
         "input": "Kill",
         "param": "",
@@ -1817,7 +1939,7 @@
         "limit": -1
       },
       {
-        "output": "OnHitMin",
+        "output": "",
         "target": "[PR#]Gabranth_boss2_attack*",
         "input": "Kill",
         "param": "",
@@ -1857,7 +1979,7 @@
         "limit": -1
       },
       {
-        "output": "OnHitMin",
+        "output": "",
         "target": "[PR#]Gabranth_boss2_Nade",
         "input": "Kill",
         "param": "",
@@ -1865,7 +1987,7 @@
         "limit": -1
       },
       {
-        "output": "OnHitMin",
+        "output": "",
         "target": "[PR#]Gabranth_boss2_model",
         "input": "ClearParent",
         "param": "",
@@ -1873,7 +1995,7 @@
         "limit": -1
       },
       {
-        "output": "OnHitMin",
+        "output": "",
         "target": "[PR#]Gabranth_boss2_model",
         "input": "FireUser3",
         "param": "",
@@ -1881,7 +2003,7 @@
         "limit": -1
       },
       {
-        "output": "OnHitMin",
+        "output": "",
         "target": "[PR#]Gabranth_boss2_HP_Sprite",
         "input": "Kill",
         "param": "",
@@ -1889,7 +2011,7 @@
         "limit": -1
       },
       {
-        "output": "OnHitMin",
+        "output": "",
         "target": "[PR#]Gabranth_boss2_HP_Sprite2",
         "input": "Kill",
         "param": "",
@@ -1897,7 +2019,7 @@
         "limit": -1
       },
       {
-        "output": "OnHitMin",
+        "output": "",
         "target": "[PR#]music",
         "input": "StartSound",
         "param": "",
@@ -1905,7 +2027,7 @@
         "limit": -1
       },
       {
-        "output": "OnHitMin",
+        "output": "",
         "target": "[PR#]music",
         "input": "SetSoundEventName",
         "param": "Music.ZardonicFollowMe2",
@@ -1913,7 +2035,7 @@
         "limit": -1
       },
       {
-        "output": "OnHitMin",
+        "output": "",
         "target": "[PR#]music",
         "input": "StopSound",
         "param": "",
@@ -1921,7 +2043,7 @@
         "limit": -1
       },
       {
-        "output": "OnHitMin",
+        "output": "",
         "target": "[PR#]Gabranth_boss2_model",
         "input": "FireUser1",
         "param": "",
@@ -1929,7 +2051,7 @@
         "limit": -1
       },
       {
-        "output": "OnHitMin",
+        "output": "",
         "target": "[PR#]Gabranth_boss2_Timer",
         "input": "Kill",
         "param": "",
@@ -1937,7 +2059,7 @@
         "limit": -1
       },
       {
-        "output": "OnHitMin",
+        "output": "",
         "target": "[PR#]Gabranth_boss2_Hurt",
         "input": "Kill",
         "param": "",
@@ -1945,7 +2067,7 @@
         "limit": -1
       },
       {
-        "output": "OnHitMin",
+        "output": "",
         "target": "[PR#]Cmd",
         "input": "Command",
         "param": "say **[Bash] Gabranth is defeated - Escape!**",
@@ -1953,7 +2075,7 @@
         "limit": -1
       },
       {
-        "output": "OnHitMin",
+        "output": "",
         "target": "[PR#]Zm_Magick_Disable_relay",
         "input": "FireUser2",
         "param": "",
@@ -1961,7 +2083,7 @@
         "limit": -1
       },
       {
-        "output": "OnHitMin",
+        "output": "",
         "target": "[PR#]cmd",
         "input": "Command",
         "param": "say **[Balthier] We need to get to the engines on the left and right side**",
@@ -1969,7 +2091,7 @@
         "limit": -1
       },
       {
-        "output": "OnHitMin",
+        "output": "",
         "target": "[PR#]cmd",
         "input": "Command",
         "param": "say **[Balthier] Don't let the zombies get through the main gate! **",
@@ -1977,7 +2099,7 @@
         "limit": -1
       },
       {
-        "output": "OnHitMin",
+        "output": "",
         "target": "[PR#]Map_Shake",
         "input": "FireUser1",
         "param": "",
@@ -1985,7 +2107,7 @@
         "limit": -1
       },
       {
-        "output": "OnHitMin",
+        "output": "",
         "target": "[PR#]gabranth_boss_attack_start_wall",
         "input": "Disable",
         "param": "",
@@ -1993,7 +2115,7 @@
         "limit": -1
       },
       {
-        "output": "OnHitMin",
+        "output": "",
         "target": "[PR#]gabranth_boss_attack_start_push",
         "input": "Kill",
         "param": "",
@@ -2001,7 +2123,7 @@
         "limit": -1
       },
       {
-        "output": "OnHitMin",
+        "output": "",
         "target": "[PR#]gabranth_boss_attack_start_push2",
         "input": "Kill",
         "param": "",
@@ -2009,7 +2131,7 @@
         "limit": -1
       },
       {
-        "output": "OnHitMin",
+        "output": "",
         "target": "[PR#]stage4_teleport_006",
         "input": "Enable",
         "param": "",
@@ -2017,7 +2139,7 @@
         "limit": -1
       },
       {
-        "output": "OnHitMin",
+        "output": "",
         "target": "[PR#]stage4_teleport_006",
         "input": "Disable",
         "param": "",
@@ -2025,7 +2147,7 @@
         "limit": -1
       },
       {
-        "output": "OnHitMin",
+        "output": "",
         "target": "[PR#]stage4_door_007",
         "input": "Open",
         "param": "",
@@ -2033,7 +2155,7 @@
         "limit": -1
       },
       {
-        "output": "OnHitMin",
+        "output": "",
         "target": "[PR#]skybox_imperial_army_models3",
         "input": "Enable",
         "param": "",
@@ -2041,7 +2163,7 @@
         "limit": -1
       },
       {
-        "output": "OnHitMin",
+        "output": "",
         "target": "[PR#]cmd",
         "input": "Command",
         "param": "say **[Balthier] When all engines are stopped the exit gate will be automatically opened!**",
@@ -2049,7 +2171,7 @@
         "limit": -1
       },
       {
-        "output": "OnHitMin",
+        "output": "",
         "target": "[PR#]stage4_zm_multi_speed",
         "input": "Enable",
         "param": "",
@@ -2057,7 +2179,7 @@
         "limit": -1
       },
       {
-        "output": "OnHitMin",
+        "output": "",
         "target": "[PR#]stage4_cinematic_once",
         "input": "Kill",
         "param": "",
@@ -2065,7 +2187,7 @@
         "limit": -1
       },
       {
-        "output": "OnHitMin",
+        "output": "",
         "target": "[PR#]Gabranth_Boss2_final_attack_relay",
         "input": "CancelPending",
         "param": "",
@@ -2073,7 +2195,7 @@
         "limit": -1
       },
       {
-        "output": "OnHitMin",
+        "output": "",
         "target": "[PR#]gabranth_boss2_final_attack_part",
         "input": "Kill",
         "param": "",
@@ -2081,7 +2203,7 @@
         "limit": -1
       },
       {
-        "output": "OnHitMin",
+        "output": "",
         "target": "[PR#]gabranth_boss2_final_attack_hurt",
         "input": "Kill",
         "param": "",
@@ -2089,9 +2211,17 @@
         "limit": -1
       },
       {
-        "output": "OnHitMin",
+        "output": "",
         "target": "[PR#]Zm_Magick_Disable_relay",
         "input": "FireUser2",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnHitMin",
+        "target": "[PR#]Gabranth_boss2_Hitbox",
+        "input": "FireUser3",
         "param": "",
         "delay": 0,
         "limit": -1
@@ -4305,6 +4435,14 @@
         "param": "1,30",
         "delay": 0,
         "limit": -1
+      },
+      {
+        "output": "OnStartTouch",
+        "target": "[PR#]Gabranth_boss2_attack_HP1",
+        "input": "Add",
+        "param": "30",
+        "delay": 0,
+        "limit": -1
       }
     ]
   },
@@ -4428,6 +4566,14 @@
         "target": "[PR#]bosshp_script",
         "input": "AddHealth",
         "param": "1,95",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnStartTouch",
+        "target": "[PR#]Gabranth_boss2_attack_HP1",
+        "input": "Add",
+        "param": "95",
         "delay": 0,
         "limit": -1
       }

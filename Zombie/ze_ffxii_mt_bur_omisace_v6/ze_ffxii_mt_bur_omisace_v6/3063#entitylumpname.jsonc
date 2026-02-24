@@ -697,7 +697,7 @@
     },
     "connections": [
       {
-        "output": "OnHitMin",
+        "output": "",
         "target": "[PR#]Bergan_Attack_lighting_*",
         "input": "Kill",
         "param": "",
@@ -705,7 +705,7 @@
         "limit": -1
       },
       {
-        "output": "OnHitMin",
+        "output": "",
         "target": "[PR#]bergan_boss1_attack*",
         "input": "Kill",
         "param": "",
@@ -713,7 +713,7 @@
         "limit": -1
       },
       {
-        "output": "OnHitMin",
+        "output": "",
         "target": "[PR#]bergan_boss1_*",
         "input": "Kill",
         "param": "",
@@ -753,7 +753,7 @@
         "limit": -1
       },
       {
-        "output": "OnHitMin",
+        "output": "",
         "target": "[PR#]teleport_to_bergan2_zombie",
         "input": "Enable",
         "param": "",
@@ -761,7 +761,7 @@
         "limit": -1
       },
       {
-        "output": "OnHitMin",
+        "output": "",
         "target": "[PR#]Bergan_boss2_phase1_prequel_start_relay",
         "input": "Trigger",
         "param": "",
@@ -769,7 +769,7 @@
         "limit": -1
       },
       {
-        "output": "OnHitMin",
+        "output": "",
         "target": "[PR#]teleport_to_bergan2",
         "input": "Enable",
         "param": "",
@@ -777,7 +777,7 @@
         "limit": -1
       },
       {
-        "output": "OnHitMin",
+        "output": "",
         "target": "[PR#]omisace_temple_room_smoke_part",
         "input": "Kill",
         "param": "",
@@ -785,7 +785,7 @@
         "limit": -1
       },
       {
-        "output": "OnHitMin",
+        "output": "",
         "target": "[PR#]omisace_temple_room_fire_part",
         "input": "Kill",
         "param": "",
@@ -793,7 +793,7 @@
         "limit": -1
       },
       {
-        "output": "OnHitMin",
+        "output": "",
         "target": "[PR#]Template_bergan_boss2",
         "input": "ForceSpawn",
         "param": "",
@@ -801,7 +801,7 @@
         "limit": -1
       },
       {
-        "output": "OnHitMin",
+        "output": "",
         "target": "[PR#]Teleport_Fade",
         "input": "FireUser1",
         "param": "",
@@ -809,7 +809,7 @@
         "limit": -1
       },
       {
-        "output": "OnHitMin",
+        "output": "",
         "target": "[PR#]bergan_boss1_ultimate_doom_part_002",
         "input": "Kill",
         "param": "",
@@ -817,7 +817,7 @@
         "limit": -1
       },
       {
-        "output": "OnHitMin",
+        "output": "",
         "target": "[PR#]bergan_boss1_ultimate_doom_hurt",
         "input": "Kill",
         "param": "",
@@ -825,7 +825,7 @@
         "limit": -1
       },
       {
-        "output": "OnHitMin",
+        "output": "",
         "target": "[PR#]bergan_boss1_ultimate_doom_part_001",
         "input": "Kill",
         "param": "",
@@ -833,7 +833,7 @@
         "limit": -1
       },
       {
-        "output": "OnHitMin",
+        "output": "",
         "target": "[PR#]Bergan_boss1_Hitbox_Nade",
         "input": "Kill",
         "param": "",
@@ -841,7 +841,7 @@
         "limit": -1
       },
       {
-        "output": "OnHitMin",
+        "output": "",
         "target": "[PR#]Bergan_boss1_cast_part",
         "input": "Start",
         "param": "",
@@ -849,7 +849,7 @@
         "limit": -1
       },
       {
-        "output": "OnHitMin",
+        "output": "",
         "target": "[PR#]Bergan_boss1_model",
         "input": "SetAnimationNotLooping",
         "param": "cast",
@@ -857,7 +857,7 @@
         "limit": -1
       },
       {
-        "output": "OnHitMin",
+        "output": "",
         "target": "[PR#]Bergan_boss1_Final_Relay",
         "input": "CancelPending",
         "param": "",
@@ -865,11 +865,19 @@
         "limit": -1
       },
       {
-        "output": "OnHitMin",
+        "output": "",
         "target": "[PR#]fog_ctrl",
         "input": "Disable",
         "param": "",
         "delay": 3,
+        "limit": -1
+      },
+      {
+        "output": "OnHitMin",
+        "target": "[PR#]Bergan_boss1_Physbox",
+        "input": "FireUser3",
+        "param": "",
+        "delay": 0,
         "limit": -1
       }
     ]
@@ -3010,6 +3018,14 @@
         "param": "65",
         "delay": 0,
         "limit": -1
+      },
+      {
+        "output": "OnStartTouch",
+        "target": "[PR#]Bergan_boss1_attack_HP1",
+        "input": "Subtract",
+        "param": "65",
+        "delay": 0,
+        "limit": -1
       }
     ]
   },
@@ -3035,6 +3051,14 @@
         "target": "[PR#]bosshp_script",
         "input": "AddHealth",
         "param": "1,100",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnStartTouch",
+        "target": "[PR#]Bergan_boss1_attack_HP1",
+        "input": "Add",
+        "param": "100",
         "delay": 0,
         "limit": -1
       }
@@ -3395,6 +3419,7 @@
     "hammerUniqueId": "3617",
     "targetname": "[PR#]Bergan_boss1_Physbox",
     "properties": {
+      "fluiddragscale": "1",
       "hoverposeangles": "0.000000 0.000000 0.000000",
       "hoverposeangles __RAW_ARRAY__ (FloatingPoint64[3])": [
         0,

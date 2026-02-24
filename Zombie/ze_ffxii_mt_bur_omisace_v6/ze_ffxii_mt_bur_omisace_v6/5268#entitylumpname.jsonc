@@ -6,6 +6,7 @@
     "hammerUniqueId": "5236",
     "targetname": "[PR#]BehemothRed_Boss_Attack_Body",
     "properties": {
+      "fluiddragscale": "1",
       "hoverposeangles": "0.000000 0.000000 0.000000",
       "hoverposeangles __RAW_ARRAY__ (FloatingPoint64[3])": [
         0,
@@ -838,7 +839,7 @@
     },
     "connections": [
       {
-        "output": "OnHitMin",
+        "output": "",
         "target": "[PR#]BehemothRed_Boss_Attack_*",
         "input": "Kill",
         "param": "",
@@ -878,7 +879,7 @@
         "limit": -1
       },
       {
-        "output": "OnHitMin",
+        "output": "",
         "target": "[PR#]cmd",
         "input": "Command",
         "param": "say **[Bash] We shouldn't have come in here. Let's get out of here while we still can!**",
@@ -886,7 +887,7 @@
         "limit": -1
       },
       {
-        "output": "OnHitMin",
+        "output": "",
         "target": "[PR#]music_case2",
         "input": "PickRandom",
         "param": "",
@@ -894,7 +895,7 @@
         "limit": -1
       },
       {
-        "output": "OnHitMin",
+        "output": "",
         "target": "!self",
         "input": "Kill",
         "param": "",
@@ -902,7 +903,7 @@
         "limit": -1
       },
       {
-        "output": "OnHitMin",
+        "output": "",
         "target": "[PR#]BehemothRed_Boss_Attack_HP1",
         "input": "Kill",
         "param": "",
@@ -910,7 +911,7 @@
         "limit": -1
       },
       {
-        "output": "OnHitMin",
+        "output": "",
         "target": "[PR#]BehemothRed_Boss_Attack_HP_Sprite2",
         "input": "Kill",
         "param": "",
@@ -918,7 +919,7 @@
         "limit": -1
       },
       {
-        "output": "OnHitMin",
+        "output": "",
         "target": "[PR#]BehemothRed_Boss_Attack_HP_Sprite",
         "input": "Kill",
         "param": "",
@@ -926,7 +927,7 @@
         "limit": -1
       },
       {
-        "output": "OnHitMin",
+        "output": "",
         "target": "[PR#]Zm_Magick_Disable_relay",
         "input": "FireUser2",
         "param": "",
@@ -934,7 +935,7 @@
         "limit": -1
       },
       {
-        "output": "OnHitMin",
+        "output": "",
         "target": "[PR#]BehemothRed_Boss_Attack_Final_Relay",
         "input": "CancelPending",
         "param": "",
@@ -942,7 +943,7 @@
         "limit": -1
       },
       {
-        "output": "OnHitMin",
+        "output": "",
         "target": "[PR#]BehemothRed_boss_model",
         "input": "ClearParent",
         "param": "",
@@ -950,7 +951,7 @@
         "limit": -1
       },
       {
-        "output": "OnHitMin",
+        "output": "",
         "target": "[PR#]BehemothRed_boss_model",
         "input": "SetAnimationLooping",
         "param": "defeat",
@@ -958,7 +959,7 @@
         "limit": -1
       },
       {
-        "output": "OnHitMin",
+        "output": "",
         "target": "[PR#]BehemothRed_boss_step_ambient",
         "input": "Kill",
         "param": "",
@@ -966,7 +967,7 @@
         "limit": -1
       },
       {
-        "output": "OnHitMin",
+        "output": "",
         "target": "[PR#]temple_first_part_doors_004*",
         "input": "Open",
         "param": "",
@@ -974,7 +975,7 @@
         "limit": -1
       },
       {
-        "output": "OnHitMin",
+        "output": "",
         "target": "[PR#]behemothred_boss_jail",
         "input": "Break",
         "param": "",
@@ -982,7 +983,7 @@
         "limit": -1
       },
       {
-        "output": "OnHitMin",
+        "output": "",
         "target": "[PR#]lvl1_teleport_afk_001",
         "input": "Disable",
         "param": "",
@@ -990,7 +991,7 @@
         "limit": -1
       },
       {
-        "output": "OnHitMin",
+        "output": "",
         "target": "[PR#]omisace_temple_teleport_001",
         "input": "KeyValue",
         "param": "target lvl1_temple_spawn_002",
@@ -998,7 +999,7 @@
         "limit": -1
       },
       {
-        "output": "OnHitMin",
+        "output": "",
         "target": "[PR#]temple_first_part_doors_002*",
         "input": "Close",
         "param": "",
@@ -1006,7 +1007,7 @@
         "limit": -1
       },
       {
-        "output": "OnHitMin",
+        "output": "",
         "target": "[PR#]temple_first_part_doors_001*",
         "input": "Close",
         "param": "",
@@ -1014,7 +1015,7 @@
         "limit": -1
       },
       {
-        "output": "OnHitMin",
+        "output": "",
         "target": "[PR#]lvl1_teleport_afk_002",
         "input": "Enable",
         "param": "",
@@ -1022,7 +1023,7 @@
         "limit": -1
       },
       {
-        "output": "OnHitMin",
+        "output": "",
         "target": "[PR#]temple_first_part_doors_004*",
         "input": "Close",
         "param": "",
@@ -1030,7 +1031,7 @@
         "limit": -1
       },
       {
-        "output": "OnHitMin",
+        "output": "",
         "target": "[PR#]temple_first_part_doors_005*",
         "input": "Open",
         "param": "",
@@ -1038,7 +1039,7 @@
         "limit": -1
       },
       {
-        "output": "OnHitMin",
+        "output": "",
         "target": "[PR#]cmd",
         "input": "Command",
         "param": "say **The gates will open in 15 seconds**",
@@ -1046,7 +1047,7 @@
         "limit": -1
       },
       {
-        "output": "OnHitMin",
+        "output": "",
         "target": "[PR#]BehemothRed_boss_model",
         "input": "FireUser1",
         "param": "",
@@ -1054,7 +1055,7 @@
         "limit": -1
       },
       {
-        "output": "OnHitMin",
+        "output": "",
         "target": "[PR#]music",
         "input": "StartSound",
         "param": "",
@@ -1062,7 +1063,7 @@
         "limit": -1
       },
       {
-        "output": "OnHitMin",
+        "output": "",
         "target": "[PR#]music",
         "input": "SetSoundEventName",
         "param": "Music.PhoenixRising2",
@@ -1070,7 +1071,7 @@
         "limit": -1
       },
       {
-        "output": "OnHitMin",
+        "output": "",
         "target": "[PR#]music",
         "input": "StopSound",
         "param": "",
@@ -1078,7 +1079,7 @@
         "limit": -1
       },
       {
-        "output": "OnHitMin",
+        "output": "",
         "target": "[PR#]lvl1_cinematic_once",
         "input": "Kill",
         "param": "",
@@ -1086,7 +1087,7 @@
         "limit": -1
       },
       {
-        "output": "OnHitMin",
+        "output": "",
         "target": "[PR#]behemothred_boss_attack_step_timer",
         "input": "Disable",
         "param": "",
@@ -1094,7 +1095,7 @@
         "limit": -1
       },
       {
-        "output": "OnHitMin",
+        "output": "",
         "target": "[PR#]behemothred_boss_attack_step_timer",
         "input": "Kill",
         "param": "",
@@ -1102,10 +1103,18 @@
         "limit": -1
       },
       {
-        "output": "OnHitMin",
+        "output": "",
         "target": "[PR#]cmd",
         "input": "Command",
         "param": "say **The Behemoth has vanquished!**",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnHitMin",
+        "target": "[PR#]BehemothRed_Boss_Attack_Body",
+        "input": "FireUser3",
+        "param": "",
         "delay": 0,
         "limit": -1
       }
@@ -1133,6 +1142,14 @@
         "target": "[PR#]bosshp_script",
         "input": "AddHealth",
         "param": "1,104",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnStartTouch",
+        "target": "[PR#]BehemothRed_Boss_Attack_HP1",
+        "input": "Add",
+        "param": "104",
         "delay": 0,
         "limit": -1
       }
@@ -1191,6 +1208,14 @@
         "param": "60",
         "delay": 0,
         "limit": -1
+      },
+      {
+        "output": "OnStartTouch",
+        "target": "[PR#]BehemothRed_Boss_Attack_HP1",
+        "input": "Subtract",
+        "param": "60",
+        "delay": 0,
+        "limit": -1
       }
     ]
   },
@@ -1223,6 +1248,7 @@
     "hammerUniqueId": "3907",
     "targetname": "[PR#]BehemothRed_Boss_Attack_Phys",
     "properties": {
+      "fluiddragscale": "1",
       "hoverposeangles": "0.000000 0.000000 0.000000",
       "hoverposeangles __RAW_ARRAY__ (FloatingPoint64[3])": [
         0,
@@ -2496,7 +2522,7 @@
       "solidbsp": "0",
       "distance": "-85",
       "loopmovesound": "False",
-      "spawnflags": "0",
+      "spawnflags": "16",
       "spawnpos": "0",
       "health": "0",
       "ignoredebris": "False",
@@ -2540,7 +2566,7 @@
       "solidbsp": "0",
       "distance": "85",
       "loopmovesound": "False",
-      "spawnflags": "0",
+      "spawnflags": "16",
       "spawnpos": "0",
       "health": "0",
       "ignoredebris": "False",
@@ -3193,7 +3219,7 @@
         "limit": -1
       },
       {
-        "output": "OnTrigger",
+        "output": "",
         "target": "[PR#]Item_poison_Filter",
         "input": "AddOutput",
         "param": "OnPass>bosshp_script>ItemDamage>Poison,500>0>-1",
@@ -3201,7 +3227,7 @@
         "limit": -1
       },
       {
-        "output": "OnTrigger",
+        "output": "",
         "target": "[PR#]Item_aqua_Filter",
         "input": "AddOutput",
         "param": "OnPass>bosshp_script>ItemDamage>Aqua,500>0>-1",
@@ -3209,7 +3235,7 @@
         "limit": -1
       },
       {
-        "output": "OnTrigger",
+        "output": "",
         "target": "[PR#]Item_dark_Filter",
         "input": "AddOutput",
         "param": "OnPass>bosshp_script>ItemDamage>Dark,500>0>-1",
@@ -3217,7 +3243,7 @@
         "limit": -1
       },
       {
-        "output": "OnTrigger",
+        "output": "",
         "target": "[PR#]Item_Fire_Filter",
         "input": "AddOutput",
         "param": "OnPass>bosshp_script>ItemDamage>Fire,-900>0>-1",
@@ -3225,7 +3251,7 @@
         "limit": -1
       },
       {
-        "output": "OnTrigger",
+        "output": "",
         "target": "[PR#]Item_Thunder_Filter",
         "input": "AddOutput",
         "param": "OnPass>bosshp_script>ItemDamage>Thunder,500>0>-1",
@@ -3233,7 +3259,7 @@
         "limit": -1
       },
       {
-        "output": "OnTrigger",
+        "output": "",
         "target": "[PR#]Item_Sand_Filter",
         "input": "AddOutput",
         "param": "OnPass>bosshp_script>ItemDamage>Sand,500>0>-1",
@@ -3257,7 +3283,7 @@
         "limit": -1
       },
       {
-        "output": "OnTrigger",
+        "output": "",
         "target": "[PR#]Item_crossbow_Filter",
         "input": "AddOutput",
         "param": "OnPass>bosshp_script>ItemDamage>Crossbow,75>0>-1",
@@ -3265,7 +3291,7 @@
         "limit": -1
       },
       {
-        "output": "OnTrigger",
+        "output": "",
         "target": "[PR#]Item_shield_Filter",
         "input": "AddOutput",
         "param": "OnPass>bosshp_script>ItemDamage>Shield,500>0>-1",
@@ -3273,7 +3299,7 @@
         "limit": -1
       },
       {
-        "output": "OnTrigger",
+        "output": "",
         "target": "[PR#]Item_Cortahombres_Filter",
         "input": "AddOutput",
         "param": "OnPass>bosshp_script>ItemDamage>Cortahombres,750>0>-1",
@@ -3281,7 +3307,7 @@
         "limit": -1
       },
       {
-        "output": "OnTrigger",
+        "output": "",
         "target": "[PR#]Item_Dragon_Whisker_Filter",
         "input": "AddOutput",
         "param": "OnPass>bosshp_script>ItemDamage>Dragon,-500>0>-1",
@@ -3289,7 +3315,7 @@
         "limit": -1
       },
       {
-        "output": "OnTrigger",
+        "output": "",
         "target": "[PR#]Item_shield2_Filter",
         "input": "AddOutput",
         "param": "OnPass>bosshp_script>ItemDamage>Shield2,1000>0>-1",
@@ -3297,7 +3323,7 @@
         "limit": -1
       },
       {
-        "output": "OnTrigger",
+        "output": "",
         "target": "[PR#]Item_loxley_bow_Filter",
         "input": "AddOutput",
         "param": "OnPass>bosshp_script>ItemDamage>Bow,500>0>-1",
@@ -3305,7 +3331,7 @@
         "limit": -1
       },
       {
-        "output": "OnTrigger",
+        "output": "",
         "target": "[PR#]bosshp_script",
         "input": "StartBoss",
         "param": "BehemothRed_Boss_Attack_Body,bosshp_script,boss_hud,[Behemoth],25,1,4",
@@ -3313,11 +3339,107 @@
         "limit": -1
       },
       {
-        "output": "OnTrigger",
+        "output": "",
         "target": "[PR#]showhud_timer",
         "input": "Enable",
         "param": "",
         "delay": 0.21,
+        "limit": -1
+      },
+      {
+        "output": "OnTrigger",
+        "target": "[PR#]Item_aqua_Filter",
+        "input": "AddOutput",
+        "param": "OnPass>BehemothRed_Boss_Attack_HP1>Subtract>500>0>-1",
+        "delay": 1.01,
+        "limit": -1
+      },
+      {
+        "output": "OnTrigger",
+        "target": "[PR#]Item_Cortahombres_Filter",
+        "input": "AddOutput",
+        "param": "OnPass>BehemothRed_Boss_Attack_HP1>Subtract>750>0>-1",
+        "delay": 1.01,
+        "limit": -1
+      },
+      {
+        "output": "OnTrigger",
+        "target": "[PR#]Item_crossbow_Filter",
+        "input": "AddOutput",
+        "param": "OnPass>BehemothRed_Boss_Attack_HP1>Subtract>75>0>-1",
+        "delay": 1.01,
+        "limit": -1
+      },
+      {
+        "output": "OnTrigger",
+        "target": "[PR#]Item_dark_Filter",
+        "input": "AddOutput",
+        "param": "OnPass>BehemothRed_Boss_Attack_HP1>Subtract>500>0>-1",
+        "delay": 1.01,
+        "limit": -1
+      },
+      {
+        "output": "OnTrigger",
+        "target": "[PR#]Item_Dragon_Whisker_Filter",
+        "input": "AddOutput",
+        "param": "OnPass>BehemothRed_Boss_Attack_HP1>Add>500>0>-1",
+        "delay": 1.01,
+        "limit": -1
+      },
+      {
+        "output": "OnTrigger",
+        "target": "[PR#]Item_Fire_Filter",
+        "input": "AddOutput",
+        "param": "OnPass>BehemothRed_Boss_Attack_HP1>Add>900>0>-1",
+        "delay": 1.01,
+        "limit": -1
+      },
+      {
+        "output": "OnTrigger",
+        "target": "[PR#]Item_loxley_bow_Filter",
+        "input": "AddOutput",
+        "param": "OnPass>BehemothRed_Boss_Attack_HP1>Subtract>500>0>-1",
+        "delay": 1.01,
+        "limit": -1
+      },
+      {
+        "output": "OnTrigger",
+        "target": "[PR#]Item_poison_Filter",
+        "input": "AddOutput",
+        "param": "OnPass>BehemothRed_Boss_Attack_HP1>Subtract>500>0>-1",
+        "delay": 1.01,
+        "limit": -1
+      },
+      {
+        "output": "OnTrigger",
+        "target": "[PR#]Item_Sand_Filter",
+        "input": "AddOutput",
+        "param": "OnPass>BehemothRed_Boss_Attack_HP1>Subtract>500>0>-1",
+        "delay": 1.01,
+        "limit": -1
+      },
+      {
+        "output": "OnTrigger",
+        "target": "[PR#]Item_shield_Filter",
+        "input": "AddOutput",
+        "param": "OnPass>BehemothRed_Boss_Attack_HP1>Subtract>500>0>-1",
+        "delay": 1.01,
+        "limit": -1
+      },
+      {
+        "output": "OnTrigger",
+        "target": "[PR#]Item_shield2_Filter",
+        "input": "AddOutput",
+        "param": "OnPass>BehemothRed_Boss_Attack_HP1>Subtract>1000>0>-1",
+        "delay": 1.01,
+        "limit": -1
+      },
+      {
+        "output": "OnTrigger",
+        "target": "[PR#]Item_Thunder_Filter",
+        "input": "AddOutput",
+        "param": "OnPass>BehemothRed_Boss_Attack_HP1>Subtract>500>0>-1",
+        "delay": 1.01,
         "limit": -1
       }
     ]

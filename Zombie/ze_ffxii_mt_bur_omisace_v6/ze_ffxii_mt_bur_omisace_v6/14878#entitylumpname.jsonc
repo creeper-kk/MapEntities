@@ -133,7 +133,7 @@
         "output": "OnTrigger",
         "target": "[PR#]Item_aqua_Filter",
         "input": "AddOutput",
-        "param": "OnPass>bosshp_script>ItemDamage>Aqua,1000>0>-1",
+        "param": "OnPass>Bergan_boss1_attack_HP1>Subtract>1000>0>-1",
         "delay": 0.01,
         "limit": -1
       },
@@ -141,7 +141,7 @@
         "output": "OnTrigger",
         "target": "[PR#]Item_dark_Filter",
         "input": "AddOutput",
-        "param": "OnPass>bosshp_script>ItemDamage>Dark,1000>0>-1",
+        "param": "OnPass>Bergan_boss1_attack_HP1>Subtract>1000>0>-1",
         "delay": 0.01,
         "limit": -1
       },
@@ -149,7 +149,7 @@
         "output": "OnTrigger",
         "target": "[PR#]Item_Fire_Filter",
         "input": "AddOutput",
-        "param": "OnPass>bosshp_script>ItemDamage>Fire,-1000>0>-1",
+        "param": "OnPass>Bergan_boss1_attack_HP1>Add>1000>0>-1",
         "delay": 0.01,
         "limit": -1
       },
@@ -157,7 +157,7 @@
         "output": "OnTrigger",
         "target": "[PR#]Item_Thunder_Filter",
         "input": "AddOutput",
-        "param": "OnPass>bosshp_script>ItemDamage>Thunder,1000>0>-1",
+        "param": "OnPass>Bergan_boss1_attack_HP1>Subtract>1000>0>-1",
         "delay": 0.01,
         "limit": -1
       },
@@ -165,7 +165,7 @@
         "output": "OnTrigger",
         "target": "[PR#]Item_Sand_Filter",
         "input": "AddOutput",
-        "param": "OnPass>bosshp_script>ItemDamage>Sand,1000>0>-1",
+        "param": "OnPass>Bergan_boss1_attack_HP1>Subtract>1000>0>-1",
         "delay": 0.01,
         "limit": -1
       },
@@ -213,7 +213,7 @@
         "output": "OnTrigger",
         "target": "[PR#]Item_poison_Filter",
         "input": "AddOutput",
-        "param": "OnPass>bosshp_script>ItemDamage>Poison,1000>0>-1",
+        "param": "OnPass>Bergan_boss1_attack_HP1>Subtract>1000>0>-1",
         "delay": 0.01,
         "limit": -1
       },
@@ -221,7 +221,7 @@
         "output": "OnTrigger",
         "target": "[PR#]Item_limit_Filter",
         "input": "AddOutput",
-        "param": "OnPass>bosshp_script>ItemDamage>Limit,5000>0>-1",
+        "param": "OnPass>Bergan_boss1_attack_HP1>Subtract>5000>0>-1",
         "delay": 0.01,
         "limit": -1
       },
@@ -229,7 +229,7 @@
         "output": "OnTrigger",
         "target": "[PR#]Item_crossbow_Filter",
         "input": "AddOutput",
-        "param": "OnPass>bosshp_script>ItemDamage>Crossbow,75>0>-1",
+        "param": "OnPass>Bergan_boss1_attack_HP1>Subtract>75>0>-1",
         "delay": 0.01,
         "limit": -1
       },
@@ -237,7 +237,7 @@
         "output": "OnTrigger",
         "target": "[PR#]Item_shield_Filter",
         "input": "AddOutput",
-        "param": "OnPass>bosshp_script>ItemDamage>Shield,800>0>-1",
+        "param": "OnPass>Bergan_boss1_attack_HP1>Subtract>800>0>-1",
         "delay": 0.01,
         "limit": -1
       },
@@ -245,7 +245,7 @@
         "output": "OnTrigger",
         "target": "[PR#]Item_Cortahombres_Filter",
         "input": "AddOutput",
-        "param": "OnPass>bosshp_script>ItemDamage>Cortahombres,500>0>-1",
+        "param": "OnPass>Bergan_boss1_attack_HP1>Subtract>500>0>-1",
         "delay": 0.01,
         "limit": -1
       },
@@ -253,7 +253,7 @@
         "output": "OnTrigger",
         "target": "[PR#]Item_Dragon_Whisker_Filter",
         "input": "AddOutput",
-        "param": "OnPass>bosshp_script>ItemDamage>Dragon,-750>0>-1",
+        "param": "OnPass>Bergan_boss1_attack_HP1>Add>750>0>-1",
         "delay": 0.01,
         "limit": -1
       },
@@ -261,7 +261,7 @@
         "output": "OnTrigger",
         "target": "[PR#]Item_shield2_Filter",
         "input": "AddOutput",
-        "param": "OnPass>bosshp_script>ItemDamage>Shield2,750>0>-1",
+        "param": "OnPass>Bergan_boss1_attack_HP1>Subtract>750>0>-1",
         "delay": 0.01,
         "limit": -1
       },
@@ -269,7 +269,7 @@
         "output": "OnTrigger",
         "target": "[PR#]Item_loxley_bow_Filter",
         "input": "AddOutput",
-        "param": "OnPass>bosshp_script>ItemDamage>Bow,750>0>-1",
+        "param": "OnPass>Bergan_boss1_attack_HP1>Subtract>750>0>-1",
         "delay": 0.01,
         "limit": -1
       },
@@ -282,7 +282,7 @@
         "limit": -1
       },
       {
-        "output": "OnTrigger",
+        "output": "",
         "target": "[PR#]showhud_timer",
         "input": "Enable",
         "param": "",

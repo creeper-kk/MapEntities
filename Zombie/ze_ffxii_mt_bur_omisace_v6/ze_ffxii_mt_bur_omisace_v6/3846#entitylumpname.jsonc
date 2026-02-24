@@ -32,6 +32,14 @@
         "param": "27",
         "delay": 0,
         "limit": -1
+      },
+      {
+        "output": "OnHurtPlayer",
+        "target": "[PR#]Ending_boss1_laser_counter",
+        "input": "Subtract",
+        "param": "27",
+        "delay": 0,
+        "limit": -1
       }
     ]
   },
@@ -181,7 +189,7 @@
       "uselocaloffset": "False",
       "parentname": "[PR#]Vertical_laser2_model&0000",
       "origin": "97.000000 0.760010 0.000000",
-      "angles": "-0.000000 -179.999985 -93.499992",
+      "angles": "-0.000000 -179.999985 -90.000000",
       "scales": "1.000000 1.000000 1.000000",
       "_template_lump_ent_index": "3"
     }

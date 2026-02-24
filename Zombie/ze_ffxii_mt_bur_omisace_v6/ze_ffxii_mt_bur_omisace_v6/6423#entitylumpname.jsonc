@@ -435,6 +435,14 @@
         "param": "1,87",
         "delay": 0,
         "limit": -1
+      },
+      {
+        "output": "OnStartTouch",
+        "target": "[PR#]Bergan_boss2_attack_HP1",
+        "input": "Add",
+        "param": "87",
+        "delay": 0,
+        "limit": -1
       }
     ]
   },
@@ -479,6 +487,14 @@
         "param": "45",
         "delay": 0,
         "limit": -1
+      },
+      {
+        "output": "OnStartTouch",
+        "target": "[PR#]Bergan_boss2_attack_HP1",
+        "input": "Subtract",
+        "param": "45",
+        "delay": 0,
+        "limit": -1
       }
     ]
   },
@@ -487,6 +503,7 @@
     "hammerUniqueId": "3510",
     "targetname": "[PR#]bergan_boss2_Phys",
     "properties": {
+      "fluiddragscale": "1",
       "hoverposeangles": "0.000000 0.000000 0.000000",
       "hoverposeangles __RAW_ARRAY__ (FloatingPoint64[3])": [
         0,
@@ -1029,9 +1046,17 @@
         "limit": -1
       },
       {
-        "output": "OnHitMin",
+        "output": "",
         "target": "[PR#]Bergan_boss2_phase1_dead_relay",
         "input": "Trigger",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnHitMin",
+        "target": "[PR#]bergan_boss2_physbox",
+        "input": "FireUser3",
         "param": "",
         "delay": 0,
         "limit": -1
@@ -1202,7 +1227,7 @@
         181
       ],
       "renderamt": "255",
-      "rendermode": "2",
+      "rendermode": "kRenderNormal",
       "renderfx": "0",
       "breakablecontentstype": "BC_DEFAULT",
       "burstscale": "100",
@@ -2441,7 +2466,7 @@
         "limit": -1
       },
       {
-        "output": "OnTrigger",
+        "output": "",
         "target": "[PR#]Item_Sand_Filter",
         "input": "AddOutput",
         "param": "OnPass>bosshp_script_bergan2>ItemDamage>Sand,955>0>-1",
@@ -2449,7 +2474,7 @@
         "limit": -1
       },
       {
-        "output": "OnTrigger",
+        "output": "",
         "target": "[PR#]Item_Thunder_Filter",
         "input": "AddOutput",
         "param": "OnPass>bosshp_script_bergan2>ItemDamage>Thunder,955>0>-1",
@@ -2457,7 +2482,7 @@
         "limit": -1
       },
       {
-        "output": "OnTrigger",
+        "output": "",
         "target": "[PR#]Item_Fire_Filter",
         "input": "AddOutput",
         "param": "OnPass>bosshp_script_bergan2>ItemDamage>Fire,955>0>-1",
@@ -2465,7 +2490,7 @@
         "limit": -1
       },
       {
-        "output": "OnTrigger",
+        "output": "",
         "target": "[PR#]Item_dark_Filter",
         "input": "AddOutput",
         "param": "OnPass>bosshp_script_bergan2>ItemDamage>Dark,955>0>-1",
@@ -2473,7 +2498,7 @@
         "limit": -1
       },
       {
-        "output": "OnTrigger",
+        "output": "",
         "target": "[PR#]Item_aqua_Filter",
         "input": "AddOutput",
         "param": "OnPass>bosshp_script_bergan2>ItemDamage>Aqua,955>0>-1",
@@ -2601,7 +2626,7 @@
         "limit": -1
       },
       {
-        "output": "OnTrigger",
+        "output": "",
         "target": "[PR#]Item_poison_Filter",
         "input": "AddOutput",
         "param": "OnPass>bosshp_script_bergan2>ItemDamage>Poison,955>0>-1",
@@ -2609,7 +2634,7 @@
         "limit": -1
       },
       {
-        "output": "OnTrigger",
+        "output": "",
         "target": "[PR#]Item_limit_Filter",
         "input": "AddOutput",
         "param": "OnPass>bosshp_script_bergan2>ItemDamage>Limit,7000>15>-1",
@@ -2617,7 +2642,7 @@
         "limit": -1
       },
       {
-        "output": "OnTrigger",
+        "output": "",
         "target": "[PR#]Item_crossbow_Filter",
         "input": "AddOutput",
         "param": "OnPass>bosshp_script_bergan2>ItemDamage>Crossbow,50>0>-1",
@@ -2625,7 +2650,7 @@
         "limit": -1
       },
       {
-        "output": "OnTrigger",
+        "output": "",
         "target": "[PR#]Item_shield_Filter",
         "input": "AddOutput",
         "param": "OnPass>bosshp_script_bergan2>ItemDamage>Shield,450>0>-1",
@@ -2633,7 +2658,7 @@
         "limit": -1
       },
       {
-        "output": "OnTrigger",
+        "output": "",
         "target": "[PR#]Item_Cortahombres_Filter",
         "input": "AddOutput",
         "param": "OnPass>bosshp_script_bergan2>ItemDamage>Cortahombres,450>0>-1",
@@ -2641,7 +2666,7 @@
         "limit": -1
       },
       {
-        "output": "OnTrigger",
+        "output": "",
         "target": "[PR#]Item_Dragon_Whisker_Filter",
         "input": "AddOutput",
         "param": "OnPass>bosshp_script_bergan2>ItemDamage>Dragon,450>0>-1",
@@ -2649,7 +2674,7 @@
         "limit": -1
       },
       {
-        "output": "OnTrigger",
+        "output": "",
         "target": "[PR#]Item_shield2_Filter",
         "input": "AddOutput",
         "param": "OnPass>bosshp_script_bergan2>ItemDamage>Shield2,450>0>-1",
@@ -2657,7 +2682,7 @@
         "limit": -1
       },
       {
-        "output": "OnTrigger",
+        "output": "",
         "target": "[PR#]Item_loxley_bow_Filter",
         "input": "AddOutput",
         "param": "OnPass>bosshp_script_bergan2>ItemDamage>Bow,450>0>-1",
@@ -2665,7 +2690,7 @@
         "limit": -1
       },
       {
-        "output": "OnTrigger",
+        "output": "",
         "target": "[PR#]bosshp_script_bergan2",
         "input": "StartBoss",
         "param": "bergan_boss2_physbox,bosshp_script_bergan2,boss_hud,[Judge$Bergan],100,1,4",
@@ -2673,11 +2698,115 @@
         "limit": -1
       },
       {
-        "output": "OnTrigger",
+        "output": "",
         "target": "[PR#]showhud_timer",
         "input": "Enable",
         "param": "",
         "delay": 0.23,
+        "limit": -1
+      },
+      {
+        "output": "OnTrigger",
+        "target": "[PR#]Item_Cortahombres_Filter",
+        "input": "AddOutput",
+        "param": "OnPass>Bergan_boss2_attack_HP1>Subtract>450>0>-1",
+        "delay": 0.01,
+        "limit": -1
+      },
+      {
+        "output": "OnTrigger",
+        "target": "[PR#]Item_Dragon_Whisker_Filter",
+        "input": "AddOutput",
+        "param": "OnPass>Bergan_boss2_attack_HP1>Subtract>450>0>-1",
+        "delay": 0.01,
+        "limit": -1
+      },
+      {
+        "output": "OnTrigger",
+        "target": "[PR#]Item_loxley_bow_Filter",
+        "input": "AddOutput",
+        "param": "OnPass>Bergan_boss2_attack_HP1>Subtract>450>0>-1",
+        "delay": 0.01,
+        "limit": -1
+      },
+      {
+        "output": "OnTrigger",
+        "target": "[PR#]Item_shield_Filter",
+        "input": "AddOutput",
+        "param": "OnPass>Bergan_boss2_attack_HP1>Subtract>450>0>-1",
+        "delay": 0.01,
+        "limit": -1
+      },
+      {
+        "output": "OnTrigger",
+        "target": "[PR#]Item_shield2_Filter",
+        "input": "AddOutput",
+        "param": "OnPass>Bergan_boss2_attack_HP1>Subtract>450>0>-1",
+        "delay": 0.01,
+        "limit": -1
+      },
+      {
+        "output": "OnTrigger",
+        "target": "[PR#]Item_crossbow_Filter",
+        "input": "AddOutput",
+        "param": "OnPass>Bergan_boss2_attack_HP1>Subtract>50>0>-1",
+        "delay": 0.01,
+        "limit": -1
+      },
+      {
+        "output": "OnTrigger",
+        "target": "[PR#]Item_limit_Filter",
+        "input": "AddOutput",
+        "param": "OnPass>Bergan_boss2_attack_HP1>Subtract>7000>15>-1",
+        "delay": 0.01,
+        "limit": -1
+      },
+      {
+        "output": "OnTrigger",
+        "target": "[PR#]Item_aqua_Filter",
+        "input": "AddOutput",
+        "param": "OnPass>Bergan_boss2_attack_HP1>Subtract>955>0>-1",
+        "delay": 0.01,
+        "limit": -1
+      },
+      {
+        "output": "OnTrigger",
+        "target": "[PR#]Item_dark_Filter",
+        "input": "AddOutput",
+        "param": "OnPass>Bergan_boss2_attack_HP1>Subtract>955>0>-1",
+        "delay": 0.01,
+        "limit": -1
+      },
+      {
+        "output": "OnTrigger",
+        "target": "[PR#]Item_Fire_Filter",
+        "input": "AddOutput",
+        "param": "OnPass>Bergan_boss2_attack_HP1>Subtract>955>0>-1",
+        "delay": 0.01,
+        "limit": -1
+      },
+      {
+        "output": "OnTrigger",
+        "target": "[PR#]Item_poison_Filter",
+        "input": "AddOutput",
+        "param": "OnPass>Bergan_boss2_attack_HP1>Subtract>955>0>-1",
+        "delay": 0.01,
+        "limit": -1
+      },
+      {
+        "output": "OnTrigger",
+        "target": "[PR#]Item_Sand_Filter",
+        "input": "AddOutput",
+        "param": "OnPass>Bergan_boss2_attack_HP1>Subtract>955>0>-1",
+        "delay": 0.01,
+        "limit": -1
+      },
+      {
+        "output": "OnTrigger",
+        "target": "[PR#]Item_Thunder_Filter",
+        "input": "AddOutput",
+        "param": "OnPass>Bergan_boss2_attack_HP1>Subtract>955>0>-1",
+        "delay": 0.01,
         "limit": -1
       }
     ]
@@ -3869,6 +3998,7 @@
     "hammerUniqueId": "3769",
     "targetname": "[PR#]bergan_boss2_physbox",
     "properties": {
+      "fluiddragscale": "1",
       "hoverposeangles": "0.000000 0.000000 0.000000",
       "hoverposeangles __RAW_ARRAY__ (FloatingPoint64[3])": [
         0,

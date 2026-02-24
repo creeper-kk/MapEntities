@@ -738,7 +738,7 @@
         "output": "OnFullyOpen",
         "target": "[PR#]MusicParam",
         "input": "SetFloatValue",
-        "param": "0.800000",
+        "param": "1.000000",
         "delay": 2.5,
         "limit": -1
       },
