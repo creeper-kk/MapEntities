@@ -201,6 +201,14 @@
         "param": "",
         "delay": 0,
         "limit": 1
+      },
+      {
+        "output": "OnPlayerPickup",
+        "target": "[PR#]Map_Title_Filter_3",
+        "input": "TestActivator",
+        "param": "",
+        "delay": 0.05,
+        "limit": 1
       }
     ]
   },
@@ -338,6 +346,121 @@
     ]
   },
   {
+    "classname": "trigger_multiple",
+    "hammerUniqueId": "7521",
+    "targetname": "[PR#]Item_ZMStealth_Trigger",
+    "properties": {
+      "wait": "1",
+      "filtername": "[PR#]filter_zom",
+      "spawnflags": "4097",
+      "startdisabled": "True",
+      "uselocaloffset": "False",
+      "parentname": "[PR#]Item_ZMStealth_Knife",
+      "origin": "0.000000 0.000000 36.000000",
+      "angles": "-0.000000 0.000000 0.000000",
+      "scales": "1.000000 1.000000 1.000000",
+      "model": "maps/ze_s_a_m/entities/item_zmstealth_trigger_7521.vmdl",
+      "_template_lump_ent_index": "8"
+    },
+    "connections": [
+      {
+        "output": "OnStartTouch",
+        "target": "!activator",
+        "input": "Alpha",
+        "param": "0",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnStartTouch",
+        "target": "!activator",
+        "input": "DisableShadow",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnStartTouch",
+        "target": "!activator",
+        "input": "EnableShadow",
+        "param": "",
+        "delay": 10,
+        "limit": -1
+      },
+      {
+        "output": "OnStartTouch",
+        "target": "!activator",
+        "input": "Alpha",
+        "param": "255",
+        "delay": 10,
+        "limit": -1
+      },
+      {
+        "output": "OnStartTouch",
+        "target": "[PR#]Map_Title_Filter_2",
+        "input": "TestActivator",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnStartTouch",
+        "target": "!activator",
+        "input": "KeyValues",
+        "param": "speed 1.2",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnStartTouch",
+        "target": "!activator",
+        "input": "KeyValues",
+        "param": "speed 1",
+        "delay": 5,
+        "limit": -1
+      }
+    ]
+  },
+  {
+    "classname": "info_particle_system",
+    "hammerUniqueId": "7523",
+    "targetname": "[PR#]Item_ZMStealth_Prt_2",
+    "properties": {
+      "cpoint7_parent": "0",
+      "cpoint6_parent": "0",
+      "cpoint5_parent": "0",
+      "cpoint4_parent": "0",
+      "cpoint3_parent": "0",
+      "cpoint2_parent": "0",
+      "cpoint1_parent": "0",
+      "tint_cp_color": "255 255 255",
+      "tint_cp_color __RAW_ARRAY__ (UInt64[3])": [
+        255,
+        255,
+        255
+      ],
+      "tint_cp": "-1",
+      "data_cp_value": "0.000000 0.000000 0.000000",
+      "data_cp_value __RAW_ARRAY__ (FloatingPoint64[3])": [
+        0,
+        0,
+        0
+      ],
+      "data_cp": "-1",
+      "snapshot_mesh": "0",
+      "no_save": "False",
+      "start_active": "False",
+      "effect_name": "particles/sam_particles/zmstealth_effect_02.vpcf",
+      "clientsideentity": "0",
+      "uselocaloffset": "False",
+      "parentname": "[PR#]Item_ZMStealth_Knife",
+      "origin": "0.000000 -0.005859 8.000000",
+      "angles": "-0.000000 0.000000 0.000000",
+      "scales": "1.000000 1.000000 1.000000",
+      "_template_lump_ent_index": "9"
+    }
+  },
+  {
     "classname": "info_particle_system",
     "hammerUniqueId": "7513",
     "targetname": "[PR#]Item_ZMStealth_Light_2",
@@ -373,7 +496,7 @@
       "origin": "26.700195 0.000000 40.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "8"
+      "_template_lump_ent_index": "10"
     }
   },
   {
@@ -387,7 +510,7 @@
       "origin": "0.000000 -16.000000 16.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "9"
+      "_template_lump_ent_index": "11"
     },
     "connections": [
       {
@@ -424,10 +547,34 @@
       },
       {
         "output": "OnPass",
-        "target": "[PR#]Item_ZMStealth_Maker",
-        "input": "ForceSpawn",
+        "target": "[PR#]Item_ZMStealth_Trigger",
+        "input": "Enable",
         "param": "",
         "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnPass",
+        "target": "[PR#]Item_ZMStealth_Prt_2",
+        "input": "Start",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnPass",
+        "target": "[PR#]Item_ZMStealth_Prt_2",
+        "input": "Stop",
+        "param": "",
+        "delay": 2,
+        "limit": -1
+      },
+      {
+        "output": "OnPass",
+        "target": "[PR#]Item_ZMStealth_Trigger",
+        "input": "Disable",
+        "param": "",
+        "delay": 2,
         "limit": -1
       }
     ]
@@ -441,7 +588,7 @@
       "origin": "0.000000 -16.000000 32.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "10"
+      "_template_lump_ent_index": "12"
     },
     "connections": [
       {
@@ -650,7 +797,7 @@
       "origin": "52.000000 0.000000 40.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "11"
+      "_template_lump_ent_index": "13"
     }
   }
 ]

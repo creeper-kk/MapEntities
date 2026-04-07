@@ -6,6 +6,7 @@
     "hammerUniqueId": "9994",
     "targetname": "[PR#]Castle_Grab_Shield",
     "properties": {
+      "fluiddragscale": "1",
       "hoverposeangles": "0.000000 0.000000 0.000000",
       "hoverposeangles __RAW_ARRAY__ (FloatingPoint64[3])": [
         0,

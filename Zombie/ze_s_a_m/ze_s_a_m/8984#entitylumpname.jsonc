@@ -501,6 +501,14 @@
         "param": "",
         "delay": 0,
         "limit": 1
+      },
+      {
+        "output": "OnTrigger",
+        "target": "[PR#]S4_Elevator_2_Floor",
+        "input": "Start",
+        "param": "",
+        "delay": 0,
+        "limit": 1
       }
     ]
   },
@@ -1224,27 +1232,75 @@
     ]
   },
   {
+    "classname": "env_particle_glow",
+    "hammerUniqueId": "13383",
+    "targetname": "[PR#]S4_Elevator_2_Floor",
+    "properties": {
+      "cpoint7_parent": "0",
+      "cpoint6_parent": "0",
+      "cpoint5_parent": "0",
+      "cpoint4_parent": "0",
+      "cpoint3_parent": "0",
+      "cpoint2_parent": "0",
+      "cpoint1_parent": "0",
+      "tint_cp_color": "255 255 255",
+      "tint_cp_color __RAW_ARRAY__ (UInt64[3])": [
+        255,
+        255,
+        255
+      ],
+      "tint_cp": "-1",
+      "data_cp_value": "0.000000 0.000000 0.000000",
+      "data_cp_value __RAW_ARRAY__ (FloatingPoint64[3])": [
+        0,
+        0,
+        0
+      ],
+      "data_cp": "-1",
+      "no_save": "False",
+      "snapshot_mesh": "0",
+      "alphascale": "1",
+      "selfillumscale": "1",
+      "colortint": "255 255 255",
+      "colortint __RAW_ARRAY__ (UInt64[3])": [
+        255,
+        255,
+        255
+      ],
+      "scale": "1",
+      "start_active": "False",
+      "effect_name": "particles/cs2/s4_elevator.vpcf",
+      "clientsideentity": "0",
+      "uselocaloffset": "False",
+      "parentname": "[PR#]S4_Elevator_2",
+      "origin": "-9752.000000 6928.000000 -8728.000000",
+      "angles": "-0.000000 90.000000 0.000000",
+      "scales": "1.000000 1.000000 1.000000",
+      "_template_lump_ent_index": "32"
+    }
+  },
+  {
     "classname": "func_movelinear",
-    "hammerUniqueId": "8484",
+    "hammerUniqueId": "13385",
     "targetname": "[PR#]S4_Elevator_2_Floor",
     "properties": {
       "allowmovablenavmeshdockingonentireentity": "False",
-      "movewithoutpushingblockers": "False",
-      "nointerpolate": "False",
       "createmovablenavmesh": "False",
       "createnavobstacle": "False",
       "blockdamage": "0",
       "movedistance": "0",
+      "speed": "0",
+      "movewithoutpushingblockers": "False",
+      "nointerpolate": "False",
       "authoredposition": "0",
       "startposition": "0",
+      "spawnflags": "0",
       "movedir": "0.000000 0.000000 0.000000",
       "movedir __RAW_ARRAY__ (FloatingPoint64[3])": [
         0,
         0,
         0
       ],
-      "speed": "0",
-      "spawnflags": "0",
       "lightmapstatic": "0",
       "rendertocubemaps": "False",
       "object_culling": "0",
@@ -1265,8 +1321,8 @@
       "origin": "-9752.000000 6928.000000 -8920.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "model": "maps/ze_s_a_m/entities/s4_elevator_2_floor_8484.vmdl",
-      "_template_lump_ent_index": "32"
+      "model": "maps/ze_s_a_m/entities/s4_elevator_2_floor_13385.vmdl",
+      "_template_lump_ent_index": "33"
     }
   },
   {
@@ -1310,7 +1366,7 @@
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
       "model": "maps/ze_s_a_m/entities/s4_elevator_2_11481.vmdl",
-      "_template_lump_ent_index": "33"
+      "_template_lump_ent_index": "34"
     },
     "connections": [
       {
@@ -1420,7 +1476,7 @@
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
       "model": "maps/ze_s_a_m/entities/s4_elevator_1_11479.vmdl",
-      "_template_lump_ent_index": "34"
+      "_template_lump_ent_index": "35"
     }
   },
   {
@@ -1436,7 +1492,7 @@
       "origin": "-11024.000000 6120.000000 -10576.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "35"
+      "_template_lump_ent_index": "36"
     },
     "connections": [
       {
@@ -1463,7 +1519,7 @@
       "origin": "-11024.000000 6120.000000 -9576.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "36"
+      "_template_lump_ent_index": "37"
     },
     "connections": [
       {
@@ -1519,7 +1575,7 @@
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
       "model": "maps/ze_s_a_m/entities/s4_elevator_1_floor_8488.vmdl",
-      "_template_lump_ent_index": "37"
+      "_template_lump_ent_index": "38"
     }
   },
   {
@@ -1563,7 +1619,7 @@
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
       "model": "maps/ze_s_a_m/entities/s4_final_ring_6_11491.vmdl",
-      "_template_lump_ent_index": "38"
+      "_template_lump_ent_index": "39"
     },
     "connections": [
       {
@@ -1612,7 +1668,7 @@
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
       "model": "maps/ze_s_a_m/entities/s4_final_ring_6_h_11298.vmdl",
-      "_template_lump_ent_index": "39"
+      "_template_lump_ent_index": "40"
     }
   },
   {
@@ -1658,7 +1714,7 @@
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
       "model": "maps/ze_s_a_m/entities/s4_final_ring_6_floor_8617.vmdl",
-      "_template_lump_ent_index": "40"
+      "_template_lump_ent_index": "41"
     }
   },
   {
@@ -1675,7 +1731,7 @@
       "origin": "-11264.000000 4520.000000 -3296.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "41"
+      "_template_lump_ent_index": "42"
     },
     "connections": [
       {
@@ -1701,7 +1757,7 @@
       "origin": "-11264.000000 4520.000000 -4816.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "42"
+      "_template_lump_ent_index": "43"
     },
     "connections": [
       {

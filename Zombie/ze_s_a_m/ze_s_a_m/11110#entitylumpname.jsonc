@@ -31,6 +31,14 @@
         "param": "0",
         "delay": 0,
         "limit": -1
+      },
+      {
+        "output": "OnHitMax",
+        "target": "[PR#]Skill_Asuna_Cast_Prt",
+        "input": "Kill",
+        "param": "",
+        "delay": 0,
+        "limit": -1
       }
     ]
   },
@@ -664,6 +672,7 @@
     "hammerUniqueId": "11122",
     "targetname": "[PR#]Item_Asuna_Box",
     "properties": {
+      "fluiddragscale": "1",
       "hoverposeangles": "0.000000 0.000000 0.000000",
       "hoverposeangles __RAW_ARRAY__ (FloatingPoint64[3])": [
         0,

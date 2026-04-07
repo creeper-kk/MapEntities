@@ -462,5 +462,26 @@
       "scales": "1.000000 1.000000 1.000000",
       "model": "maps/ze_s_a_m_skybox/entities/sky_s5_water_19674.vmdl"
     }
+  },
+  {
+    "classname": "logic_branch",
+    "hammerUniqueId": "19676",
+    "targetname": "[PR#]Map_Kirito_Sp_Check_Branch",
+    "properties": {
+      "initialvalue": "0",
+      "origin": "40.000000 -56.000000 32.000000",
+      "angles": "0.000000 0.000000 0.000000",
+      "scales": "1.000000 1.000000 1.000000"
+    },
+    "connections": [
+      {
+        "output": "OnTrue",
+        "target": "[PR#]Item_Kirito_SP_Branch_6_Check",
+        "input": "SetValue",
+        "param": "1",
+        "delay": 0,
+        "limit": -1
+      }
+    ]
   }
 ]

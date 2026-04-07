@@ -232,6 +232,22 @@
         "param": "6000",
         "delay": 15,
         "limit": 1
+      },
+      {
+        "output": "OnTrigger",
+        "target": "[PR#]Item_S3_Crystal_T",
+        "input": "Enable",
+        "param": "",
+        "delay": 85,
+        "limit": 1
+      },
+      {
+        "output": "OnTrigger",
+        "target": "[PR#]Trigger_S3",
+        "input": "FireUser1",
+        "param": "",
+        "delay": 84,
+        "limit": 1
       }
     ]
   },
@@ -474,6 +490,65 @@
     ]
   },
   {
+    "classname": "trigger_multiple",
+    "hammerUniqueId": "13269",
+    "targetname": "[PR#]Trigger_S3",
+    "properties": {
+      "wait": "1",
+      "filtername": "[PR#]Filter_S5_Crystal",
+      "spawnflags": "1096",
+      "startdisabled": "True",
+      "uselocaloffset": "False",
+      "origin": "1144.000000 3016.000000 216.000000",
+      "angles": "-0.000000 0.000000 0.000000",
+      "scales": "1.000000 1.000000 1.000000",
+      "model": "maps/ze_s_a_m/entities/trigger_s3_13269.vmdl",
+      "_template_lump_ent_index": "8"
+    },
+    "connections": [
+      {
+        "output": "OnUser1",
+        "target": "!self",
+        "input": "Enable",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnTrigger",
+        "target": "[PR#]cmd",
+        "input": "Command",
+        "param": "say >>You found the <Dragon Ore>, Kirito will unlock new skill<<",
+        "delay": 0,
+        "limit": 1
+      },
+      {
+        "output": "OnTrigger",
+        "target": "[PR#]Map_Kirito_Sp_Check_Branch",
+        "input": "SetValue",
+        "param": "[PR#]1",
+        "delay": 0,
+        "limit": 1
+      },
+      {
+        "output": "OnTrigger",
+        "target": "[PR#]Item_S3_Crystal_T",
+        "input": "Kill",
+        "param": "",
+        "delay": 0,
+        "limit": 1
+      },
+      {
+        "output": "OnTrigger",
+        "target": "!self",
+        "input": "Kill",
+        "param": "",
+        "delay": 0,
+        "limit": 1
+      }
+    ]
+  },
+  {
     "classname": "prop_dynamic",
     "hammerUniqueId": "11051",
     "targetname": "[PR#]S3_Wall",
@@ -531,7 +606,7 @@
       "origin": "9464.000000 -11783.146484 -1384.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "8"
+      "_template_lump_ent_index": "9"
     }
   },
   {
@@ -577,7 +652,7 @@
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
       "model": "maps/ze_s_a_m/entities/s3_wall_11050.vmdl",
-      "_template_lump_ent_index": "9"
+      "_template_lump_ent_index": "10"
     }
   },
   {
@@ -594,7 +669,7 @@
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
       "model": "maps/ze_s_a_m/entities/trigger_s3_final_human_11238.vmdl",
-      "_template_lump_ent_index": "10"
+      "_template_lump_ent_index": "11"
     },
     "connections": [
       {
@@ -645,7 +720,7 @@
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
       "model": "maps/ze_s_a_m/entities/trigger_s3_final_zm_11236.vmdl",
-      "_template_lump_ent_index": "11"
+      "_template_lump_ent_index": "12"
     },
     "connections": [
       {
@@ -704,7 +779,7 @@
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
       "model": "maps/ze_s_a_m/entities/s3_item_origin_trigger_9059.vmdl",
-      "_template_lump_ent_index": "12"
+      "_template_lump_ent_index": "13"
     },
     "connections": [
       {
@@ -767,7 +842,7 @@
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
       "model": "maps/ze_s_a_m/entities/s3_item_origin_move_9057.vmdl",
-      "_template_lump_ent_index": "13"
+      "_template_lump_ent_index": "14"
     },
     "connections": [
       {
@@ -795,7 +870,7 @@
       "origin": "32.000000 0.000000 0.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "14"
+      "_template_lump_ent_index": "15"
     }
   },
   {
@@ -813,7 +888,7 @@
       "origin": "48.000000 0.000000 0.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "15"
+      "_template_lump_ent_index": "16"
     }
   },
   {
@@ -831,7 +906,7 @@
       "origin": "64.000000 0.000000 0.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "16"
+      "_template_lump_ent_index": "17"
     }
   },
   {
@@ -849,7 +924,7 @@
       "origin": "80.000000 0.000000 0.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "17"
+      "_template_lump_ent_index": "18"
     }
   },
   {
@@ -868,7 +943,7 @@
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
       "model": "maps/ze_s_a_m/entities/s3_afk_1_11040.vmdl",
-      "_template_lump_ent_index": "18"
+      "_template_lump_ent_index": "19"
     }
   },
   {
@@ -887,7 +962,7 @@
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
       "model": "maps/ze_s_a_m/entities/s3_afk_1_11039.vmdl",
-      "_template_lump_ent_index": "19"
+      "_template_lump_ent_index": "20"
     }
   },
   {
@@ -906,7 +981,7 @@
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
       "model": "maps/ze_s_a_m/entities/s3_afk_2_10872.vmdl",
-      "_template_lump_ent_index": "20"
+      "_template_lump_ent_index": "21"
     }
   },
   {
@@ -925,7 +1000,7 @@
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
       "model": "maps/ze_s_a_m/entities/s3_afk_3_10875.vmdl",
-      "_template_lump_ent_index": "21"
+      "_template_lump_ent_index": "22"
     }
   },
   {
@@ -944,7 +1019,7 @@
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
       "model": "maps/ze_s_a_m/entities/s3_afk_4_10974.vmdl",
-      "_template_lump_ent_index": "22"
+      "_template_lump_ent_index": "23"
     }
   },
   {
@@ -963,7 +1038,7 @@
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
       "model": "maps/ze_s_a_m/entities/s3_afk_5_11019.vmdl",
-      "_template_lump_ent_index": "23"
+      "_template_lump_ent_index": "24"
     }
   }
 ]

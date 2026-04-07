@@ -68,6 +68,14 @@
         "param": "",
         "delay": 5,
         "limit": -1
+      },
+      {
+        "output": "OnSpawn",
+        "target": "[PR#]Skill_Asuna_Cast_Prt",
+        "input": "Kill",
+        "param": "",
+        "delay": 5,
+        "limit": -1
       }
     ]
   }

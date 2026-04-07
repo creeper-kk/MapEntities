@@ -370,6 +370,7 @@
     "hammerUniqueId": "10019",
     "targetname": "[PR#]Castle_Guard_Box_1",
     "properties": {
+      "fluiddragscale": "1",
       "hoverposeangles": "0.000000 0.000000 0.000000",
       "hoverposeangles __RAW_ARRAY__ (FloatingPoint64[3])": [
         0,
@@ -886,6 +887,7 @@
     "hammerUniqueId": "10017",
     "targetname": "[PR#]Castle_Guard_Box_2",
     "properties": {
+      "fluiddragscale": "1",
       "hoverposeangles": "0.000000 0.000000 0.000000",
       "hoverposeangles __RAW_ARRAY__ (FloatingPoint64[3])": [
         0,
