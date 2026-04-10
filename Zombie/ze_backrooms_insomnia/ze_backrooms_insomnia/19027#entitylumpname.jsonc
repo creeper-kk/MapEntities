@@ -470,8 +470,9 @@
       "forgivedelay": "3",
       "damagemodel": "0",
       "damagetype": "512",
-      "damagecap": "100000",
-      "damage": "100000",
+      "damagecap": "160000",
+      "damage": "160000",
+      "filtername": "[PR#]Filter_Zombies",
       "spawnflags": "4097",
       "startdisabled": "True",
       "uselocaloffset": "False",
@@ -502,6 +503,30 @@
     ]
   },
   {
+    "classname": "trigger_hurt",
+    "hammerUniqueId": "26374",
+    "targetname": "[PR#]Item_Sfx_BlackLighting_Hurt&0000",
+    "properties": {
+      "thinkalways": "False",
+      "nodmgforce": "False",
+      "forgivedelay": "3",
+      "damagemodel": "0",
+      "damagetype": "512",
+      "damagecap": "160000",
+      "damage": "160000",
+      "filtername": "[PR#]Filter_Humans",
+      "spawnflags": "4097",
+      "startdisabled": "True",
+      "uselocaloffset": "False",
+      "parentname": "[PR#]Item_Sfx_BlackLighting_Model&0000",
+      "origin": "1.520508 -2.112549 40.006409",
+      "angles": "-0.000000 0.000000 0.000000",
+      "scales": "1.000000 1.000000 1.000000",
+      "model": "maps/ze_backrooms_insomnia/entities/item_sfx_blacklighting_hurt_26374.vmdl",
+      "_template_lump_ent_index": "9"
+    }
+  },
+  {
     "classname": "trigger_push",
     "hammerUniqueId": "19022",
     "targetname": "[PR#]Item_Sfx_BlackLighting_Push&0000",
@@ -521,7 +546,7 @@
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
       "model": "maps/ze_backrooms_insomnia/entities/item_sfx_blacklighting_push_19022.vmdl",
-      "_template_lump_ent_index": "9"
+      "_template_lump_ent_index": "10"
     },
     "connections": [
       {

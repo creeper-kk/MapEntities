@@ -11,8 +11,8 @@
       "forgivedelay": "3",
       "damagemodel": "0",
       "damagetype": "0",
-      "damagecap": "50",
-      "damage": "50",
+      "damagecap": "10",
+      "damage": "10",
       "filtername": "[PR#]Filter_Humans",
       "spawnflags": "4097",
       "startdisabled": "True",
@@ -35,9 +35,9 @@
       "forgivedelay": "3",
       "damagemodel": "0",
       "damagetype": "512",
-      "damagecap": "50000",
-      "damage": "50000",
-      "filtername": "[PR#]Filter_Zombies",
+      "damagecap": "150000",
+      "damage": "150000",
+      "filtername": "[PR#]FilterMuilt_NoItem_Zombie",
       "spawnflags": "4097",
       "startdisabled": "True",
       "uselocaloffset": "False",
@@ -47,7 +47,67 @@
       "scales": "1.000000 1.000000 1.000000",
       "model": "maps/ze_backrooms_insomnia/entities/item_watergun_tri_lp_25547.vmdl",
       "_template_lump_ent_index": "1"
-    }
+    },
+    "connections": [
+      {
+        "output": "OnStartTouch",
+        "target": "!activator",
+        "input": "Keyvalue",
+        "param": "speed 0.5",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnStartTouch",
+        "target": "!activator",
+        "input": "Keyvalue",
+        "param": "speed 1",
+        "delay": 5,
+        "limit": -1
+      }
+    ]
+  },
+  {
+    "classname": "trigger_hurt",
+    "hammerUniqueId": "26316",
+    "targetname": "[PR#]Item_Watergun_Tri_LP&0000",
+    "properties": {
+      "thinkalways": "False",
+      "nodmgforce": "False",
+      "forgivedelay": "3",
+      "damagemodel": "0",
+      "damagetype": "512",
+      "damagecap": "15",
+      "damage": "15",
+      "filtername": "[PR#]Filter_Zombies",
+      "spawnflags": "4097",
+      "startdisabled": "True",
+      "uselocaloffset": "False",
+      "parentname": "[PR#]Item_Watergun_Gun&0000",
+      "origin": "280.133301 -4.656982 69.948547",
+      "angles": "-0.000000 0.000000 0.000000",
+      "scales": "1.000000 1.000000 1.000000",
+      "model": "maps/ze_backrooms_insomnia/entities/item_watergun_tri_lp_26316.vmdl",
+      "_template_lump_ent_index": "2"
+    },
+    "connections": [
+      {
+        "output": "OnStartTouch",
+        "target": "!activator",
+        "input": "Keyvalue",
+        "param": "speed 0.5",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnStartTouch",
+        "target": "!activator",
+        "input": "Keyvalue",
+        "param": "speed 1",
+        "delay": 5,
+        "limit": -1
+      }
+    ]
   },
   {
     "classname": "trigger_hurt",
@@ -71,7 +131,7 @@
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
       "model": "maps/ze_backrooms_insomnia/entities/item_watergun_tri_almond_25551.vmdl",
-      "_template_lump_ent_index": "2"
+      "_template_lump_ent_index": "3"
     },
     "connections": [
       {
@@ -106,7 +166,7 @@
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
       "model": "maps/ze_backrooms_insomnia/entities/item_watergun_tri_almond_25530.vmdl",
-      "_template_lump_ent_index": "3"
+      "_template_lump_ent_index": "4"
     }
   },
   {
@@ -130,7 +190,7 @@
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
       "model": "maps/ze_backrooms_insomnia/entities/item_watergun_tri_firesalt_25573.vmdl",
-      "_template_lump_ent_index": "4"
+      "_template_lump_ent_index": "5"
     }
   },
   {
@@ -155,7 +215,7 @@
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
       "model": "maps/ze_backrooms_insomnia/entities/item_watergun_tri_firesalt_25553.vmdl",
-      "_template_lump_ent_index": "5"
+      "_template_lump_ent_index": "6"
     },
     "connections": [
       {
@@ -212,7 +272,7 @@
       "origin": "49.767090 -16.663086 52.039490",
       "angles": "-89.999962 -0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "6"
+      "_template_lump_ent_index": "7"
     }
   },
   {
@@ -251,7 +311,7 @@
       "origin": "49.767090 -16.663086 52.039490",
       "angles": "-89.999969 -0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "7"
+      "_template_lump_ent_index": "8"
     }
   },
   {
@@ -290,7 +350,7 @@
       "origin": "49.767090 -16.663086 52.039490",
       "angles": "-89.999954 -0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "8"
+      "_template_lump_ent_index": "9"
     }
   },
   {
@@ -351,7 +411,7 @@
       "origin": "23.932129 -16.433594 37.697998",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "9"
+      "_template_lump_ent_index": "10"
     }
   },
   {
@@ -413,7 +473,7 @@
       "origin": "9.230957 -16.642090 52.264343",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "10"
+      "_template_lump_ent_index": "11"
     }
   },
   {
@@ -475,7 +535,7 @@
       "origin": "9.226562 -16.637939 52.264465",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "11"
+      "_template_lump_ent_index": "12"
     }
   },
   {
@@ -537,7 +597,7 @@
       "origin": "9.226562 -16.637939 52.264465",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "12"
+      "_template_lump_ent_index": "13"
     }
   },
   {
@@ -584,7 +644,7 @@
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
       "model": "maps/ze_backrooms_insomnia/entities/item_watergun_door_25539.vmdl",
-      "_template_lump_ent_index": "13"
+      "_template_lump_ent_index": "14"
     }
   },
   {
@@ -601,7 +661,7 @@
       "origin": "-1.438965 -37.749512 2.438477",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "14"
+      "_template_lump_ent_index": "15"
     }
   },
   {
@@ -641,7 +701,7 @@
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
       "model": "maps/ze_backrooms_insomnia/entities/item_watergun_button_25537.vmdl",
-      "_template_lump_ent_index": "15"
+      "_template_lump_ent_index": "16"
     },
     "connections": [
       {
@@ -682,7 +742,7 @@
       "origin": "15.388672 46.731934 6.126587",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "16"
+      "_template_lump_ent_index": "17"
     },
     "connections": [
       {
@@ -722,7 +782,7 @@
         "target": "[PR#]Item_Watergun_Branch_Almond&0000",
         "input": "SetValue",
         "param": "1",
-        "delay": 0.1,
+        "delay": 0.01,
         "limit": -1
       },
       {
@@ -738,7 +798,7 @@
         "target": "[PR#]Item_Watergun_Branch_Firesalt&0000",
         "input": "SetValue",
         "param": "1",
-        "delay": 0.1,
+        "delay": 0.01,
         "limit": -1
       },
       {
@@ -754,7 +814,7 @@
         "target": "[PR#]Item_Watergun_Branch_LP&0000",
         "input": "SetValue",
         "param": "1",
-        "delay": 0.1,
+        "delay": 0.01,
         "limit": -1
       },
       {
@@ -762,7 +822,7 @@
         "target": "[PR#]Item_Watergun_Door_Firesalt&0000",
         "input": "Enable",
         "param": "",
-        "delay": 0.1,
+        "delay": 0.01,
         "limit": -1
       },
       {
@@ -770,7 +830,7 @@
         "target": "[PR#]Item_Watergun_Door_Almond&0000",
         "input": "Enable",
         "param": "",
-        "delay": 0.1,
+        "delay": 0.01,
         "limit": -1
       },
       {
@@ -778,7 +838,7 @@
         "target": "[PR#]Item_Watergun_Door_LP&0000",
         "input": "Enable",
         "param": "",
-        "delay": 0.1,
+        "delay": 0.01,
         "limit": -1
       },
       {
@@ -818,7 +878,7 @@
       "origin": "-13.107910 46.731934 6.126587",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "17"
+      "_template_lump_ent_index": "18"
     },
     "connections": [
       {
@@ -888,7 +948,7 @@
       "origin": "18.099609 75.182373 6.126587",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "18"
+      "_template_lump_ent_index": "19"
     },
     "connections": [
       {
@@ -958,7 +1018,7 @@
       "origin": "-3.177734 75.182373 6.126587",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "19"
+      "_template_lump_ent_index": "20"
     },
     "connections": [
       {
@@ -1028,7 +1088,7 @@
       "origin": "-22.484375 75.182373 6.126587",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "20"
+      "_template_lump_ent_index": "21"
     },
     "connections": [
       {
@@ -1119,7 +1179,7 @@
         0
       ],
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "21"
+      "_template_lump_ent_index": "22"
     },
     "connections": [
       {
@@ -1175,7 +1235,7 @@
       "origin": "69.714844 43.135254 22.828003",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "22"
+      "_template_lump_ent_index": "23"
     }
   },
   {
@@ -1205,7 +1265,7 @@
       "origin": "69.714844 58.106689 22.828003",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "23"
+      "_template_lump_ent_index": "24"
     }
   }
 ]

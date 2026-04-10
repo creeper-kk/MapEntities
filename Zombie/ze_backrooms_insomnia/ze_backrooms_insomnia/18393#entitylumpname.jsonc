@@ -307,18 +307,17 @@
   },
   {
     "classname": "trigger_once",
-    "hammerUniqueId": "18400",
+    "hammerUniqueId": "26179",
     "targetname": "[PR#]Entity_Smiler_Tri",
     "properties": {
       "filtername": "[PR#]Filter_Humans",
       "spawnflags": "4097",
       "startdisabled": "False",
       "uselocaloffset": "False",
-      "parentname": "[PR#]Entity_Smiler_Track",
-      "origin": "3.435547 2.790039 16.693359",
+      "origin": "9201.605469 9214.490234 -5037.251465",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "model": "maps/ze_backrooms_insomnia/entities/entity_smiler_tri_18400.vmdl",
+      "model": "maps/ze_backrooms_insomnia/entities/entity_smiler_tri_26179.vmdl",
       "_template_lump_ent_index": "6"
     },
     "connections": [

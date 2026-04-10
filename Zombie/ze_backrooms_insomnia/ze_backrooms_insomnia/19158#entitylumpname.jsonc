@@ -271,6 +271,30 @@
         "param": "",
         "delay": 0,
         "limit": 1
+      },
+      {
+        "output": "OnBreak",
+        "target": "[PR#]ZombieItem_Partygoer_Model101",
+        "input": "Enable",
+        "param": "",
+        "delay": 0,
+        "limit": 1
+      },
+      {
+        "output": "OnBreak",
+        "target": "[PR#]ZombieItem_Partygoer_Com_Atk",
+        "input": "SetCompareValue",
+        "param": "0",
+        "delay": 1,
+        "limit": -1
+      },
+      {
+        "output": "OnBreak",
+        "target": "[PR#]ZombieItem_Partygoer_ModelC",
+        "input": "Enable",
+        "param": "",
+        "delay": 0,
+        "limit": 1
       }
     ]
   }

@@ -499,6 +499,158 @@
         "param": "",
         "delay": 20,
         "limit": -1
+      },
+      {
+        "output": "OnStartTouch",
+        "target": "!activator",
+        "input": "Keyvalue",
+        "param": "speed 1.5",
+        "delay": 1,
+        "limit": -1
+      },
+      {
+        "output": "OnStartTouch",
+        "target": "!activator",
+        "input": "Keyvalue",
+        "param": "speed 1.5",
+        "delay": 2,
+        "limit": -1
+      },
+      {
+        "output": "OnStartTouch",
+        "target": "!activator",
+        "input": "Keyvalue",
+        "param": "speed 1.5",
+        "delay": 3,
+        "limit": -1
+      },
+      {
+        "output": "OnStartTouch",
+        "target": "!activator",
+        "input": "Keyvalue",
+        "param": "speed 1.5",
+        "delay": 4,
+        "limit": -1
+      },
+      {
+        "output": "OnStartTouch",
+        "target": "!activator",
+        "input": "Keyvalue",
+        "param": "speed 1.5",
+        "delay": 5,
+        "limit": -1
+      },
+      {
+        "output": "OnStartTouch",
+        "target": "!activator",
+        "input": "Keyvalue",
+        "param": "speed 1.5",
+        "delay": 6,
+        "limit": -1
+      },
+      {
+        "output": "OnStartTouch",
+        "target": "!activator",
+        "input": "Keyvalue",
+        "param": "speed 1.5",
+        "delay": 7,
+        "limit": -1
+      },
+      {
+        "output": "OnStartTouch",
+        "target": "!activator",
+        "input": "Keyvalue",
+        "param": "speed 1.5",
+        "delay": 8,
+        "limit": -1
+      },
+      {
+        "output": "OnStartTouch",
+        "target": "!activator",
+        "input": "Keyvalue",
+        "param": "speed 1.5",
+        "delay": 9,
+        "limit": -1
+      },
+      {
+        "output": "OnStartTouch",
+        "target": "!activator",
+        "input": "Keyvalue",
+        "param": "speed 1.5",
+        "delay": 10,
+        "limit": -1
+      },
+      {
+        "output": "OnStartTouch",
+        "target": "!activator",
+        "input": "Keyvalue",
+        "param": "speed 1.5",
+        "delay": 11,
+        "limit": -1
+      },
+      {
+        "output": "OnStartTouch",
+        "target": "!activator",
+        "input": "Keyvalue",
+        "param": "speed 1.5",
+        "delay": 12,
+        "limit": -1
+      },
+      {
+        "output": "OnStartTouch",
+        "target": "!activator",
+        "input": "Keyvalue",
+        "param": "speed 1.5",
+        "delay": 13,
+        "limit": -1
+      },
+      {
+        "output": "OnStartTouch",
+        "target": "!activator",
+        "input": "Keyvalue",
+        "param": "speed 1.5",
+        "delay": 14,
+        "limit": -1
+      },
+      {
+        "output": "OnStartTouch",
+        "target": "!activator",
+        "input": "Keyvalue",
+        "param": "speed 1.5",
+        "delay": 15,
+        "limit": -1
+      },
+      {
+        "output": "OnStartTouch",
+        "target": "!activator",
+        "input": "Keyvalue",
+        "param": "speed 1.5",
+        "delay": 16,
+        "limit": -1
+      },
+      {
+        "output": "OnStartTouch",
+        "target": "!activator",
+        "input": "Keyvalue",
+        "param": "speed 1.5",
+        "delay": 17,
+        "limit": -1
+      },
+      {
+        "output": "OnStartTouch",
+        "target": "!activator",
+        "input": "Keyvalue",
+        "param": "speed 1.5",
+        "delay": 18,
+        "limit": -1
+      },
+      {
+        "output": "OnStartTouch",
+        "target": "!activator",
+        "input": "Keyvalue",
+        "param": "speed 1.5",
+        "delay": 19,
+        "limit": -1
       }
     ]
   },

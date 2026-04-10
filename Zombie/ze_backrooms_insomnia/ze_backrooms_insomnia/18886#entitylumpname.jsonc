@@ -137,7 +137,7 @@
       },
       {
         "output": "OnTrigger",
-        "target": "[PR#]Item_BGAlmondWater_R_Clear",
+        "target": "[PR#]Item_BGAlmondWater_R_Clear&0000",
         "input": "Trigger",
         "param": "",
         "delay": 0,
@@ -260,7 +260,7 @@
       },
       {
         "output": "OnPlayerPickup",
-        "target": "[PR#]Item_BGAlmondWater_R_Clear",
+        "target": "[PR#]Item_BGAlmondWater_R_Clear&0000",
         "input": "CancelPending",
         "param": "",
         "delay": 0,
@@ -725,6 +725,41 @@
         "input": "RemoveContext",
         "param": "Painful",
         "delay": 0,
+        "limit": -1
+      }
+    ]
+  },
+  {
+    "classname": "logic_relay",
+    "hammerUniqueId": "19253",
+    "targetname": "[PR#]Item_BGAlmondWater_R_Clear&0000",
+    "properties": {
+      "spawnflags": "0",
+      "health": "0",
+      "passthroughcaller": "False",
+      "fastretrigger": "False",
+      "triggeronce": "False",
+      "startdisabled": "False",
+      "origin": "72.495605 38.898926 19.361023",
+      "angles": "-0.000000 0.000000 0.000000",
+      "scales": "1.000000 1.000000 1.000000",
+      "_template_lump_ent_index": "14"
+    },
+    "connections": [
+      {
+        "output": "OnTrigger",
+        "target": "!activator",
+        "input": "RemoveContext",
+        "param": "BGAlmondWater",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnTrigger",
+        "target": "!activator",
+        "input": "AddContext",
+        "param": "BGAlmondWater:1",
+        "delay": 60,
         "limit": -1
       }
     ]

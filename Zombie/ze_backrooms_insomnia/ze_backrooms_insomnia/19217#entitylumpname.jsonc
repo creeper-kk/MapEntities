@@ -122,7 +122,7 @@
         "target": "!self",
         "input": "FireUser1",
         "param": "",
-        "delay": 3,
+        "delay": 4,
         "limit": -1
       },
       {
@@ -193,7 +193,7 @@
         "output": "OnPlayerPickup",
         "target": "!activator",
         "input": "Keyvalue",
-        "param": "speed 1.45",
+        "param": "speed 1.25",
         "delay": 0,
         "limit": 1
       },
@@ -202,6 +202,30 @@
         "target": "[PR#]ZombieItem_Moth_EggModel",
         "input": "SetScale",
         "param": "0",
+        "delay": 0,
+        "limit": 1
+      },
+      {
+        "output": "OnPlayerPickup",
+        "target": "weapon_knife",
+        "input": "alpha",
+        "param": "0",
+        "delay": 5,
+        "limit": 1
+      },
+      {
+        "output": "OnPlayerPickup",
+        "target": "[PR#]Filter_Sponser_LastMO",
+        "input": "TestActivator",
+        "param": "",
+        "delay": 0,
+        "limit": 1
+      },
+      {
+        "output": "OnPlayerPickup",
+        "target": "[PR#]ZombieItem_Moth_FIX",
+        "input": "Trigger",
+        "param": "",
         "delay": 0,
         "limit": 1
       }
@@ -214,7 +238,7 @@
     "properties": {
       "uselocaloffset": "False",
       "parentname": "[PR#]ZombieItem_Moth_Knife",
-      "origin": "-0.550781 0.024109 35.023560",
+      "origin": "-0.550781 0.024109 41.031006",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
       "model": "maps/ze_backrooms_insomnia/entities/zombieitem_moth_water_19236.vmdl",
@@ -425,7 +449,7 @@
       "startdisabled": "True",
       "uselocaloffset": "False",
       "parentname": "[PR#]ZombieItem_Moth_Knife",
-      "origin": "39.616211 0.244324 54.624390",
+      "origin": "11.539062 -0.949158 32.898376",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
       "model": "maps/ze_backrooms_insomnia/entities/zombieitem_moth_tri_19238.vmdl",
@@ -525,7 +549,7 @@
         "target": "[PR#]ZombieItem_Moth_Speed",
         "input": "Disable",
         "param": "",
-        "delay": 10,
+        "delay": 1.1,
         "limit": -1
       }
     ]
@@ -603,7 +627,7 @@
   {
     "classname": "logic_relay",
     "hammerUniqueId": "19247",
-    "targetname": "[PR#]ZombieItem_Moth_Speed",
+    "targetname": "[PR#]ZombieItem_Moth_SpeedX",
     "properties": {
       "spawnflags": "0",
       "health": "0",
@@ -621,7 +645,7 @@
         "output": "OnTrigger",
         "target": "!activator",
         "input": "Keyvalue",
-        "param": "speed 1.4",
+        "param": "speed 1.3",
         "delay": 0,
         "limit": -1
       }
@@ -1257,6 +1281,387 @@
       "angles": "44.334515 0.000000 90.000000",
       "scales": "1.000000 1.000000 1.000000",
       "_template_lump_ent_index": "23"
+    }
+  },
+  {
+    "classname": "prop_dynamic",
+    "hammerUniqueId": "26093",
+    "targetname": "[PR#]ZombieItem_Moth_Model2",
+    "properties": {
+      "clothscale": "1",
+      "startdisabled": "True",
+      "forcenpcexclude": "False",
+      "createnavobstacle": "False",
+      "animateonserver": "False",
+      "lagcompensate": "False",
+      "randomizecycle": "False",
+      "idleanimationloopmode": "ANIM_LOOP_MODE_LOOPING",
+      "idleanim": "idlefanmade",
+      "startinganimationloopmode": "ANIM_LOOP_MODE_LOOPING",
+      "startinganim": "idlefanmade",
+      "use_animgraph": "True",
+      "disablelowviolence": "0",
+      "solid": "6",
+      "glowteam": "-1",
+      "glowcolor": "0 0 0",
+      "glowcolor __RAW_ARRAY__ (UInt64[3])": [
+        0,
+        0,
+        0
+      ],
+      "glowrangemin": "0",
+      "glowrange": "0",
+      "glowstate": "0",
+      "lightmapstatic": "0",
+      "rendertocubemaps": "False",
+      "object_culling": "0",
+      "fademaxdist": "0",
+      "fademindist": "-1",
+      "disablereceiveshadows": "False",
+      "rendercolor": "255 255 255",
+      "rendercolor __RAW_ARRAY__ (UInt64[3])": [
+        255,
+        255,
+        255
+      ],
+      "renderamt": "255",
+      "rendermode": "kRenderNormal",
+      "renderfx": "kRenderFxNone",
+      "breakablecontentstype": "BC_DEFAULT",
+      "burstscale": "100",
+      "pressuredelay": "0",
+      "spawnflags": "0",
+      "nointerpolate": "False",
+      "performancemode": "PM_NORMAL",
+      "exploderadius": "0",
+      "explodedamage": "0",
+      "disableshadows": "0",
+      "skin": "default",
+      "model": "models/newyear_hat.vmdl",
+      "clientsideentity": "0",
+      "local.angles": "-1.083946 -104.918289 -33.875153",
+      "local.angles __RAW_ARRAY__ (FloatingPoint64[3])": [
+        -1.0839459896087646,
+        -104.91828918457031,
+        -33.875152587890625
+      ],
+      "local.origin": "0.428711 3.816589 -0.708496",
+      "local.origin __RAW_ARRAY__ (FloatingPoint64[3])": [
+        0.4287109971046448,
+        3.816589117050171,
+        -0.7084959745407104
+      ],
+      "uselocaloffset": "True",
+      "parentattachmentname": "hat",
+      "parentname": "[PR#]ZombieItem_Moth_Model",
+      "origin": "-5.335938 4.300842 61.398376",
+      "angles": "12.378534 -103.726570 10.845163",
+      "scales": "1.800000 1.800000 1.800000",
+      "_template_lump_ent_index": "24"
+    }
+  },
+  {
+    "classname": "prop_dynamic",
+    "hammerUniqueId": "26327",
+    "targetname": "[PR#]ZombieItem_Moth_ModelC",
+    "properties": {
+      "clothscale": "1",
+      "startdisabled": "False",
+      "forcenpcexclude": "False",
+      "createnavobstacle": "False",
+      "animateonserver": "False",
+      "lagcompensate": "False",
+      "randomizecycle": "False",
+      "idleanimationloopmode": "ANIM_LOOP_MODE_NOT_LOOPING",
+      "startinganimationloopmode": "ANIM_LOOP_MODE_NOT_LOOPING",
+      "use_animgraph": "True",
+      "disablelowviolence": "0",
+      "solid": "6",
+      "glowteam": "-1",
+      "glowcolor": "0 0 0",
+      "glowcolor __RAW_ARRAY__ (UInt64[3])": [
+        0,
+        0,
+        0
+      ],
+      "glowrangemin": "0",
+      "glowrange": "0",
+      "glowstate": "0",
+      "lightmapstatic": "0",
+      "rendertocubemaps": "False",
+      "object_culling": "0",
+      "fademaxdist": "0",
+      "fademindist": "-1",
+      "disablereceiveshadows": "False",
+      "rendercolor": "255 255 255",
+      "rendercolor __RAW_ARRAY__ (UInt64[3])": [
+        255,
+        255,
+        255
+      ],
+      "renderamt": "0",
+      "rendermode": "kRenderNormal",
+      "renderfx": "kRenderFxNone",
+      "breakablecontentstype": "BC_DEFAULT",
+      "burstscale": "100",
+      "pressuredelay": "0",
+      "spawnflags": "0",
+      "nointerpolate": "False",
+      "performancemode": "PM_NORMAL",
+      "exploderadius": "0",
+      "explodedamage": "0",
+      "disableshadows": "0",
+      "skin": "default",
+      "model": "models/ear.vmdl",
+      "clientsideentity": "0",
+      "local.angles": "45.245991 -12.636130 -11.531782",
+      "local.angles __RAW_ARRAY__ (FloatingPoint64[3])": [
+        45.24599075317383,
+        -12.636130332946777,
+        -11.531782150268555
+      ],
+      "local.origin": "1.280273 0.206543 0.156738",
+      "local.origin __RAW_ARRAY__ (FloatingPoint64[3])": [
+        1.2802729606628418,
+        0.2065429985523224,
+        0.15673799812793732
+      ],
+      "uselocaloffset": "True",
+      "parentattachmentname": "hat",
+      "parentname": "[PR#]ZombieItem_Moth_Model",
+      "origin": "-5.585938 -0.449158 62.773376",
+      "angles": "-0.000000 -11.293515 0.000000",
+      "scales": "0.800000 0.800000 0.800000",
+      "_template_lump_ent_index": "25"
+    }
+  },
+  {
+    "classname": "logic_relay",
+    "hammerUniqueId": "26380",
+    "targetname": "[PR#]ZombieItem_Moth_LOL",
+    "properties": {
+      "spawnflags": "0",
+      "health": "0",
+      "passthroughcaller": "False",
+      "fastretrigger": "True",
+      "triggeronce": "False",
+      "startdisabled": "False",
+      "origin": "-5.439453 30.300842 2.628357",
+      "angles": "-0.000000 0.000000 0.000000",
+      "scales": "1.000000 1.000000 1.000000",
+      "_template_lump_ent_index": "26"
+    },
+    "connections": [
+      {
+        "output": "OnTrigger",
+        "target": "[PR#]ZombieItem_Moth_Tri2",
+        "input": "Enable",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnTrigger",
+        "target": "[PR#]ZombieItem_Moth_Tri2",
+        "input": "Disable",
+        "param": "",
+        "delay": 0.1,
+        "limit": -1
+      },
+      {
+        "output": "OnTrigger",
+        "target": "[PR#]ZombieItem_Moth_LOL",
+        "input": "Disable",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnTrigger",
+        "target": "[PR#]ZombieItem_Moth_LOL",
+        "input": "Enable",
+        "param": "",
+        "delay": 2,
+        "limit": -1
+      }
+    ]
+  },
+  {
+    "classname": "trigger_multiple",
+    "hammerUniqueId": "26376",
+    "targetname": "[PR#]ZombieItem_Moth_Tri2",
+    "properties": {
+      "wait": "1",
+      "filtername": "[PR#]Filter_Moth",
+      "spawnflags": "268439553",
+      "startdisabled": "True",
+      "uselocaloffset": "False",
+      "parentname": "[PR#]ZombieItem_Moth_Knife",
+      "origin": "-2.085938 -0.949158 32.898376",
+      "angles": "-0.000000 0.000000 0.000000",
+      "scales": "1.000000 1.000000 1.000000",
+      "model": "maps/ze_backrooms_insomnia/entities/zombieitem_moth_tri2_26376.vmdl",
+      "_template_lump_ent_index": "27"
+    },
+    "connections": [
+      {
+        "output": "OnStartTouch",
+        "target": "!activator",
+        "input": "Keyvalue",
+        "param": "absvelocity 0 0 0",
+        "delay": 0,
+        "limit": -1
+      }
+    ]
+  },
+  {
+    "classname": "trigger_push",
+    "hammerUniqueId": "26428",
+    "targetname": "[PR#]ZombieItem_Moth_Push_D",
+    "properties": {
+      "triggeronstarttouch": "False",
+      "speed": "110",
+      "pushdir": "90.000000 0.000000 0.000000",
+      "pushdir __RAW_ARRAY__ (FloatingPoint64[3])": [
+        90,
+        0,
+        0
+      ],
+      "filtername": "[PR#]Filter_Moth",
+      "spawnflags": "268439553",
+      "startdisabled": "True",
+      "uselocaloffset": "False",
+      "parentname": "[PR#]ZombieItem_Moth_Knife",
+      "origin": "1.914062 0.064758 2.632812",
+      "angles": "-0.000000 0.000000 0.000000",
+      "scales": "1.000000 1.000000 1.000000",
+      "model": "maps/ze_backrooms_insomnia/entities/zombieitem_moth_push_d_26428.vmdl",
+      "_template_lump_ent_index": "28"
+    }
+  },
+  {
+    "classname": "trigger_push",
+    "hammerUniqueId": "26430",
+    "targetname": "[PR#]ZombieItem_Moth_Push_U",
+    "properties": {
+      "triggeronstarttouch": "False",
+      "speed": "110",
+      "pushdir": "270.000000 0.000000 0.000000",
+      "pushdir __RAW_ARRAY__ (FloatingPoint64[3])": [
+        270,
+        0,
+        0
+      ],
+      "filtername": "[PR#]Filter_Moth",
+      "spawnflags": "268439553",
+      "startdisabled": "True",
+      "uselocaloffset": "False",
+      "parentname": "[PR#]ZombieItem_Moth_Knife",
+      "origin": "1.914062 0.064758 2.632812",
+      "angles": "-0.000000 0.000000 0.000000",
+      "scales": "1.000000 1.000000 1.000000",
+      "model": "maps/ze_backrooms_insomnia/entities/zombieitem_moth_push_u_26430.vmdl",
+      "_template_lump_ent_index": "29"
+    }
+  },
+  {
+    "classname": "trigger_push",
+    "hammerUniqueId": "26420",
+    "targetname": "[PR#]ZombieItem_Moth_Push_L",
+    "properties": {
+      "triggeronstarttouch": "False",
+      "speed": "110",
+      "pushdir": "0.000000 90.000000 0.000000",
+      "pushdir __RAW_ARRAY__ (FloatingPoint64[3])": [
+        0,
+        90,
+        0
+      ],
+      "filtername": "[PR#]Filter_Moth",
+      "spawnflags": "268439553",
+      "startdisabled": "True",
+      "uselocaloffset": "False",
+      "parentname": "[PR#]ZombieItem_Moth_Knife",
+      "origin": "1.914062 0.064758 2.632812",
+      "angles": "-0.000000 0.000000 0.000000",
+      "scales": "1.000000 1.000000 1.000000",
+      "model": "maps/ze_backrooms_insomnia/entities/zombieitem_moth_push_l_26420.vmdl",
+      "_template_lump_ent_index": "30"
+    }
+  },
+  {
+    "classname": "trigger_push",
+    "hammerUniqueId": "26422",
+    "targetname": "[PR#]ZombieItem_Moth_Push_R",
+    "properties": {
+      "triggeronstarttouch": "False",
+      "speed": "110",
+      "pushdir": "0.000000 270.000000 0.000000",
+      "pushdir __RAW_ARRAY__ (FloatingPoint64[3])": [
+        0,
+        270,
+        0
+      ],
+      "filtername": "[PR#]Filter_Moth",
+      "spawnflags": "268439553",
+      "startdisabled": "True",
+      "uselocaloffset": "False",
+      "parentname": "[PR#]ZombieItem_Moth_Knife",
+      "origin": "1.914062 0.064758 2.632812",
+      "angles": "-0.000000 0.000000 0.000000",
+      "scales": "1.000000 1.000000 1.000000",
+      "model": "maps/ze_backrooms_insomnia/entities/zombieitem_moth_push_r_26422.vmdl",
+      "_template_lump_ent_index": "31"
+    }
+  },
+  {
+    "classname": "trigger_push",
+    "hammerUniqueId": "26418",
+    "targetname": "[PR#]ZombieItem_Moth_Push_B",
+    "properties": {
+      "triggeronstarttouch": "False",
+      "speed": "110",
+      "pushdir": "180.000000 0.000000 0.000000",
+      "pushdir __RAW_ARRAY__ (FloatingPoint64[3])": [
+        180,
+        0,
+        0
+      ],
+      "filtername": "[PR#]Filter_Moth",
+      "spawnflags": "268439553",
+      "startdisabled": "True",
+      "uselocaloffset": "False",
+      "parentname": "[PR#]ZombieItem_Moth_Knife",
+      "origin": "1.914062 0.064758 2.632812",
+      "angles": "-0.000000 0.000000 0.000000",
+      "scales": "1.000000 1.000000 1.000000",
+      "model": "maps/ze_backrooms_insomnia/entities/zombieitem_moth_push_b_26418.vmdl",
+      "_template_lump_ent_index": "32"
+    }
+  },
+  {
+    "classname": "trigger_push",
+    "hammerUniqueId": "26406",
+    "targetname": "[PR#]ZombieItem_Moth_Push_F",
+    "properties": {
+      "triggeronstarttouch": "False",
+      "speed": "110",
+      "pushdir": "0.000000 0.000000 0.000000",
+      "pushdir __RAW_ARRAY__ (FloatingPoint64[3])": [
+        0,
+        0,
+        0
+      ],
+      "filtername": "[PR#]Filter_Moth",
+      "spawnflags": "268439553",
+      "startdisabled": "True",
+      "uselocaloffset": "False",
+      "parentname": "[PR#]ZombieItem_Moth_Knife",
+      "origin": "1.914062 0.064758 2.632812",
+      "angles": "-0.000000 0.000000 0.000000",
+      "scales": "1.000000 1.000000 1.000000",
+      "model": "maps/ze_backrooms_insomnia/entities/zombieitem_moth_push_f_26406.vmdl",
+      "_template_lump_ent_index": "33"
     }
   }
 ]

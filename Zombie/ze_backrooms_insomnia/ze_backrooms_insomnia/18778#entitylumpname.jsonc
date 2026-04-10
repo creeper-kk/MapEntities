@@ -81,6 +81,14 @@
         "param": "movetype 2",
         "delay": 2,
         "limit": -1
+      },
+      {
+        "output": "OnStartTouch",
+        "target": "!activator",
+        "input": "Keyvalue",
+        "param": "absvelocity 0 0 0",
+        "delay": 2.1,
+        "limit": -1
       }
     ]
   },
@@ -96,6 +104,7 @@
       "damagetype": "512",
       "damagecap": "9999",
       "damage": "9999",
+      "filtername": "[PR#]FilterMlti_Physbox",
       "spawnflags": "1032",
       "startdisabled": "True",
       "uselocaloffset": "False",
@@ -434,6 +443,22 @@
         "param": "",
         "delay": 0,
         "limit": 1
+      },
+      {
+        "output": "OnBreak",
+        "target": "[PR#]Item_Sfx_Firesalt_Part_Hurt3&0000",
+        "input": "Enable",
+        "param": "",
+        "delay": 0,
+        "limit": 1
+      },
+      {
+        "output": "OnBreak",
+        "target": "[PR#]Item_Sfx_Firesalt_Part_Hurt3&0000",
+        "input": "Kill",
+        "param": "",
+        "delay": 7,
+        "limit": 1
       }
     ]
   },
@@ -541,5 +566,32 @@
       "scales": "1.000000 1.000000 1.000000",
       "_template_lump_ent_index": "8"
     }
+  },
+  {
+    "classname": "trigger_multiple",
+    "hammerUniqueId": "26128",
+    "targetname": "[PR#]Item_Sfx_Firesalt_Part_Hurt3&0000",
+    "properties": {
+      "wait": "1",
+      "filtername": "[PR#]Filter_Zombies",
+      "spawnflags": "4097",
+      "startdisabled": "True",
+      "uselocaloffset": "False",
+      "origin": "15.413574 5.756104 -0.157898",
+      "angles": "-0.000000 0.000000 0.000000",
+      "scales": "1.000000 1.000000 1.000000",
+      "model": "maps/ze_backrooms_insomnia/entities/item_sfx_firesalt_part_hurt3_26128.vmdl",
+      "_template_lump_ent_index": "9"
+    },
+    "connections": [
+      {
+        "output": "OnEndTouch",
+        "target": "!activator",
+        "input": "Keyvalue",
+        "param": "absvelocity 0 0 0",
+        "delay": 0,
+        "limit": -1
+      }
+    ]
   }
 ]

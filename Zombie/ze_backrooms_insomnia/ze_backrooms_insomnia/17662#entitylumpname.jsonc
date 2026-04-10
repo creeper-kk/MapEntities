@@ -180,6 +180,14 @@
         "param": "",
         "delay": 0.1,
         "limit": 1
+      },
+      {
+        "output": "OnPass",
+        "target": "[PR#]Entity_lv1_Smlier_Part2&0000",
+        "input": "Kill",
+        "param": "",
+        "delay": 0.01,
+        "limit": 1
       }
     ]
   },
@@ -249,7 +257,7 @@
       "exploderadius": "0",
       "explodedamage": "0",
       "disableshadows": "0",
-      "origin": "-68.601318 0.042175 0.800964",
+      "origin": "-68.599121 0.042297 0.801208",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
       "model": "maps/ze_backrooms_insomnia/entities/entity_lv1_smlier_target_17655.vmdl",
@@ -320,6 +328,30 @@
         "input": "SetParentAttachment",
         "param": "primary",
         "delay": 0.01,
+        "limit": 1
+      },
+      {
+        "output": "OnTrigger",
+        "target": "!activator",
+        "input": "Color",
+        "param": "255 255 255",
+        "delay": 10,
+        "limit": 1
+      },
+      {
+        "output": "OnTrigger",
+        "target": "!activator",
+        "input": "Color",
+        "param": "0 0 0",
+        "delay": 0,
+        "limit": 1
+      },
+      {
+        "output": "OnTrigger",
+        "target": "[PR#]Entity_lv1_Smlier_Part2&0000",
+        "input": "Start",
+        "param": "",
+        "delay": 0,
         "limit": 1
       }
     ]
@@ -564,6 +596,14 @@
         "param": "",
         "delay": 0.1,
         "limit": 1
+      },
+      {
+        "output": "OnBreak",
+        "target": "[PR#]Entity_lv1_Smlier_Part2&0000",
+        "input": "Kill",
+        "param": "",
+        "delay": 0.01,
+        "limit": 1
       }
     ]
   },
@@ -625,6 +665,45 @@
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
       "_template_lump_ent_index": "12"
+    }
+  },
+  {
+    "classname": "info_particle_system",
+    "hammerUniqueId": "26398",
+    "targetname": "[PR#]Entity_lv1_Smlier_Part2&0000",
+    "properties": {
+      "cpoint7_parent": "0",
+      "cpoint6_parent": "0",
+      "cpoint5_parent": "0",
+      "cpoint4_parent": "0",
+      "cpoint3_parent": "0",
+      "cpoint2_parent": "0",
+      "cpoint1_parent": "0",
+      "tint_cp_color": "255 255 255",
+      "tint_cp_color __RAW_ARRAY__ (UInt64[3])": [
+        255,
+        255,
+        255
+      ],
+      "tint_cp": "-1",
+      "data_cp_value": "0.000000 0.000000 0.000000",
+      "data_cp_value __RAW_ARRAY__ (FloatingPoint64[3])": [
+        0,
+        0,
+        0
+      ],
+      "data_cp": "-1",
+      "snapshot_mesh": "0",
+      "no_save": "False",
+      "start_active": "False",
+      "effect_name": "particles/smiler_puller.vpcf",
+      "clientsideentity": "0",
+      "uselocaloffset": "False",
+      "parentname": "[PR#]Entity_lv1_Smlier_Target&0000",
+      "origin": "-68.599121 0.042297 5.427185",
+      "angles": "-0.000000 0.000000 0.000000",
+      "scales": "1.000000 1.000000 1.000000",
+      "_template_lump_ent_index": "13"
     }
   }
 ]

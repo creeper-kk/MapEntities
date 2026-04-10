@@ -859,6 +859,14 @@
         "param": "",
         "delay": 0,
         "limit": -1
+      },
+      {
+        "output": "OnStartTouch",
+        "target": "[PR#]MiniItem_Smiler_Part&0000",
+        "input": "DestroyImmediately",
+        "param": "",
+        "delay": 0,
+        "limit": -1
       }
     ]
   },

@@ -356,20 +356,20 @@
   },
   {
     "classname": "env_fade",
-    "hammerUniqueId": "18858",
+    "hammerUniqueId": "26216",
     "targetname": "[PR#]Item_Flasher_Fade&0000",
     "properties": {
-      "rendercolor": "151 151 151",
+      "rendercolor": "199 199 199",
       "rendercolor __RAW_ARRAY__ (UInt64[3])": [
-        151,
-        151,
-        151
+        199,
+        199,
+        199
       ],
       "renderamt": "255",
       "holdtime": "4",
       "duration": "5",
       "spawnflags": "5",
-      "origin": "36.514404 -50.263916 18.173340",
+      "origin": "36.514404 -34.784424 18.173340",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
       "_template_lump_ent_index": "8"
@@ -636,27 +636,40 @@
     ]
   },
   {
-    "classname": "trigger_hurt",
-    "hammerUniqueId": "21026",
+    "classname": "trigger_multiple",
+    "hammerUniqueId": "21023",
     "targetname": "[PR#]Item_Flasher_Tri&0000",
     "properties": {
-      "thinkalways": "False",
-      "nodmgforce": "False",
-      "forgivedelay": "3",
-      "damagemodel": "0",
-      "damagetype": "512",
-      "damagecap": "9999",
-      "damage": "9999",
-      "spawnflags": "5128",
       "startdisabled": "True",
+      "filtername": "[PR#]Filter_Humans",
+      "spawnflags": "4097",
+      "wait": "1",
       "uselocaloffset": "False",
       "parentname": "[PR#]Item_Flasher_Gun&0000",
       "origin": "62.169189 -1.855225 73.668640",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "model": "maps/ze_backrooms_insomnia/entities/item_flasher_tri_21026.vmdl",
+      "model": "maps/ze_backrooms_insomnia/entities/item_flasher_tri_21023.vmdl",
       "_template_lump_ent_index": "14"
-    }
+    },
+    "connections": [
+      {
+        "output": "OnStartTouch",
+        "target": "[PR#]Item_Flasher_Fade&0000",
+        "input": "Fade",
+        "param": "",
+        "delay": 0.2,
+        "limit": -1
+      },
+      {
+        "output": "OnStartTouch",
+        "target": "[PR#]Item_Flasher_Fade&0000",
+        "input": "Fade",
+        "param": "",
+        "delay": 0.5,
+        "limit": -1
+      }
+    ]
   },
   {
     "classname": "trigger_multiple",
@@ -715,36 +728,144 @@
         "param": "speed 1",
         "delay": 8,
         "limit": -1
+      },
+      {
+        "output": "OnStartTouch",
+        "target": "!activator",
+        "input": "Keyvalue",
+        "param": "speed 0.2",
+        "delay": 0.5,
+        "limit": -1
+      },
+      {
+        "output": "OnStartTouch",
+        "target": "!activator",
+        "input": "Keyvalue",
+        "param": "speed 0.2",
+        "delay": 1,
+        "limit": -1
+      },
+      {
+        "output": "OnStartTouch",
+        "target": "!activator",
+        "input": "Keyvalue",
+        "param": "speed 0.2",
+        "delay": 1.5,
+        "limit": -1
+      },
+      {
+        "output": "OnStartTouch",
+        "target": "!activator",
+        "input": "Keyvalue",
+        "param": "speed 0.2",
+        "delay": 2,
+        "limit": -1
+      },
+      {
+        "output": "OnStartTouch",
+        "target": "!activator",
+        "input": "Keyvalue",
+        "param": "speed 0.2",
+        "delay": 2.5,
+        "limit": -1
+      },
+      {
+        "output": "OnStartTouch",
+        "target": "!activator",
+        "input": "Keyvalue",
+        "param": "speed 0.2",
+        "delay": 3,
+        "limit": -1
+      },
+      {
+        "output": "OnStartTouch",
+        "target": "!activator",
+        "input": "Keyvalue",
+        "param": "speed 0.2",
+        "delay": 3.5,
+        "limit": -1
+      },
+      {
+        "output": "OnStartTouch",
+        "target": "!activator",
+        "input": "Keyvalue",
+        "param": "speed 0.5",
+        "delay": 4.5,
+        "limit": -1
+      },
+      {
+        "output": "OnStartTouch",
+        "target": "!activator",
+        "input": "Keyvalue",
+        "param": "speed 0.5",
+        "delay": 5,
+        "limit": -1
+      },
+      {
+        "output": "OnStartTouch",
+        "target": "!activator",
+        "input": "Keyvalue",
+        "param": "speed 0.5",
+        "delay": 5.5,
+        "limit": -1
+      },
+      {
+        "output": "OnStartTouch",
+        "target": "!activator",
+        "input": "Keyvalue",
+        "param": "speed 0.5",
+        "delay": 6,
+        "limit": -1
+      },
+      {
+        "output": "OnStartTouch",
+        "target": "!activator",
+        "input": "Keyvalue",
+        "param": "speed 0.5",
+        "delay": 6.5,
+        "limit": -1
+      },
+      {
+        "output": "OnStartTouch",
+        "target": "!activator",
+        "input": "Keyvalue",
+        "param": "speed 0.65",
+        "delay": 7.5,
+        "limit": -1
+      },
+      {
+        "output": "OnStartTouch",
+        "target": "[PR#]Item_Flasher_Fade2&0000",
+        "input": "Fade",
+        "param": "",
+        "delay": 0.5,
+        "limit": -1
       }
     ]
   },
   {
-    "classname": "trigger_multiple",
-    "hammerUniqueId": "21023",
+    "classname": "trigger_hurt",
+    "hammerUniqueId": "21026",
     "targetname": "[PR#]Item_Flasher_Tri&0000",
     "properties": {
+      "thinkalways": "False",
+      "nodmgforce": "False",
+      "forgivedelay": "3",
+      "damagemodel": "0",
+      "damagetype": "512",
+      "damagecap": "9999",
+      "damage": "9999",
+      "filtername": "[PR#]FilterMlti_Physbox",
+      "spawnflags": "5128",
       "startdisabled": "True",
-      "filtername": "[PR#]Filter_Humans",
-      "spawnflags": "4097",
-      "wait": "1",
       "uselocaloffset": "False",
       "parentname": "[PR#]Item_Flasher_Gun&0000",
       "origin": "62.169189 -1.855225 73.668640",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "model": "maps/ze_backrooms_insomnia/entities/item_flasher_tri_21023.vmdl",
+      "model": "maps/ze_backrooms_insomnia/entities/item_flasher_tri_21026.vmdl",
       "_template_lump_ent_index": "16"
-    },
-    "connections": [
-      {
-        "output": "OnStartTouch",
-        "target": "[PR#]Item_Flasher_Fade&0000",
-        "input": "Fade",
-        "param": "",
-        "delay": 0.2,
-        "limit": -1
-      }
-    ]
+    }
   },
   {
     "classname": "logic_measure_movement",
@@ -761,6 +882,27 @@
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
       "_template_lump_ent_index": "17"
+    }
+  },
+  {
+    "classname": "env_fade",
+    "hammerUniqueId": "18858",
+    "targetname": "[PR#]Item_Flasher_Fade2&0000",
+    "properties": {
+      "rendercolor": "62 62 62",
+      "rendercolor __RAW_ARRAY__ (UInt64[3])": [
+        62,
+        62,
+        62
+      ],
+      "renderamt": "255",
+      "holdtime": "4",
+      "duration": "5",
+      "spawnflags": "5",
+      "origin": "36.514404 -50.263916 18.173340",
+      "angles": "-0.000000 0.000000 0.000000",
+      "scales": "1.000000 1.000000 1.000000",
+      "_template_lump_ent_index": "18"
     }
   }
 ]
