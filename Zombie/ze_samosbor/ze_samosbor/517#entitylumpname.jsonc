@@ -6,6 +6,7 @@
     "hammerUniqueId": "491",
     "targetname": "[PR#]Door_a1_Frame&0000",
     "properties": {
+      "fluiddragscale": "1",
       "hoverposeangles": "0.000000 0.000000 0.000000",
       "hoverposeangles __RAW_ARRAY__ (FloatingPoint64[3])": [
         0,
@@ -67,7 +68,7 @@
       "exploderadius": "0",
       "explodedamage": "0",
       "disableshadows": "0",
-      "origin": "-0.000122 -92.000000 96.000000",
+      "origin": "0.000000 0.000000 96.000000",
       "angles": "-0.000000 -90.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
       "model": "maps/ze_samosbor/entities/door_a1_frame_491.vmdl",
@@ -89,6 +90,7 @@
     "hammerUniqueId": "3822",
     "targetname": "[PR#]Door_a1_Frame&0000",
     "properties": {
+      "fluiddragscale": "1",
       "hoverposeangles": "0.000000 0.000000 0.000000",
       "hoverposeangles __RAW_ARRAY__ (FloatingPoint64[3])": [
         0,
@@ -341,7 +343,7 @@
       "movewithoutpushingblockers": "False",
       "nointerpolate": "False",
       "dmg": "0",
-      "spawnflags": "2312",
+      "spawnflags": "2376",
       "volume": "10",
       "message": "Door.training_move",
       "fanfriction": "20",

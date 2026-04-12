@@ -6,6 +6,7 @@
     "hammerUniqueId": "707",
     "targetname": "[PR#]Spawn_Wall_Block&0000",
     "properties": {
+      "fluiddragscale": "1",
       "hoverposeangles": "0.000000 0.000000 0.000000",
       "hoverposeangles __RAW_ARRAY__ (FloatingPoint64[3])": [
         0,

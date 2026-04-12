@@ -22,7 +22,17 @@
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
       "_template_lump_ent_index": "0"
-    }
+    },
+    "connections": [
+      {
+        "output": "OnUser1",
+        "target": "[PR#]Map_Script",
+        "input": "RunScriptInput",
+        "param": "FixDoorAngles",
+        "delay": 0,
+        "limit": -1
+      }
+    ]
   },
   {
     "classname": "logic_case",
@@ -162,6 +172,14 @@
         "input": "Kill",
         "param": "",
         "delay": 0.21,
+        "limit": -1
+      },
+      {
+        "output": "OnSpawn",
+        "target": "[PR#]Door_Maker&0000",
+        "input": "FireUser1",
+        "param": "",
+        "delay": 0,
         "limit": -1
       }
     ]

@@ -68,6 +68,7 @@
     "hammerUniqueId": "4105",
     "targetname": "[PR#]Nail_Physbox&0000",
     "properties": {
+      "fluiddragscale": "1",
       "hoverposeangles": "0.000000 0.000000 0.000000",
       "hoverposeangles __RAW_ARRAY__ (FloatingPoint64[3])": [
         0,
@@ -143,9 +144,9 @@
       "nodmgforce": "False",
       "forgivedelay": "3",
       "damagemodel": "0",
-      "damagetype": "0",
+      "damagetype": "512",
       "damagecap": "0",
-      "damage": "10",
+      "damage": "14",
       "filtername": "[PR#]Filter_Team_Human",
       "spawnflags": "1097",
       "startdisabled": "False",

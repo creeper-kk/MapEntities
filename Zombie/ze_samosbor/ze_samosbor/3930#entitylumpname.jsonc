@@ -70,7 +70,7 @@
         "output": "OnPlayerPickup",
         "target": "!activator",
         "input": "KeyValue",
-        "param": "max_health 30000",
+        "param": "max_health 60000",
         "delay": 0,
         "limit": 1
       },
@@ -78,7 +78,7 @@
         "output": "OnPlayerPickup",
         "target": "!activator",
         "input": "KeyValue",
-        "param": "health 30000",
+        "param": "health 60000",
         "delay": 0,
         "limit": 1
       },
@@ -113,6 +113,102 @@
         "param": "",
         "delay": 0.2,
         "limit": -1
+      },
+      {
+        "output": "OnUser4",
+        "target": "[PR#]Item_Flamethrower_Filter2&0000",
+        "input": "Kill",
+        "param": "",
+        "delay": 0,
+        "limit": 1
+      },
+      {
+        "output": "OnUser4",
+        "target": "[PR#]Item_Flamethrower_Hurt&0000",
+        "input": "Kill",
+        "param": "",
+        "delay": 0,
+        "limit": 1
+      },
+      {
+        "output": "OnUser4",
+        "target": "[PR#]Item_Flamethrower_Filter&0000",
+        "input": "Kill",
+        "param": "",
+        "delay": 0,
+        "limit": 1
+      },
+      {
+        "output": "OnUser4",
+        "target": "[PR#]Item_Flamethrower_Timer&0000",
+        "input": "Kill",
+        "param": "",
+        "delay": 0,
+        "limit": 1
+      },
+      {
+        "output": "OnUser4",
+        "target": "[PR#]Item_Flamethrower_Sound&0000",
+        "input": "Kill",
+        "param": "",
+        "delay": 0,
+        "limit": 1
+      },
+      {
+        "output": "OnUser4",
+        "target": "[PR#]Item_Flamethrower_Killed&0000",
+        "input": "Kill",
+        "param": "",
+        "delay": 0,
+        "limit": 1
+      },
+      {
+        "output": "OnUser4",
+        "target": "[PR#]Item_Flamethrower_Model&0000",
+        "input": "Kill",
+        "param": "",
+        "delay": 0,
+        "limit": 1
+      },
+      {
+        "output": "OnUser4",
+        "target": "[PR#]Item_Flamethrower_Button&0000",
+        "input": "Kill",
+        "param": "",
+        "delay": 0,
+        "limit": 1
+      },
+      {
+        "output": "OnUser4",
+        "target": "[PR#]Item_Flamethrower_Strip&0000",
+        "input": "Kill",
+        "param": "",
+        "delay": 0,
+        "limit": 1
+      },
+      {
+        "output": "OnUser4",
+        "target": "[PR#]Item_Flamethrower_Particle&0000",
+        "input": "Kill",
+        "param": "",
+        "delay": 0,
+        "limit": 1
+      },
+      {
+        "output": "OnUser4",
+        "target": "[PR#]Item_Flamethrower_Counter&0000",
+        "input": "Kill",
+        "param": "",
+        "delay": 0,
+        "limit": 1
+      },
+      {
+        "output": "OnUser4",
+        "target": "!self",
+        "input": "Kill",
+        "param": "",
+        "delay": 0,
+        "limit": 1
       }
     ]
   },
@@ -186,7 +282,7 @@
       "spawnflags": "17409",
       "forcenpcexclude": "False",
       "lip": "0",
-      "wait": "0.6000000238418579",
+      "wait": "0.800000011920929",
       "speed": "0",
       "movedir": "0.000000 0.000000 0.000000",
       "movedir __RAW_ARRAY__ (FloatingPoint64[3])": [
@@ -532,7 +628,7 @@
       "wait": "1",
       "filtername": "[PR#]Filter_Zombie_Item_Multi",
       "spawnflags": "1",
-      "startdisabled": "False",
+      "startdisabled": "True",
       "uselocaloffset": "False",
       "origin": "4.000000 0.000000 18.000000",
       "angles": "-0.000000 0.000000 0.000000",
@@ -553,6 +649,31 @@
   },
   {
     "classname": "logic_relay",
+    "hammerUniqueId": "12164",
+    "targetname": "[PR#]Item_Flamethrower_Relay&0000",
+    "properties": {
+      "passthroughcaller": "False",
+      "fastretrigger": "False",
+      "triggeronce": "True",
+      "startdisabled": "False",
+      "origin": "-32.000000 0.000000 16.000000",
+      "angles": "-0.000000 0.000000 0.000000",
+      "scales": "1.000000 1.000000 1.000000",
+      "_template_lump_ent_index": "11"
+    },
+    "connections": [
+      {
+        "output": "OnSpawn",
+        "target": "[PR#]Item_Flamethrower_Strip&0000",
+        "input": "Enable",
+        "param": "",
+        "delay": 3,
+        "limit": 1
+      }
+    ]
+  },
+  {
+    "classname": "logic_relay",
     "hammerUniqueId": "11437",
     "targetname": "[PR#]Item_Flamethrower_Killed&0000",
     "properties": {
@@ -563,7 +684,7 @@
       "origin": "-32.000000 0.000000 0.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "11"
+      "_template_lump_ent_index": "12"
     },
     "connections": [
       {

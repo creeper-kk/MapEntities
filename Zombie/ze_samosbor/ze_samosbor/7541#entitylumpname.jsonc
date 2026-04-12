@@ -29,6 +29,7 @@
     "hammerUniqueId": "7545",
     "targetname": "[PR#]Human_Item_Random_Physbox&0000",
     "properties": {
+      "fluiddragscale": "1",
       "hoverposeangles": "0.000000 0.000000 0.000000",
       "hoverposeangles __RAW_ARRAY__ (FloatingPoint64[3])": [
         0,
@@ -108,7 +109,7 @@
         "target": "[PR#]Human_Item_Random_Maker&0000",
         "input": "ForceSpawn",
         "param": "",
-        "delay": 0.1,
+        "delay": 0.02,
         "limit": 1
       },
       {
@@ -164,7 +165,23 @@
         "target": "[PR#]Human_Item_Random_Maker&0000",
         "input": "ForceSpawn",
         "param": "",
-        "delay": 0.1,
+        "delay": 0.02,
+        "limit": 1
+      },
+      {
+        "output": "OnUser3",
+        "target": "[PR#]Human_Item_Random_Maker&0000",
+        "input": "Kill",
+        "param": "",
+        "delay": 0.05,
+        "limit": 1
+      },
+      {
+        "output": "OnUser1",
+        "target": "[PR#]Human_Item_Random_Maker&0000",
+        "input": "Kill",
+        "param": "",
+        "delay": 0.05,
         "limit": 1
       }
     ]

@@ -33,7 +33,7 @@
         "limit": 1
       },
       {
-        "output": "OnHitMax",
+        "output": "",
         "target": "[PR#]Preset_Maker_R&0000",
         "input": "KeyValue",
         "param": "EntityTemplate Door_Temp_C",
@@ -41,7 +41,7 @@
         "limit": 1
       },
       {
-        "output": "OnHitMax",
+        "output": "",
         "target": "[PR#]Preset_Maker_F&0000",
         "input": "KeyValue",
         "param": "EntityTemplate Door_Temp_C",
@@ -49,7 +49,7 @@
         "limit": 1
       },
       {
-        "output": "OnHitMax",
+        "output": "",
         "target": "[PR#]Preset_Maker_L&0000",
         "input": "KeyValue",
         "param": "EntityTemplate Door_Temp_C",
@@ -73,7 +73,7 @@
         "limit": -1
       },
       {
-        "output": "OnHitMax",
+        "output": "",
         "target": "[PR#]Preset_Maker_R&0000",
         "input": "ForceSpawn",
         "param": "",
@@ -81,7 +81,7 @@
         "limit": 1
       },
       {
-        "output": "OnHitMax",
+        "output": "",
         "target": "[PR#]Preset_Maker_F&0000",
         "input": "ForceSpawn",
         "param": "",
@@ -89,7 +89,7 @@
         "limit": 1
       },
       {
-        "output": "OnHitMax",
+        "output": "",
         "target": "[PR#]Preset_Maker_L&0000",
         "input": "ForceSpawn",
         "param": "",
@@ -101,7 +101,7 @@
         "target": "[PR#]Preset_Trigger_*",
         "input": "Kill",
         "param": "",
-        "delay": 0,
+        "delay": 0.1,
         "limit": -1
       },
       {
@@ -130,6 +130,7 @@
     "hammerUniqueId": "245",
     "targetname": "[PR#]Preset_Phys_R&0000",
     "properties": {
+      "fluiddragscale": "1",
       "hoverposeangles": "0.000000 0.000000 0.000000",
       "hoverposeangles __RAW_ARRAY__ (FloatingPoint64[3])": [
         0,
@@ -222,6 +223,7 @@
     "hammerUniqueId": "249",
     "targetname": "[PR#]Preset_Phys_F&0000",
     "properties": {
+      "fluiddragscale": "1",
       "hoverposeangles": "0.000000 0.000000 0.000000",
       "hoverposeangles __RAW_ARRAY__ (FloatingPoint64[3])": [
         0,
@@ -314,6 +316,7 @@
     "hammerUniqueId": "234",
     "targetname": "[PR#]Preset_Phys_L&0000",
     "properties": {
+      "fluiddragscale": "1",
       "hoverposeangles": "0.000000 0.000000 0.000000",
       "hoverposeangles __RAW_ARRAY__ (FloatingPoint64[3])": [
         0,
@@ -410,7 +413,7 @@
       "spawnflags": "1032",
       "startdisabled": "True",
       "uselocaloffset": "False",
-      "origin": "1024.000000 1040.000000 28.000000",
+      "origin": "1024.000000 1040.000000 20.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
       "model": "maps/ze_samosbor/entities/preset_trigger_l_236.vmdl",
@@ -460,7 +463,7 @@
       "spawnflags": "1032",
       "startdisabled": "True",
       "uselocaloffset": "False",
-      "origin": "2064.000000 0.000000 44.000000",
+      "origin": "2064.000000 0.000000 36.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
       "model": "maps/ze_samosbor/entities/preset_trigger_f_242.vmdl",
@@ -510,7 +513,7 @@
       "spawnflags": "1032",
       "startdisabled": "True",
       "uselocaloffset": "False",
-      "origin": "1024.000000 -1040.000000 28.000000",
+      "origin": "1024.000000 -1040.000000 20.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
       "model": "maps/ze_samosbor/entities/preset_trigger_r_224.vmdl",
@@ -537,7 +540,7 @@
         "output": "OnStartTouch",
         "target": "[PR#]Preset_Relay_R&0000",
         "input": "Kill",
-        "param": "(null)",
+        "param": "",
         "delay": 0,
         "limit": 1
       },
@@ -557,7 +560,6 @@
     "targetname": "[PR#]Preset_Maker_R&0000",
     "properties": {
       "postspawninheritangles": "False",
-      "postspawndirectionvariance": "0.15000000596046448",
       "postspawndirection": "0.000000 0.000000 0.000000",
       "postspawndirection __RAW_ARRAY__ (FloatingPoint64[3])": [
         0,
@@ -571,6 +573,7 @@
       "origin": "1024.000000 -1024.000000 0.000000",
       "angles": "-0.000000 -90.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
+      "postspawndirectionvariance": "0.15000000596046448",
       "_template_lump_ent_index": "8"
     },
     "connections": [
@@ -590,7 +593,6 @@
     "targetname": "[PR#]Preset_Maker_F&0000",
     "properties": {
       "postspawninheritangles": "False",
-      "postspawndirectionvariance": "0.15000000596046448",
       "postspawndirection": "0.000000 0.000000 0.000000",
       "postspawndirection __RAW_ARRAY__ (FloatingPoint64[3])": [
         0,
@@ -604,6 +606,7 @@
       "origin": "2048.000000 0.000000 0.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
+      "postspawndirectionvariance": "0.15000000596046448",
       "_template_lump_ent_index": "9"
     },
     "connections": [
@@ -623,7 +626,6 @@
     "targetname": "[PR#]Preset_Maker_L&0000",
     "properties": {
       "postspawninheritangles": "False",
-      "postspawndirectionvariance": "0.15000000596046448",
       "postspawndirection": "0.000000 0.000000 0.000000",
       "postspawndirection __RAW_ARRAY__ (FloatingPoint64[3])": [
         0,
@@ -637,6 +639,7 @@
       "origin": "1024.000000 1024.000000 0.000000",
       "angles": "-0.000000 90.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
+      "postspawndirectionvariance": "0.15000000596046448",
       "_template_lump_ent_index": "10"
     },
     "connections": [
@@ -656,7 +659,6 @@
     "targetname": "[PR#]Preset_Maker_B&0000",
     "properties": {
       "postspawninheritangles": "False",
-      "postspawndirectionvariance": "0.15000000596046448",
       "postspawndirection": "0.000000 0.000000 0.000000",
       "postspawndirection __RAW_ARRAY__ (FloatingPoint64[3])": [
         0,
@@ -670,6 +672,7 @@
       "origin": "0.000000 0.000000 0.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
+      "postspawndirectionvariance": "0.15000000596046448",
       "_template_lump_ent_index": "11"
     }
   },
@@ -714,8 +717,8 @@
       },
       {
         "output": "OnUser1",
-        "target": "[PR#]Map_Chunk_Case",
-        "input": "PickRandomShuffle",
+        "target": "[PR#]Map_Chunk_Shuffle_Branch",
+        "input": "Test",
         "param": "",
         "delay": 0.2,
         "limit": 1
@@ -1007,6 +1010,30 @@
         "param": "",
         "delay": 0,
         "limit": -1
+      },
+      {
+        "output": "OnUser1",
+        "target": "[PR#]Map_Script",
+        "input": "RunScriptInput",
+        "param": "SpawnTrap",
+        "delay": 0.43,
+        "limit": 1
+      },
+      {
+        "output": "OnUser1",
+        "target": "[PR#]Map_Script",
+        "input": "RunScriptInput",
+        "param": "SpawnFire",
+        "delay": 0.43,
+        "limit": 1
+      },
+      {
+        "output": "OnUser1",
+        "target": "[PR#]Map_Script",
+        "input": "RunScriptInput",
+        "param": "SpawnBottleBox",
+        "delay": 0.43,
+        "limit": 1
       }
     ]
   },

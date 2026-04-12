@@ -1750,7 +1750,7 @@
   {
     "classname": "logic_relay",
     "hammerUniqueId": "7860",
-    "targetname": "[PR#]Chunk_04_Relay&0000",
+    "targetname": "[PR#]Map_Chunk_04_Relay&0000",
     "properties": {
       "passthroughcaller": "False",
       "fastretrigger": "False",
@@ -1772,63 +1772,23 @@
       },
       {
         "output": "OnSpawn",
-        "target": "[PR#]Map_Chunk_04_Trap_Case&0000",
-        "input": "PickRandomShuffle",
-        "param": "",
-        "delay": 0,
-        "limit": 1
-      },
-      {
-        "output": "OnSpawn",
-        "target": "[PR#]Map_Chunk_04_Bottle_Case&0000",
-        "input": "PickRandomShuffle",
-        "param": "",
-        "delay": 0,
-        "limit": 1
-      },
-      {
-        "output": "OnSpawn",
-        "target": "[PR#]Map_Chunk_04_Trap_Case&0000",
-        "input": "PickRandomShuffle",
-        "param": "",
-        "delay": 0.1,
-        "limit": 1
-      },
-      {
-        "output": "OnSpawn",
-        "target": "[PR#]Map_Chunk_04_Trap_Case&0000",
+        "target": "[PR#]Chunk_04_Bottle_Maker&0000",
         "input": "Kill",
         "param": "",
-        "delay": 0.15,
+        "delay": 0.25,
         "limit": 1
       },
       {
         "output": "OnSpawn",
-        "target": "[PR#]Map_Chunk_04_Bottle_Case&0000",
+        "target": "[PR#]Chunk_04_Trap_Maker&0000",
         "input": "Kill",
         "param": "",
-        "delay": 0.15,
+        "delay": 0.25,
         "limit": 1
       },
       {
         "output": "OnSpawn",
-        "target": "[PR#]Chunk_04_Bottle_Maker_*",
-        "input": "Kill",
-        "param": "",
-        "delay": 0.15,
-        "limit": 1
-      },
-      {
-        "output": "OnSpawn",
-        "target": "[PR#]Chunk_04_Trap_Maker_*",
-        "input": "Kill",
-        "param": "",
-        "delay": 0.15,
-        "limit": 1
-      },
-      {
-        "output": "OnSpawn",
-        "target": "[PR#]Chunk_04_Item_Maker_*",
+        "target": "[PR#]Chunk_04_Item_Maker&0000",
         "input": "ForceSpawn",
         "param": "",
         "delay": 0,
@@ -1836,10 +1796,18 @@
       },
       {
         "output": "OnSpawn",
-        "target": "[PR#]Chunk_04_Item_Maker_*",
+        "target": "[PR#]Chunk_04_Item_Maker&0000",
         "input": "Kill",
         "param": "",
         "delay": 0.1,
+        "limit": 1
+      },
+      {
+        "output": "OnSpawn",
+        "target": "[PR#]Chunk_04_Fire_Maker&0000",
+        "input": "Kill",
+        "param": "",
+        "delay": 0.25,
         "limit": 1
       }
     ]
@@ -2517,131 +2485,9 @@
     ]
   },
   {
-    "classname": "logic_case",
-    "hammerUniqueId": "5456",
-    "targetname": "[PR#]Map_Chunk_04_Trap_Case&0000",
-    "properties": {
-      "template15": "Map_Chunk_04_Press_Forward_02",
-      "template14": "Map_Chunk_04_Press_Forward_01",
-      "template13": "Map_Chunk_04_Press_Right_02",
-      "template12": "Map_Chunk_04_Press_Right_01",
-      "template11": "Map_Chunk_04_Press_Left_02",
-      "template10": "Map_Chunk_04_Press_Left_01",
-      "template09": "Map_Chunk_04_Press_Back_02",
-      "template08": "Map_Chunk_04_Press_Back_01",
-      "template07": "Chunk_04_Relay",
-      "template06": "Map_Chunk_04_Hurt",
-      "template05": "Map_Chunk_04_Rots",
-      "template04": "Map_Chunk_04_Push",
-      "template03": "Map_Chunk_04_Props",
-      "template02": "Map_Chunk_04_Lighting",
-      "template01": "Map_Chunk_04",
-      "spawnflags": "0",
-      "origin": "0.000000 0.000000 32.000000",
-      "angles": "-0.000000 0.000000 0.000000",
-      "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "44"
-    },
-    "connections": [
-      {
-        "output": "OnCase01",
-        "target": "[PR#]Chunk_04_Trap_Maker_1&0000",
-        "input": "ForceSpawn",
-        "param": "",
-        "delay": 0.02,
-        "limit": -1
-      },
-      {
-        "output": "OnCase02",
-        "target": "[PR#]Chunk_04_Trap_Maker_2&0000",
-        "input": "ForceSpawn",
-        "param": "",
-        "delay": 0.02,
-        "limit": -1
-      },
-      {
-        "output": "OnCase03",
-        "target": "[PR#]Chunk_04_Trap_Maker_3&0000",
-        "input": "ForceSpawn",
-        "param": "",
-        "delay": 0.02,
-        "limit": -1
-      },
-      {
-        "output": "OnCase04",
-        "target": "[PR#]Chunk_04_Trap_Maker_4&0000",
-        "input": "ForceSpawn",
-        "param": "",
-        "delay": 0.02,
-        "limit": -1
-      },
-      {
-        "output": "OnCase05",
-        "target": "[PR#]Chunk_04_Trap_Maker_5&0000",
-        "input": "ForceSpawn",
-        "param": "",
-        "delay": 0.02,
-        "limit": -1
-      }
-    ]
-  },
-  {
-    "classname": "logic_case",
-    "hammerUniqueId": "5457",
-    "targetname": "[PR#]Map_Chunk_04_Bottle_Case&0000",
-    "properties": {
-      "template15": "Map_Chunk_04_Press_Forward_02",
-      "template14": "Map_Chunk_04_Press_Forward_01",
-      "template13": "Map_Chunk_04_Press_Right_02",
-      "template12": "Map_Chunk_04_Press_Right_01",
-      "template11": "Map_Chunk_04_Press_Left_02",
-      "template10": "Map_Chunk_04_Press_Left_01",
-      "template09": "Map_Chunk_04_Press_Back_02",
-      "template08": "Map_Chunk_04_Press_Back_01",
-      "template07": "Chunk_04_Relay",
-      "template06": "Map_Chunk_04_Hurt",
-      "template05": "Map_Chunk_04_Rots",
-      "template04": "Map_Chunk_04_Push",
-      "template03": "Map_Chunk_04_Props",
-      "template02": "Map_Chunk_04_Lighting",
-      "template01": "Map_Chunk_04",
-      "spawnflags": "0",
-      "origin": "0.000000 0.000000 48.000000",
-      "angles": "-0.000000 0.000000 0.000000",
-      "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "45"
-    },
-    "connections": [
-      {
-        "output": "OnCase01",
-        "target": "[PR#]Chunk_04_Bottle_Maker_1&0000",
-        "input": "ForceSpawn",
-        "param": "",
-        "delay": 0,
-        "limit": -1
-      },
-      {
-        "output": "OnCase02",
-        "target": "[PR#]Chunk_04_Bottle_Maker_2&0000",
-        "input": "ForceSpawn",
-        "param": "",
-        "delay": 0,
-        "limit": -1
-      },
-      {
-        "output": "OnCase03",
-        "target": "[PR#]Chunk_04_Bottle_Maker_3&0000",
-        "input": "ForceSpawn",
-        "param": "",
-        "delay": 0,
-        "limit": -1
-      }
-    ]
-  },
-  {
     "classname": "env_entity_maker",
     "hammerUniqueId": "5257",
-    "targetname": "[PR#]Chunk_04_Bottle_Maker_1&0000",
+    "targetname": "[PR#]Chunk_04_Bottle_Maker&0000",
     "properties": {
       "postspawninheritangles": "False",
       "postspawndirectionvariance": "1",
@@ -2658,13 +2504,13 @@
       "origin": "-56.000000 952.000000 16.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "46"
+      "_template_lump_ent_index": "44"
     }
   },
   {
     "classname": "env_entity_maker",
     "hammerUniqueId": "5258",
-    "targetname": "[PR#]Chunk_04_Bottle_Maker_2&0000",
+    "targetname": "[PR#]Chunk_04_Bottle_Maker&0000",
     "properties": {
       "postspawninheritangles": "False",
       "postspawndirectionvariance": "1",
@@ -2681,13 +2527,13 @@
       "origin": "956.453613 33.871094 16.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "47"
+      "_template_lump_ent_index": "45"
     }
   },
   {
     "classname": "env_entity_maker",
     "hammerUniqueId": "5259",
-    "targetname": "[PR#]Chunk_04_Bottle_Maker_3&0000",
+    "targetname": "[PR#]Chunk_04_Bottle_Maker&0000",
     "properties": {
       "postspawninheritangles": "False",
       "postspawndirectionvariance": "1",
@@ -2704,13 +2550,13 @@
       "origin": "-63.388184 -961.144531 16.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "48"
+      "_template_lump_ent_index": "46"
     }
   },
   {
     "classname": "env_entity_maker",
     "hammerUniqueId": "5395",
-    "targetname": "[PR#]Chunk_04_Trap_Maker_1&0000",
+    "targetname": "[PR#]Chunk_04_Trap_Maker&0000",
     "properties": {
       "postspawninheritangles": "False",
       "postspawndirection": "0.000000 0.000000 0.000000",
@@ -2727,13 +2573,13 @@
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
       "postspawndirectionvariance": "0.15000000596046448",
-      "_template_lump_ent_index": "49"
+      "_template_lump_ent_index": "47"
     }
   },
   {
     "classname": "env_entity_maker",
     "hammerUniqueId": "5396",
-    "targetname": "[PR#]Chunk_04_Trap_Maker_2&0000",
+    "targetname": "[PR#]Chunk_04_Trap_Maker&0000",
     "properties": {
       "postspawninheritangles": "False",
       "postspawndirection": "0.000000 0.000000 0.000000",
@@ -2750,13 +2596,13 @@
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
       "postspawndirectionvariance": "0.15000000596046448",
-      "_template_lump_ent_index": "50"
+      "_template_lump_ent_index": "48"
     }
   },
   {
     "classname": "env_entity_maker",
     "hammerUniqueId": "5397",
-    "targetname": "[PR#]Chunk_04_Trap_Maker_3&0000",
+    "targetname": "[PR#]Chunk_04_Trap_Maker&0000",
     "properties": {
       "postspawninheritangles": "False",
       "postspawndirection": "0.000000 0.000000 0.000000",
@@ -2773,36 +2619,13 @@
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
       "postspawndirectionvariance": "0.15000000596046448",
-      "_template_lump_ent_index": "51"
-    }
-  },
-  {
-    "classname": "env_entity_maker",
-    "hammerUniqueId": "5399",
-    "targetname": "[PR#]Chunk_04_Trap_Maker_4&0000",
-    "properties": {
-      "postspawninheritangles": "False",
-      "postspawndirection": "0.000000 0.000000 0.000000",
-      "postspawndirection __RAW_ARRAY__ (FloatingPoint64[3])": [
-        0,
-        0,
-        0
-      ],
-      "postspawnspeed": "0",
-      "entitytemplate": "[PR#]Trap_Random_Template",
-      "spawnflags": "0",
-      "uselocaloffset": "False",
-      "origin": "740.403809 108.000000 32.000000",
-      "angles": "-0.000000 0.000000 0.000000",
-      "scales": "1.000000 1.000000 1.000000",
-      "postspawndirectionvariance": "0.15000000596046448",
-      "_template_lump_ent_index": "52"
+      "_template_lump_ent_index": "49"
     }
   },
   {
     "classname": "env_entity_maker",
     "hammerUniqueId": "5398",
-    "targetname": "[PR#]Chunk_04_Trap_Maker_5&0000",
+    "targetname": "[PR#]Chunk_04_Trap_Maker&0000",
     "properties": {
       "postspawninheritangles": "False",
       "postspawndirection": "0.000000 0.000000 0.000000",
@@ -2819,13 +2642,82 @@
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
       "postspawndirectionvariance": "0.15000000596046448",
+      "_template_lump_ent_index": "50"
+    }
+  },
+  {
+    "classname": "env_entity_maker",
+    "hammerUniqueId": "5399",
+    "targetname": "[PR#]Chunk_04_Trap_Maker&0000",
+    "properties": {
+      "postspawninheritangles": "False",
+      "postspawndirection": "0.000000 0.000000 0.000000",
+      "postspawndirection __RAW_ARRAY__ (FloatingPoint64[3])": [
+        0,
+        0,
+        0
+      ],
+      "postspawnspeed": "0",
+      "entitytemplate": "[PR#]Trap_Random_Template",
+      "spawnflags": "0",
+      "uselocaloffset": "False",
+      "origin": "740.403809 108.000000 32.000000",
+      "angles": "-0.000000 0.000000 0.000000",
+      "scales": "1.000000 1.000000 1.000000",
+      "postspawndirectionvariance": "0.15000000596046448",
+      "_template_lump_ent_index": "51"
+    }
+  },
+  {
+    "classname": "env_entity_maker",
+    "hammerUniqueId": "7808",
+    "targetname": "[PR#]Chunk_04_Item_Maker&0000",
+    "properties": {
+      "postspawninheritangles": "False",
+      "postspawndirectionvariance": "0",
+      "postspawndirection": "0.000000 0.000000 0.000000",
+      "postspawndirection __RAW_ARRAY__ (FloatingPoint64[3])": [
+        0,
+        0,
+        0
+      ],
+      "postspawnspeed": "0",
+      "entitytemplate": "[PR#]Human_Item_Random_Template",
+      "spawnflags": "0",
+      "uselocaloffset": "False",
+      "origin": "0.000000 0.000000 40.000000",
+      "angles": "-0.000000 0.000000 0.000000",
+      "scales": "1.000000 1.000000 1.000000",
+      "_template_lump_ent_index": "52"
+    }
+  },
+  {
+    "classname": "env_entity_maker",
+    "hammerUniqueId": "7809",
+    "targetname": "[PR#]Chunk_04_Item_Maker&0000",
+    "properties": {
+      "postspawninheritangles": "False",
+      "postspawndirectionvariance": "0",
+      "postspawndirection": "0.000000 0.000000 0.000000",
+      "postspawndirection __RAW_ARRAY__ (FloatingPoint64[3])": [
+        0,
+        0,
+        0
+      ],
+      "postspawnspeed": "0",
+      "entitytemplate": "[PR#]Human_Item_Random_Template",
+      "spawnflags": "0",
+      "uselocaloffset": "False",
+      "origin": "0.000000 344.000000 8.000000",
+      "angles": "-0.000000 0.000000 0.000000",
+      "scales": "1.000000 1.000000 1.000000",
       "_template_lump_ent_index": "53"
     }
   },
   {
     "classname": "env_entity_maker",
     "hammerUniqueId": "7810",
-    "targetname": "[PR#]Chunk_04_Item_Maker_1&0000",
+    "targetname": "[PR#]Chunk_04_Item_Maker&0000",
     "properties": {
       "postspawninheritangles": "False",
       "postspawndirectionvariance": "0",
@@ -2847,8 +2739,8 @@
   },
   {
     "classname": "env_entity_maker",
-    "hammerUniqueId": "7809",
-    "targetname": "[PR#]Chunk_04_Item_Maker_2&0000",
+    "hammerUniqueId": "7811",
+    "targetname": "[PR#]Chunk_04_Item_Maker&0000",
     "properties": {
       "postspawninheritangles": "False",
       "postspawndirectionvariance": "0",
@@ -2862,7 +2754,7 @@
       "entitytemplate": "[PR#]Human_Item_Random_Template",
       "spawnflags": "0",
       "uselocaloffset": "False",
-      "origin": "0.000000 344.000000 8.000000",
+      "origin": "640.000000 0.000000 8.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
       "_template_lump_ent_index": "55"
@@ -2871,7 +2763,7 @@
   {
     "classname": "env_entity_maker",
     "hammerUniqueId": "7812",
-    "targetname": "[PR#]Chunk_04_Item_Maker_3&0000",
+    "targetname": "[PR#]Chunk_04_Item_Maker&0000",
     "properties": {
       "postspawninheritangles": "False",
       "postspawndirectionvariance": "0",
@@ -2889,52 +2781,6 @@
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
       "_template_lump_ent_index": "56"
-    }
-  },
-  {
-    "classname": "env_entity_maker",
-    "hammerUniqueId": "7811",
-    "targetname": "[PR#]Chunk_04_Item_Maker_4&0000",
-    "properties": {
-      "postspawninheritangles": "False",
-      "postspawndirectionvariance": "0",
-      "postspawndirection": "0.000000 0.000000 0.000000",
-      "postspawndirection __RAW_ARRAY__ (FloatingPoint64[3])": [
-        0,
-        0,
-        0
-      ],
-      "postspawnspeed": "0",
-      "entitytemplate": "[PR#]Human_Item_Random_Template",
-      "spawnflags": "0",
-      "uselocaloffset": "False",
-      "origin": "640.000000 0.000000 8.000000",
-      "angles": "-0.000000 0.000000 0.000000",
-      "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "57"
-    }
-  },
-  {
-    "classname": "env_entity_maker",
-    "hammerUniqueId": "7808",
-    "targetname": "[PR#]Chunk_04_Item_Maker_5&0000",
-    "properties": {
-      "postspawninheritangles": "False",
-      "postspawndirectionvariance": "0",
-      "postspawndirection": "0.000000 0.000000 0.000000",
-      "postspawndirection __RAW_ARRAY__ (FloatingPoint64[3])": [
-        0,
-        0,
-        0
-      ],
-      "postspawnspeed": "0",
-      "entitytemplate": "[PR#]Human_Item_Random_Template",
-      "spawnflags": "0",
-      "uselocaloffset": "False",
-      "origin": "0.000000 0.000000 40.000000",
-      "angles": "-0.000000 0.000000 0.000000",
-      "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "58"
     }
   },
   {
@@ -2972,7 +2818,99 @@
       "origin": "0.000000 0.000000 -32.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
+      "_template_lump_ent_index": "57"
+    }
+  },
+  {
+    "classname": "env_entity_maker",
+    "hammerUniqueId": "13038",
+    "targetname": "[PR#]Chunk_04_Fire_Maker&0000",
+    "properties": {
+      "postspawninheritangles": "False",
+      "postspawndirection": "0.000000 0.000000 0.000000",
+      "postspawndirection __RAW_ARRAY__ (FloatingPoint64[3])": [
+        0,
+        0,
+        0
+      ],
+      "postspawnspeed": "0",
+      "entitytemplate": "[PR#]Map_Fire_Template",
+      "spawnflags": "0",
+      "uselocaloffset": "False",
+      "origin": "-740.496094 -94.688477 0.000000",
+      "angles": "-0.000000 0.000000 0.000000",
+      "scales": "1.000000 1.000000 1.000000",
+      "postspawndirectionvariance": "0.15000000596046448",
+      "_template_lump_ent_index": "58"
+    }
+  },
+  {
+    "classname": "env_entity_maker",
+    "hammerUniqueId": "13039",
+    "targetname": "[PR#]Chunk_04_Fire_Maker&0000",
+    "properties": {
+      "postspawninheritangles": "False",
+      "postspawndirection": "0.000000 0.000000 0.000000",
+      "postspawndirection __RAW_ARRAY__ (FloatingPoint64[3])": [
+        0,
+        0,
+        0
+      ],
+      "postspawnspeed": "0",
+      "entitytemplate": "[PR#]Map_Fire_Template",
+      "spawnflags": "0",
+      "uselocaloffset": "False",
+      "origin": "96.000000 -177.226562 0.000000",
+      "angles": "-0.000000 0.000000 0.000000",
+      "scales": "1.000000 1.000000 1.000000",
+      "postspawndirectionvariance": "0.15000000596046448",
       "_template_lump_ent_index": "59"
+    }
+  },
+  {
+    "classname": "env_entity_maker",
+    "hammerUniqueId": "13040",
+    "targetname": "[PR#]Chunk_04_Fire_Maker&0000",
+    "properties": {
+      "postspawninheritangles": "False",
+      "postspawndirection": "0.000000 0.000000 0.000000",
+      "postspawndirection __RAW_ARRAY__ (FloatingPoint64[3])": [
+        0,
+        0,
+        0
+      ],
+      "postspawnspeed": "0",
+      "entitytemplate": "[PR#]Map_Fire_Template",
+      "spawnflags": "0",
+      "uselocaloffset": "False",
+      "origin": "94.682129 896.296875 0.000000",
+      "angles": "-0.000000 0.000000 0.000000",
+      "scales": "1.000000 1.000000 1.000000",
+      "postspawndirectionvariance": "0.15000000596046448",
+      "_template_lump_ent_index": "60"
+    }
+  },
+  {
+    "classname": "env_entity_maker",
+    "hammerUniqueId": "13041",
+    "targetname": "[PR#]Chunk_04_Fire_Maker&0000",
+    "properties": {
+      "postspawninheritangles": "False",
+      "postspawndirection": "0.000000 0.000000 0.000000",
+      "postspawndirection __RAW_ARRAY__ (FloatingPoint64[3])": [
+        0,
+        0,
+        0
+      ],
+      "postspawnspeed": "0",
+      "entitytemplate": "[PR#]Map_Fire_Template",
+      "spawnflags": "0",
+      "uselocaloffset": "False",
+      "origin": "896.156738 95.715820 0.000000",
+      "angles": "-0.000000 0.000000 0.000000",
+      "scales": "1.000000 1.000000 1.000000",
+      "postspawndirectionvariance": "0.15000000596046448",
+      "_template_lump_ent_index": "61"
     }
   }
 ]

@@ -65,6 +65,70 @@
         "param": "",
         "delay": 3,
         "limit": 1
+      },
+      {
+        "output": "OnUser4",
+        "target": "[PR#]Item_Beans_Sound1&0000",
+        "input": "Kill",
+        "param": "",
+        "delay": 0,
+        "limit": 1
+      },
+      {
+        "output": "OnUser4",
+        "target": "[PR#]Item_Beans_Particle&0000",
+        "input": "Kill",
+        "param": "",
+        "delay": 0,
+        "limit": 1
+      },
+      {
+        "output": "OnUser4",
+        "target": "[PR#]Item_Beans_Filter&0000",
+        "input": "Kill",
+        "param": "",
+        "delay": 0,
+        "limit": 1
+      },
+      {
+        "output": "OnUser4",
+        "target": "[PR#]Item_Beans_Hurt&0000",
+        "input": "Kill",
+        "param": "",
+        "delay": 0,
+        "limit": 1
+      },
+      {
+        "output": "OnUser4",
+        "target": "[PR#]Item_Beans_Sound2&0000",
+        "input": "Kill",
+        "param": "",
+        "delay": 0,
+        "limit": 1
+      },
+      {
+        "output": "OnUser4",
+        "target": "[PR#]Item_Beans_Model&0000",
+        "input": "Kill",
+        "param": "",
+        "delay": 0,
+        "limit": 1
+      },
+      {
+        "output": "OnUser4",
+        "target": "[PR#]Item_Beans_Button&0000",
+        "input": "Kill",
+        "param": "",
+        "delay": 0,
+        "limit": 1
+      },
+      {
+        "output": "OnUser4",
+        "target": "!self",
+        "input": "Kill",
+        "param": "",
+        "delay": 0,
+        "limit": 1
       }
     ]
   },

@@ -105,6 +105,7 @@
     "hammerUniqueId": "7778",
     "targetname": "[PR#]Sample_Beer_Physbox&0000",
     "properties": {
+      "fluiddragscale": "1",
       "hoverposeangles": "0.000000 0.000000 0.000000",
       "hoverposeangles __RAW_ARRAY__ (FloatingPoint64[3])": [
         0,

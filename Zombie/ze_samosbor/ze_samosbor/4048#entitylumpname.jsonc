@@ -49,6 +49,30 @@
         "param": "",
         "delay": 2,
         "limit": -1
+      },
+      {
+        "output": "OnUser4",
+        "target": "[PR#]Item_Spanner_Model&0000",
+        "input": "Kill",
+        "param": "",
+        "delay": 0,
+        "limit": 1
+      },
+      {
+        "output": "OnUser4",
+        "target": "[PR#]Item_Spanner_Physbox&0000",
+        "input": "Kill",
+        "param": "",
+        "delay": 0,
+        "limit": 1
+      },
+      {
+        "output": "OnUser4",
+        "target": "!self",
+        "input": "Kill",
+        "param": "",
+        "delay": 0,
+        "limit": 1
       }
     ]
   },
@@ -119,6 +143,7 @@
     "hammerUniqueId": "4051",
     "targetname": "[PR#]Item_Spanner_Physbox&0000",
     "properties": {
+      "fluiddragscale": "1",
       "hoverposeangles": "0.000000 0.000000 0.000000",
       "hoverposeangles __RAW_ARRAY__ (FloatingPoint64[3])": [
         0,

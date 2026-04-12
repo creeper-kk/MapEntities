@@ -56,6 +56,7 @@
     "hammerUniqueId": "9325",
     "targetname": "[PR#]BossAttackVampireTarget",
     "properties": {
+      "fluiddragscale": "1",
       "touchoutputperentitydelay": "0",
       "notsolid": "1",
       "hoverposeangles": "0.000000 0.000000 0.000000",

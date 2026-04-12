@@ -6,6 +6,7 @@
     "hammerUniqueId": "345",
     "targetname": "[PR#]Door_Close&0000",
     "properties": {
+      "fluiddragscale": "1",
       "hoverposeangles": "0.000000 0.000000 0.000000",
       "hoverposeangles __RAW_ARRAY__ (FloatingPoint64[3])": [
         0,
@@ -67,7 +68,7 @@
       "exploderadius": "0",
       "explodedamage": "0",
       "disableshadows": "0",
-      "origin": "8.000000 0.502319 96.000000",
+      "origin": "0.000000 0.000000 0.000000",
       "angles": "-0.000000 -90.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
       "model": "maps/ze_samosbor/entities/door_close_345.vmdl",

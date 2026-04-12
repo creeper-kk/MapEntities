@@ -132,7 +132,7 @@
   {
     "classname": "func_button",
     "hammerUniqueId": "9489",
-    "targetname": "[PR#]1_1&0000",
+    "targetname": "[PR#]Anomaly_Mita_Button&0000",
     "properties": {
       "forcenpcexclude": "False",
       "lip": "0",
@@ -164,7 +164,7 @@
       "origin": "0.000000 0.000000 16.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "model": "maps/ze_samosbor/entities/1_1_9489.vmdl",
+      "model": "maps/ze_samosbor/entities/anomaly_mita_button_9489.vmdl",
       "_template_lump_ent_index": "1"
     },
     "connections": [
@@ -315,7 +315,7 @@
       },
       {
         "output": "OnPass",
-        "target": "[PR#]1_1&0000",
+        "target": "[PR#]Anomaly_Mita_Button&0000",
         "input": "Kill",
         "param": "",
         "delay": 0,

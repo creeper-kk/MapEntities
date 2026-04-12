@@ -68,6 +68,7 @@
     "hammerUniqueId": "3561",
     "targetname": "[PR#]Trap_Trap_Physbox&0000",
     "properties": {
+      "fluiddragscale": "1",
       "hoverposeangles": "0.000000 0.000000 0.000000",
       "hoverposeangles __RAW_ARRAY__ (FloatingPoint64[3])": [
         0,
@@ -181,12 +182,12 @@
         "limit": 1
       },
       {
-        "output": "OnEndTouchAll",
+        "output": "OnEndTouch",
         "target": "!activator",
         "input": "KeyValue",
         "param": "movetype 2",
-        "delay": 0,
-        "limit": 1
+        "delay": 0.05,
+        "limit": -1
       },
       {
         "output": "OnStartTouch",

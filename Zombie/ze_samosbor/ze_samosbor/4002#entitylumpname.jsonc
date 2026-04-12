@@ -210,6 +210,22 @@
         "param": "",
         "delay": 2.3,
         "limit": 1
+      },
+      {
+        "output": "OnSpawn",
+        "target": "[PR#]Lightning_Strike_Sound&0000",
+        "input": "StopSound",
+        "param": "",
+        "delay": 7,
+        "limit": 1
+      },
+      {
+        "output": "OnSpawn",
+        "target": "[PR#]Lightning_Strike_Sound&0000",
+        "input": "Kill",
+        "param": "",
+        "delay": 7.02,
+        "limit": 1
       }
     ]
   }

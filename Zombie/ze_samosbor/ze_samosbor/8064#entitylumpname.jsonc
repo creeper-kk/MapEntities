@@ -41,6 +41,30 @@
         "param": "",
         "delay": 0,
         "limit": 1
+      },
+      {
+        "output": "OnUser4",
+        "target": "[PR#]Item_Trail_Orange_Particle&0000",
+        "input": "Kill",
+        "param": "",
+        "delay": 0.02,
+        "limit": 1
+      },
+      {
+        "output": "OnUser4",
+        "target": "[PR#]Item_Trail_Orange_Particle&0000",
+        "input": "DestroyImmediately",
+        "param": "",
+        "delay": 0,
+        "limit": 1
+      },
+      {
+        "output": "OnUser4",
+        "target": "!self",
+        "input": "Kill",
+        "param": "",
+        "delay": 0,
+        "limit": 1
       }
     ]
   },

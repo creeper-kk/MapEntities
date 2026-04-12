@@ -275,7 +275,7 @@
       "explosion_type": "tripmine",
       "spawnflags": "0",
       "iradiusoverride": "0",
-      "imagnitude": "100",
+      "imagnitude": "120",
       "rendermode": "kRenderNormal",
       "uselocaloffset": "False",
       "parentname": "[PR#]Trap_Mine_Physbox&0000",
@@ -290,6 +290,7 @@
     "hammerUniqueId": "3537",
     "targetname": "[PR#]Trap_Mine_Physbox&0000",
     "properties": {
+      "fluiddragscale": "1",
       "hoverposeangles": "0.000000 0.000000 0.000000",
       "hoverposeangles __RAW_ARRAY__ (FloatingPoint64[3])": [
         0,

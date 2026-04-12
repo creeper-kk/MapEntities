@@ -32,7 +32,33 @@
       ],
       "scales": "1.000000 1.000000 1.000000",
       "_template_lump_ent_index": "0"
-    }
+    },
+    "connections": [
+      {
+        "output": "OnUser4",
+        "target": "[PR#]Item_Meat_Physbox&0000",
+        "input": "Kill",
+        "param": "",
+        "delay": 0,
+        "limit": 1
+      },
+      {
+        "output": "OnUser4",
+        "target": "[PR#]Item_Meat_Model&0000",
+        "input": "Kill",
+        "param": "",
+        "delay": 0,
+        "limit": 1
+      },
+      {
+        "output": "OnUser4",
+        "target": "!self",
+        "input": "Kill",
+        "param": "",
+        "delay": 0,
+        "limit": 1
+      }
+    ]
   },
   {
     "classname": "prop_dynamic",
@@ -101,6 +127,7 @@
     "hammerUniqueId": "9512",
     "targetname": "[PR#]Item_Meat_Physbox&0000",
     "properties": {
+      "fluiddragscale": "1",
       "preferredcarryangles": "0 0 0",
       "exploitablebyplayer": "0",
       "touchoutputperentitydelay": "0",

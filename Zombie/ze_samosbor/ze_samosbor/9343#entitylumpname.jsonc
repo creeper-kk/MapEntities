@@ -39,6 +39,7 @@
     "hammerUniqueId": "9337",
     "targetname": "[PR#]Kletka_Physbox&0000",
     "properties": {
+      "fluiddragscale": "1",
       "touchoutputperentitydelay": "0",
       "notsolid": "0",
       "hoverposeangles": "0.000000 0.000000 0.000000",
@@ -288,7 +289,7 @@
       "damagemodel": "0",
       "damagetype": "512",
       "damagecap": "0",
-      "damage": "2",
+      "damage": "4",
       "filtername": "[PR#]Filter_Team_Human",
       "spawnflags": "268435457",
       "startdisabled": "True",

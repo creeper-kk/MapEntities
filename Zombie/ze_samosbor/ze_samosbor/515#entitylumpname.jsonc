@@ -6,6 +6,7 @@
     "hammerUniqueId": "340",
     "targetname": "[PR#]Door_c1_Frame&0000",
     "properties": {
+      "fluiddragscale": "1",
       "hoverposeangles": "0.000000 0.000000 0.000000",
       "hoverposeangles __RAW_ARRAY__ (FloatingPoint64[3])": [
         0,
@@ -79,6 +80,7 @@
     "hammerUniqueId": "3824",
     "targetname": "[PR#]Door_c1_Frame&0000",
     "properties": {
+      "fluiddragscale": "1",
       "hoverposeangles": "0.000000 0.000000 0.000000",
       "hoverposeangles __RAW_ARRAY__ (FloatingPoint64[3])": [
         0,

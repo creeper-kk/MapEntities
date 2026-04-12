@@ -68,6 +68,7 @@
     "hammerUniqueId": "9471",
     "targetname": "[PR#]Poison_Splash_Physbox&0000",
     "properties": {
+      "fluiddragscale": "1",
       "touchoutputperentitydelay": "0",
       "notsolid": "0",
       "hoverposeangles": "0.000000 0.000000 0.000000",

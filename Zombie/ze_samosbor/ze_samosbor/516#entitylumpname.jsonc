@@ -6,6 +6,7 @@
     "hammerUniqueId": "496",
     "targetname": "[PR#]Door_b1_Frame&0000",
     "properties": {
+      "fluiddragscale": "1",
       "hoverposeangles": "0.000000 0.000000 0.000000",
       "hoverposeangles __RAW_ARRAY__ (FloatingPoint64[3])": [
         0,
@@ -67,7 +68,7 @@
       "exploderadius": "0",
       "explodedamage": "0",
       "disableshadows": "0",
-      "origin": "-0.000122 0.000000 4.000000",
+      "origin": "0.000000 0.000000 96.000000",
       "angles": "-0.000000 -90.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
       "model": "maps/ze_samosbor/entities/door_b1_frame_496.vmdl",
@@ -89,6 +90,7 @@
     "hammerUniqueId": "3821",
     "targetname": "[PR#]Door_b1_Frame&0000",
     "properties": {
+      "fluiddragscale": "1",
       "hoverposeangles": "0.000000 0.000000 0.000000",
       "hoverposeangles __RAW_ARRAY__ (FloatingPoint64[3])": [
         0,
@@ -479,6 +481,7 @@
     "hammerUniqueId": "348",
     "targetname": "[PR#]Door_b1_Buttons&0000",
     "properties": {
+      "fluiddragscale": "1",
       "hoverposeangles": "0.000000 0.000000 0.000000",
       "hoverposeangles __RAW_ARRAY__ (FloatingPoint64[3])": [
         0,
