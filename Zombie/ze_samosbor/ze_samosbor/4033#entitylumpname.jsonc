@@ -57,11 +57,70 @@
       "clientsideentity": "0",
       "uselocaloffset": "False",
       "parentname": "[PR#]Trap_GasMine_Physbox&0000",
+      "compile_source_id": "739",
       "origin": "0.000000 0.000000 0.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
       "_template_lump_ent_index": "0"
-    }
+    },
+    "connections": [
+      {
+        "output": "OnUser1",
+        "target": "!self",
+        "input": "Alpha",
+        "param": "230",
+        "delay": 0,
+        "limit": 1
+      },
+      {
+        "output": "OnUser1",
+        "target": "!self",
+        "input": "Alpha",
+        "param": "200",
+        "delay": 0.2,
+        "limit": 1
+      },
+      {
+        "output": "OnUser1",
+        "target": "!self",
+        "input": "Alpha",
+        "param": "170",
+        "delay": 0.4,
+        "limit": 1
+      },
+      {
+        "output": "OnUser1",
+        "target": "!self",
+        "input": "Alpha",
+        "param": "140",
+        "delay": 0.6,
+        "limit": 1
+      },
+      {
+        "output": "OnUser1",
+        "target": "!self",
+        "input": "Alpha",
+        "param": "100",
+        "delay": 0.8,
+        "limit": 1
+      },
+      {
+        "output": "OnUser1",
+        "target": "!self",
+        "input": "Alpha",
+        "param": "50",
+        "delay": 1,
+        "limit": 1
+      },
+      {
+        "output": "OnUser1",
+        "target": "!self",
+        "input": "Kill",
+        "param": "",
+        "delay": 1.2,
+        "limit": 1
+      }
+    ]
   },
   {
     "classname": "prop_dynamic",
@@ -119,11 +178,70 @@
       "clientsideentity": "0",
       "uselocaloffset": "False",
       "parentname": "[PR#]Trap_GasMine_Physbox&0000",
+      "compile_source_id": "740",
       "origin": "0.000000 0.000000 2.250000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
       "_template_lump_ent_index": "1"
-    }
+    },
+    "connections": [
+      {
+        "output": "OnUser1",
+        "target": "!self",
+        "input": "Alpha",
+        "param": "230",
+        "delay": 0,
+        "limit": 1
+      },
+      {
+        "output": "OnUser1",
+        "target": "!self",
+        "input": "Alpha",
+        "param": "200",
+        "delay": 0.2,
+        "limit": 1
+      },
+      {
+        "output": "OnUser1",
+        "target": "!self",
+        "input": "Alpha",
+        "param": "170",
+        "delay": 0.4,
+        "limit": 1
+      },
+      {
+        "output": "OnUser1",
+        "target": "!self",
+        "input": "Alpha",
+        "param": "140",
+        "delay": 0.6,
+        "limit": 1
+      },
+      {
+        "output": "OnUser1",
+        "target": "!self",
+        "input": "Alpha",
+        "param": "100",
+        "delay": 0.8,
+        "limit": 1
+      },
+      {
+        "output": "OnUser1",
+        "target": "!self",
+        "input": "Alpha",
+        "param": "50",
+        "delay": 1,
+        "limit": 1
+      },
+      {
+        "output": "OnUser1",
+        "target": "!self",
+        "input": "Kill",
+        "param": "",
+        "delay": 1.2,
+        "limit": 1
+      }
+    ]
   },
   {
     "classname": "trigger_multiple",
@@ -136,6 +254,7 @@
       "startdisabled": "False",
       "uselocaloffset": "False",
       "parentname": "[PR#]Trap_GasMine_Physbox&0000",
+      "compile_source_id": "742",
       "origin": "0.000000 0.000000 3.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -230,6 +349,22 @@
         "param": "",
         "delay": 20,
         "limit": 1
+      },
+      {
+        "output": "OnStartTouch",
+        "target": "[PR#]Trap_GasMine_Model&0000",
+        "input": "FireUser1",
+        "param": "",
+        "delay": 16,
+        "limit": 1
+      },
+      {
+        "output": "OnStartTouch",
+        "target": "[PR#]Trap_GasMine_Physbox&0000",
+        "input": "Kill",
+        "param": "",
+        "delay": 18,
+        "limit": 1
       }
     ]
   },
@@ -300,6 +435,7 @@
       "exploderadius": "0",
       "explodedamage": "0",
       "disableshadows": "0",
+      "compile_source_id": "741",
       "origin": "0.000000 0.000000 0.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -321,6 +457,7 @@
       "soundname": "Giga.Sounds.GasMine.Activate",
       "uselocaloffset": "False",
       "parentname": "[PR#]Trap_GasMine_Physbox&0000",
+      "compile_source_id": "744",
       "origin": "0.000000 0.000000 32.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -360,6 +497,7 @@
       "clientsideentity": "0",
       "uselocaloffset": "False",
       "parentname": "[PR#]Trap_GasMine_Physbox&0000",
+      "compile_source_id": "743",
       "origin": "0.000000 0.000000 4.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -399,6 +537,7 @@
       "clientsideentity": "0",
       "uselocaloffset": "False",
       "parentname": "[PR#]Trap_GasMine_Physbox&0000",
+      "compile_source_id": "745",
       "origin": "0.000000 0.000000 8.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -422,6 +561,7 @@
       "startdisabled": "True",
       "uselocaloffset": "False",
       "parentname": "[PR#]Trap_GasMine_Physbox&0000",
+      "compile_source_id": "746",
       "origin": "0.000000 0.000000 48.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -438,6 +578,7 @@
       "fastretrigger": "False",
       "triggeronce": "True",
       "startdisabled": "False",
+      "compile_source_id": "2721",
       "origin": "0.000000 0.000000 48.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",

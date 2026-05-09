@@ -57,6 +57,7 @@
       "clientsideentity": "0",
       "uselocaloffset": "False",
       "parentname": "[PR#]Trap_Mine_Physbox&0000",
+      "compile_source_id": "547",
       "origin": "0.000000 0.000000 -1.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -119,6 +120,7 @@
       "startdisabled": "False",
       "uselocaloffset": "False",
       "parentname": "[PR#]Trap_Mine_Physbox&0000",
+      "compile_source_id": "552",
       "origin": "0.000000 0.000000 1.250000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -139,6 +141,7 @@
       "rendermode": "kRenderNormal",
       "uselocaloffset": "False",
       "parentname": "[PR#]Trap_Mine_Physbox&0000",
+      "compile_source_id": "550",
       "origin": "0.000000 0.000000 15.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -203,7 +206,7 @@
       "nodamageforces": "True",
       "explosion": "0",
       "material": "2",
-      "health": "2500",
+      "health": "999999999",
       "propdata": "0",
       "spawnflags": "16384",
       "uselocaloffset": "False",
@@ -212,6 +215,7 @@
       "exploderadius": "0",
       "explodedamage": "0",
       "disableshadows": "0",
+      "compile_source_id": "548",
       "origin": "0.000000 0.000000 -1.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -220,67 +224,19 @@
     },
     "connections": [
       {
-        "output": "OnBreak",
-        "target": "[PR#]Trap_Mine_Explosion&0000",
-        "input": "Explode",
-        "param": "",
+        "output": "OnHealthChanged",
+        "target": "[PR#]Trap_Mine_Counter",
+        "input": "Subtract",
+        "param": "1",
         "delay": 0,
-        "limit": 1
+        "limit": -1
       },
       {
-        "output": "OnBreak",
-        "target": "[PR#]Trap_Mine_Model&0000",
+        "output": "OnKilled",
+        "target": "[PR#]Trap_Mine_Counter",
         "input": "Kill",
         "param": "",
         "delay": 0,
-        "limit": 1
-      },
-      {
-        "output": "OnBreak",
-        "target": "[PR#]Trap_Mine_Trigger",
-        "input": "Kill",
-        "param": "",
-        "delay": 0,
-        "limit": 1
-      },
-      {
-        "output": "OnBreak",
-        "target": "[PR#]Trap_Mine_Light&0000",
-        "input": "Kill",
-        "param": "",
-        "delay": 0,
-        "limit": 1
-      },
-      {
-        "output": "OnBreak",
-        "target": "[PR#]Trap_Mine_SoundActivate&0000",
-        "input": "Kill",
-        "param": "",
-        "delay": 0,
-        "limit": 1
-      },
-      {
-        "output": "OnBreak",
-        "target": "[PR#]Trap_Mine_Particle&0000",
-        "input": "Start",
-        "param": "",
-        "delay": 0,
-        "limit": 1
-      },
-      {
-        "output": "OnBreak",
-        "target": "[PR#]Trap_Mine_Particle&0000",
-        "input": "DestroyImmediately",
-        "param": "",
-        "delay": 2,
-        "limit": 1
-      },
-      {
-        "output": "OnBreak",
-        "target": "[PR#]Trap_Mine_Particle&0000",
-        "input": "Kill",
-        "param": "",
-        "delay": 3,
         "limit": 1
       }
     ]
@@ -290,6 +246,8 @@
     "hammerUniqueId": "3542",
     "targetname": "[PR#]Trap_Mine_Light&0000",
     "properties": {
+      "transmit_always": "False",
+      "bakespeculartocubemaps_scale": "1",
       "light_style": "slow_strong_pulse",
       "fade_size_end": "0.02500000037252903",
       "fade_size_start": "0.05000000074505806",
@@ -335,6 +293,7 @@
       "clientsideentity": "0",
       "uselocaloffset": "False",
       "parentname": "[PR#]Trap_Mine_Physbox&0000",
+      "compile_source_id": "551",
       "origin": "0.000000 0.000000 15.000000",
       "angles": "89.999992 -0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -356,6 +315,7 @@
       "soundname": "Giga.Sounds.Mine.Activate",
       "uselocaloffset": "False",
       "parentname": "[PR#]Trap_Mine_Physbox&0000",
+      "compile_source_id": "553",
       "origin": "0.000000 0.000000 31.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -395,6 +355,7 @@
       "clientsideentity": "0",
       "uselocaloffset": "False",
       "parentname": "[PR#]Trap_Mine_Physbox&0000",
+      "compile_source_id": "733",
       "origin": "0.000000 0.000000 16.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -412,6 +373,7 @@
       "userandomtime": "False",
       "spawnflags": "0",
       "startdisabled": "True",
+      "compile_source_id": "5115",
       "origin": "0.000000 0.000000 95.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -446,6 +408,7 @@
       "startdisabled": "True",
       "uselocaloffset": "False",
       "parentname": "[PR#]Trap_Mine_Physbox&0000",
+      "compile_source_id": "5116",
       "origin": "0.000000 0.000000 26.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -472,6 +435,7 @@
       "fastretrigger": "False",
       "triggeronce": "True",
       "startdisabled": "False",
+      "compile_source_id": "5114",
       "origin": "0.000000 0.000000 79.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",

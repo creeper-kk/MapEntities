@@ -18,6 +18,7 @@
       "entitytemplate": "[PR#]Door_Open_Temp_c",
       "spawnflags": "0",
       "uselocaloffset": "False",
+      "compile_source_id": "175",
       "origin": "0.000000 0.000000 0.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -39,6 +40,7 @@
     "hammerUniqueId": "649",
     "targetname": "[PR#]Door_Maker_Case&0000",
     "properties": {
+      "compile_source_id": "176",
       "origin": "0.000000 14.664062 0.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -128,6 +130,7 @@
       "fastretrigger": "False",
       "triggeronce": "False",
       "startdisabled": "False",
+      "compile_source_id": "177",
       "origin": "0.000000 30.664062 0.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",

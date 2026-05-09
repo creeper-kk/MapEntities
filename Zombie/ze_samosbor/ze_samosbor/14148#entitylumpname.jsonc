@@ -18,6 +18,7 @@
       "entitytemplate": "[PR#]none",
       "spawnflags": "0",
       "uselocaloffset": "False",
+      "compile_source_id": "4794",
       "origin": "0.000000 0.000000 0.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -29,6 +30,7 @@
     "hammerUniqueId": "14150",
     "targetname": "[PR#]SmartRoom_Case&0000",
     "properties": {
+      "compile_source_id": "4795",
       "origin": "0.000000 -16.000000 0.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -198,6 +200,7 @@
       "fastretrigger": "False",
       "triggeronce": "True",
       "startdisabled": "False",
+      "compile_source_id": "4796",
       "origin": "0.000000 -32.000000 0.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",

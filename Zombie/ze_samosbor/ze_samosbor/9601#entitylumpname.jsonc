@@ -23,7 +23,8 @@
       "renderamt": "255",
       "rendermode": "kRenderNormal",
       "renderfx": "kRenderFxNone",
-      "origin": "0.000000 -8.000000 16.000000",
+      "compile_source_id": "2512",
+      "origin": "0.000000 -9.000000 48.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "angles __RAW_ARRAY__ (FloatingPoint64[3])": [
         -0,
@@ -101,7 +102,8 @@
       "clientsideentity": "0",
       "uselocaloffset": "False",
       "parentname": "[PR#]Item_Trail_Green_Weapon&0000",
-      "origin": "4.000000 -4.000000 20.000000",
+      "compile_source_id": "2513",
+      "origin": "4.000000 -9.000000 12.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
       "_template_lump_ent_index": "1"
