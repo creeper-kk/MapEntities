@@ -532,7 +532,7 @@
         "output": "OnMapSpawn",
         "target": "[PR#]cmd",
         "input": "Command",
-        "param": "say < Map Update: 22/04/26 >",
+        "param": "say < Map Update: 05/05/26 >",
         "delay": 1,
         "limit": 1
       },
@@ -36395,7 +36395,7 @@
       "explodedamage": "0",
       "disableshadows": "0",
       "skin": "default",
-      "model": "characters/models/waffel/kipfel/kipfel_ghostcandy/kipfel_ghostcandy.vmdl",
+      "model": "agents/models/waffel/kipfel/kipfel_ghostcandy/kipfel_ghostcandy.vmdl",
       "clientsideentity": "0",
       "uselocaloffset": "False",
       "compile_source_id": "3829",
@@ -36447,6 +36447,7 @@
     "hammerUniqueId": "12028",
     "targetname": "[PR#]Map_Parameters",
     "properties": {
+      "gpucullskybox": "False",
       "envwetnessdryingamount": "0",
       "envwetnesscoverage": "1",
       "envpuddlerippledirection": "0",
@@ -36988,7 +36989,7 @@
       "disableshadows": "0",
       "bodygroups": "{\n\trurune_thighs = 0\n\trurune_armlets = 0\n}",
       "skin": "default",
-      "model": "characters/models/waffel/rurune_bunny/rurune.vmdl",
+      "model": "agents/models/waffel/rurune_bunny/rurune.vmdl",
       "clientsideentity": "0",
       "uselocaloffset": "False",
       "compile_source_id": "3843",
@@ -50111,7 +50112,7 @@
       "entitytemplate": "[PR#]Item_Extinguisher_Template",
       "spawnflags": "0",
       "uselocaloffset": "False",
-      "compile_source_id": "5223",
+      "compile_source_id": "5220",
       "origin": "-444.254913 -632.561157 13320.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -50134,7 +50135,7 @@
       "entitytemplate": "[PR#]Item_Extinguisher_Template",
       "spawnflags": "0",
       "uselocaloffset": "False",
-      "compile_source_id": "5224",
+      "compile_source_id": "5221",
       "origin": "-783.404236 287.931458 13320.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -50157,7 +50158,7 @@
       "entitytemplate": "[PR#]Item_Extinguisher_Template",
       "spawnflags": "0",
       "uselocaloffset": "False",
-      "compile_source_id": "5225",
+      "compile_source_id": "5222",
       "origin": "830.623901 416.336792 13320.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -50202,7 +50203,7 @@
       "spawnflags": "0",
       "clientsideentity": "0",
       "uselocaloffset": "False",
-      "compile_source_id": "5228",
+      "compile_source_id": "5225",
       "origin": "-14336.000000 4608.000000 -15360.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -50216,7 +50217,7 @@
     "hammerUniqueId": "15101",
     "targetname": "[PR#]Map_Extinguisher_Case",
     "properties": {
-      "compile_source_id": "5425",
+      "compile_source_id": "5422",
       "origin": "-1104.000000 312.000000 14864.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -50266,7 +50267,7 @@
       "spawnflags": "0",
       "clientsideentity": "0",
       "uselocaloffset": "False",
-      "compile_source_id": "5426",
+      "compile_source_id": "5423",
       "origin": "-1536.000000 7680.000000 -15360.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -50297,7 +50298,7 @@
       "spawnflags": "0",
       "clientsideentity": "0",
       "uselocaloffset": "False",
-      "compile_source_id": "5574",
+      "compile_source_id": "5571",
       "origin": "-11776.000000 4608.000000 -15360.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -50310,7 +50311,7 @@
     "classname": "logic_case",
     "hammerUniqueId": "16082",
     "properties": {
-      "compile_source_id": "5907",
+      "compile_source_id": "5904",
       "origin": "-1952.000000 1696.000000 14856.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -50340,7 +50341,7 @@
       "spawnflags": "0",
       "clientsideentity": "0",
       "uselocaloffset": "False",
-      "compile_source_id": "5908",
+      "compile_source_id": "5905",
       "origin": "9184.000000 10496.000000 -15164.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -50357,7 +50358,7 @@
       "filtername": "[PR#]SmartRoom_e_Door*",
       "negated": "0",
       "clientsideentity": "0",
-      "compile_source_id": "5930",
+      "compile_source_id": "5927",
       "origin": "-1024.000000 840.000000 14952.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -50369,7 +50370,7 @@
     "targetname": "[PR#]Item_Mine_Hint",
     "properties": {
       "message": "[Item] Mine | [Decs] Press E to throw a mine.",
-      "compile_source_id": "5931",
+      "compile_source_id": "5928",
       "origin": "-1712.000000 -688.000000 14864.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -50414,7 +50415,7 @@
       "disableshadows": "0",
       "spawnflags": "0",
       "uselocaloffset": "False",
-      "compile_source_id": "5932",
+      "compile_source_id": "5929",
       "origin": "-255.999207 360.000122 13371.500000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -50457,7 +50458,7 @@
       "rendermode": "kRenderNormal",
       "renderfx": "kRenderFxNone",
       "uselocaloffset": "False",
-      "compile_source_id": "5933",
+      "compile_source_id": "5930",
       "origin": "-180.000000 591.000000 13380.000000",
       "angles": "0.000000 0.000000 90.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -50500,7 +50501,7 @@
       "rendermode": "kRenderNormal",
       "renderfx": "kRenderFxNone",
       "uselocaloffset": "False",
-      "compile_source_id": "5934",
+      "compile_source_id": "5931",
       "origin": "-180.000000 591.000000 13370.685547",
       "angles": "0.000000 0.000000 90.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -50539,7 +50540,7 @@
       "rendermode": "kRenderNormal",
       "renderfx": "kRenderFxNone",
       "uselocaloffset": "False",
-      "compile_source_id": "5935",
+      "compile_source_id": "5932",
       "origin": "-172.000000 591.000000 13354.685547",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -50579,7 +50580,7 @@
       "rendermode": "kRenderNormal",
       "renderfx": "kRenderFxNone",
       "uselocaloffset": "False",
-      "compile_source_id": "5936",
+      "compile_source_id": "5933",
       "origin": "-188.000000 591.000000 13354.685547",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -50622,7 +50623,7 @@
       "rendermode": "kRenderNormal",
       "renderfx": "kRenderFxNone",
       "uselocaloffset": "False",
-      "compile_source_id": "5937",
+      "compile_source_id": "5934",
       "origin": "-188.000000 591.000000 13346.685547",
       "angles": "0.000000 0.000000 90.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -50664,7 +50665,7 @@
       "rendermode": "kRenderNormal",
       "renderfx": "kRenderFxNone",
       "uselocaloffset": "False",
-      "compile_source_id": "5938",
+      "compile_source_id": "5935",
       "origin": "-172.000000 591.000000 13346.685547",
       "angles": "0.000000 0.000000 90.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -50688,7 +50689,7 @@
       "filtertype": "1",
       "negated": "0",
       "clientsideentity": "0",
-      "compile_source_id": "5941",
+      "compile_source_id": "5938",
       "origin": "-1184.000000 680.000000 14856.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -50726,7 +50727,7 @@
     "targetname": "[PR#]Map_Sponsor_Status",
     "properties": {
       "message": "「INFO」Your status: SPONSOR",
-      "compile_source_id": "5942",
+      "compile_source_id": "5939",
       "origin": "-1184.000000 680.000000 14872.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -50740,7 +50741,7 @@
       "filterattribute": "76561198110570638",
       "negated": "0",
       "clientsideentity": "0",
-      "compile_source_id": "5943",
+      "compile_source_id": "5940",
       "origin": "-1184.000000 664.000000 14856.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -50754,7 +50755,7 @@
       "filterattribute": "76561199514698223",
       "negated": "0",
       "clientsideentity": "0",
-      "compile_source_id": "5944",
+      "compile_source_id": "5941",
       "origin": "-1184.000000 648.000000 14856.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -50768,7 +50769,7 @@
       "filterattribute": "76561199445478943",
       "negated": "0",
       "clientsideentity": "0",
-      "compile_source_id": "5945",
+      "compile_source_id": "5942",
       "origin": "-1184.000000 632.000000 14856.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -50782,7 +50783,7 @@
       "filterattribute": "76561199524184058",
       "negated": "0",
       "clientsideentity": "0",
-      "compile_source_id": "5946",
+      "compile_source_id": "5943",
       "origin": "-1184.000000 616.000000 14856.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -50796,7 +50797,7 @@
       "filterattribute": "76561199734149574",
       "negated": "0",
       "clientsideentity": "0",
-      "compile_source_id": "5947",
+      "compile_source_id": "5944",
       "origin": "-1184.000000 600.000000 14856.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -50810,7 +50811,7 @@
       "filterattribute": "76561198304097767",
       "negated": "0",
       "clientsideentity": "0",
-      "compile_source_id": "5948",
+      "compile_source_id": "5945",
       "origin": "-1200.000000 664.000000 14856.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -50824,7 +50825,7 @@
       "filterattribute": "76561199057571893",
       "negated": "0",
       "clientsideentity": "0",
-      "compile_source_id": "5949",
+      "compile_source_id": "5946",
       "origin": "-1200.000000 648.000000 14856.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -50838,7 +50839,7 @@
       "filterattribute": "76561198411351805",
       "negated": "0",
       "clientsideentity": "0",
-      "compile_source_id": "5950",
+      "compile_source_id": "5947",
       "origin": "-1200.000000 632.000000 14856.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -50852,7 +50853,7 @@
       "filterattribute": "76561198383685797",
       "negated": "0",
       "clientsideentity": "0",
-      "compile_source_id": "5951",
+      "compile_source_id": "5948",
       "origin": "-1200.000000 616.000000 14856.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -50866,7 +50867,7 @@
       "filterattribute": "76561199467713091",
       "negated": "0",
       "clientsideentity": "0",
-      "compile_source_id": "5952",
+      "compile_source_id": "5949",
       "origin": "-1200.000000 600.000000 14856.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -50880,7 +50881,7 @@
       "filterattribute": "76561199575059347",
       "negated": "0",
       "clientsideentity": "0",
-      "compile_source_id": "5953",
+      "compile_source_id": "5950",
       "origin": "-1216.000000 664.000000 14856.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -50894,7 +50895,7 @@
       "filterattribute": "76561199199803117",
       "negated": "0",
       "clientsideentity": "0",
-      "compile_source_id": "5954",
+      "compile_source_id": "5951",
       "origin": "-1216.000000 648.000000 14856.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -50908,7 +50909,7 @@
       "filterattribute": "76561198398421563",
       "negated": "0",
       "clientsideentity": "0",
-      "compile_source_id": "5955",
+      "compile_source_id": "5952",
       "origin": "-1216.000000 632.000000 14856.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -50922,7 +50923,7 @@
       "filterattribute": "76561198354389756",
       "negated": "0",
       "clientsideentity": "0",
-      "compile_source_id": "5956",
+      "compile_source_id": "5953",
       "origin": "-1216.000000 616.000000 14856.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -50936,7 +50937,7 @@
       "filterattribute": "76561199038147125",
       "negated": "0",
       "clientsideentity": "0",
-      "compile_source_id": "5957",
+      "compile_source_id": "5954",
       "origin": "-1216.000000 600.000000 14856.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -50950,7 +50951,7 @@
       "filterattribute": "76561198319753799",
       "negated": "0",
       "clientsideentity": "0",
-      "compile_source_id": "5958",
+      "compile_source_id": "5955",
       "origin": "-1232.000000 664.000000 14856.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -50964,7 +50965,7 @@
       "filterattribute": "76561198314273036",
       "negated": "0",
       "clientsideentity": "0",
-      "compile_source_id": "5959",
+      "compile_source_id": "5956",
       "origin": "-1232.000000 648.000000 14856.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -50978,7 +50979,7 @@
       "filterattribute": "76561198832124498",
       "negated": "0",
       "clientsideentity": "0",
-      "compile_source_id": "5960",
+      "compile_source_id": "5957",
       "origin": "-1232.000000 632.000000 14856.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -50992,7 +50993,7 @@
       "filterattribute": "76561198174251385",
       "negated": "0",
       "clientsideentity": "0",
-      "compile_source_id": "5961",
+      "compile_source_id": "5958",
       "origin": "-1232.000000 616.000000 14856.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -51006,7 +51007,7 @@
       "filterattribute": "76561199211703851",
       "negated": "0",
       "clientsideentity": "0",
-      "compile_source_id": "5962",
+      "compile_source_id": "5959",
       "origin": "-1232.000000 600.000000 14856.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -51020,7 +51021,7 @@
       "filterattribute": "76561198206771879",
       "negated": "0",
       "clientsideentity": "0",
-      "compile_source_id": "5963",
+      "compile_source_id": "5960",
       "origin": "-1248.000000 664.000000 14856.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -51034,7 +51035,7 @@
       "filterattribute": "76561199141698907",
       "negated": "0",
       "clientsideentity": "0",
-      "compile_source_id": "5964",
+      "compile_source_id": "5961",
       "origin": "-1248.000000 648.000000 14856.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -51048,7 +51049,7 @@
       "filterattribute": "76561199342213114",
       "negated": "0",
       "clientsideentity": "0",
-      "compile_source_id": "5965",
+      "compile_source_id": "5962",
       "origin": "-1248.000000 632.000000 14856.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -51072,7 +51073,7 @@
       "filtertype": "1",
       "negated": "0",
       "clientsideentity": "0",
-      "compile_source_id": "5966",
+      "compile_source_id": "5963",
       "origin": "-1216.000000 680.000000 14856.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -51122,7 +51123,7 @@
       "filtertype": "1",
       "negated": "0",
       "clientsideentity": "0",
-      "compile_source_id": "5967",
+      "compile_source_id": "5964",
       "origin": "-1248.000000 680.000000 14856.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -51190,7 +51191,7 @@
       "rendermode": "kRenderNormal",
       "renderfx": "kRenderFxNone",
       "uselocaloffset": "False",
-      "compile_source_id": "5968",
+      "compile_source_id": "5965",
       "origin": "-180.000000 591.000000 13432.000000",
       "angles": "0.000000 0.000000 90.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -51233,7 +51234,7 @@
       "rendermode": "kRenderNormal",
       "renderfx": "kRenderFxNone",
       "uselocaloffset": "False",
-      "compile_source_id": "5969",
+      "compile_source_id": "5966",
       "origin": "-180.000000 591.000000 13422.685547",
       "angles": "0.000000 0.000000 90.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -51272,7 +51273,7 @@
       "rendermode": "kRenderNormal",
       "renderfx": "kRenderFxNone",
       "uselocaloffset": "False",
-      "compile_source_id": "5970",
+      "compile_source_id": "5967",
       "origin": "-188.000000 591.000000 13406.685547",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -51312,7 +51313,7 @@
       "rendermode": "kRenderNormal",
       "renderfx": "kRenderFxNone",
       "uselocaloffset": "False",
-      "compile_source_id": "5971",
+      "compile_source_id": "5968",
       "origin": "-172.000000 591.000000 13406.685547",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -51355,7 +51356,7 @@
       "rendermode": "kRenderNormal",
       "renderfx": "kRenderFxNone",
       "uselocaloffset": "False",
-      "compile_source_id": "5972",
+      "compile_source_id": "5969",
       "origin": "-188.000000 591.000000 13398.685547",
       "angles": "0.000000 0.000000 90.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -51397,7 +51398,7 @@
       "rendermode": "kRenderNormal",
       "renderfx": "kRenderFxNone",
       "uselocaloffset": "False",
-      "compile_source_id": "5973",
+      "compile_source_id": "5970",
       "origin": "-172.000000 591.000000 13398.685547",
       "angles": "0.000000 0.000000 90.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -51439,7 +51440,7 @@
       "rendermode": "kRenderNormal",
       "renderfx": "kRenderFxNone",
       "uselocaloffset": "False",
-      "compile_source_id": "5974",
+      "compile_source_id": "5971",
       "origin": "184.000000 244.000000 -2452.000000",
       "angles": "0.000000 0.000000 90.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -51481,7 +51482,7 @@
       "rendermode": "kRenderNormal",
       "renderfx": "kRenderFxNone",
       "uselocaloffset": "False",
-      "compile_source_id": "5975",
+      "compile_source_id": "5972",
       "origin": "184.000000 244.000000 -2460.000000",
       "angles": "0.000000 0.000000 90.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -51497,7 +51498,7 @@
       "spawnflags": "1",
       "startdisabled": "False",
       "uselocaloffset": "False",
-      "compile_source_id": "5978",
+      "compile_source_id": "5975",
       "origin": "-376.000000 0.000000 -2584.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -51505,7 +51506,7 @@
     },
     "connections": [
       {
-        "output": "",
+        "output": "OnStartTouch",
         "target": "[PR#]Map_Script",
         "input": "RunScriptInput",
         "param": "SetSponsorSkin",
@@ -51523,7 +51524,7 @@
       "spawnflags": "1",
       "startdisabled": "True",
       "uselocaloffset": "False",
-      "compile_source_id": "5979",
+      "compile_source_id": "5976",
       "origin": "-256.000000 360.000000 13372.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -51550,7 +51551,7 @@
       "spawnflags": "1",
       "startdisabled": "False",
       "uselocaloffset": "False",
-      "compile_source_id": "5980",
+      "compile_source_id": "5977",
       "origin": "12368.000000 224.000000 -14520.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -51584,7 +51585,7 @@
       "fastretrigger": "False",
       "triggeronce": "True",
       "startdisabled": "False",
-      "compile_source_id": "5981",
+      "compile_source_id": "5978",
       "origin": "12560.000000 0.000000 -15192.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -51692,7 +51693,7 @@
       "rendermode": "kRenderNormal",
       "renderfx": "kRenderFxNone",
       "uselocaloffset": "False",
-      "compile_source_id": "5983",
+      "compile_source_id": "5980",
       "origin": "137.393814 244.000000 -2552.000000",
       "angles": "0.000000 0.000000 90.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -51707,7 +51708,7 @@
       "spawnflags": "1",
       "startdisabled": "False",
       "uselocaloffset": "False",
-      "compile_source_id": "5984",
+      "compile_source_id": "5981",
       "origin": "364.000000 208.000000 -2516.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -51732,7 +51733,7 @@
       "spawnflags": "1",
       "startdisabled": "False",
       "uselocaloffset": "False",
-      "compile_source_id": "5985",
+      "compile_source_id": "5982",
       "origin": "636.000000 208.000000 -2576.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -51796,7 +51797,7 @@
       "disableshadows": "0",
       "spawnflags": "0",
       "uselocaloffset": "False",
-      "compile_source_id": "5986",
+      "compile_source_id": "5983",
       "origin": "362.500061 209.499985 -2517.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -51840,7 +51841,7 @@
       "rendermode": "kRenderNormal",
       "renderfx": "kRenderFxNone",
       "uselocaloffset": "False",
-      "compile_source_id": "5987",
+      "compile_source_id": "5984",
       "origin": "-1424.000000 736.000000 14855.000000",
       "angles": "0.000000 0.000000 90.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -51854,7 +51855,7 @@
       "filterattribute": "76561198354389756",
       "negated": "0",
       "clientsideentity": "0",
-      "compile_source_id": "5988",
+      "compile_source_id": "5985",
       "origin": "-1152.000000 632.000000 14856.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -51868,7 +51869,7 @@
       "filterattribute": "76561198971779133",
       "negated": "0",
       "clientsideentity": "0",
-      "compile_source_id": "5989",
+      "compile_source_id": "5986",
       "origin": "-1248.000000 616.000000 14856.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -51882,7 +51883,7 @@
       "filterattribute": "76561199446013805",
       "negated": "0",
       "clientsideentity": "0",
-      "compile_source_id": "5990",
+      "compile_source_id": "5987",
       "origin": "-1248.000000 600.000000 14856.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -51896,7 +51897,7 @@
       "filterattribute": "76561198262209443",
       "negated": "0",
       "clientsideentity": "0",
-      "compile_source_id": "5991",
+      "compile_source_id": "5988",
       "origin": "-1264.000000 664.000000 14856.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -51910,7 +51911,7 @@
       "filterattribute": "76561198973407446",
       "negated": "0",
       "clientsideentity": "0",
-      "compile_source_id": "5992",
+      "compile_source_id": "5989",
       "origin": "-1264.000000 648.000000 14856.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -51924,7 +51925,7 @@
       "filterattribute": "76561198350466115",
       "negated": "0",
       "clientsideentity": "0",
-      "compile_source_id": "5993",
+      "compile_source_id": "5990",
       "origin": "-1264.000000 632.000000 14856.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -51966,7 +51967,7 @@
       "rendermode": "kRenderNormal",
       "renderfx": "kRenderFxNone",
       "uselocaloffset": "False",
-      "compile_source_id": "5994",
+      "compile_source_id": "5991",
       "origin": "184.000000 244.000000 -2468.000000",
       "angles": "0.000000 0.000000 90.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -52008,7 +52009,7 @@
       "rendermode": "kRenderNormal",
       "renderfx": "kRenderFxNone",
       "uselocaloffset": "False",
-      "compile_source_id": "5995",
+      "compile_source_id": "5992",
       "origin": "48.000000 244.000000 -2476.000000",
       "angles": "0.000000 0.000000 90.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -52050,7 +52051,7 @@
       "rendermode": "kRenderNormal",
       "renderfx": "kRenderFxNone",
       "uselocaloffset": "False",
-      "compile_source_id": "5996",
+      "compile_source_id": "5993",
       "origin": "88.000000 244.000000 -2476.000000",
       "angles": "0.000000 0.000000 90.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -52092,7 +52093,7 @@
       "rendermode": "kRenderNormal",
       "renderfx": "kRenderFxNone",
       "uselocaloffset": "False",
-      "compile_source_id": "5997",
+      "compile_source_id": "5994",
       "origin": "128.000000 244.000000 -2476.000000",
       "angles": "0.000000 0.000000 90.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -52134,7 +52135,7 @@
       "rendermode": "kRenderNormal",
       "renderfx": "kRenderFxNone",
       "uselocaloffset": "False",
-      "compile_source_id": "5998",
+      "compile_source_id": "5995",
       "origin": "184.000000 244.000000 -2476.000000",
       "angles": "0.000000 0.000000 90.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -52176,7 +52177,7 @@
       "rendermode": "kRenderNormal",
       "renderfx": "kRenderFxNone",
       "uselocaloffset": "False",
-      "compile_source_id": "6003",
+      "compile_source_id": "6000",
       "origin": "184.000000 244.000000 -2484.000000",
       "angles": "0.000000 0.000000 90.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -52218,7 +52219,7 @@
       "rendermode": "kRenderNormal",
       "renderfx": "kRenderFxNone",
       "uselocaloffset": "False",
-      "compile_source_id": "6004",
+      "compile_source_id": "6001",
       "origin": "88.000000 244.000000 -2484.000000",
       "angles": "0.000000 0.000000 90.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -52260,7 +52261,7 @@
       "rendermode": "kRenderNormal",
       "renderfx": "kRenderFxNone",
       "uselocaloffset": "False",
-      "compile_source_id": "6005",
+      "compile_source_id": "6002",
       "origin": "128.000000 244.000000 -2484.000000",
       "angles": "0.000000 0.000000 90.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -52302,7 +52303,7 @@
       "rendermode": "kRenderNormal",
       "renderfx": "kRenderFxNone",
       "uselocaloffset": "False",
-      "compile_source_id": "6006",
+      "compile_source_id": "6003",
       "origin": "48.000000 244.000000 -2484.000000",
       "angles": "0.000000 0.000000 90.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -52344,7 +52345,7 @@
       "rendermode": "kRenderNormal",
       "renderfx": "kRenderFxNone",
       "uselocaloffset": "False",
-      "compile_source_id": "6007",
+      "compile_source_id": "6004",
       "origin": "48.000000 244.000000 -2492.000000",
       "angles": "0.000000 0.000000 90.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -52386,7 +52387,7 @@
       "rendermode": "kRenderNormal",
       "renderfx": "kRenderFxNone",
       "uselocaloffset": "False",
-      "compile_source_id": "6008",
+      "compile_source_id": "6005",
       "origin": "88.000000 244.000000 -2492.000000",
       "angles": "0.000000 0.000000 90.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -52428,7 +52429,7 @@
       "rendermode": "kRenderNormal",
       "renderfx": "kRenderFxNone",
       "uselocaloffset": "False",
-      "compile_source_id": "6009",
+      "compile_source_id": "6006",
       "origin": "128.000000 244.000000 -2492.000000",
       "angles": "0.000000 0.000000 90.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -52470,7 +52471,7 @@
       "rendermode": "kRenderNormal",
       "renderfx": "kRenderFxNone",
       "uselocaloffset": "False",
-      "compile_source_id": "6010",
+      "compile_source_id": "6007",
       "origin": "184.000000 244.000000 -2492.000000",
       "angles": "0.000000 0.000000 90.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -52512,7 +52513,7 @@
       "rendermode": "kRenderNormal",
       "renderfx": "kRenderFxNone",
       "uselocaloffset": "False",
-      "compile_source_id": "6011",
+      "compile_source_id": "6008",
       "origin": "128.000000 244.000000 -2500.000000",
       "angles": "0.000000 0.000000 90.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -52554,7 +52555,7 @@
       "rendermode": "kRenderNormal",
       "renderfx": "kRenderFxNone",
       "uselocaloffset": "False",
-      "compile_source_id": "6012",
+      "compile_source_id": "6009",
       "origin": "48.000000 244.000000 -2500.000000",
       "angles": "0.000000 0.000000 90.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -52596,7 +52597,7 @@
       "rendermode": "kRenderNormal",
       "renderfx": "kRenderFxNone",
       "uselocaloffset": "False",
-      "compile_source_id": "6013",
+      "compile_source_id": "6010",
       "origin": "88.000000 244.000000 -2500.000000",
       "angles": "0.000000 0.000000 90.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -52638,7 +52639,7 @@
       "rendermode": "kRenderNormal",
       "renderfx": "kRenderFxNone",
       "uselocaloffset": "False",
-      "compile_source_id": "6014",
+      "compile_source_id": "6011",
       "origin": "184.000000 244.000000 -2500.000000",
       "angles": "0.000000 0.000000 90.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -52680,7 +52681,7 @@
       "rendermode": "kRenderNormal",
       "renderfx": "kRenderFxNone",
       "uselocaloffset": "False",
-      "compile_source_id": "6015",
+      "compile_source_id": "6012",
       "origin": "48.000000 244.000000 -2508.000000",
       "angles": "0.000000 0.000000 90.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -52722,7 +52723,7 @@
       "rendermode": "kRenderNormal",
       "renderfx": "kRenderFxNone",
       "uselocaloffset": "False",
-      "compile_source_id": "6016",
+      "compile_source_id": "6013",
       "origin": "88.000000 244.000000 -2508.000000",
       "angles": "0.000000 0.000000 90.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -52764,7 +52765,7 @@
       "rendermode": "kRenderNormal",
       "renderfx": "kRenderFxNone",
       "uselocaloffset": "False",
-      "compile_source_id": "6017",
+      "compile_source_id": "6014",
       "origin": "128.000000 244.000000 -2508.000000",
       "angles": "0.000000 0.000000 90.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -52806,7 +52807,7 @@
       "rendermode": "kRenderNormal",
       "renderfx": "kRenderFxNone",
       "uselocaloffset": "False",
-      "compile_source_id": "6018",
+      "compile_source_id": "6015",
       "origin": "184.000000 244.000000 -2508.000000",
       "angles": "0.000000 0.000000 90.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -52820,7 +52821,7 @@
       "filterattribute": "76561198099567970",
       "negated": "0",
       "clientsideentity": "0",
-      "compile_source_id": "6019",
+      "compile_source_id": "6016",
       "origin": "-1264.000000 616.000000 14856.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -52834,7 +52835,7 @@
       "filterattribute": "76561198840255216",
       "negated": "0",
       "clientsideentity": "0",
-      "compile_source_id": "6020",
+      "compile_source_id": "6017",
       "origin": "-1264.000000 600.000000 14856.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -52848,7 +52849,7 @@
       "filterattribute": "76561199062203751",
       "negated": "0",
       "clientsideentity": "0",
-      "compile_source_id": "6021",
+      "compile_source_id": "6018",
       "origin": "-1280.000000 664.000000 14856.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -52862,7 +52863,7 @@
       "filterattribute": "76561199209306260",
       "negated": "0",
       "clientsideentity": "0",
-      "compile_source_id": "6022",
+      "compile_source_id": "6019",
       "origin": "-1280.000000 648.000000 14856.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -52876,7 +52877,7 @@
       "filterattribute": "76561198821994989",
       "negated": "0",
       "clientsideentity": "0",
-      "compile_source_id": "6023",
+      "compile_source_id": "6020",
       "origin": "-1280.000000 632.000000 14856.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -52890,7 +52891,7 @@
       "filterattribute": "76561199031276637",
       "negated": "0",
       "clientsideentity": "0",
-      "compile_source_id": "6024",
+      "compile_source_id": "6021",
       "origin": "-1280.000000 616.000000 14856.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -52904,7 +52905,7 @@
       "filterattribute": "76561199209306260",
       "negated": "0",
       "clientsideentity": "0",
-      "compile_source_id": "6025",
+      "compile_source_id": "6022",
       "origin": "-1280.000000 600.000000 14856.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -52918,7 +52919,7 @@
       "filterattribute": "76561199512419594",
       "negated": "0",
       "clientsideentity": "0",
-      "compile_source_id": "6026",
+      "compile_source_id": "6023",
       "origin": "-1296.000000 664.000000 14856.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -52932,7 +52933,7 @@
       "filterattribute": "76561199066153626",
       "negated": "0",
       "clientsideentity": "0",
-      "compile_source_id": "6027",
+      "compile_source_id": "6024",
       "origin": "-1296.000000 648.000000 14856.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -52946,7 +52947,7 @@
       "filterattribute": "76561199090041104",
       "negated": "0",
       "clientsideentity": "0",
-      "compile_source_id": "6028",
+      "compile_source_id": "6025",
       "origin": "-1296.000000 632.000000 14856.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -52960,7 +52961,7 @@
       "filterattribute": "76561199256330310",
       "negated": "0",
       "clientsideentity": "0",
-      "compile_source_id": "6029",
+      "compile_source_id": "6026",
       "origin": "-1296.000000 616.000000 14856.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -52974,7 +52975,7 @@
       "filterattribute": "76561199695753935",
       "negated": "0",
       "clientsideentity": "0",
-      "compile_source_id": "6030",
+      "compile_source_id": "6027",
       "origin": "-1296.000000 600.000000 14856.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -52988,7 +52989,7 @@
       "filterattribute": "76561198244459388",
       "negated": "0",
       "clientsideentity": "0",
-      "compile_source_id": "6031",
+      "compile_source_id": "6028",
       "origin": "-1312.000000 664.000000 14856.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -53002,7 +53003,7 @@
       "filterattribute": "76561199518141861",
       "negated": "0",
       "clientsideentity": "0",
-      "compile_source_id": "6032",
+      "compile_source_id": "6029",
       "origin": "-1312.000000 648.000000 14856.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -53016,7 +53017,7 @@
       "filterattribute": "76561198380386711",
       "negated": "0",
       "clientsideentity": "0",
-      "compile_source_id": "6033",
+      "compile_source_id": "6030",
       "origin": "-1312.000000 632.000000 14856.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -53030,7 +53031,7 @@
       "filterattribute": "76561199541281028",
       "negated": "0",
       "clientsideentity": "0",
-      "compile_source_id": "6034",
+      "compile_source_id": "6031",
       "origin": "-1312.000000 616.000000 14856.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -53054,7 +53055,7 @@
       "filtertype": "1",
       "negated": "0",
       "clientsideentity": "0",
-      "compile_source_id": "6035",
+      "compile_source_id": "6032",
       "origin": "-1280.000000 680.000000 14856.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -53104,7 +53105,7 @@
       "filtertype": "1",
       "negated": "0",
       "clientsideentity": "0",
-      "compile_source_id": "6036",
+      "compile_source_id": "6033",
       "origin": "-1312.000000 680.000000 14856.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -53172,7 +53173,7 @@
       "rendermode": "kRenderNormal",
       "renderfx": "kRenderFxNone",
       "uselocaloffset": "False",
-      "compile_source_id": "6069",
+      "compile_source_id": "6066",
       "origin": "48.000000 244.000000 -2516.000000",
       "angles": "0.000000 0.000000 90.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -53214,7 +53215,7 @@
       "rendermode": "kRenderNormal",
       "renderfx": "kRenderFxNone",
       "uselocaloffset": "False",
-      "compile_source_id": "6070",
+      "compile_source_id": "6067",
       "origin": "88.000000 244.000000 -2516.000000",
       "angles": "0.000000 0.000000 90.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -53256,7 +53257,7 @@
       "rendermode": "kRenderNormal",
       "renderfx": "kRenderFxNone",
       "uselocaloffset": "False",
-      "compile_source_id": "6071",
+      "compile_source_id": "6068",
       "origin": "128.000000 244.000000 -2516.000000",
       "angles": "0.000000 0.000000 90.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -53298,7 +53299,7 @@
       "rendermode": "kRenderNormal",
       "renderfx": "kRenderFxNone",
       "uselocaloffset": "False",
-      "compile_source_id": "6072",
+      "compile_source_id": "6069",
       "origin": "184.000000 244.000000 -2516.000000",
       "angles": "0.000000 0.000000 90.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -53312,7 +53313,7 @@
       "filterattribute": "76561199065346209",
       "negated": "0",
       "clientsideentity": "0",
-      "compile_source_id": "6073",
+      "compile_source_id": "6070",
       "origin": "-1312.000000 600.000000 14856.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -53326,7 +53327,7 @@
       "filterattribute": "76561199224501591",
       "negated": "0",
       "clientsideentity": "0",
-      "compile_source_id": "6074",
+      "compile_source_id": "6071",
       "origin": "-1328.000000 664.000000 14856.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -53340,7 +53341,7 @@
       "filterattribute": "76561199691658180",
       "negated": "0",
       "clientsideentity": "0",
-      "compile_source_id": "6075",
+      "compile_source_id": "6072",
       "origin": "-1328.000000 648.000000 14856.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -53354,7 +53355,7 @@
       "filterattribute": "76561199221898587",
       "negated": "0",
       "clientsideentity": "0",
-      "compile_source_id": "6076",
+      "compile_source_id": "6073",
       "origin": "-1328.000000 632.000000 14856.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -53368,7 +53369,7 @@
       "filterattribute": "76561198282480345",
       "negated": "0",
       "clientsideentity": "0",
-      "compile_source_id": "6077",
+      "compile_source_id": "6074",
       "origin": "-1328.000000 616.000000 14856.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -53410,7 +53411,7 @@
       "rendermode": "kRenderNormal",
       "renderfx": "kRenderFxNone",
       "uselocaloffset": "False",
-      "compile_source_id": "6078",
+      "compile_source_id": "6075",
       "origin": "48.000000 244.000000 -2524.000000",
       "angles": "0.000000 0.000000 90.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -53426,7 +53427,7 @@
       "spawnflags": "1",
       "startdisabled": "True",
       "uselocaloffset": "False",
-      "compile_source_id": "6079",
+      "compile_source_id": "6076",
       "origin": "12352.000000 224.000000 -15200.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -53449,7 +53450,7 @@
     "targetname": "[PR#]Map_Boss_Health_Script",
     "properties": {
       "cs_script": "scripts/vscripts/boss_heart.vjs",
-      "compile_source_id": "6082",
+      "compile_source_id": "6079",
       "origin": "-6160.000000 -8176.000000 -7416.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -53491,7 +53492,7 @@
       "rendermode": "kRenderNormal",
       "renderfx": "kRenderFxNone",
       "uselocaloffset": "False",
-      "compile_source_id": "6083",
+      "compile_source_id": "6080",
       "origin": "88.000000 244.000000 -2524.000000",
       "angles": "0.000000 0.000000 90.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -53533,7 +53534,7 @@
       "rendermode": "kRenderNormal",
       "renderfx": "kRenderFxNone",
       "uselocaloffset": "False",
-      "compile_source_id": "6084",
+      "compile_source_id": "6081",
       "origin": "128.000000 244.000000 -2524.000000",
       "angles": "0.000000 0.000000 90.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -53575,7 +53576,7 @@
       "rendermode": "kRenderNormal",
       "renderfx": "kRenderFxNone",
       "uselocaloffset": "False",
-      "compile_source_id": "6085",
+      "compile_source_id": "6082",
       "origin": "184.000000 244.000000 -2524.000000",
       "angles": "0.000000 0.000000 90.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -53589,7 +53590,7 @@
       "filterattribute": "76561199786778326",
       "negated": "0",
       "clientsideentity": "0",
-      "compile_source_id": "6086",
+      "compile_source_id": "6083",
       "origin": "-1328.000000 600.000000 14856.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -53603,7 +53604,7 @@
       "filterattribute": "76561199438310170",
       "negated": "0",
       "clientsideentity": "0",
-      "compile_source_id": "6087",
+      "compile_source_id": "6084",
       "origin": "-1344.000000 664.000000 14856.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -53617,7 +53618,7 @@
       "filterattribute": "76561199376952605",
       "negated": "0",
       "clientsideentity": "0",
-      "compile_source_id": "6088",
+      "compile_source_id": "6085",
       "origin": "-1344.000000 648.000000 14856.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -53633,7 +53634,7 @@
       "filtertype": "1",
       "negated": "0",
       "clientsideentity": "0",
-      "compile_source_id": "6089",
+      "compile_source_id": "6086",
       "origin": "-1344.000000 680.000000 14856.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -53667,7 +53668,7 @@
   },
   {
     "classname": "light_omni2",
-    "hammerUniqueId": "16488",
+    "hammerUniqueId": "16493",
     "properties": {
       "precomputedsubfrusta": "6",
       "precomputedobbextent5": "67.941391 155.092407 135.251953",
@@ -53748,7 +53749,7 @@
   },
   {
     "classname": "prop_dynamic",
-    "hammerUniqueId": "16490",
+    "hammerUniqueId": "16495",
     "properties": {
       "clothscale": "1",
       "startdisabled": "False",
@@ -53808,7 +53809,7 @@
   },
   {
     "classname": "light_omni2",
-    "hammerUniqueId": "16491",
+    "hammerUniqueId": "16496",
     "properties": {
       "transmit_always": "False",
       "fade_size_end": "0.02500000037252903",
@@ -53864,7 +53865,7 @@
   },
   {
     "classname": "info_particle_system",
-    "hammerUniqueId": "16492",
+    "hammerUniqueId": "16497",
     "properties": {
       "cpoint7_parent": "0",
       "cpoint6_parent": "0",
@@ -53901,7 +53902,7 @@
   },
   {
     "classname": "prop_dynamic",
-    "hammerUniqueId": "16494",
+    "hammerUniqueId": "16499",
     "properties": {
       "clothscale": "1",
       "startdisabled": "False",
@@ -53961,7 +53962,7 @@
   },
   {
     "classname": "light_omni2",
-    "hammerUniqueId": "16495",
+    "hammerUniqueId": "16500",
     "properties": {
       "transmit_always": "False",
       "fade_size_end": "0.02500000037252903",
@@ -54017,7 +54018,7 @@
   },
   {
     "classname": "info_particle_system",
-    "hammerUniqueId": "16496",
+    "hammerUniqueId": "16501",
     "properties": {
       "cpoint7_parent": "0",
       "cpoint6_parent": "0",
@@ -54054,7 +54055,7 @@
   },
   {
     "classname": "prop_dynamic",
-    "hammerUniqueId": "16498",
+    "hammerUniqueId": "16503",
     "properties": {
       "clothscale": "1",
       "startdisabled": "False",
@@ -54114,7 +54115,7 @@
   },
   {
     "classname": "light_omni2",
-    "hammerUniqueId": "16499",
+    "hammerUniqueId": "16504",
     "properties": {
       "transmit_always": "False",
       "fade_size_end": "0.02500000037252903",
@@ -54170,7 +54171,7 @@
   },
   {
     "classname": "info_particle_system",
-    "hammerUniqueId": "16500",
+    "hammerUniqueId": "16505",
     "properties": {
       "cpoint7_parent": "0",
       "cpoint6_parent": "0",
@@ -54207,7 +54208,7 @@
   },
   {
     "classname": "prop_dynamic",
-    "hammerUniqueId": "16502",
+    "hammerUniqueId": "16507",
     "properties": {
       "clothscale": "1",
       "startdisabled": "False",
@@ -54267,7 +54268,7 @@
   },
   {
     "classname": "light_omni2",
-    "hammerUniqueId": "16503",
+    "hammerUniqueId": "16508",
     "properties": {
       "transmit_always": "False",
       "fade_size_end": "0.02500000037252903",
@@ -54323,7 +54324,7 @@
   },
   {
     "classname": "info_particle_system",
-    "hammerUniqueId": "16504",
+    "hammerUniqueId": "16509",
     "properties": {
       "cpoint7_parent": "0",
       "cpoint6_parent": "0",
@@ -54360,7 +54361,7 @@
   },
   {
     "classname": "prop_dynamic",
-    "hammerUniqueId": "16506",
+    "hammerUniqueId": "16511",
     "properties": {
       "clothscale": "1",
       "startdisabled": "False",
@@ -54420,7 +54421,7 @@
   },
   {
     "classname": "light_omni2",
-    "hammerUniqueId": "16507",
+    "hammerUniqueId": "16512",
     "properties": {
       "transmit_always": "False",
       "fade_size_end": "0.02500000037252903",
@@ -54476,7 +54477,7 @@
   },
   {
     "classname": "info_particle_system",
-    "hammerUniqueId": "16508",
+    "hammerUniqueId": "16513",
     "properties": {
       "cpoint7_parent": "0",
       "cpoint6_parent": "0",
@@ -54513,7 +54514,7 @@
   },
   {
     "classname": "prop_dynamic",
-    "hammerUniqueId": "16510",
+    "hammerUniqueId": "16515",
     "properties": {
       "clothscale": "1",
       "startdisabled": "False",
@@ -54573,7 +54574,7 @@
   },
   {
     "classname": "light_omni2",
-    "hammerUniqueId": "16511",
+    "hammerUniqueId": "16516",
     "properties": {
       "transmit_always": "False",
       "fade_size_end": "0.02500000037252903",
@@ -54629,7 +54630,7 @@
   },
   {
     "classname": "info_particle_system",
-    "hammerUniqueId": "16512",
+    "hammerUniqueId": "16517",
     "properties": {
       "cpoint7_parent": "0",
       "cpoint6_parent": "0",
@@ -54666,7 +54667,7 @@
   },
   {
     "classname": "prop_dynamic",
-    "hammerUniqueId": "16514",
+    "hammerUniqueId": "16519",
     "properties": {
       "clothscale": "1",
       "startdisabled": "False",
@@ -54726,7 +54727,7 @@
   },
   {
     "classname": "light_omni2",
-    "hammerUniqueId": "16515",
+    "hammerUniqueId": "16520",
     "properties": {
       "transmit_always": "False",
       "fade_size_end": "0.02500000037252903",
@@ -54782,7 +54783,7 @@
   },
   {
     "classname": "info_particle_system",
-    "hammerUniqueId": "16516",
+    "hammerUniqueId": "16521",
     "properties": {
       "cpoint7_parent": "0",
       "cpoint6_parent": "0",
@@ -54819,7 +54820,7 @@
   },
   {
     "classname": "prop_dynamic",
-    "hammerUniqueId": "16518",
+    "hammerUniqueId": "16523",
     "properties": {
       "clothscale": "1",
       "startdisabled": "False",
@@ -54879,7 +54880,7 @@
   },
   {
     "classname": "light_omni2",
-    "hammerUniqueId": "16519",
+    "hammerUniqueId": "16524",
     "properties": {
       "transmit_always": "False",
       "fade_size_end": "0.02500000037252903",
@@ -54935,7 +54936,7 @@
   },
   {
     "classname": "info_particle_system",
-    "hammerUniqueId": "16520",
+    "hammerUniqueId": "16525",
     "properties": {
       "cpoint7_parent": "0",
       "cpoint6_parent": "0",
@@ -54972,7 +54973,7 @@
   },
   {
     "classname": "prop_dynamic",
-    "hammerUniqueId": "16522",
+    "hammerUniqueId": "16527",
     "properties": {
       "clothscale": "1",
       "startdisabled": "False",
@@ -55032,7 +55033,7 @@
   },
   {
     "classname": "light_omni2",
-    "hammerUniqueId": "16523",
+    "hammerUniqueId": "16528",
     "properties": {
       "transmit_always": "False",
       "fade_size_end": "0.02500000037252903",
@@ -55088,7 +55089,7 @@
   },
   {
     "classname": "info_particle_system",
-    "hammerUniqueId": "16524",
+    "hammerUniqueId": "16529",
     "properties": {
       "cpoint7_parent": "0",
       "cpoint6_parent": "0",
@@ -55125,7 +55126,7 @@
   },
   {
     "classname": "prop_dynamic",
-    "hammerUniqueId": "16526",
+    "hammerUniqueId": "16531",
     "properties": {
       "clothscale": "1",
       "startdisabled": "False",
@@ -55185,7 +55186,7 @@
   },
   {
     "classname": "light_omni2",
-    "hammerUniqueId": "16527",
+    "hammerUniqueId": "16532",
     "properties": {
       "transmit_always": "False",
       "fade_size_end": "0.02500000037252903",
@@ -55241,7 +55242,7 @@
   },
   {
     "classname": "info_particle_system",
-    "hammerUniqueId": "16528",
+    "hammerUniqueId": "16533",
     "properties": {
       "cpoint7_parent": "0",
       "cpoint6_parent": "0",
@@ -55278,7 +55279,7 @@
   },
   {
     "classname": "prop_dynamic",
-    "hammerUniqueId": "16530",
+    "hammerUniqueId": "16535",
     "properties": {
       "clothscale": "1",
       "startdisabled": "False",
@@ -55338,7 +55339,7 @@
   },
   {
     "classname": "light_omni2",
-    "hammerUniqueId": "16531",
+    "hammerUniqueId": "16536",
     "properties": {
       "transmit_always": "False",
       "fade_size_end": "0.02500000037252903",
@@ -55394,7 +55395,7 @@
   },
   {
     "classname": "info_particle_system",
-    "hammerUniqueId": "16532",
+    "hammerUniqueId": "16537",
     "properties": {
       "cpoint7_parent": "0",
       "cpoint6_parent": "0",
@@ -55431,7 +55432,7 @@
   },
   {
     "classname": "prop_dynamic",
-    "hammerUniqueId": "16534",
+    "hammerUniqueId": "16539",
     "properties": {
       "clothscale": "1",
       "startdisabled": "False",
@@ -55491,7 +55492,7 @@
   },
   {
     "classname": "light_omni2",
-    "hammerUniqueId": "16535",
+    "hammerUniqueId": "16540",
     "properties": {
       "transmit_always": "False",
       "fade_size_end": "0.02500000037252903",
@@ -55547,7 +55548,7 @@
   },
   {
     "classname": "info_particle_system",
-    "hammerUniqueId": "16536",
+    "hammerUniqueId": "16541",
     "properties": {
       "cpoint7_parent": "0",
       "cpoint6_parent": "0",
@@ -55584,7 +55585,7 @@
   },
   {
     "classname": "prop_dynamic",
-    "hammerUniqueId": "16573",
+    "hammerUniqueId": "16578",
     "properties": {
       "clothscale": "1",
       "startdisabled": "False",
@@ -55644,7 +55645,7 @@
   },
   {
     "classname": "prop_dynamic",
-    "hammerUniqueId": "16725",
+    "hammerUniqueId": "16730",
     "properties": {
       "clothscale": "1",
       "startdisabled": "False",
@@ -55704,7 +55705,7 @@
   },
   {
     "classname": "light_omni2",
-    "hammerUniqueId": "16726",
+    "hammerUniqueId": "16731",
     "properties": {
       "transmit_always": "False",
       "fade_size_end": "0.02500000037252903",
@@ -55760,7 +55761,7 @@
   },
   {
     "classname": "info_particle_system",
-    "hammerUniqueId": "16727",
+    "hammerUniqueId": "16732",
     "properties": {
       "cpoint7_parent": "0",
       "cpoint6_parent": "0",
@@ -55797,7 +55798,7 @@
   },
   {
     "classname": "prop_dynamic",
-    "hammerUniqueId": "16729",
+    "hammerUniqueId": "16734",
     "properties": {
       "clothscale": "1",
       "startdisabled": "False",
@@ -55857,7 +55858,7 @@
   },
   {
     "classname": "light_omni2",
-    "hammerUniqueId": "16730",
+    "hammerUniqueId": "16735",
     "properties": {
       "transmit_always": "False",
       "fade_size_end": "0.02500000037252903",
@@ -55913,7 +55914,7 @@
   },
   {
     "classname": "info_particle_system",
-    "hammerUniqueId": "16731",
+    "hammerUniqueId": "16736",
     "properties": {
       "cpoint7_parent": "0",
       "cpoint6_parent": "0",
@@ -55950,7 +55951,7 @@
   },
   {
     "classname": "prop_dynamic",
-    "hammerUniqueId": "16733",
+    "hammerUniqueId": "16738",
     "properties": {
       "clothscale": "1",
       "startdisabled": "False",
@@ -56010,7 +56011,7 @@
   },
   {
     "classname": "light_omni2",
-    "hammerUniqueId": "16734",
+    "hammerUniqueId": "16739",
     "properties": {
       "transmit_always": "False",
       "fade_size_end": "0.02500000037252903",
@@ -56066,7 +56067,7 @@
   },
   {
     "classname": "info_particle_system",
-    "hammerUniqueId": "16735",
+    "hammerUniqueId": "16740",
     "properties": {
       "cpoint7_parent": "0",
       "cpoint6_parent": "0",
@@ -56103,7 +56104,7 @@
   },
   {
     "classname": "prop_dynamic",
-    "hammerUniqueId": "16737",
+    "hammerUniqueId": "16742",
     "properties": {
       "clothscale": "1",
       "startdisabled": "False",
@@ -56163,7 +56164,7 @@
   },
   {
     "classname": "light_omni2",
-    "hammerUniqueId": "16738",
+    "hammerUniqueId": "16743",
     "properties": {
       "transmit_always": "False",
       "fade_size_end": "0.02500000037252903",
@@ -56219,7 +56220,7 @@
   },
   {
     "classname": "info_particle_system",
-    "hammerUniqueId": "16739",
+    "hammerUniqueId": "16744",
     "properties": {
       "cpoint7_parent": "0",
       "cpoint6_parent": "0",
