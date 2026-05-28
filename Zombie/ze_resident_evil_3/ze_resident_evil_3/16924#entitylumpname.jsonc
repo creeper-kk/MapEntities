@@ -17,7 +17,7 @@
       "spawnflags": "5128",
       "startdisabled": "True",
       "uselocaloffset": "False",
-      "compile_source_id": "6002",
+      "compile_source_id": "6000",
       "origin": "-0.100098 -0.209961 1.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -34,7 +34,7 @@
       "min": "0",
       "startvalue": "20",
       "startdisabled": "False",
-      "compile_source_id": "6007",
+      "compile_source_id": "6005",
       "origin": "35.337891 44.290039 13.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -168,6 +168,22 @@
         "param": "",
         "delay": 1,
         "limit": -1
+      },
+      {
+        "output": "OnHitMin",
+        "target": "[PR#]exp_barrel_hurt_zm&0000",
+        "input": "Enable",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnHitMin",
+        "target": "[PR#]exp_barrel_hurt_zm&0000",
+        "input": "Disable",
+        "param": "",
+        "delay": 1,
+        "limit": -1
       }
     ]
   },
@@ -227,7 +243,7 @@
       "uselocaloffset": "False",
       "parentname": "[PR#]exp_barrel_phys&0000",
       "startdisabled": "False",
-      "compile_source_id": "6004",
+      "compile_source_id": "6002",
       "origin": "-0.002930 0.002441 0.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -300,7 +316,7 @@
       "damagefilter": "[PR#]No_Damage",
       "spawnflags": "32768",
       "uselocaloffset": "False",
-      "compile_source_id": "6008",
+      "compile_source_id": "6006",
       "origin": "-0.100098 -0.209961 26.500000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -328,7 +344,7 @@
       "startdisabled": "False",
       "uselocaloffset": "False",
       "parentname": "[PR#]exp_barrel_phys&0000",
-      "compile_source_id": "6006",
+      "compile_source_id": "6004",
       "origin": "-0.100098 0.290039 72.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -370,7 +386,7 @@
       "startdisabled": "True",
       "uselocaloffset": "False",
       "parentname": "[PR#]exp_barrel_phys&0000",
-      "compile_source_id": "6005",
+      "compile_source_id": "6003",
       "origin": "-0.100098 0.290039 72.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -422,7 +438,7 @@
       "effect_name": "particles/explosions_fx/explosion_hegrenade.vpcf",
       "clientsideentity": "0",
       "uselocaloffset": "False",
-      "compile_source_id": "6003",
+      "compile_source_id": "6001",
       "origin": "1.223145 -0.709961 17.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -445,7 +461,7 @@
       "startdisabled": "True",
       "uselocaloffset": "False",
       "parentname": "[PR#]exp_barrel_phys&0000",
-      "compile_source_id": "2813",
+      "compile_source_id": "2816",
       "origin": "-0.100098 0.290039 72.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -463,7 +479,7 @@
       "startdisabled": "False",
       "uselocaloffset": "False",
       "parentname": "[PR#]exp_barrel_phys&0000",
-      "compile_source_id": "9974",
+      "compile_source_id": "9976",
       "origin": "-0.100098 0.290039 72.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -486,6 +502,41 @@
         "param": "",
         "delay": 1,
         "limit": 1
+      }
+    ]
+  },
+  {
+    "classname": "trigger_hurt",
+    "hammerUniqueId": "110186",
+    "targetname": "[PR#]exp_barrel_hurt_zm&0000",
+    "properties": {
+      "thinkalways": "False",
+      "nodmgforce": "False",
+      "forgivedelay": "3",
+      "damagemodel": "0",
+      "damagetype": "512",
+      "damagecap": "50",
+      "damage": "2500",
+      "filtername": "[PR#]Zombies_Filter",
+      "spawnflags": "4097",
+      "startdisabled": "True",
+      "uselocaloffset": "False",
+      "parentname": "[PR#]exp_barrel_phys&0000",
+      "compile_source_id": "10076",
+      "origin": "-0.100098 0.290039 75.000000",
+      "angles": "-0.000000 0.000000 0.000000",
+      "scales": "1.000000 1.000000 1.000000",
+      "model": "maps/ze_resident_evil_3/entities/exp_barrel_hurt_zm_110186.vmdl",
+      "_template_lump_ent_index": "9"
+    },
+    "connections": [
+      {
+        "output": "OnStartTouch",
+        "target": "!activator",
+        "input": "IgniteLifetime",
+        "param": "5",
+        "delay": 0,
+        "limit": -1
       }
     ]
   }
