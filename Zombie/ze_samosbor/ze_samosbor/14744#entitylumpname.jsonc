@@ -57,7 +57,7 @@
       "clientsideentity": "0",
       "uselocaloffset": "False",
       "parentname": "[PR#]FakeElevator_Movelinear&0000",
-      "compile_source_id": "5201",
+      "compile_source_id": "5200",
       "origin": "376.000000 0.000000 4.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -119,7 +119,7 @@
       "model": "maps/ze_samosbor/entities/fakeelevator_model_14816.vmdl",
       "clientsideentity": "0",
       "uselocaloffset": "False",
-      "compile_source_id": "5205",
+      "compile_source_id": "5204",
       "origin": "375.500000 1.125000 86.000000",
       "angles": "15.000000 -169.999954 -90.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -181,7 +181,7 @@
       "model": "maps/ze_samosbor/entities/fakeelevator_model_14842.vmdl",
       "clientsideentity": "0",
       "uselocaloffset": "False",
-      "compile_source_id": "5214",
+      "compile_source_id": "5213",
       "origin": "264.000000 -8.750000 260.000000",
       "angles": "-0.000000 -179.999893 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -370,7 +370,7 @@
       "clientsideentity": "0",
       "uselocaloffset": "False",
       "parentname": "[PR#]FakeElevator_Model&0000",
-      "compile_source_id": "5200",
+      "compile_source_id": "5199",
       "origin": "470.997070 60.000000 31.916992",
       "angles": "-33.750000 0.000000 -90.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -433,7 +433,7 @@
       "clientsideentity": "0",
       "uselocaloffset": "False",
       "parentname": "[PR#]FakeElevator_Model&0000",
-      "compile_source_id": "5202",
+      "compile_source_id": "5201",
       "origin": "310.000000 -120.000000 83.875000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -496,7 +496,7 @@
       "clientsideentity": "0",
       "uselocaloffset": "False",
       "parentname": "[PR#]FakeElevator_Model&0000",
-      "compile_source_id": "6087",
+      "compile_source_id": "6085",
       "origin": "262.000000 -106.000000 5.000000",
       "angles": "-9.999966 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -598,9 +598,9 @@
       },
       {
         "output": "OnPressed",
-        "target": "[PR#]cmd",
-        "input": "Command",
-        "param": "say >> Elevator has been found <<",
+        "target": "[PR#]FakeElevator_Out_Button_Relay&0000",
+        "input": "Trigger",
+        "param": "",
         "delay": 0,
         "limit": 1
       }
@@ -968,7 +968,7 @@
       "rendermode": "kRenderNormal",
       "renderfx": "kRenderFxNone",
       "uselocaloffset": "False",
-      "compile_source_id": "5213",
+      "compile_source_id": "5212",
       "origin": "309.999023 -117.000977 84.000000",
       "angles": "-0.000000 179.999924 90.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -997,7 +997,7 @@
       "startonspawn": "False",
       "soundname": "Giga.Sounds.Fuel",
       "uselocaloffset": "False",
-      "compile_source_id": "5207",
+      "compile_source_id": "5206",
       "origin": "469.393555 42.132812 46.199219",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -1079,7 +1079,7 @@
       "clientsideentity": "0",
       "uselocaloffset": "False",
       "parentname": "[PR#]FakeElevator_FuelTank_Canister_Rotating&0000",
-      "compile_source_id": "5203",
+      "compile_source_id": "5202",
       "origin": "462.000000 31.000000 51.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -1120,7 +1120,7 @@
       "rendermode": "kRenderNormal",
       "renderfx": "kRenderFxNone",
       "uselocaloffset": "False",
-      "compile_source_id": "5204",
+      "compile_source_id": "5203",
       "origin": "462.000000 31.000000 51.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -1315,7 +1315,7 @@
       "clientsideentity": "0",
       "uselocaloffset": "False",
       "parentname": "[PR#]FakeElevator_FuelTank_Canister_Model&0000",
-      "compile_source_id": "5206",
+      "compile_source_id": "5205",
       "origin": "461.000000 36.000000 67.000000",
       "angles": "-0.000000 90.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -1361,6 +1361,46 @@
         "input": "Open",
         "param": "",
         "delay": 0,
+        "limit": 1
+      },
+      {
+        "output": "OnStartTouch",
+        "target": "[PR#]FakeElevator_Out_Button_Relay&0000",
+        "input": "CancelPending",
+        "param": "",
+        "delay": 0,
+        "limit": 1
+      },
+      {
+        "output": "OnStartTouch",
+        "target": "[PR#]FakeElevator_Out_Button_Relay&0000",
+        "input": "Kill",
+        "param": "",
+        "delay": 0.05,
+        "limit": 1
+      },
+      {
+        "output": "OnStartTouch",
+        "target": "[PR#]FakeElevator_Out_Button_Warning_Relay&0000",
+        "input": "Kill",
+        "param": "",
+        "delay": 0.05,
+        "limit": 1
+      },
+      {
+        "output": "OnStartTouch",
+        "target": "[PR#]FakeElevator_Out_Button_Warning_Relay&0000",
+        "input": "CancelPending",
+        "param": "",
+        "delay": 0,
+        "limit": 1
+      },
+      {
+        "output": "OnStartTouch",
+        "target": "[PR#]cmd",
+        "input": "Command",
+        "param": "say >> Fuel Tank has been filled <<",
+        "delay": 2.5,
         "limit": 1
       }
     ]
@@ -1626,7 +1666,7 @@
       "clientsideentity": "0",
       "uselocaloffset": "False",
       "parentname": "[PR#]FakeElevator_Mouth_R_Move&0000",
-      "compile_source_id": "6088",
+      "compile_source_id": "6086",
       "origin": "376.000000 -0.400391 152.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -1734,7 +1774,7 @@
       "renderfx": "kRenderFxNone",
       "uselocaloffset": "False",
       "parentname": "[PR#]FakeElevator_Model&0000",
-      "compile_source_id": "5217",
+      "compile_source_id": "5216",
       "origin": "330.000000 4.000000 260.000000",
       "angles": "-0.000000 -179.999893 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -1824,7 +1864,7 @@
       "clientsideentity": "0",
       "uselocaloffset": "False",
       "parentname": "[PR#]FakeElevator_Mouth_L_Move&0000",
-      "compile_source_id": "6089",
+      "compile_source_id": "6087",
       "origin": "376.000000 0.000000 151.999023",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -1932,7 +1972,7 @@
       "renderfx": "kRenderFxNone",
       "uselocaloffset": "False",
       "parentname": "[PR#]FakeElevator_Model&0000",
-      "compile_source_id": "5218",
+      "compile_source_id": "5217",
       "origin": "448.000000 4.000000 260.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -2195,7 +2235,7 @@
       "startdisabled": "False",
       "uselocaloffset": "False",
       "parentname": "[PR#]FakeElevator_Model&0000",
-      "compile_source_id": "5208",
+      "compile_source_id": "5207",
       "origin": "376.000000 0.000000 136.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -2205,7 +2245,7 @@
   },
   {
     "classname": "info_particle_system",
-    "hammerUniqueId": "14792",
+    "hammerUniqueId": "16333",
     "targetname": "[PR#]FakeElevator_Dustmotes&0000",
     "properties": {
       "cpoint7_parent": "0",
@@ -2232,12 +2272,12 @@
       "snapshot_mesh": "-1",
       "no_save": "False",
       "start_active": "True",
-      "effect_name": "blood_elev.vpcf",
+      "effect_name": "particles/dustmotes.vpcf",
       "clientsideentity": "0",
       "uselocaloffset": "False",
       "parentname": "[PR#]FakeElevator_Model2&0000",
-      "compile_source_id": "5199",
-      "origin": "376.000000 0.000000 168.000000",
+      "compile_source_id": "6108",
+      "origin": "376.000000 0.000000 128.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
       "_template_lump_ent_index": "35"
@@ -2276,7 +2316,7 @@
       "clientsideentity": "0",
       "uselocaloffset": "False",
       "parentname": "[PR#]FakeElevator_Model&0000",
-      "compile_source_id": "5209",
+      "compile_source_id": "5208",
       "origin": "376.000000 0.000000 176.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -2296,7 +2336,7 @@
       "soundname": "Giga.ElevatorRoar",
       "uselocaloffset": "False",
       "parentname": "[PR#]FakeElevator_Model&0000",
-      "compile_source_id": "5210",
+      "compile_source_id": "5209",
       "origin": "376.000000 0.000000 192.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -2316,7 +2356,7 @@
       "soundname": "Giga.ElevatorYummy",
       "uselocaloffset": "False",
       "parentname": "[PR#]FakeElevator_Model&0000",
-      "compile_source_id": "5211",
+      "compile_source_id": "5210",
       "origin": "376.000000 0.000000 200.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -2335,7 +2375,7 @@
       "userandomtime": "True",
       "spawnflags": "0",
       "startdisabled": "False",
-      "compile_source_id": "5212",
+      "compile_source_id": "5211",
       "origin": "376.000000 16.000000 192.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -2535,7 +2575,7 @@
       "rendermode": "kRenderNormal",
       "renderfx": "kRenderFxNone",
       "uselocaloffset": "False",
-      "compile_source_id": "5216",
+      "compile_source_id": "5215",
       "origin": "376.500000 0.000000 184.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -2559,13 +2599,97 @@
       "spawnflags": "1",
       "startdisabled": "True",
       "uselocaloffset": "False",
-      "compile_source_id": "5219",
+      "compile_source_id": "5218",
       "origin": "376.000000 -4.000000 60.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
       "model": "maps/ze_samosbor/entities/fakeelevator_hurt_14851.vmdl",
       "_template_lump_ent_index": "44"
     }
+  },
+  {
+    "classname": "logic_relay",
+    "hammerUniqueId": "19968",
+    "targetname": "[PR#]FakeElevator_Out_Button_Relay&0000",
+    "properties": {
+      "passthroughcaller": "False",
+      "fastretrigger": "False",
+      "triggeronce": "False",
+      "startdisabled": "False",
+      "compile_source_id": "7460",
+      "origin": "200.000000 -152.000000 8.000000",
+      "angles": "-0.000000 0.000000 0.000000",
+      "scales": "1.000000 1.000000 1.000000",
+      "_template_lump_ent_index": "45"
+    },
+    "connections": [
+      {
+        "output": "OnTrigger",
+        "target": "[PR#]cmd",
+        "input": "Command",
+        "param": "say >> Elevator has been found <<",
+        "delay": 0,
+        "limit": 1
+      },
+      {
+        "output": "OnTrigger",
+        "target": "[PR#]FakeElevator_Out_Button_Warning_Relay&0000",
+        "input": "Trigger",
+        "param": "",
+        "delay": 15,
+        "limit": 1
+      }
+    ]
+  },
+  {
+    "classname": "logic_relay",
+    "hammerUniqueId": "19969",
+    "targetname": "[PR#]FakeElevator_Out_Button_Warning_Relay&0000",
+    "properties": {
+      "passthroughcaller": "False",
+      "fastretrigger": "False",
+      "triggeronce": "False",
+      "startdisabled": "False",
+      "compile_source_id": "7461",
+      "origin": "184.000000 -152.000000 8.000000",
+      "angles": "-0.000000 0.000000 0.000000",
+      "scales": "1.000000 1.000000 1.000000",
+      "_template_lump_ent_index": "46"
+    },
+    "connections": [
+      {
+        "output": "OnTrigger",
+        "target": "[PR#]cmd",
+        "input": "Command",
+        "param": "say >> You have 45 seconds to fill the Fuel Tank, before elevator eats you. <<",
+        "delay": 0,
+        "limit": 1
+      },
+      {
+        "output": "",
+        "target": "[PR#]cmd",
+        "input": "Command",
+        "param": "say >> 3... <<",
+        "delay": 42,
+        "limit": 1
+      },
+      {
+        "output": "",
+        "target": "[PR#]cmd",
+        "input": "Command",
+        "param": "say >> 2... <<",
+        "delay": 43,
+        "limit": 1
+      },
+      {
+        "output": "",
+        "target": "[PR#]cmd",
+        "input": "Command",
+        "param": "say >> 1... <<",
+        "delay": 44,
+        "limit": 1
+      }
+    ]
   },
   {
     "classname": "logic_relay",
@@ -2576,11 +2700,11 @@
       "fastretrigger": "False",
       "triggeronce": "True",
       "startdisabled": "False",
-      "compile_source_id": "5215",
+      "compile_source_id": "5214",
       "origin": "271.051758 106.904297 0.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "45"
+      "_template_lump_ent_index": "47"
     },
     "connections": [
       {
