@@ -7,6 +7,7 @@
     "targetname": "[PR#]ZombieItem_Sfx_Partygoer_Tps",
     "properties": {
       "uselocaloffset": "False",
+      "compile_source_id": "6839",
       "origin": "0.000000 0.000000 -0.000061",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -68,6 +69,7 @@
       "model": "models/props/de_overpass/balloon.vmdl",
       "clientsideentity": "0",
       "uselocaloffset": "False",
+      "compile_source_id": "6842",
       "origin": "-0.617188 0.298157 0.105225",
       "angles": "-0.000000 -179.999893 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -106,6 +108,7 @@
       "effect_name": "particles/partygoner_balloon1.vpcf",
       "clientsideentity": "0",
       "uselocaloffset": "False",
+      "compile_source_id": "6843",
       "origin": "-0.086914 -0.146393 3.831726",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",

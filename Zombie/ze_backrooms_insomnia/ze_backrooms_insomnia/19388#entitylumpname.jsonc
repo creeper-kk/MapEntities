@@ -56,6 +56,7 @@
       "model": "models/valuecoin_model/highvalue_mt3.vmdl",
       "clientsideentity": "0",
       "uselocaloffset": "False",
+      "compile_source_id": "6985",
       "origin": "0.000000 0.000244 -0.000061",
       "angles": "-0.000000 -0.000096 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -67,6 +68,7 @@
     "hammerUniqueId": "19386",
     "targetname": "[PR#]Collection_FYL_Physbox&0000",
     "properties": {
+      "fluiddragscale": "1",
       "touchoutputperentitydelay": "0",
       "notsolid": "0",
       "hoverposeangles": "0.000000 0.000000 0.000000",
@@ -126,6 +128,7 @@
       "exploderadius": "0",
       "explodedamage": "0",
       "disableshadows": "0",
+      "compile_source_id": "6990",
       "origin": "14.958008 -12.882324 3.566956",
       "angles": "-0.000000 0.000014 0.000000",
       "scales": "1.000000 1.000000 1.000000",

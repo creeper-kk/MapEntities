@@ -6,6 +6,7 @@
     "hammerUniqueId": "16755",
     "targetname": "[PR#]Pool_Object1",
     "properties": {
+      "fluiddragscale": "1",
       "hoverposeangles": "0.000000 0.000000 0.000000",
       "hoverposeangles __RAW_ARRAY__ (FloatingPoint64[3])": [
         0,
@@ -67,6 +68,7 @@
       "rendermode": "kRenderNormal",
       "renderfx": "kRenderFxNone",
       "uselocaloffset": "False",
+      "compile_source_id": "5533",
       "origin": "-221.760254 -328.757812 -27.622070",
       "angles": "-89.999374 -0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -79,6 +81,7 @@
     "hammerUniqueId": "16761",
     "targetname": "[PR#]Pool_Object1",
     "properties": {
+      "fluiddragscale": "1",
       "hoverposeangles": "0.000000 0.000000 0.000000",
       "hoverposeangles __RAW_ARRAY__ (FloatingPoint64[3])": [
         0,
@@ -140,6 +143,7 @@
       "exploderadius": "0",
       "explodedamage": "0",
       "disableshadows": "0",
+      "compile_source_id": "5536",
       "origin": "43.640381 -279.281250 -27.622681",
       "angles": "-89.999367 -0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -152,6 +156,7 @@
     "hammerUniqueId": "16763",
     "targetname": "[PR#]Pool_Object1",
     "properties": {
+      "fluiddragscale": "1",
       "hoverposeangles": "0.000000 0.000000 0.000000",
       "hoverposeangles __RAW_ARRAY__ (FloatingPoint64[3])": [
         0,
@@ -213,6 +218,7 @@
       "exploderadius": "0",
       "explodedamage": "0",
       "disableshadows": "0",
+      "compile_source_id": "5537",
       "origin": "-60.333984 -46.617188 -27.622681",
       "angles": "-89.999367 -0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -225,6 +231,7 @@
     "hammerUniqueId": "16790",
     "targetname": "[PR#]Pool_Object1",
     "properties": {
+      "fluiddragscale": "1",
       "hoverposeangles": "0.000000 0.000000 0.000000",
       "hoverposeangles __RAW_ARRAY__ (FloatingPoint64[3])": [
         0,
@@ -286,6 +293,7 @@
       "exploderadius": "0",
       "explodedamage": "0",
       "disableshadows": "0",
+      "compile_source_id": "5549",
       "origin": "13115.857422 3695.565430 1251.717285",
       "angles": "-89.999359 -0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -298,6 +306,7 @@
     "hammerUniqueId": "16792",
     "targetname": "[PR#]Pool_Object1",
     "properties": {
+      "fluiddragscale": "1",
       "hoverposeangles": "0.000000 0.000000 0.000000",
       "hoverposeangles __RAW_ARRAY__ (FloatingPoint64[3])": [
         0,
@@ -359,6 +368,7 @@
       "exploderadius": "0",
       "explodedamage": "0",
       "disableshadows": "0",
+      "compile_source_id": "5550",
       "origin": "13615.248047 3359.591797 1251.717285",
       "angles": "-89.999359 -0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -371,6 +381,7 @@
     "hammerUniqueId": "16794",
     "targetname": "[PR#]Pool_Object1",
     "properties": {
+      "fluiddragscale": "1",
       "hoverposeangles": "0.000000 0.000000 0.000000",
       "hoverposeangles __RAW_ARRAY__ (FloatingPoint64[3])": [
         0,
@@ -432,6 +443,7 @@
       "exploderadius": "0",
       "explodedamage": "0",
       "disableshadows": "0",
+      "compile_source_id": "5551",
       "origin": "13561.888672 12679.634766 847.831055",
       "angles": "-89.999359 -0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -444,6 +456,7 @@
     "hammerUniqueId": "16796",
     "targetname": "[PR#]Pool_Object1",
     "properties": {
+      "fluiddragscale": "1",
       "hoverposeangles": "0.000000 0.000000 0.000000",
       "hoverposeangles __RAW_ARRAY__ (FloatingPoint64[3])": [
         0,
@@ -505,6 +518,7 @@
       "exploderadius": "0",
       "explodedamage": "0",
       "disableshadows": "0",
+      "compile_source_id": "5552",
       "origin": "13466.164062 12419.908203 847.830566",
       "angles": "-89.999359 -0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -517,6 +531,7 @@
     "hammerUniqueId": "16798",
     "targetname": "[PR#]Pool_Object1",
     "properties": {
+      "fluiddragscale": "1",
       "hoverposeangles": "0.000000 0.000000 0.000000",
       "hoverposeangles __RAW_ARRAY__ (FloatingPoint64[3])": [
         0,
@@ -578,6 +593,7 @@
       "exploderadius": "0",
       "explodedamage": "0",
       "disableshadows": "0",
+      "compile_source_id": "5553",
       "origin": "13202.388672 12596.365234 847.831055",
       "angles": "-89.999359 -0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -590,6 +606,7 @@
     "hammerUniqueId": "16877",
     "targetname": "[PR#]Pool_Object1",
     "properties": {
+      "fluiddragscale": "1",
       "hoverposeangles": "0.000000 0.000000 0.000000",
       "hoverposeangles __RAW_ARRAY__ (FloatingPoint64[3])": [
         0,
@@ -651,6 +668,7 @@
       "exploderadius": "0",
       "explodedamage": "0",
       "disableshadows": "0",
+      "compile_source_id": "5613",
       "origin": "9099.857422 4554.404297 1273.282227",
       "angles": "-89.999359 -0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -663,6 +681,7 @@
     "hammerUniqueId": "16767",
     "targetname": "[PR#]Pool_Object2",
     "properties": {
+      "fluiddragscale": "1",
       "hoverposeangles": "0.000000 0.000000 0.000000",
       "hoverposeangles __RAW_ARRAY__ (FloatingPoint64[3])": [
         0,
@@ -724,6 +743,7 @@
       "rendermode": "kRenderNormal",
       "renderfx": "kRenderFxNone",
       "uselocaloffset": "False",
+      "compile_source_id": "5538",
       "origin": "-736.443848 -337.833984 -28.853149",
       "angles": "-0.000000 90.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -736,6 +756,7 @@
     "hammerUniqueId": "16768",
     "targetname": "[PR#]Pool_Object2",
     "properties": {
+      "fluiddragscale": "1",
       "hoverposeangles": "0.000000 0.000000 0.000000",
       "hoverposeangles __RAW_ARRAY__ (FloatingPoint64[3])": [
         0,
@@ -797,6 +818,7 @@
       "exploderadius": "0",
       "explodedamage": "0",
       "disableshadows": "0",
+      "compile_source_id": "5539",
       "origin": "-878.048828 -297.103516 -28.853149",
       "angles": "-0.000000 60.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -809,6 +831,7 @@
     "hammerUniqueId": "16770",
     "targetname": "[PR#]Pool_Object2",
     "properties": {
+      "fluiddragscale": "1",
       "hoverposeangles": "0.000000 0.000000 0.000000",
       "hoverposeangles __RAW_ARRAY__ (FloatingPoint64[3])": [
         0,
@@ -870,6 +893,7 @@
       "exploderadius": "0",
       "explodedamage": "0",
       "disableshadows": "0",
+      "compile_source_id": "5540",
       "origin": "-755.450684 -67.663086 -28.853638",
       "angles": "0.000000 -135.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -882,6 +906,7 @@
     "hammerUniqueId": "16772",
     "targetname": "[PR#]Pool_Object2",
     "properties": {
+      "fluiddragscale": "1",
       "hoverposeangles": "0.000000 0.000000 0.000000",
       "hoverposeangles __RAW_ARRAY__ (FloatingPoint64[3])": [
         0,
@@ -943,6 +968,7 @@
       "exploderadius": "0",
       "explodedamage": "0",
       "disableshadows": "0",
+      "compile_source_id": "5541",
       "origin": "-952.664551 -4.323242 -28.853149",
       "angles": "-0.000000 -60.000004 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -955,6 +981,7 @@
     "hammerUniqueId": "16774",
     "targetname": "[PR#]Pool_Object2",
     "properties": {
+      "fluiddragscale": "1",
       "hoverposeangles": "0.000000 0.000000 0.000000",
       "hoverposeangles __RAW_ARRAY__ (FloatingPoint64[3])": [
         0,
@@ -1016,6 +1043,7 @@
       "exploderadius": "0",
       "explodedamage": "0",
       "disableshadows": "0",
+      "compile_source_id": "5542",
       "origin": "-655.031738 -232.058594 -28.853149",
       "angles": "-0.000000 -74.999992 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -1028,6 +1056,7 @@
     "hammerUniqueId": "16776",
     "targetname": "[PR#]Pool_Object2",
     "properties": {
+      "fluiddragscale": "1",
       "hoverposeangles": "0.000000 0.000000 0.000000",
       "hoverposeangles __RAW_ARRAY__ (FloatingPoint64[3])": [
         0,
@@ -1089,6 +1118,7 @@
       "exploderadius": "0",
       "explodedamage": "0",
       "disableshadows": "0",
+      "compile_source_id": "5543",
       "origin": "-534.914551 -67.718750 -28.853149",
       "angles": "-0.000000 -74.999992 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -1101,6 +1131,7 @@
     "hammerUniqueId": "16778",
     "targetname": "[PR#]Pool_Object2",
     "properties": {
+      "fluiddragscale": "1",
       "hoverposeangles": "0.000000 0.000000 0.000000",
       "hoverposeangles __RAW_ARRAY__ (FloatingPoint64[3])": [
         0,
@@ -1162,6 +1193,7 @@
       "exploderadius": "0",
       "explodedamage": "0",
       "disableshadows": "0",
+      "compile_source_id": "5544",
       "origin": "-493.297363 -321.257812 -28.853149",
       "angles": "-0.000000 149.999985 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -1174,6 +1206,7 @@
     "hammerUniqueId": "16780",
     "targetname": "[PR#]Pool_Object2",
     "properties": {
+      "fluiddragscale": "1",
       "hoverposeangles": "0.000000 0.000000 0.000000",
       "hoverposeangles __RAW_ARRAY__ (FloatingPoint64[3])": [
         0,
@@ -1235,6 +1268,7 @@
       "exploderadius": "0",
       "explodedamage": "0",
       "disableshadows": "0",
+      "compile_source_id": "5545",
       "origin": "-788.913574 241.717773 -28.853638",
       "angles": "-0.000000 -74.999992 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -1247,6 +1281,7 @@
     "hammerUniqueId": "16782",
     "targetname": "[PR#]Pool_Object2",
     "properties": {
+      "fluiddragscale": "1",
       "hoverposeangles": "0.000000 0.000000 0.000000",
       "hoverposeangles __RAW_ARRAY__ (FloatingPoint64[3])": [
         0,
@@ -1308,6 +1343,7 @@
       "exploderadius": "0",
       "explodedamage": "0",
       "disableshadows": "0",
+      "compile_source_id": "5546",
       "origin": "-1022.698242 373.018555 -28.853638",
       "angles": "0.000000 -164.999985 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -1320,6 +1356,7 @@
     "hammerUniqueId": "16784",
     "targetname": "[PR#]Pool_Object2",
     "properties": {
+      "fluiddragscale": "1",
       "hoverposeangles": "0.000000 0.000000 0.000000",
       "hoverposeangles __RAW_ARRAY__ (FloatingPoint64[3])": [
         0,
@@ -1381,6 +1418,7 @@
       "exploderadius": "0",
       "explodedamage": "0",
       "disableshadows": "0",
+      "compile_source_id": "5547",
       "origin": "-846.016113 606.081055 -28.853149",
       "angles": "-0.000000 179.999969 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -1393,6 +1431,7 @@
     "hammerUniqueId": "16786",
     "targetname": "[PR#]Pool_Object2",
     "properties": {
+      "fluiddragscale": "1",
       "hoverposeangles": "0.000000 0.000000 0.000000",
       "hoverposeangles __RAW_ARRAY__ (FloatingPoint64[3])": [
         0,
@@ -1454,6 +1493,7 @@
       "exploderadius": "0",
       "explodedamage": "0",
       "disableshadows": "0",
+      "compile_source_id": "5548",
       "origin": "-1077.350098 796.882812 -28.853149",
       "angles": "-0.000000 134.999985 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -1466,6 +1506,7 @@
     "hammerUniqueId": "16802",
     "targetname": "[PR#]Pool_Object2",
     "properties": {
+      "fluiddragscale": "1",
       "hoverposeangles": "0.000000 0.000000 0.000000",
       "hoverposeangles __RAW_ARRAY__ (FloatingPoint64[3])": [
         0,
@@ -1527,6 +1568,7 @@
       "exploderadius": "0",
       "explodedamage": "0",
       "disableshadows": "0",
+      "compile_source_id": "5554",
       "origin": "13480.775391 12503.525391 846.600098",
       "angles": "-0.000000 60.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -1539,6 +1581,7 @@
     "hammerUniqueId": "16810",
     "targetname": "[PR#]Pool_Object2",
     "properties": {
+      "fluiddragscale": "1",
       "hoverposeangles": "0.000000 0.000000 0.000000",
       "hoverposeangles __RAW_ARRAY__ (FloatingPoint64[3])": [
         0,
@@ -1600,6 +1643,7 @@
       "rendermode": "kRenderNormal",
       "renderfx": "kRenderFxNone",
       "uselocaloffset": "False",
+      "compile_source_id": "5555",
       "origin": "8209.416016 7544.495117 1193.286865",
       "angles": "-0.000000 -15.000068 0.000000",
       "scales": "1.000000 1.000000 1.000000",

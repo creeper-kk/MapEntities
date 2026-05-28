@@ -55,6 +55,7 @@
       "model": "models/props/de_overpass/balloon_breakable.vmdl",
       "clientsideentity": "0",
       "uselocaloffset": "False",
+      "compile_source_id": "8298",
       "origin": "-0.003906 -0.000275 0.000000",
       "angles": "-0.000000 179.999908 0.000000",
       "scales": "1.000000 1.000000 1.000000",

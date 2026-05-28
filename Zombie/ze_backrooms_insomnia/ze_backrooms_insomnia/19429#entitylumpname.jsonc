@@ -57,6 +57,7 @@
       "clientsideentity": "0",
       "uselocaloffset": "False",
       "parentname": "[PR#]Collection_GP_Physbox&0000",
+      "compile_source_id": "7017",
       "origin": "0.000000 0.000244 -0.000061",
       "angles": "-0.000000 179.999893 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -68,6 +69,7 @@
     "hammerUniqueId": "19430",
     "targetname": "[PR#]Collection_GP_Physbox&0000",
     "properties": {
+      "fluiddragscale": "1",
       "touchoutputperentitydelay": "0",
       "notsolid": "0",
       "hoverposeangles": "0.000000 0.000000 0.000000",
@@ -127,6 +129,7 @@
       "exploderadius": "0",
       "explodedamage": "0",
       "disableshadows": "0",
+      "compile_source_id": "7023",
       "origin": "0.000000 0.000000 0.000000",
       "angles": "-0.000000 -179.999954 0.000000",
       "scales": "1.000000 1.000000 1.000000",

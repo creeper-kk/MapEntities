@@ -57,6 +57,7 @@
       "clientsideentity": "0",
       "uselocaloffset": "False",
       "parentname": "[PR#]ZombieItem_Partygoer_Model",
+      "compile_source_id": "6837",
       "origin": "0.000000 0.000000 -0.000061",
       "angles": "-0.000000 -179.999893 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -68,6 +69,7 @@
     "hammerUniqueId": "19156",
     "targetname": "[PR#]ZombieItem_Sfx2_Partygoer_Physbox",
     "properties": {
+      "fluiddragscale": "1",
       "touchoutputperentitydelay": "0",
       "notsolid": "0",
       "hoverposeangles": "0.000000 0.000000 0.000000",
@@ -129,6 +131,7 @@
       "explodedamage": "0",
       "disableshadows": "0",
       "damagefilter": "[PR#]Filter_Invincible",
+      "compile_source_id": "6847",
       "origin": "0.882812 0.403015 84.825378",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",

@@ -6,6 +6,7 @@
     "hammerUniqueId": "25949",
     "targetname": "[PR#]Collection_FZZX_Physbox&0000",
     "properties": {
+      "fluiddragscale": "1",
       "touchoutputperentitydelay": "0",
       "notsolid": "0",
       "hoverposeangles": "0.000000 0.000000 0.000000",
@@ -65,6 +66,7 @@
       "exploderadius": "0",
       "explodedamage": "0",
       "disableshadows": "0",
+      "compile_source_id": "10852",
       "origin": "0.000000 0.000000 0.000000",
       "angles": "-0.000000 -179.999908 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -178,6 +180,7 @@
       "clientsideentity": "0",
       "uselocaloffset": "False",
       "parentname": "[PR#]Collection_FZZX_Physbox&0000",
+      "compile_source_id": "10853",
       "origin": "0.000000 -0.000488 0.000000",
       "angles": "-0.000000 179.999893 0.000000",
       "scales": "1.000000 1.000000 1.000000",
