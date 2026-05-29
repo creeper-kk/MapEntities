@@ -5,6 +5,7 @@
     "classname": "worldspawn",
     "hammerUniqueId": "1",
     "properties": {
+      "compile_source_id": "0",
       "steamaudio_customdata_occlusion_reflection_bounces": "8",
       "steamaudio_customdata_occlusion_reflection_rays": "8192",
       "steamaudio_customdata_occlusion_reflection": "False",
@@ -137,6 +138,8 @@
       "explodedamage": "0",
       "disableshadows": "0",
       "nointerpolate": "False",
+      "fluiddragscale": "1",
+      "compile_source_id": "1",
       "origin": "-180.559998 290.580017 198.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -152,6 +155,7 @@
       "spawnflags": "8",
       "startdisabled": "False",
       "uselocaloffset": "False",
+      "compile_source_id": "2",
       "origin": "-278.059998 290.580017 179.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -200,6 +204,7 @@
       "renderfx": "0",
       "uselocaloffset": "False",
       "nointerpolate": "False",
+      "compile_source_id": "3",
       "origin": "-176.000000 283.000000 142.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -215,6 +220,7 @@
       "spawnflags": "8",
       "startdisabled": "False",
       "uselocaloffset": "False",
+      "compile_source_id": "4",
       "origin": "-58.059998 290.580017 179.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -240,6 +246,7 @@
       "spawnflags": "8",
       "startdisabled": "False",
       "uselocaloffset": "False",
+      "compile_source_id": "5",
       "origin": "51.939999 290.580017 179.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -265,6 +272,7 @@
       "spawnflags": "8",
       "startdisabled": "False",
       "uselocaloffset": "False",
+      "compile_source_id": "6",
       "origin": "-168.059998 290.580017 179.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -349,6 +357,8 @@
       "explodedamage": "0",
       "disableshadows": "0",
       "nointerpolate": "False",
+      "fluiddragscale": "1",
+      "compile_source_id": "7",
       "origin": "-70.559998 290.580017 198.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -387,6 +397,7 @@
       "renderfx": "0",
       "uselocaloffset": "False",
       "nointerpolate": "False",
+      "compile_source_id": "8",
       "origin": "-286.000000 283.000000 142.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -425,6 +436,7 @@
       "renderfx": "0",
       "uselocaloffset": "False",
       "nointerpolate": "False",
+      "compile_source_id": "9",
       "origin": "44.000000 283.000000 142.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -499,6 +511,8 @@
       "explodedamage": "0",
       "disableshadows": "0",
       "nointerpolate": "False",
+      "fluiddragscale": "1",
+      "compile_source_id": "10",
       "origin": "-290.559998 290.580017 198.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -537,6 +551,7 @@
       "renderfx": "0",
       "uselocaloffset": "False",
       "nointerpolate": "False",
+      "compile_source_id": "11",
       "origin": "-66.000000 283.000000 142.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -611,6 +626,8 @@
       "explodedamage": "0",
       "disableshadows": "0",
       "nointerpolate": "False",
+      "fluiddragscale": "1",
+      "compile_source_id": "12",
       "origin": "39.440002 290.580017 198.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -649,6 +666,7 @@
       "renderfx": "0",
       "uselocaloffset": "False",
       "nointerpolate": "False",
+      "compile_source_id": "13",
       "origin": "154.000000 283.000000 142.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -723,6 +741,8 @@
       "explodedamage": "0",
       "disableshadows": "0",
       "nointerpolate": "False",
+      "fluiddragscale": "1",
+      "compile_source_id": "14",
       "origin": "149.440002 290.580017 198.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -738,6 +758,7 @@
       "spawnflags": "8",
       "startdisabled": "False",
       "uselocaloffset": "False",
+      "compile_source_id": "15",
       "origin": "161.940002 290.580017 179.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -763,6 +784,7 @@
       "spawnflags": "8",
       "startdisabled": "False",
       "uselocaloffset": "False",
+      "compile_source_id": "16",
       "origin": "271.940002 290.580017 179.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -811,6 +833,7 @@
       "renderfx": "0",
       "uselocaloffset": "False",
       "nointerpolate": "False",
+      "compile_source_id": "17",
       "origin": "264.000000 283.000000 142.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -885,6 +908,8 @@
       "explodedamage": "0",
       "disableshadows": "0",
       "nointerpolate": "False",
+      "fluiddragscale": "1",
+      "compile_source_id": "18",
       "origin": "259.440002 290.580017 198.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -906,6 +931,7 @@
       "skyname": "materials/skybox/stormydays.vmat",
       "startdisabled": "False",
       "uselocaloffset": "False",
+      "compile_source_id": "19",
       "origin": "-23.168877 320.000000 208.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -922,6 +948,7 @@
       "triggeronce": "False",
       "fastretrigger": "False",
       "passthroughcaller": "False",
+      "compile_source_id": "20",
       "origin": "507.000000 316.000031 104.000000",
       "angles": "0.000000 270.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -972,6 +999,7 @@
       "triggeronce": "False",
       "fastretrigger": "False",
       "passthroughcaller": "False",
+      "compile_source_id": "21",
       "origin": "489.000000 316.000031 104.000000",
       "angles": "0.000000 270.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -1022,6 +1050,7 @@
       "triggeronce": "False",
       "fastretrigger": "False",
       "passthroughcaller": "False",
+      "compile_source_id": "22",
       "origin": "471.000000 316.000031 104.000000",
       "angles": "0.000000 270.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -1072,6 +1101,7 @@
       "triggeronce": "False",
       "fastretrigger": "False",
       "passthroughcaller": "False",
+      "compile_source_id": "23",
       "origin": "453.000000 316.000031 104.000000",
       "angles": "0.000000 270.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -1122,6 +1152,7 @@
       "triggeronce": "False",
       "fastretrigger": "False",
       "passthroughcaller": "False",
+      "compile_source_id": "24",
       "origin": "435.000000 316.000031 104.000000",
       "angles": "0.000000 270.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -1172,6 +1203,7 @@
       "triggeronce": "False",
       "fastretrigger": "False",
       "passthroughcaller": "False",
+      "compile_source_id": "25",
       "origin": "417.000000 316.000061 104.000000",
       "angles": "0.000000 270.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -1222,6 +1254,7 @@
       "triggeronce": "False",
       "fastretrigger": "False",
       "passthroughcaller": "False",
+      "compile_source_id": "26",
       "origin": "399.000000 316.000061 104.000000",
       "angles": "0.000000 270.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -1272,6 +1305,7 @@
       "triggeronce": "False",
       "fastretrigger": "False",
       "passthroughcaller": "False",
+      "compile_source_id": "27",
       "origin": "381.000000 316.000061 104.000000",
       "angles": "0.000000 270.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -1322,6 +1356,7 @@
       "triggeronce": "False",
       "fastretrigger": "False",
       "passthroughcaller": "False",
+      "compile_source_id": "28",
       "origin": "363.000000 316.000061 104.000000",
       "angles": "0.000000 270.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -1372,6 +1407,7 @@
       "fastretrigger": "False",
       "triggeronce": "False",
       "startdisabled": "True",
+      "compile_source_id": "29",
       "origin": "507.000000 342.000000 104.000000",
       "angles": "0.000000 270.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -1406,6 +1442,7 @@
       "fastretrigger": "False",
       "triggeronce": "False",
       "startdisabled": "True",
+      "compile_source_id": "30",
       "origin": "489.000000 342.000000 104.000000",
       "angles": "0.000000 270.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -1440,6 +1477,7 @@
       "fastretrigger": "False",
       "triggeronce": "False",
       "startdisabled": "True",
+      "compile_source_id": "31",
       "origin": "471.000000 342.000000 104.000000",
       "angles": "0.000000 270.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -1474,6 +1512,7 @@
       "fastretrigger": "False",
       "triggeronce": "False",
       "startdisabled": "True",
+      "compile_source_id": "32",
       "origin": "453.000000 342.000000 104.000000",
       "angles": "0.000000 270.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -1508,6 +1547,7 @@
       "fastretrigger": "False",
       "triggeronce": "False",
       "startdisabled": "True",
+      "compile_source_id": "33",
       "origin": "435.000000 342.000000 104.000000",
       "angles": "0.000000 270.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -1542,6 +1582,7 @@
       "fastretrigger": "False",
       "triggeronce": "False",
       "startdisabled": "True",
+      "compile_source_id": "34",
       "origin": "417.000000 342.000031 104.000000",
       "angles": "0.000000 270.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -1576,6 +1617,7 @@
       "fastretrigger": "False",
       "triggeronce": "False",
       "startdisabled": "True",
+      "compile_source_id": "35",
       "origin": "399.000000 342.000031 104.000000",
       "angles": "0.000000 270.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -1610,6 +1652,7 @@
       "fastretrigger": "False",
       "triggeronce": "False",
       "startdisabled": "True",
+      "compile_source_id": "36",
       "origin": "381.000000 342.000031 104.000000",
       "angles": "0.000000 270.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -1644,6 +1687,7 @@
       "fastretrigger": "False",
       "triggeronce": "False",
       "startdisabled": "True",
+      "compile_source_id": "37",
       "origin": "363.000000 342.000031 104.000000",
       "angles": "0.000000 270.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -1678,6 +1722,7 @@
       "fastretrigger": "False",
       "triggeronce": "False",
       "startdisabled": "True",
+      "compile_source_id": "38",
       "origin": "345.000000 342.000031 104.000000",
       "angles": "0.000000 270.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -1720,6 +1765,7 @@
       "triggeronce": "False",
       "fastretrigger": "False",
       "passthroughcaller": "False",
+      "compile_source_id": "39",
       "origin": "345.000000 316.000061 104.000000",
       "angles": "0.000000 270.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -1770,6 +1816,7 @@
       "triggeronce": "False",
       "fastretrigger": "False",
       "passthroughcaller": "False",
+      "compile_source_id": "40",
       "origin": "371.000000 365.000000 104.000000",
       "angles": "0.000000 270.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -1818,6 +1865,7 @@
       "min": "0",
       "startvalue": "0",
       "startdisabled": "False",
+      "compile_source_id": "41",
       "origin": "349.000000 370.000000 103.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -1856,10 +1904,10 @@
         "limit": -1
       },
       {
-        "output": "OnHitMax",
-        "target": "[PR#]template_kiki_time_counter",
+        "output": "OnTrigger",
+        "target": "[PR#]template_kiki_math_counter",
         "input": "add",
-        "param": "1",
+        "param": "200",
         "delay": 0,
         "limit": -1
       }
@@ -1876,6 +1924,7 @@
       "fastretrigger": "False",
       "triggeronce": "False",
       "startdisabled": "True",
+      "compile_source_id": "42",
       "origin": "451.502563 406.430542 96.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -1944,6 +1993,7 @@
     "hammerUniqueId": "338",
     "properties": {
       "scale": "8",
+      "compile_source_id": "43",
       "origin": "0.000000 0.000000 0.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -1963,6 +2013,7 @@
       "exposurespeedup": "1",
       "exposurespeeddown": "1",
       "fadetime": "1",
+      "compile_source_id": "44",
       "origin": "0.000000 -264.000000 0.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -2007,6 +2058,7 @@
       "createmovablenavmesh": "False",
       "nointerpolate": "False",
       "movewithoutpushingblockers": "False",
+      "compile_source_id": "45",
       "origin": "-616.000000 2215.000000 204.000000",
       "angles": "0.000000 180.000031 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -2093,6 +2145,7 @@
       "createmovablenavmesh": "False",
       "nointerpolate": "False",
       "movewithoutpushingblockers": "False",
+      "compile_source_id": "46",
       "origin": "1500.000000 -1584.000000 1998.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -2137,6 +2190,7 @@
       "createmovablenavmesh": "False",
       "nointerpolate": "False",
       "movewithoutpushingblockers": "False",
+      "compile_source_id": "47",
       "origin": "1136.000000 -1584.000000 1998.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -2216,6 +2270,9 @@
       "brightness_units": "1",
       "clientsideentity": "1",
       "uselocaloffset": "False",
+      "bakespeculartocubemaps_scale": "1",
+      "transmit_always": "False",
+      "compile_source_id": "48",
       "origin": "1340.039062 -1556.753906 1538.000000",
       "angles": "89.999985 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -2294,6 +2351,9 @@
       "showlight": "False",
       "fade_size_start": "0.05000000074505806",
       "fade_size_end": "0.02500000037252903",
+      "bakespeculartocubemaps_scale": "1",
+      "transmit_always": "False",
+      "compile_source_id": "49",
       "origin": "-222.679077 1054.333008 632.000000",
       "angles": "89.999985 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -2303,6 +2363,9 @@
     "classname": "light_environment",
     "hammerUniqueId": "556",
     "properties": {
+      "bakedshadowindex": "0",
+      "light_map_uniqueid": "582118323",
+      "light_path_uniqueid": "558499711",
       "brightness_legacy": "-nan(ind)",
       "brightness_lumens": "0",
       "allow_sst_generation": "False",
@@ -2311,7 +2374,7 @@
       "max_occlusion_distance": "16.000000",
       "ambient_occlusion": "0",
       "sunlightminbrightness": "32",
-      "uselocaloffset": "False",
+      "uselocaloffset": "0",
       "enabled": "True",
       "color": "100 100 100",
       "color __RAW_ARRAY__ (UInt64[3])": [
@@ -2324,7 +2387,7 @@
       "shadowpriority": "-1",
       "rendertocubemaps": "True",
       "style": "0",
-      "directlight": "2",
+      "directlight": "3",
       "bouncescale": "1",
       "skycolor": "151 151 151",
       "skycolor __RAW_ARRAY__ (UInt64[3])": [
@@ -2360,9 +2423,11 @@
       "ambient_occlusion_proxy_strength_2": "0.5",
       "ambient_occlusion_proxy_strength_3": "0.5",
       "ambient_occlusion_proxy_ambient_strength": "1",
+      "compile_source_id": "50",
       "origin": "-120.644043 -226.836853 1196.000000",
       "angles": "45.000000 135.000000 0.000000",
-      "scales": "1.000000 1.000000 1.000000"
+      "scales": "1.000000 1.000000 1.000000",
+      "nearclipplane": "1"
     }
   },
   {
@@ -2403,6 +2468,7 @@
       "createmovablenavmesh": "False",
       "nointerpolate": "False",
       "movewithoutpushingblockers": "False",
+      "compile_source_id": "51",
       "origin": "1315.011719 -522.000000 2528.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -2420,6 +2486,7 @@
       "fastretrigger": "False",
       "triggeronce": "False",
       "startdisabled": "True",
+      "compile_source_id": "52",
       "origin": "371.000000 384.500000 104.000000",
       "angles": "0.000000 270.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -2435,9 +2502,9 @@
       },
       {
         "output": "OnTrigger",
-        "target": "[PR#]template_kiki_time_counter",
+        "target": "[PR#]template_kiki_math_counter",
         "input": "add",
-        "param": "1",
+        "param": "200",
         "delay": 0,
         "limit": -1
       }
@@ -2452,8 +2519,7 @@
       "triggeronce": "False",
       "fastretrigger": "False",
       "passthroughcaller": "False",
-      "health": "0",
-      "spawnflags": "0",
+      "compile_source_id": "53",
       "origin": "404.103363 334.559418 72.000000",
       "angles": "0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
@@ -2465,7 +2531,7 @@
         "input": "Start",
         "param": "",
         "delay": 0,
-        "limit": 1
+        "limit": -1
       },
       {
         "output": "OnTrigger",
@@ -2473,15 +2539,7 @@
         "input": "Enable",
         "param": "",
         "delay": 0,
-        "limit": 1
-      },
-      {
-        "output": "OnTrigger",
-        "target": "!self",
-        "input": "Kill",
-        "param": "",
-        "delay": 0.1,
-        "limit": 1
+        "limit": -1
       },
       {
         "output": "OnTrigger",
@@ -2489,12 +2547,28 @@
         "input": "Open",
         "param": "",
         "delay": 0,
-        "limit": 1
+        "limit": -1
       },
       {
         "output": "OnTrigger",
-        "target": "[PR#]zitem_ghost_knife_maker",
+        "target": "[PR#]ex+zitem_ghost_knife_maker",
         "input": "forcespawn",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnTrigger",
+        "target": "[PR#]st4_ex+_door",
+        "input": "Open",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnTrigger",
+        "target": "[PR#]st4_ex+_break_relay",
+        "input": "enable",
         "param": "",
         "delay": 0,
         "limit": -1

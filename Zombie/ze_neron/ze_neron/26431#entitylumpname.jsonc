@@ -33,6 +33,7 @@
       "effect_name": "particles/item_kiki_ice.vpcf",
       "clientsideentity": "0",
       "uselocaloffset": "False",
+      "compile_source_id": "1795",
       "origin": "0.875000 0.309570 -1.053711",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -69,6 +70,7 @@
       "rendermode": "kRenderNormal",
       "renderfx": "kRenderFxNone",
       "uselocaloffset": "False",
+      "compile_source_id": "1784",
       "origin": "-0.125000 0.309570 -1.053711",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -92,6 +94,7 @@
       "spawnflags": "4097",
       "startdisabled": "False",
       "uselocaloffset": "False",
+      "compile_source_id": "1783",
       "origin": "0.875000 0.309570 -1.053711",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -128,7 +131,7 @@
         "target": "!activator",
         "input": "keyvalue",
         "param": "speed 1",
-        "delay": 7,
+        "delay": 5,
         "limit": -1
       }
     ]
@@ -144,6 +147,7 @@
       "fastretrigger": "False",
       "triggeronce": "False",
       "startdisabled": "False",
+      "compile_source_id": "1793",
       "origin": "-6.097656 13.700195 -0.419922",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -163,7 +167,7 @@
         "target": "[PR#]template_kiki_ER_particle&0000",
         "input": "Kill",
         "param": "",
-        "delay": 7,
+        "delay": 5,
         "limit": -1
       },
       {
@@ -171,7 +175,7 @@
         "target": "[PR#]template_kiki_ER_hurt&0000",
         "input": "Kill",
         "param": "",
-        "delay": 7,
+        "delay": 5,
         "limit": -1
       },
       {
@@ -179,7 +183,7 @@
         "target": "[PR#]template_kiki_ER_particle2*",
         "input": "Kill",
         "param": "",
-        "delay": 7,
+        "delay": 5,
         "limit": -1
       },
       {
@@ -295,6 +299,7 @@
       "renderfx": "kRenderFxNone",
       "uselocaloffset": "False",
       "parentname": "[PR#]template_kiki_ulti_rot_main&0000",
+      "compile_source_id": "1790",
       "origin": "-0.125000 -23.690430 -1.053711",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -351,6 +356,7 @@
       "renderfx": "kRenderFxNone",
       "uselocaloffset": "False",
       "parentname": "[PR#]template_kiki_ulti_rot_move&0000",
+      "compile_source_id": "1789",
       "origin": "-0.125000 -35.690430 -1.053711",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -376,6 +382,7 @@
       "spawnflags": "0",
       "uselocaloffset": "False",
       "parentname": "[PR#]template_kiki_ulti_rot_1&0000",
+      "compile_source_id": "1788",
       "origin": "-0.125000 -49.690430 -1.053711",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -393,6 +400,7 @@
       "userandomtime": "False",
       "spawnflags": "0",
       "startdisabled": "True",
+      "compile_source_id": "1786",
       "origin": "-15.125000 -37.690430 -1.053711",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -423,6 +431,7 @@
     "targetname": "[PR#]template_kiki_ulti_rot_case&0000",
     "properties": {
       "spawnflags": "0",
+      "compile_source_id": "1785",
       "origin": "-15.125000 -19.690430 -1.053711",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -534,6 +543,7 @@
       "renderfx": "kRenderFxNone",
       "uselocaloffset": "False",
       "parentname": "[PR#]template_kiki_ulti_rot_main&0000",
+      "compile_source_id": "1791",
       "origin": "-0.125000 -11.690430 -1.053711",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",

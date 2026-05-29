@@ -39,7 +39,8 @@
       "uselocaloffset": "False",
       "parentname": "[PR#]template_zitempurple_knife",
       "vscripts": "liuli/item.nut",
-      "origin": "35.000000 0.000000 35.000000",
+      "compile_source_id": "395",
+      "origin": "35.000000 0.000000 0.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
       "model": "maps/ze_neron/entities/template_zitempurple_button_2409.vmdl",
@@ -64,7 +65,8 @@
       "clientsideentity": "0",
       "filtername": "[PR#]player_zm_purple",
       "negated": "0",
-      "origin": "0.000000 15.000000 0.000000",
+      "compile_source_id": "392",
+      "origin": "0.000000 15.000000 -35.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
       "_template_lump_ent_index": "1"
@@ -83,7 +85,7 @@
         "target": "[PR#]template_zitempurple_push",
         "input": "Disable",
         "param": "",
-        "delay": 5,
+        "delay": 6,
         "limit": -1
       },
       {
@@ -99,7 +101,7 @@
         "target": "[PR#]template_zitempurple_particle",
         "input": "Stop",
         "param": "",
-        "delay": 5,
+        "delay": 6,
         "limit": -1
       },
       {
@@ -159,6 +161,7 @@
       "renderamt": "255",
       "rendermode": "0",
       "renderfx": "0",
+      "compile_source_id": "541",
       "origin": "-3.000000 -1.000000 0.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "angles __RAW_ARRAY__ (FloatingPoint64[3])": [
@@ -229,7 +232,8 @@
       "spawnflags": "4097",
       "startdisabled": "False",
       "uselocaloffset": "False",
-      "origin": "2.000000 -1.000000 1.299805",
+      "compile_source_id": "545",
+      "origin": "2.000000 -1.000000 13.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
       "model": "maps/ze_neron/entities/template_zitempurple_once_2807.vmdl",
@@ -287,7 +291,8 @@
       "clientsideentity": "0",
       "uselocaloffset": "False",
       "parentname": "[PR#]template_zitempurple_knife",
-      "origin": "27.000000 11.000000 43.000000",
+      "compile_source_id": "393",
+      "origin": "27.000000 11.000000 8.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
       "_template_lump_ent_index": "4"
@@ -295,99 +300,7 @@
   },
   {
     "classname": "trigger_push",
-    "hammerUniqueId": "2801",
-    "targetname": "[PR#]template_zitempurple_push",
-    "properties": {
-      "onlyfallingplayers": "0",
-      "fallingspeedthreshold": "-150",
-      "alternateticksfix": "0",
-      "triggeronstarttouch": "False",
-      "speed": "450",
-      "pushdir": "0.000000 270.000000 0.000000",
-      "pushdir __RAW_ARRAY__ (FloatingPoint64[3])": [
-        0,
-        270,
-        0
-      ],
-      "filtername": "[PR#]human",
-      "spawnflags": "1",
-      "startdisabled": "True",
-      "uselocaloffset": "False",
-      "parentname": "[PR#]template_zitempurple_knife",
-      "origin": "0.000000 100.000000 168.000000",
-      "angles": "-0.000000 0.000000 0.000000",
-      "scales": "1.000000 1.000000 1.000000",
-      "model": "maps/ze_neron/entities/template_zitempurple_push_2801.vmdl",
-      "_template_lump_ent_index": "5"
-    },
-    "connections": [
-      {
-        "output": "OnStartTouch",
-        "target": "!activator",
-        "input": "KeyValue",
-        "param": "speed 1",
-        "delay": 4,
-        "limit": -1
-      },
-      {
-        "output": "OnStartTouch",
-        "target": "!activator",
-        "input": "KeyValue",
-        "param": "speed 0.7",
-        "delay": 0,
-        "limit": -1
-      }
-    ]
-  },
-  {
-    "classname": "trigger_push",
-    "hammerUniqueId": "3573",
-    "targetname": "[PR#]template_zitempurple_push",
-    "properties": {
-      "onlyfallingplayers": "0",
-      "fallingspeedthreshold": "-150",
-      "alternateticksfix": "0",
-      "triggeronstarttouch": "False",
-      "speed": "450",
-      "pushdir": "0.000000 0.000000 0.000000",
-      "pushdir __RAW_ARRAY__ (FloatingPoint64[3])": [
-        0,
-        0,
-        0
-      ],
-      "filtername": "[PR#]human",
-      "spawnflags": "1",
-      "startdisabled": "True",
-      "uselocaloffset": "False",
-      "parentname": "[PR#]template_zitempurple_knife",
-      "origin": "-101.000000 0.000000 168.000000",
-      "angles": "-0.000000 0.000000 0.000000",
-      "scales": "1.000000 1.000000 1.000000",
-      "model": "maps/ze_neron/entities/template_zitempurple_push_3573.vmdl",
-      "_template_lump_ent_index": "6"
-    },
-    "connections": [
-      {
-        "output": "OnStartTouch",
-        "target": "!activator",
-        "input": "KeyValue",
-        "param": "speed 0.7",
-        "delay": 0,
-        "limit": -1
-      },
-      {
-        "output": "OnStartTouch",
-        "target": "!activator",
-        "input": "KeyValue",
-        "param": "speed 1",
-        "delay": 4,
-        "limit": -1
-      }
-    ]
-  },
-  {
-    "classname": "trigger_push",
-    "hammerUniqueId": "3575",
+    "hammerUniqueId": "27300",
     "targetname": "[PR#]template_zitempurple_push",
     "properties": {
       "onlyfallingplayers": "0",
@@ -406,45 +319,28 @@
       "startdisabled": "True",
       "uselocaloffset": "False",
       "parentname": "[PR#]template_zitempurple_knife",
-      "origin": "-1.000000 -100.000000 168.000000",
+      "compile_source_id": "1979",
+      "origin": "0.000000 -100.000000 133.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "model": "maps/ze_neron/entities/template_zitempurple_push_3575.vmdl",
-      "_template_lump_ent_index": "7"
-    },
-    "connections": [
-      {
-        "output": "OnStartTouch",
-        "target": "!activator",
-        "input": "KeyValue",
-        "param": "speed 1",
-        "delay": 4,
-        "limit": -1
-      },
-      {
-        "output": "OnStartTouch",
-        "target": "!activator",
-        "input": "KeyValue",
-        "param": "speed 0.7",
-        "delay": 0,
-        "limit": -1
-      }
-    ]
+      "model": "maps/ze_neron/entities/template_zitempurple_push_27300.vmdl",
+      "_template_lump_ent_index": "5"
+    }
   },
   {
     "classname": "trigger_push",
-    "hammerUniqueId": "3580",
+    "hammerUniqueId": "27301",
     "targetname": "[PR#]template_zitempurple_push",
     "properties": {
-      "onlyfallingplayers": "0",
-      "fallingspeedthreshold": "-150",
       "alternateticksfix": "0",
+      "fallingspeedthreshold": "-150",
+      "onlyfallingplayers": "0",
       "triggeronstarttouch": "False",
-      "speed": "500",
-      "pushdir": "0.000000 180.000000 0.000000",
+      "speed": "450",
+      "pushdir": "0.000000 90.000000 0.000000",
       "pushdir __RAW_ARRAY__ (FloatingPoint64[3])": [
         0,
-        180,
+        90,
         0
       ],
       "filtername": "[PR#]human",
@@ -452,30 +348,71 @@
       "startdisabled": "True",
       "uselocaloffset": "False",
       "parentname": "[PR#]template_zitempurple_knife",
-      "origin": "100.000000 0.000000 168.000000",
-      "angles": "-0.000000 0.000000 0.000000",
+      "compile_source_id": "1980",
+      "origin": "0.000000 100.000000 133.000000",
+      "angles": "-0.000000 -179.999985 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "model": "maps/ze_neron/entities/template_zitempurple_push_3580.vmdl",
+      "model": "maps/ze_neron/entities/template_zitempurple_push_27301.vmdl",
+      "_template_lump_ent_index": "6"
+    }
+  },
+  {
+    "classname": "trigger_push",
+    "hammerUniqueId": "27303",
+    "targetname": "[PR#]template_zitempurple_push",
+    "properties": {
+      "onlyfallingplayers": "0",
+      "fallingspeedthreshold": "-150",
+      "alternateticksfix": "0",
+      "triggeronstarttouch": "False",
+      "speed": "450",
+      "pushdir": "0.000000 90.000000 0.000000",
+      "pushdir __RAW_ARRAY__ (FloatingPoint64[3])": [
+        0,
+        90,
+        0
+      ],
+      "filtername": "[PR#]human",
+      "spawnflags": "1",
+      "startdisabled": "True",
+      "uselocaloffset": "False",
+      "parentname": "[PR#]template_zitempurple_knife",
+      "compile_source_id": "1981",
+      "origin": "100.000000 -0.000977 133.000000",
+      "angles": "-0.000000 89.999947 0.000000",
+      "scales": "1.000000 1.000000 1.000000",
+      "model": "maps/ze_neron/entities/template_zitempurple_push_27303.vmdl",
+      "_template_lump_ent_index": "7"
+    }
+  },
+  {
+    "classname": "trigger_push",
+    "hammerUniqueId": "27305",
+    "targetname": "[PR#]template_zitempurple_push",
+    "properties": {
+      "alternateticksfix": "0",
+      "fallingspeedthreshold": "-150",
+      "onlyfallingplayers": "0",
+      "triggeronstarttouch": "False",
+      "speed": "450",
+      "pushdir": "0.000000 90.000000 0.000000",
+      "pushdir __RAW_ARRAY__ (FloatingPoint64[3])": [
+        0,
+        90,
+        0
+      ],
+      "filtername": "[PR#]human",
+      "spawnflags": "1",
+      "startdisabled": "True",
+      "uselocaloffset": "False",
+      "parentname": "[PR#]template_zitempurple_knife",
+      "compile_source_id": "1982",
+      "origin": "-100.000000 0.000000 133.000000",
+      "angles": "-0.000000 -90.000000 0.000000",
+      "scales": "1.000000 1.000000 1.000000",
+      "model": "maps/ze_neron/entities/template_zitempurple_push_27305.vmdl",
       "_template_lump_ent_index": "8"
-    },
-    "connections": [
-      {
-        "output": "OnStartTouch",
-        "target": "!activator",
-        "input": "KeyValue",
-        "param": "speed 1",
-        "delay": 4,
-        "limit": -1
-      },
-      {
-        "output": "OnStartTouch",
-        "target": "!activator",
-        "input": "KeyValue",
-        "param": "speed 0.7",
-        "delay": 0,
-        "limit": -1
-      }
-    ]
+    }
   },
   {
     "classname": "info_particle_system",
@@ -510,7 +447,8 @@
       "clientsideentity": "0",
       "uselocaloffset": "False",
       "parentname": "[PR#]template_zitempurple_knife",
-      "origin": "0.000000 0.000000 17.000000",
+      "compile_source_id": "105",
+      "origin": "0.000000 0.000000 -18.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
       "_template_lump_ent_index": "9"

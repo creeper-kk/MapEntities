@@ -3,18 +3,18 @@
 [
   {
     "classname": "func_movelinear",
-    "hammerUniqueId": "2107",
+    "hammerUniqueId": "28373",
     "targetname": "[PR#]template_orange_laser_2&0000",
     "properties": {
-      "allowmovablenavmeshdockingonentireentity": "False",
-      "movewithoutpushingblockers": "False",
-      "nointerpolate": "False",
       "fadescale": "1",
+      "allowmovablenavmeshdockingonentireentity": "False",
       "createmovablenavmesh": "False",
       "createnavobstacle": "False",
       "blockdamage": "0",
       "movedistance": "4000",
       "speed": "2000",
+      "movewithoutpushingblockers": "False",
+      "nointerpolate": "False",
       "authoredposition": "0",
       "startposition": "0",
       "spawnflags": "8",
@@ -29,7 +29,7 @@
       "object_culling": "0",
       "fademaxdist": "0",
       "fademindist": "-1",
-      "disablereceiveshadows": "False",
+      "disablereceiveshadows": "True",
       "rendercolor": "255 255 255",
       "rendercolor __RAW_ARRAY__ (UInt64[3])": [
         255,
@@ -40,42 +40,17 @@
       "rendermode": "0",
       "renderfx": "0",
       "uselocaloffset": "False",
-      "origin": "85.000000 -15.000000 0.000000",
+      "compile_source_id": "2010",
+      "origin": "0.000000 0.000000 0.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "model": "maps/ze_neron/entities/template_orange_laser_2_2107.vmdl",
+      "model": "maps/ze_neron/entities/template_orange_laser_2_28373.vmdl",
       "_template_lump_ent_index": "0"
-    },
-    "connections": [
-      {
-        "output": "OnFullyOpen",
-        "target": "[PR#]template_orange_laser_hurt2&0000",
-        "input": "Kill",
-        "param": "",
-        "delay": 0,
-        "limit": -1
-      },
-      {
-        "output": "OnFullyOpen",
-        "target": "[PR#]template_orange_laser_particle2&0000",
-        "input": "Kill",
-        "param": "",
-        "delay": 0,
-        "limit": -1
-      },
-      {
-        "output": "OnFullyOpen",
-        "target": "!self",
-        "input": "Kill",
-        "param": "",
-        "delay": 0,
-        "limit": -1
-      }
-    ]
+    }
   },
   {
     "classname": "trigger_hurt",
-    "hammerUniqueId": "3894",
+    "hammerUniqueId": "28375",
     "targetname": "[PR#]template_orange_laser_hurt2&0000",
     "properties": {
       "thinkalways": "False",
@@ -85,57 +60,16 @@
       "damagetype": "1024",
       "damagecap": "20",
       "damage": "20",
-      "filtername": "[PR#]zombie",
       "spawnflags": "4097",
       "startdisabled": "False",
       "uselocaloffset": "False",
       "parentname": "[PR#]template_orange_laser_2&0000",
-      "origin": "85.000000 -15.000000 0.000000",
+      "compile_source_id": "2011",
+      "origin": "0.000000 0.000000 0.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "model": "maps/ze_neron/entities/template_orange_laser_hurt2_3894.vmdl",
+      "model": "maps/ze_neron/entities/template_orange_laser_hurt2_28375.vmdl",
       "_template_lump_ent_index": "1"
-    },
-    "connections": [
-      {
-        "output": "OnStartTouch",
-        "target": "!activator",
-        "input": "KeyValue",
-        "param": "speed 1",
-        "delay": 1,
-        "limit": -1
-      },
-      {
-        "output": "OnStartTouch",
-        "target": "!activator",
-        "input": "KeyValue",
-        "param": "speed 0.6",
-        "delay": 0,
-        "limit": -1
-      }
-    ]
-  },
-  {
-    "classname": "trigger_hurt",
-    "hammerUniqueId": "4600",
-    "targetname": "[PR#]template_orange_laser_hurt2&0000",
-    "properties": {
-      "thinkalways": "False",
-      "nodmgforce": "False",
-      "forgivedelay": "3",
-      "damagemodel": "0",
-      "damagetype": "1024",
-      "damagecap": "20",
-      "damage": "20",
-      "spawnflags": "4097",
-      "startdisabled": "False",
-      "uselocaloffset": "False",
-      "parentname": "[PR#]template_orange_laser_2&0000",
-      "origin": "93.000000 -15.000000 0.000000",
-      "angles": "-0.000000 0.000000 0.000000",
-      "scales": "1.000000 1.000000 1.000000",
-      "model": "maps/ze_neron/entities/template_orange_laser_hurt2_4600.vmdl",
-      "_template_lump_ent_index": "2"
     }
   },
   {
@@ -171,10 +105,128 @@
       "clientsideentity": "0",
       "uselocaloffset": "False",
       "parentname": "[PR#]template_orange_laser_2&0000",
-      "origin": "85.000000 -15.000000 0.000000",
+      "compile_source_id": "265",
+      "origin": "0.000000 0.000000 0.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "3"
+      "_template_lump_ent_index": "2"
     }
+  },
+  {
+    "classname": "trigger_hurt",
+    "hammerUniqueId": "28377",
+    "targetname": "[PR#]template_orange_laser_hurt2z&0000",
+    "properties": {
+      "thinkalways": "False",
+      "nodmgforce": "False",
+      "forgivedelay": "3",
+      "damagemodel": "0",
+      "damagetype": "1024",
+      "damagecap": "20",
+      "damage": "20",
+      "filtername": "[PR#]zombie",
+      "spawnflags": "4097",
+      "startdisabled": "False",
+      "uselocaloffset": "False",
+      "parentname": "[PR#]template_orange_laser_2&0000",
+      "compile_source_id": "2012",
+      "origin": "0.000000 0.000000 0.000000",
+      "angles": "-0.000000 0.000000 0.000000",
+      "scales": "1.000000 1.000000 1.000000",
+      "model": "maps/ze_neron/entities/template_orange_laser_hurt2z_28377.vmdl",
+      "_template_lump_ent_index": "3"
+    },
+    "connections": [
+      {
+        "output": "OnStartTouch",
+        "target": "!activator",
+        "input": "KeyValue",
+        "param": "speed 0.6",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnStartTouch",
+        "target": "!activator",
+        "input": "KeyValue",
+        "param": "speed 1",
+        "delay": 1,
+        "limit": -1
+      }
+    ]
+  },
+  {
+    "classname": "math_counter",
+    "hammerUniqueId": "28380",
+    "targetname": "[PR#]template_orange_laser_math2&0000",
+    "properties": {
+      "max": "90",
+      "min": "0",
+      "startvalue": "1",
+      "startdisabled": "False",
+      "compile_source_id": "2014",
+      "origin": "-31.043945 -84.742188 6.000000",
+      "angles": "-0.000000 0.000000 0.000000",
+      "scales": "1.000000 1.000000 1.000000",
+      "_template_lump_ent_index": "4"
+    },
+    "connections": [
+      {
+        "output": "OutValue",
+        "target": "[PR#]template_orange_laser_hurt2&0000",
+        "input": "SetScale",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnHitMax",
+        "target": "!self",
+        "input": "Kill",
+        "param": "",
+        "delay": 0.01,
+        "limit": -1
+      },
+      {
+        "output": "OnHitMax",
+        "target": "[PR#]template_orange_laser_2&0000",
+        "input": "Kill",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnHitMax",
+        "target": "[PR#]template_orange_laser_hurt2&0000",
+        "input": "Kill",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnHitMax",
+        "target": "[PR#]template_orange_laser_hurt2z&0000",
+        "input": "Kill",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OutValue",
+        "target": "[PR#]template_orange_laser_hurt2z&0000",
+        "input": "SetScale",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OutValue",
+        "target": "[PR#]template_orange_laser_2&0000",
+        "input": "SetScale",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      }
+    ]
   }
 ]

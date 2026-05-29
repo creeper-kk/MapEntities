@@ -17,6 +17,7 @@
       "spawnflags": "4097",
       "startdisabled": "True",
       "uselocaloffset": "False",
+      "compile_source_id": "1528",
       "origin": "-2.000000 0.000000 52.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -75,6 +76,7 @@
       "clientsideentity": "0",
       "uselocaloffset": "False",
       "parentname": "[PR#]template_itemenidnu_elite",
+      "compile_source_id": "1527",
       "origin": "-2.000000 0.000000 2.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -114,6 +116,7 @@
       "clientsideentity": "0",
       "uselocaloffset": "False",
       "parentname": "[PR#]template_itemgreen_elite",
+      "compile_source_id": "1725",
       "origin": "-3.015625 0.000000 2.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -159,6 +162,7 @@
       "spawnflags": "8",
       "uselocaloffset": "False",
       "parentname": "[PR#]template_itemenidnu_ult_rot",
+      "compile_source_id": "1530",
       "origin": "4.000000 -8.000000 1420.000000",
       "angles": "-0.000000 0.000000 45.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -196,6 +200,7 @@
       "renderfx": "kRenderFxNone",
       "spawnflags": "513",
       "uselocaloffset": "False",
+      "compile_source_id": "1531",
       "origin": "4.000000 -8.000000 1736.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -213,6 +218,7 @@
       "spawnflags": "4097",
       "startdisabled": "True",
       "uselocaloffset": "False",
+      "compile_source_id": "1917",
       "origin": "-2.000000 0.000000 52.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -220,46 +226,6 @@
       "_template_lump_ent_index": "5"
     },
     "connections": [
-      {
-        "output": "OnStartTouch",
-        "target": "[PR#]ulti_sec_text",
-        "input": "SetMessage",
-        "param": "5",
-        "delay": 0,
-        "limit": 1
-      },
-      {
-        "output": "OnStartTouch",
-        "target": "[PR#]ulti_sec_text",
-        "input": "SetMessage",
-        "param": "4",
-        "delay": 1,
-        "limit": 1
-      },
-      {
-        "output": "OnStartTouch",
-        "target": "[PR#]ulti_sec_text",
-        "input": "SetMessage",
-        "param": "3",
-        "delay": 2,
-        "limit": 1
-      },
-      {
-        "output": "OnStartTouch",
-        "target": "[PR#]ulti_sec_text",
-        "input": "SetMessage",
-        "param": "2",
-        "delay": 3,
-        "limit": 1
-      },
-      {
-        "output": "OnStartTouch",
-        "target": "[PR#]ulti_sec_text",
-        "input": "SetMessage",
-        "param": "1",
-        "delay": 4,
-        "limit": 1
-      },
       {
         "output": "OnStartTouch",
         "target": "[PR#]ulti_teleport_back",
@@ -272,6 +238,22 @@
         "output": "OnStartTouch",
         "target": "[PR#]template_itemenidnu_ult_multi_filter",
         "input": "TestActivator",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnStartTouch",
+        "target": "[PR#]ulti_teleport_back",
+        "input": "Disable",
+        "param": "",
+        "delay": 10,
+        "limit": -1
+      },
+      {
+        "output": "OnStartTouch",
+        "target": "[PR#]ulti_sec_relay",
+        "input": "Trigger",
         "param": "",
         "delay": 0,
         "limit": -1
@@ -291,6 +273,7 @@
       "filtertype": "1",
       "negated": "0",
       "clientsideentity": "0",
+      "compile_source_id": "1918",
       "origin": "-165.621094 409.595703 521.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",

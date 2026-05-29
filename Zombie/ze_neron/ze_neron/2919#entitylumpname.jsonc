@@ -39,7 +39,8 @@
       "uselocaloffset": "False",
       "parentname": "[PR#]template_zitemgreen_knife",
       "vscripts": "liuli/item.nut",
-      "origin": "35.000000 0.000000 44.000000",
+      "compile_source_id": "243",
+      "origin": "35.000000 0.000000 9.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
       "model": "maps/ze_neron/entities/template_zitemgreen_button_1876.vmdl",
@@ -64,7 +65,8 @@
       "clientsideentity": "0",
       "filtername": "[PR#]player_zm_green",
       "negated": "0",
-      "origin": "0.000000 15.000000 0.000000",
+      "compile_source_id": "564",
+      "origin": "0.000000 15.000000 -35.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
       "_template_lump_ent_index": "1"
@@ -135,6 +137,7 @@
       "renderamt": "255",
       "rendermode": "0",
       "renderfx": "0",
+      "compile_source_id": "88",
       "origin": "-3.000000 -1.000000 0.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "angles __RAW_ARRAY__ (FloatingPoint64[3])": [
@@ -205,7 +208,8 @@
       "spawnflags": "4097",
       "startdisabled": "False",
       "uselocaloffset": "False",
-      "origin": "2.000000 -1.000000 1.299805",
+      "compile_source_id": "420",
+      "origin": "2.000000 -1.000000 13.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
       "model": "maps/ze_neron/entities/template_zitemgreen_once_2471.vmdl",
@@ -263,7 +267,8 @@
       "clientsideentity": "0",
       "uselocaloffset": "False",
       "parentname": "[PR#]template_zitemgreen_knife",
-      "origin": "27.000000 11.000000 42.000000",
+      "compile_source_id": "252",
+      "origin": "27.000000 11.000000 7.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
       "_template_lump_ent_index": "4"
@@ -287,7 +292,8 @@
       "spawnflags": "0",
       "uselocaloffset": "False",
       "parentname": "[PR#]template_zitemgreen_knife",
-      "origin": "47.000000 0.000000 35.000000",
+      "compile_source_id": "647",
+      "origin": "47.000000 0.000000 0.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
       "_template_lump_ent_index": "5"
@@ -322,7 +328,7 @@
         "target": "[PR#]template_zitemgreen_particle_end",
         "input": "Kill",
         "param": "",
-        "delay": 5,
+        "delay": 6,
         "limit": -1
       },
       {
@@ -330,7 +336,7 @@
         "target": "[PR#]template_zitemgreen_particle",
         "input": "Kill",
         "param": "",
-        "delay": 5,
+        "delay": 6,
         "limit": -1
       },
       {
@@ -338,7 +344,7 @@
         "target": "[PR#]template_itemgreen_hurt",
         "input": "Kill",
         "param": "",
-        "delay": 5,
+        "delay": 6,
         "limit": -1
       },
       {
@@ -346,7 +352,7 @@
         "target": "[PR#]template_itemgreen_hurt_st3",
         "input": "Kill",
         "param": "",
-        "delay": 5,
+        "delay": 6,
         "limit": -1
       },
       {

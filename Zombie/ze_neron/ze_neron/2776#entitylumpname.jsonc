@@ -43,6 +43,7 @@
       "explodedamage": "0",
       "disableshadows": "0",
       "damagefilter": "[PR#]zombie",
+      "compile_source_id": "544",
       "origin": "84.799805 0.000000 97.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",

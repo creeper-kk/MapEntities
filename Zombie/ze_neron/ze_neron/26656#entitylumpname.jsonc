@@ -38,7 +38,8 @@
       "renderfx": "0",
       "uselocaloffset": "False",
       "parentname": "[PR#]template_kiki_movement_move",
-      "origin": "33.000000 -0.278320 15.099609",
+      "compile_source_id": "1802",
+      "origin": "33.000000 -0.278320 21.599609",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
       "model": "maps/ze_neron/entities/template_kiki_button_26662.vmdl",
@@ -118,7 +119,8 @@
         0
       ],
       "parentname": "[PR#]template_kiki_movement_move",
-      "origin": "24.000000 -19.000000 0.000000",
+      "compile_source_id": "1809",
+      "origin": "24.000000 -19.000000 6.500000",
       "angles": "-0.000000 -90.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
       "_template_lump_ent_index": "1"
@@ -135,7 +137,8 @@
       "fastretrigger": "False",
       "triggeronce": "False",
       "startdisabled": "False",
-      "origin": "-20.000000 18.721680 -37.000000",
+      "compile_source_id": "1803",
+      "origin": "-20.000000 18.721680 -30.500000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
       "_template_lump_ent_index": "2"
@@ -206,6 +209,7 @@
       "renderamt": "255",
       "rendermode": "kRenderNormal",
       "renderfx": "kRenderFxNone",
+      "compile_source_id": "1777",
       "origin": "-2.006836 -0.956055 9.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "angles __RAW_ARRAY__ (FloatingPoint64[3])": [
@@ -268,7 +272,7 @@
         "output": "OnPlayerPickup",
         "target": "[PR#]template_kiki_text_counter2",
         "input": "SetMessage",
-        "param": "/170",
+        "param": "/360",
         "delay": 0,
         "limit": -1
       },
@@ -356,7 +360,8 @@
       "startdisabled": "True",
       "uselocaloffset": "False",
       "parentname": "[PR#]template_kiki_movement_move",
-      "origin": "45.000000 -0.250000 0.000000",
+      "compile_source_id": "1834",
+      "origin": "45.000000 -0.250000 6.500000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
       "model": "maps/ze_neron/entities/template_kiki_push_26746.vmdl",
@@ -400,7 +405,8 @@
       "targetreference": "[PR#]template_kiki_movement_move",
       "target": "[PR#]template_kiki_movement_move",
       "measurereference": "[PR#]template_kiki_movement_move",
-      "origin": "-3.000000 -27.000000 -42.000000",
+      "compile_source_id": "1820",
+      "origin": "-3.000000 -27.000000 -35.500000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
     },
@@ -448,7 +454,8 @@
       "min": "0",
       "startvalue": "0",
       "startdisabled": "False",
-      "origin": "-36.000000 67.721680 -43.000000",
+      "compile_source_id": "1815",
+      "origin": "-36.000000 67.721680 -36.500000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
       "_template_lump_ent_index": "6"
@@ -473,46 +480,21 @@
     ]
   },
   {
-    "classname": "math_counter",
-    "hammerUniqueId": "26671",
-    "targetname": "[PR#]template_kiki_time_counter",
+    "classname": "logic_compare",
+    "hammerUniqueId": "28350",
+    "targetname": "[PR#]template_kiki_compare_200",
     "properties": {
-      "max": "2",
-      "min": "0",
-      "startvalue": "1",
-      "startdisabled": "False",
-      "origin": "-34.000000 34.721680 -47.000000",
+      "comparevalue": "199",
+      "initialvalue": "0",
+      "compile_source_id": "2004",
+      "origin": "-33.810547 119.250000 -59.500000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
       "_template_lump_ent_index": "7"
     },
     "connections": [
       {
-        "output": "OnUser1",
-        "target": "!self",
-        "input": "GetValue",
-        "param": "",
-        "delay": 0,
-        "limit": -1
-      },
-      {
-        "output": "OnUser1",
-        "target": "!self",
-        "input": "FireUser1",
-        "param": "",
-        "delay": 0.5,
-        "limit": -1
-      },
-      {
-        "output": "OnGetValue",
-        "target": "[PR#]template_kiki_text_times",
-        "input": "SetIntMessage",
-        "param": "",
-        "delay": 0,
-        "limit": -1
-      },
-      {
-        "output": "OnChangedFromMin",
+        "output": "OnGreaterThan",
         "target": "[PR#]template_kiki_ulti_relay_lock",
         "input": "Enable",
         "param": "",
@@ -520,51 +502,11 @@
         "limit": -1
       },
       {
-        "output": "OnHitMin",
+        "output": "OnLessThan",
         "target": "[PR#]template_kiki_ulti_relay_lock",
         "input": "Disable",
         "param": "",
         "delay": 0,
-        "limit": -1
-      },
-      {
-        "output": "OnChangedFromMin",
-        "target": "[PR#]template_kiki_heal_relay_lock",
-        "input": "Enable",
-        "param": "",
-        "delay": 0,
-        "limit": -1
-      },
-      {
-        "output": "OnHitMin",
-        "target": "[PR#]template_kiki_heal_relay_lock",
-        "input": "Disable",
-        "param": "",
-        "delay": 0,
-        "limit": -1
-      },
-      {
-        "output": "OnHitMax",
-        "target": "[PR#]template_kiki_limit_lock_timer",
-        "input": "Enable",
-        "param": "",
-        "delay": 0,
-        "limit": -1
-      },
-      {
-        "output": "OnChangedFromMax",
-        "target": "[PR#]template_kiki_limit_lock_timer",
-        "input": "Disable",
-        "param": "",
-        "delay": 0,
-        "limit": -1
-      },
-      {
-        "output": "OnChangedFromMax",
-        "target": "[PR#]template_kiki_math_counter",
-        "input": "Enable",
-        "param": "",
-        "delay": 0.03,
         "limit": -1
       }
     ]
@@ -580,7 +522,8 @@
       "fastretrigger": "False",
       "triggeronce": "False",
       "startdisabled": "True",
-      "origin": "-104.625000 18.721680 -37.000000",
+      "compile_source_id": "1845",
+      "origin": "-104.625000 18.721680 -30.500000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
       "_template_lump_ent_index": "8"
@@ -629,7 +572,8 @@
       "clientsideentity": "0",
       "uselocaloffset": "False",
       "parentname": "[PR#]template_kiki_movement_move",
-      "origin": "90.120117 -11.514648 -14.000000",
+      "compile_source_id": "1810",
+      "origin": "90.120117 -11.514648 -7.500000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
       "_template_lump_ent_index": "9"
@@ -660,7 +604,8 @@
       "case01": "PlayerOn",
       "spawnflags": "0",
       "vscripts": "game_ui",
-      "origin": "-28.000000 -14.057617 -53.000000",
+      "compile_source_id": "1812",
+      "origin": "-28.000000 -14.057617 -46.500000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
       "_template_lump_ent_index": "10"
@@ -710,7 +655,8 @@
       "startdisabled": "False",
       "uselocaloffset": "False",
       "parentname": "[PR#]template_kiki_elite",
-      "origin": "0.000000 -1.278320 11.000000",
+      "compile_source_id": "1800",
+      "origin": "0.000000 -1.278320 17.500000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
       "model": "maps/ze_neron/entities/template_kiki_once_26659.vmdl",
@@ -740,11 +686,12 @@
     "hammerUniqueId": "26670",
     "targetname": "[PR#]template_kiki_math_counter",
     "properties": {
-      "max": "170",
+      "max": "360",
       "min": "0",
-      "startvalue": "0",
+      "startvalue": "160",
       "startdisabled": "False",
-      "origin": "-16.000977 35.855469 -47.000000",
+      "compile_source_id": "1808",
+      "origin": "-16.000977 35.855469 -40.500000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
       "_template_lump_ent_index": "12"
@@ -767,14 +714,6 @@
         "limit": -1
       },
       {
-        "output": "OnHitMax",
-        "target": "!self",
-        "input": "SetValue",
-        "param": "0",
-        "delay": 0,
-        "limit": -1
-      },
-      {
         "output": "OnGetValue",
         "target": "[PR#]template_kiki_text_counter",
         "input": "SetIntMessage",
@@ -783,10 +722,18 @@
         "limit": -1
       },
       {
-        "output": "OnHitMax",
-        "target": "[PR#]template_kiki_time_counter",
-        "input": "Add",
-        "param": "1",
+        "output": "OnGetValue",
+        "target": "[PR#]template_kiki_compare_150",
+        "input": "SetValueCompare",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]template_kiki_compare_200",
+        "input": "SetValueCompare",
+        "param": "",
         "delay": 0,
         "limit": -1
       }
@@ -830,55 +777,44 @@
       "renderfx": "kRenderFxNone",
       "uselocaloffset": "False",
       "parentname": "[PR#]template_kiki_elite",
-      "origin": "11.500000 12.616211 72.000000",
+      "compile_source_id": "1807",
+      "origin": "11.500000 12.616211 32.000000",
       "angles": "-0.000000 -60.000004 89.999947",
       "scales": "1.000000 1.000000 1.000000",
       "_template_lump_ent_index": "13"
     }
   },
   {
-    "classname": "point_worldtext",
-    "hammerUniqueId": "26668",
-    "targetname": "[PR#]template_kiki_text_times",
+    "classname": "logic_compare",
+    "hammerUniqueId": "28349",
+    "targetname": "[PR#]template_kiki_compare_150",
     "properties": {
-      "depth_render_offset": "0.125",
-      "reorient_mode": "0",
-      "justify_vertical": "0",
-      "justify_horizontal": "0",
-      "font_name": "Arial Black",
-      "font_size": "25",
-      "world_units_per_pixel": "0.05000000074505806",
-      "color": "84 100 243",
-      "color __RAW_ARRAY__ (UInt64[3])": [
-        84,
-        100,
-        243
-      ],
-      "fullbright": "True",
-      "enabled": "True",
-      "message": "1\n",
-      "lightmapstatic": "0",
-      "rendertocubemaps": "False",
-      "object_culling": "0",
-      "fademaxdist": "0",
-      "fademindist": "-1",
-      "disablereceiveshadows": "False",
-      "rendercolor": "255 255 255",
-      "rendercolor __RAW_ARRAY__ (UInt64[3])": [
-        255,
-        255,
-        255
-      ],
-      "renderamt": "255",
-      "rendermode": "kRenderNormal",
-      "renderfx": "kRenderFxNone",
-      "uselocaloffset": "False",
-      "parentname": "[PR#]template_kiki_elite",
-      "origin": "11.500000 12.616211 73.500000",
-      "angles": "-0.000000 -60.000004 89.999947",
+      "comparevalue": "149",
+      "initialvalue": "0",
+      "compile_source_id": "2003",
+      "origin": "-33.810547 96.270508 -59.500000",
+      "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
       "_template_lump_ent_index": "14"
-    }
+    },
+    "connections": [
+      {
+        "output": "OnGreaterThan",
+        "target": "[PR#]template_kiki_heal_relay_lock",
+        "input": "Enable",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnLessThan",
+        "target": "[PR#]template_kiki_heal_relay_lock",
+        "input": "Disable",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      }
+    ]
   },
   {
     "classname": "point_worldtext",
@@ -918,7 +854,8 @@
       "renderfx": "kRenderFxNone",
       "uselocaloffset": "False",
       "parentname": "[PR#]template_kiki_elite",
-      "origin": "11.500000 12.616211 75.000000",
+      "compile_source_id": "1806",
+      "origin": "11.500000 12.616211 35.000000",
       "angles": "-0.000000 -60.000004 89.999947",
       "scales": "1.000000 1.000000 1.000000",
       "_template_lump_ent_index": "15"
@@ -952,7 +889,8 @@
       "startdisabled": "True",
       "uselocaloffset": "False",
       "parentname": "[PR#]template_kiki_movement_move",
-      "origin": "45.000000 -0.278320 1.000000",
+      "compile_source_id": "1814",
+      "origin": "45.000000 -0.278320 7.500000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
       "model": "maps/ze_neron/entities/template_kiki_push_teammates_26677.vmdl",
@@ -970,7 +908,8 @@
       "fastretrigger": "False",
       "triggeronce": "False",
       "startdisabled": "True",
-      "origin": "-52.000000 18.721680 -37.000000",
+      "compile_source_id": "1805",
+      "origin": "-52.000000 18.721680 -30.500000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
       "_template_lump_ent_index": "17"
@@ -1045,7 +984,8 @@
       "fastretrigger": "False",
       "triggeronce": "False",
       "startdisabled": "True",
-      "origin": "-36.000000 18.721680 -37.000000",
+      "compile_source_id": "1799",
+      "origin": "-36.000000 18.721680 -30.500000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
       "_template_lump_ent_index": "18"
@@ -1070,7 +1010,8 @@
       "min": "1",
       "startvalue": "1",
       "startdisabled": "False",
-      "origin": "-20.000000 2.721680 -37.000000",
+      "compile_source_id": "1798",
+      "origin": "-20.000000 2.721680 -30.500000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
       "_template_lump_ent_index": "19"
@@ -1098,7 +1039,8 @@
       "case02": "2",
       "case01": "1",
       "spawnflags": "0",
-      "origin": "-36.000000 2.721680 -37.000000",
+      "compile_source_id": "1801",
+      "origin": "-36.000000 2.721680 -30.500000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
       "_template_lump_ent_index": "20"
@@ -1180,7 +1122,7 @@
         "output": "OnCase03",
         "target": "[PR#]template_kiki_text",
         "input": "SetMessage",
-        "param": "永恒记忆(消耗一次大招次数)",
+        "param": "永恒记忆(消耗200能量)",
         "delay": 0,
         "limit": -1
       },
@@ -1340,7 +1282,7 @@
         "output": "OnCase04",
         "target": "[PR#]template_kiki_text",
         "input": "SetMessage",
-        "param": "范围治疗(消耗一次大招次数)",
+        "param": "范围治疗(消耗150能量)",
         "delay": 0,
         "limit": -1
       },
@@ -1442,7 +1384,8 @@
       "clientsideentity": "0",
       "filtername": "[PR#]player_kiki",
       "negated": "0",
-      "origin": "2.000000 18.721680 -37.000000",
+      "compile_source_id": "1804",
+      "origin": "2.000000 18.721680 -30.500000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
       "_template_lump_ent_index": "21"
@@ -1499,7 +1442,8 @@
       "rendermode": "kRenderNone",
       "renderfx": "kRenderFxNone",
       "uselocaloffset": "False",
-      "origin": "-2.000000 -1.000000 13.000000",
+      "compile_source_id": "1821",
+      "origin": "-2.000000 -1.000000 19.500000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
     }
@@ -1515,7 +1459,8 @@
       "fastretrigger": "True",
       "triggeronce": "False",
       "startdisabled": "False",
-      "origin": "-36.000000 84.721680 -43.000000",
+      "compile_source_id": "1816",
+      "origin": "-36.000000 84.721680 -36.500000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
       "_template_lump_ent_index": "23"
@@ -1581,7 +1526,8 @@
       "spawnflags": "0",
       "uselocaloffset": "False",
       "parentname": "[PR#]template_kiki_elite",
-      "origin": "313.000000 -0.278320 -30.000000",
+      "compile_source_id": "1811",
+      "origin": "313.000000 -0.278320 -23.500000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 4.625000",
       "_template_lump_ent_index": "24"
@@ -1598,7 +1544,8 @@
       "fastretrigger": "False",
       "triggeronce": "False",
       "startdisabled": "True",
-      "origin": "-36.000000 101.721680 -43.000000",
+      "compile_source_id": "1817",
+      "origin": "-36.000000 101.721680 -36.500000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
       "_template_lump_ent_index": "25"
@@ -1638,14 +1585,6 @@
       },
       {
         "output": "OnTrigger",
-        "target": "[PR#]template_kiki_time_counter",
-        "input": "Subtract",
-        "param": "1",
-        "delay": 0,
-        "limit": -1
-      },
-      {
-        "output": "OnTrigger",
         "target": "[PR#]st1_story_relay2",
         "input": "Trigger",
         "param": "",
@@ -1667,6 +1606,30 @@
         "param": "",
         "delay": 0,
         "limit": -1
+      },
+      {
+        "output": "OnTrigger",
+        "target": "[PR#]template_kiki_math_counter",
+        "input": "Subtract",
+        "param": "200",
+        "delay": 0.01,
+        "limit": -1
+      },
+      {
+        "output": "OnTrigger",
+        "target": "[PR#]template_kiki_math_counter",
+        "input": "Enable",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnTrigger",
+        "target": "[PR#]template_kiki_math_counter",
+        "input": "Disable",
+        "param": "",
+        "delay": 0.02,
+        "limit": -1
       }
     ]
   },
@@ -1681,7 +1644,8 @@
       "fastretrigger": "False",
       "triggeronce": "False",
       "startdisabled": "False",
-      "origin": "-36.000000 48.721680 -37.000000",
+      "compile_source_id": "1813",
+      "origin": "-36.000000 50.750000 -35.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
       "_template_lump_ent_index": "26"
@@ -1754,7 +1718,8 @@
       "clientsideentity": "0",
       "uselocaloffset": "False",
       "parentname": "[PR#]template_kiki_movement_move",
-      "origin": "85.000000 -11.514648 -14.000000",
+      "compile_source_id": "1818",
+      "origin": "85.000000 -11.514648 -7.500000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
       "_template_lump_ent_index": "27"
@@ -1798,7 +1763,8 @@
       "renderfx": "kRenderFxNone",
       "uselocaloffset": "False",
       "parentname": "[PR#]template_kiki_elite",
-      "origin": "12.611328 10.693359 72.000000",
+      "compile_source_id": "1819",
+      "origin": "12.611328 10.693359 32.000000",
       "angles": "-0.000000 -60.000004 89.999947",
       "scales": "1.000000 1.000000 1.000000",
       "_template_lump_ent_index": "28"
@@ -1816,7 +1782,8 @@
       "fastretrigger": "False",
       "triggeronce": "False",
       "startdisabled": "False",
-      "origin": "-12.000000 93.000000 -42.000000",
+      "compile_source_id": "1822",
+      "origin": "-12.000000 93.000000 -35.500000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000"
     },
@@ -1850,7 +1817,8 @@
       "userandomtime": "False",
       "spawnflags": "0",
       "startdisabled": "True",
-      "origin": "-70.000000 36.000000 -37.000000",
+      "compile_source_id": "1824",
+      "origin": "-70.000000 36.000000 -30.500000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
       "_template_lump_ent_index": "30"
@@ -1877,7 +1845,8 @@
       "fastretrigger": "True",
       "triggeronce": "False",
       "startdisabled": "True",
-      "origin": "-70.000000 1.000000 -37.000000",
+      "compile_source_id": "1825",
+      "origin": "-70.000000 1.000000 -30.500000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
       "_template_lump_ent_index": "31"
@@ -1904,7 +1873,8 @@
       "fastretrigger": "True",
       "triggeronce": "False",
       "startdisabled": "True",
-      "origin": "-87.000000 1.000000 -37.000000",
+      "compile_source_id": "1826",
+      "origin": "-87.000000 1.000000 -30.500000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
       "_template_lump_ent_index": "32"
@@ -1931,7 +1901,8 @@
       "fastretrigger": "False",
       "triggeronce": "False",
       "startdisabled": "False",
-      "origin": "-88.000000 18.721680 -37.000000",
+      "compile_source_id": "1827",
+      "origin": "-88.000000 18.721680 -30.500000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
       "_template_lump_ent_index": "33"
@@ -2116,7 +2087,8 @@
       "startdisabled": "True",
       "uselocaloffset": "False",
       "parentname": "[PR#]template_kiki_elite",
-      "origin": "-2.000000 -1.000000 10.000000",
+      "compile_source_id": "1828",
+      "origin": "-2.000000 -1.000000 16.500000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
       "model": "maps/ze_neron/entities/template_kiki_shield_hurt_26694.vmdl",
@@ -2179,7 +2151,8 @@
       "renderfx": "kRenderFxNone",
       "uselocaloffset": "False",
       "parentname": "[PR#]template_kiki_elite",
-      "origin": "11.500000 12.616211 69.500000",
+      "compile_source_id": "1829",
+      "origin": "11.500000 12.616211 29.500000",
       "angles": "-0.000000 -60.000004 89.999947",
       "scales": "1.000000 1.000000 1.000000",
       "_template_lump_ent_index": "35"
@@ -2218,7 +2191,8 @@
       "clientsideentity": "0",
       "uselocaloffset": "False",
       "parentname": "[PR#]template_kiki_elite",
-      "origin": "-2.000000 -1.000000 52.000000",
+      "compile_source_id": "1830",
+      "origin": "-2.000000 -1.000000 13.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
       "_template_lump_ent_index": "36"
@@ -2235,7 +2209,8 @@
       "fastretrigger": "False",
       "triggeronce": "False",
       "startdisabled": "False",
-      "origin": "-105.000000 35.750000 -37.000000",
+      "compile_source_id": "1848",
+      "origin": "-105.000000 35.750000 -30.500000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
       "_template_lump_ent_index": "37"
@@ -2320,6 +2295,14 @@
         "param": "",
         "delay": 5,
         "limit": -1
+      },
+      {
+        "output": "OnTrigger",
+        "target": "[PR#]template_kiki_math_counter",
+        "input": "Subtract",
+        "param": "150",
+        "delay": 0,
+        "limit": -1
       }
     ]
   },
@@ -2334,7 +2317,8 @@
       "fastretrigger": "False",
       "triggeronce": "False",
       "startdisabled": "False",
-      "origin": "-70.000000 18.721680 -37.000000",
+      "compile_source_id": "1823",
+      "origin": "-70.000000 18.721680 -30.500000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
       "_template_lump_ent_index": "38"
@@ -2423,7 +2407,8 @@
       "clientsideentity": "0",
       "uselocaloffset": "False",
       "parentname": "[PR#]template_kiki_elite",
-      "origin": "-2.000000 -1.250000 13.000000",
+      "compile_source_id": "1846",
+      "origin": "-2.000000 -1.250000 -24.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
       "_template_lump_ent_index": "39"
@@ -2446,39 +2431,13 @@
       "startdisabled": "True",
       "uselocaloffset": "False",
       "parentname": "[PR#]template_kiki_elite",
-      "origin": "-2.000000 -1.250000 10.000000",
+      "compile_source_id": "1847",
+      "origin": "-2.000000 -1.250000 16.500000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
       "model": "maps/ze_neron/entities/template_kiki_theal_range_26772.vmdl",
       "_template_lump_ent_index": "40"
     }
-  },
-  {
-    "classname": "logic_timer",
-    "hammerUniqueId": "26959",
-    "targetname": "[PR#]template_kiki_limit_lock_timer",
-    "properties": {
-      "initialdelay": "0",
-      "refiretime": "0.10000000149011612",
-      "pauseafterfiring": "False",
-      "userandomtime": "False",
-      "spawnflags": "0",
-      "startdisabled": "True",
-      "origin": "-86.000000 36.000000 -37.000000",
-      "angles": "-0.000000 0.000000 0.000000",
-      "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "41"
-    },
-    "connections": [
-      {
-        "output": "OnTimer",
-        "target": "[PR#]template_kiki_math_counter",
-        "input": "Disable",
-        "param": "",
-        "delay": 0,
-        "limit": -1
-      }
-    ]
   },
   {
     "classname": "point_worldtext",
@@ -2518,10 +2477,11 @@
       "renderfx": "kRenderFxNone",
       "uselocaloffset": "False",
       "parentname": "[PR#]template_kiki_elite",
-      "origin": "12.750000 10.451172 73.500000",
+      "compile_source_id": "1896",
+      "origin": "12.750000 10.451172 33.500000",
       "angles": "-0.000000 -60.000004 89.999947",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "42"
+      "_template_lump_ent_index": "41"
     }
   }
 ]
