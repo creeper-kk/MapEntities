@@ -59,6 +59,7 @@
         255
       ],
       "model": "models/fixed_darksouls/souls2/metalsens1.vmdl",
+      "compile_source_id": "81",
       "origin": "1468.392578 3883.000000 423.431641",
       "angles": "-0.000000 4.500000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -123,6 +124,7 @@
         255
       ],
       "model": "models/fixed_darksouls/barrel.vmdl",
+      "compile_source_id": "87",
       "origin": "-636.607422 4762.000000 -1001.568359",
       "angles": "-0.000000 117.500000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -187,6 +189,7 @@
         255
       ],
       "model": "models/fixed_darksouls/barrel.vmdl",
+      "compile_source_id": "88",
       "origin": "-636.607422 4708.000000 -1001.568359",
       "angles": "0.000000 -137.499985 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -251,6 +254,7 @@
         255
       ],
       "model": "models/fixed_darksouls/box2.vmdl",
+      "compile_source_id": "141",
       "origin": "1766.392578 5277.000000 929.451660",
       "angles": "-0.000000 -42.999989 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -315,6 +319,7 @@
         255
       ],
       "model": "models/fixed_darksouls/souls2/vaza1.vmdl",
+      "compile_source_id": "145",
       "origin": "1642.392578 5860.000000 1057.721680",
       "angles": "-0.000000 4.500000 0.000000",
       "scales": "1.250000 1.250000 1.250000",
@@ -379,6 +384,7 @@
         255
       ],
       "model": "models/fixed_darksouls/souls2/vaza1.vmdl",
+      "compile_source_id": "146",
       "origin": "1642.392578 6254.000000 1057.721680",
       "angles": "-0.000000 4.500000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -443,6 +449,7 @@
         255
       ],
       "model": "models/fixed_darksouls/souls2/vaza1.vmdl",
+      "compile_source_id": "147",
       "origin": "1708.392578 6210.000000 1057.721680",
       "angles": "-0.000000 4.500000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -507,6 +514,7 @@
         255
       ],
       "model": "models/fixed_darksouls/barrel.vmdl",
+      "compile_source_id": "148",
       "origin": "397.392578 3881.000000 609.431641",
       "angles": "0.000000 -137.499985 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -571,6 +579,7 @@
         255
       ],
       "model": "models/fixed_darksouls/souls2/vaza1.vmdl",
+      "compile_source_id": "149",
       "origin": "347.392578 3609.000000 609.721680",
       "angles": "-0.000000 4.500000 0.000000",
       "scales": "1.250000 1.250000 1.250000",
@@ -635,6 +644,7 @@
         255
       ],
       "model": "models/fixed_darksouls/souls2/vaza1.vmdl",
+      "compile_source_id": "150",
       "origin": "648.392578 3881.000000 609.721680",
       "angles": "-0.000000 4.500000 0.000000",
       "scales": "1.250000 1.250000 1.250000",
@@ -699,6 +709,7 @@
         255
       ],
       "model": "models/fixed_darksouls/souls2/vaza1.vmdl",
+      "compile_source_id": "151",
       "origin": "688.392578 4299.000000 609.721680",
       "angles": "-0.000000 4.500000 0.000000",
       "scales": "1.250000 1.250000 1.250000",
@@ -763,6 +774,7 @@
         255
       ],
       "model": "models/fixed_darksouls/souls2/vaza1.vmdl",
+      "compile_source_id": "152",
       "origin": "680.392578 3862.000000 609.721680",
       "angles": "-0.000000 4.500000 0.000000",
       "scales": "1.250000 1.250000 1.250000",
@@ -827,6 +839,7 @@
         255
       ],
       "model": "models/fixed_darksouls/souls2/vaza1.vmdl",
+      "compile_source_id": "153",
       "origin": "680.392578 3901.000000 609.721680",
       "angles": "-0.000000 4.500000 0.000000",
       "scales": "1.250000 1.250000 1.250000",
@@ -891,6 +904,7 @@
         255
       ],
       "model": "models/fixed_darksouls/barrel.vmdl",
+      "compile_source_id": "166",
       "origin": "419.392578 4426.000000 609.681641",
       "angles": "0.000000 -137.499985 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -955,6 +969,7 @@
         255
       ],
       "model": "models/fixed_darksouls/barrel.vmdl",
+      "compile_source_id": "177",
       "origin": "-420.607422 5425.000000 1729.681641",
       "angles": "0.000000 -137.499985 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -1019,6 +1034,7 @@
         255
       ],
       "model": "models/fixed_darksouls/box.vmdl",
+      "compile_source_id": "178",
       "origin": "-457.607422 4911.000000 287.451660",
       "angles": "-0.000000 91.999992 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -1083,6 +1099,7 @@
         255
       ],
       "model": "models/fixed_darksouls/barrel.vmdl",
+      "compile_source_id": "181",
       "origin": "1059.392578 3688.000000 671.431641",
       "angles": "-14.983300 -139.748978 16.982197",
       "scales": "1.000000 1.000000 1.000000",
@@ -1147,6 +1164,7 @@
         255
       ],
       "model": "models/fixed_darksouls/box2.vmdl",
+      "compile_source_id": "182",
       "origin": "565.392578 5717.000000 1265.451660",
       "angles": "-0.000000 -41.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -1211,6 +1229,7 @@
         255
       ],
       "model": "models/fixed_darksouls/barrel.vmdl",
+      "compile_source_id": "184",
       "origin": "-861.607422 4318.000000 767.431641",
       "angles": "0.000000 -137.499985 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -1275,6 +1294,7 @@
         255
       ],
       "model": "models/fixed_darksouls/box2.vmdl",
+      "compile_source_id": "186",
       "origin": "558.392578 5780.000000 1314.431641",
       "angles": "0.000000 -178.499985 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -1339,6 +1359,7 @@
         255
       ],
       "model": "models/fixed_darksouls/box2.vmdl",
+      "compile_source_id": "187",
       "origin": "557.392578 5780.000000 1265.451660",
       "angles": "-0.000000 -88.000008 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -1403,6 +1424,7 @@
         255
       ],
       "model": "models/fixed_darksouls/barrel.vmdl",
+      "compile_source_id": "188",
       "origin": "-1028.607422 4396.000000 767.681641",
       "angles": "0.000000 -137.499985 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -1467,6 +1489,7 @@
         255
       ],
       "model": "models/fixed_darksouls/barrel.vmdl",
+      "compile_source_id": "191",
       "origin": "-841.607422 3968.000000 767.681641",
       "angles": "0.000000 -137.499985 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -1531,6 +1554,7 @@
         255
       ],
       "model": "models/fixed_darksouls/barrel.vmdl",
+      "compile_source_id": "193",
       "origin": "-841.607422 3759.000000 767.681641",
       "angles": "0.000000 -137.499985 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -1595,6 +1619,7 @@
         255
       ],
       "model": "models/fixed_darksouls/barrel.vmdl",
+      "compile_source_id": "195",
       "origin": "-1283.607422 3968.000000 767.681641",
       "angles": "0.000000 -137.499985 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -1659,6 +1684,7 @@
         255
       ],
       "model": "models/fixed_darksouls/souls2/metalsens1.vmdl",
+      "compile_source_id": "212",
       "origin": "54.392578 2849.000000 330.431641",
       "angles": "-0.000000 4.500000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -1723,6 +1749,7 @@
         255
       ],
       "model": "models/fixed_darksouls/souls2/metalsens1.vmdl",
+      "compile_source_id": "666",
       "origin": "1547.992676 3491.000000 605.681641",
       "angles": "-0.000000 4.500000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -1787,6 +1814,7 @@
         255
       ],
       "model": "models/fixed_darksouls/souls2/metalsens1.vmdl",
+      "compile_source_id": "669",
       "origin": "999.196777 4000.000000 418.431641",
       "angles": "-0.000000 4.500000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -1851,6 +1879,7 @@
         255
       ],
       "model": "models/fixed_darksouls/souls2/metalsens1.vmdl",
+      "compile_source_id": "676",
       "origin": "-1655.617432 5034.180176 1165.681641",
       "angles": "-0.000000 68.500000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -1915,6 +1944,7 @@
         255
       ],
       "model": "models/fixed_darksouls/souls2/metalsens1.vmdl",
+      "compile_source_id": "677",
       "origin": "-1377.607422 4369.000000 1151.431641",
       "angles": "-0.000000 68.500000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -1979,6 +2009,7 @@
         255
       ],
       "model": "models/fixed_darksouls/souls2/metalsens1.vmdl",
+      "compile_source_id": "691",
       "origin": "-515.607422 4471.062500 135.431641",
       "angles": "-0.000000 4.500000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -2043,6 +2074,7 @@
         255
       ],
       "model": "models/fixed_darksouls/souls2/metalsens1.vmdl",
+      "compile_source_id": "692",
       "origin": "174.392578 3319.000000 327.431641",
       "angles": "-0.000000 4.500000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -2107,6 +2139,7 @@
         255
       ],
       "model": "models/fixed_darksouls/souls2/metalsens1.vmdl",
+      "compile_source_id": "693",
       "origin": "87.392578 4602.000000 328.431641",
       "angles": "-0.000000 4.500000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -2171,6 +2204,7 @@
         255
       ],
       "model": "models/fixed_darksouls/souls2/metalsens1.vmdl",
+      "compile_source_id": "694",
       "origin": "15.392578 3956.000000 245.431641",
       "angles": "-0.000000 4.500000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -2235,6 +2269,7 @@
         255
       ],
       "model": "models/fixed_darksouls/souls2/metalsens1.vmdl",
+      "compile_source_id": "695",
       "origin": "-554.607422 3905.000000 374.431641",
       "angles": "-0.000000 4.500000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -2299,6 +2334,7 @@
         255
       ],
       "model": "models/fixed_darksouls/souls2/metalsens1.vmdl",
+      "compile_source_id": "696",
       "origin": "-380.607422 3950.000000 147.431641",
       "angles": "-0.000000 4.500000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -2363,6 +2399,7 @@
         255
       ],
       "model": "models/fixed_darksouls/souls2/metalsens1.vmdl",
+      "compile_source_id": "697",
       "origin": "-413.607422 3207.000000 328.431641",
       "angles": "-0.000000 4.500000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -2427,6 +2464,7 @@
         255
       ],
       "model": "models/fixed_darksouls/souls2/metalsens1.vmdl",
+      "compile_source_id": "698",
       "origin": "-939.607422 5399.000000 1149.431641",
       "angles": "-0.000000 4.500000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -2491,6 +2529,7 @@
         255
       ],
       "model": "models/fixed_darksouls/souls2/metalsens1.vmdl",
+      "compile_source_id": "700",
       "origin": "-689.607422 5974.000000 1149.431641",
       "angles": "-0.000000 4.500000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -2555,6 +2594,7 @@
         255
       ],
       "model": "models/fixed_darksouls/barrel.vmdl",
+      "compile_source_id": "701",
       "origin": "1488.282715 4930.419922 929.721680",
       "angles": "-0.000000 4.500000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -2619,6 +2659,7 @@
         255
       ],
       "model": "models/fixed_darksouls/souls2/vaza1.vmdl",
+      "compile_source_id": "702",
       "origin": "1724.392578 6238.000000 1057.721680",
       "angles": "-0.000000 4.500000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -2683,6 +2724,7 @@
         255
       ],
       "model": "models/fixed_darksouls/souls2/vaza1.vmdl",
+      "compile_source_id": "703",
       "origin": "1687.362793 6237.730469 1057.721680",
       "angles": "-0.000000 4.500000 0.000000",
       "scales": "1.250000 1.250000 1.250000",
@@ -2747,6 +2789,7 @@
         255
       ],
       "model": "models/fixed_darksouls/souls2/vaza1.vmdl",
+      "compile_source_id": "704",
       "origin": "1688.002441 5868.179688 1057.721680",
       "angles": "-0.000000 4.500000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -2811,6 +2854,7 @@
         255
       ],
       "model": "models/fixed_darksouls/souls2/vaza1.vmdl",
+      "compile_source_id": "705",
       "origin": "680.392578 3938.629883 609.721680",
       "angles": "-0.000000 4.500000 0.000000",
       "scales": "1.250000 1.250000 1.250000",
@@ -2875,6 +2919,7 @@
         255
       ],
       "model": "models/fixed_darksouls/barrel.vmdl",
+      "compile_source_id": "762",
       "origin": "629.592773 1170.000000 -112.318359",
       "angles": "0.000000 -137.499985 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -2939,6 +2984,7 @@
         255
       ],
       "model": "models/fixed_darksouls/barrel.vmdl",
+      "compile_source_id": "771",
       "origin": "-1135.707520 5132.189941 1271.681641",
       "angles": "0.000000 -137.499985 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -3003,6 +3049,7 @@
         255
       ],
       "model": "models/fixed_darksouls/barrel.vmdl",
+      "compile_source_id": "773",
       "origin": "-1131.607422 4056.000000 1487.681641",
       "angles": "0.000000 -137.499985 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -3067,6 +3114,7 @@
         255
       ],
       "model": "models/fixed_darksouls/barrel.vmdl",
+      "compile_source_id": "780",
       "origin": "793.392578 7470.000000 1265.681641",
       "angles": "0.000000 -137.499985 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -3131,6 +3179,7 @@
         255
       ],
       "model": "models/fixed_darksouls/barrel.vmdl",
+      "compile_source_id": "781",
       "origin": "1329.402344 7396.099609 1265.681641",
       "angles": "0.000000 -137.499985 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -3195,6 +3244,7 @@
         255
       ],
       "model": "models/fixed_darksouls/barrel.vmdl",
+      "compile_source_id": "782",
       "origin": "1336.712402 7478.299805 1265.681641",
       "angles": "0.000000 -137.499985 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -3259,6 +3309,7 @@
         255
       ],
       "model": "models/fixed_darksouls/box2.vmdl",
+      "compile_source_id": "783",
       "origin": "1334.392578 6227.000000 1265.451660",
       "angles": "-0.000000 -88.000008 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -3323,6 +3374,7 @@
         255
       ],
       "model": "models/fixed_darksouls/box2.vmdl",
+      "compile_source_id": "784",
       "origin": "1330.062500 6376.240234 1265.451660",
       "angles": "0.000000 -112.000008 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -3387,6 +3439,7 @@
         255
       ],
       "model": "models/fixed_darksouls/box2.vmdl",
+      "compile_source_id": "785",
       "origin": "800.392578 6208.000000 1265.451660",
       "angles": "-0.000000 -88.000008 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -3451,6 +3504,7 @@
         255
       ],
       "model": "models/fixed_darksouls/barrel.vmdl",
+      "compile_source_id": "790",
       "origin": "-1124.607422 2844.000000 991.681641",
       "angles": "0.000000 -137.499985 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -3515,6 +3569,7 @@
         255
       ],
       "model": "models/fixed_darksouls/barrel.vmdl",
+      "compile_source_id": "792",
       "origin": "-728.607422 2569.359863 991.681641",
       "angles": "0.000000 -137.499985 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -3579,6 +3634,7 @@
         255
       ],
       "model": "models/fixed_darksouls/barrel.vmdl",
+      "compile_source_id": "793",
       "origin": "-743.787354 2479.000000 991.681641",
       "angles": "0.000000 -137.499985 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -3643,6 +3699,7 @@
         255
       ],
       "model": "models/fixed_darksouls/barrel.vmdl",
+      "compile_source_id": "795",
       "origin": "-1000.807373 2482.290039 991.681641",
       "angles": "0.000000 -137.499985 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -3707,6 +3764,7 @@
         255
       ],
       "model": "models/fixed_darksouls/barrel.vmdl",
+      "compile_source_id": "796",
       "origin": "-1076.437500 2491.649902 991.681641",
       "angles": "0.000000 -137.499985 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -3771,6 +3829,7 @@
         255
       ],
       "model": "models/fixed_darksouls/barrel.vmdl",
+      "compile_source_id": "812",
       "origin": "-695.607422 2535.000000 566.431641",
       "angles": "0.000000 -137.499985 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -3835,6 +3894,7 @@
         255
       ],
       "model": "models/fixed_darksouls/barrel.vmdl",
+      "compile_source_id": "813",
       "origin": "-696.607422 2581.000000 566.431641",
       "angles": "0.000000 -137.499985 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -3899,6 +3959,7 @@
         255
       ],
       "model": "models/fixed_darksouls/barrel.vmdl",
+      "compile_source_id": "814",
       "origin": "1033.392578 3735.000000 664.431641",
       "angles": "0.000000 -137.499985 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -3963,6 +4024,7 @@
         255
       ],
       "model": "models/fixed_darksouls/barrel.vmdl",
+      "compile_source_id": "815",
       "origin": "1082.392578 3737.100098 664.431641",
       "angles": "0.000000 -137.499985 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -4027,6 +4089,7 @@
         255
       ],
       "model": "models/fixed_darksouls/barrel.vmdl",
+      "compile_source_id": "816",
       "origin": "1138.392578 3735.000000 664.431641",
       "angles": "0.000000 -137.499985 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -4091,6 +4154,7 @@
         255
       ],
       "model": "models/fixed_darksouls/barrel.vmdl",
+      "compile_source_id": "817",
       "origin": "-296.607422 2514.439941 286.431641",
       "angles": "0.000000 -137.499985 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -4155,6 +4219,7 @@
         255
       ],
       "model": "models/fixed_darksouls/barrel.vmdl",
+      "compile_source_id": "825",
       "origin": "-30.607422 4912.990234 286.431641",
       "angles": "0.000000 -137.499985 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -4219,6 +4284,7 @@
         255
       ],
       "model": "models/fixed_darksouls/box.vmdl",
+      "compile_source_id": "826",
       "origin": "-732.607422 -94.000000 -192.552368",
       "angles": "-0.000000 4.500000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -4283,6 +4349,7 @@
         255
       ],
       "model": "models/fixed_darksouls/box2.vmdl",
+      "compile_source_id": "827",
       "origin": "655.392578 40.000000 -192.552368",
       "angles": "0.000000 -133.499985 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -4347,6 +4414,7 @@
         255
       ],
       "model": "models/fixed_darksouls/box2.vmdl",
+      "compile_source_id": "828",
       "origin": "654.392578 -143.000000 -192.552368",
       "angles": "-0.000000 -41.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -4411,6 +4479,7 @@
         255
       ],
       "model": "models/fixed_darksouls/box2.vmdl",
+      "compile_source_id": "829",
       "origin": "1778.392578 5200.799805 929.451660",
       "angles": "-0.000000 -88.000008 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -4475,6 +4544,7 @@
         255
       ],
       "model": "models/fixed_darksouls/box2.vmdl",
+      "compile_source_id": "833",
       "origin": "1700.322754 5996.889648 1057.451660",
       "angles": "0.000000 -114.999985 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -4539,6 +4609,7 @@
         255
       ],
       "model": "models/fixed_darksouls/box2.vmdl",
+      "compile_source_id": "834",
       "origin": "1332.392578 4162.000000 409.451660",
       "angles": "0.000000 -129.499985 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -4603,6 +4674,7 @@
         255
       ],
       "model": "models/fixed_darksouls/box.vmdl",
+      "compile_source_id": "835",
       "origin": "373.392578 3956.000000 609.431641",
       "angles": "0.000000 -177.499985 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -4667,6 +4739,7 @@
         255
       ],
       "model": "models/fixed_darksouls/box.vmdl",
+      "compile_source_id": "836",
       "origin": "-188.607422 2492.000000 287.451660",
       "angles": "-0.000000 -88.000008 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -4731,6 +4804,7 @@
         255
       ],
       "model": "models/fixed_darksouls/box.vmdl",
+      "compile_source_id": "837",
       "origin": "588.522461 1315.050049 -112.552368",
       "angles": "0.000000 -137.499985 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -4795,6 +4869,7 @@
         255
       ],
       "model": "models/fixed_darksouls/box.vmdl",
+      "compile_source_id": "838",
       "origin": "-546.607422 828.000000 -112.568359",
       "angles": "-0.000000 4.500000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -4859,6 +4934,7 @@
         255
       ],
       "model": "models/fixed_darksouls/barrel.vmdl",
+      "compile_source_id": "839",
       "origin": "-1044.807373 2487.520020 567.681641",
       "angles": "0.000000 -137.499985 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -4923,6 +4999,7 @@
         255
       ],
       "model": "models/fixed_darksouls/barrel.vmdl",
+      "compile_source_id": "840",
       "origin": "-1104.607422 2497.000000 567.681641",
       "angles": "0.000000 -137.499985 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -4987,6 +5064,7 @@
         255
       ],
       "model": "models/fixed_darksouls/barrel.vmdl",
+      "compile_source_id": "841",
       "origin": "-418.607422 4794.649902 -1001.568359",
       "angles": "0.000000 -137.499985 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -5051,6 +5129,7 @@
         255
       ],
       "model": "models/fixed_darksouls/barrel.vmdl",
+      "compile_source_id": "842",
       "origin": "-579.607422 4914.799805 286.431641",
       "angles": "0.000000 -137.499985 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -5115,6 +5194,7 @@
         255
       ],
       "model": "models/fixed_darksouls/barrel.vmdl",
+      "compile_source_id": "843",
       "origin": "355.392578 3858.000000 609.431641",
       "angles": "0.000000 -137.499985 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -5179,6 +5259,7 @@
         255
       ],
       "model": "models/fixed_darksouls/barrel.vmdl",
+      "compile_source_id": "844",
       "origin": "1583.392578 5869.209961 1056.431641",
       "angles": "0.000000 -137.499985 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -5243,6 +5324,7 @@
         255
       ],
       "model": "models/fixed_darksouls/barrel.vmdl",
+      "compile_source_id": "845",
       "origin": "1583.832520 6237.000000 1056.431641",
       "angles": "0.000000 -137.499985 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -5307,6 +5389,7 @@
         255
       ],
       "model": "models/fixed_darksouls/barrel.vmdl",
+      "compile_source_id": "846",
       "origin": "1520.392578 6226.269531 1056.431641",
       "angles": "0.000000 -137.499985 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -5371,6 +5454,7 @@
       "model": "models/fixed_darksouls/souls2/vaza1.vmdl",
       "clientsideentity": "0",
       "uselocaloffset": "False",
+      "compile_source_id": "922",
       "origin": "1831.392578 5860.000000 1057.721680",
       "angles": "-0.000000 4.500000 0.000000",
       "scales": "1.250000 1.250000 1.250000",
@@ -5435,6 +5519,7 @@
       "model": "models/fixed_darksouls/box2.vmdl",
       "clientsideentity": "0",
       "uselocaloffset": "False",
+      "compile_source_id": "923",
       "origin": "1968.392578 6194.000000 1057.451660",
       "angles": "-0.000000 -69.999992 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -5443,9 +5528,12 @@
   },
   {
     "classname": "prop_dynamic",
-    "hammerUniqueId": "58483",
+    "hammerUniqueId": "206713",
     "targetname": "[PR#]torch5",
     "properties": {
+      "bakelighting": "0",
+      "screenspacefade": "0",
+      "fadescale": "1",
       "clothscale": "1",
       "startdisabled": "False",
       "forcenpcexclude": "False",
@@ -5457,6 +5545,7 @@
       "startinganimationloopmode": "ANIM_LOOP_MODE_NOT_LOOPING",
       "use_animgraph": "True",
       "disablelowviolence": "0",
+      "solid": "6",
       "glowteam": "-1",
       "glowcolor": "0 0 0",
       "glowcolor __RAW_ARRAY__ (UInt64[3])": [
@@ -5468,9 +5557,18 @@
       "glowrange": "0",
       "glowstate": "0",
       "lightmapstatic": "0",
+      "rendertocubemaps": "True",
       "object_culling": "0",
       "fademaxdist": "0",
+      "fademindist": "-1",
       "disablereceiveshadows": "False",
+      "rendercolor": "255 255 255",
+      "rendercolor __RAW_ARRAY__ (UInt64[3])": [
+        255,
+        255,
+        255
+      ],
+      "renderamt": "255",
       "rendermode": "kRenderNormal",
       "renderfx": "kRenderFxNone",
       "breakablecontentstype": "BC_DEFAULT",
@@ -5481,28 +5579,81 @@
       "performancemode": "PM_NORMAL",
       "exploderadius": "0",
       "explodedamage": "0",
+      "disableshadows": "0",
+      "skin": "default",
+      "model": "models/fixed_darksouls/barrel.vmdl",
       "clientsideentity": "0",
       "uselocaloffset": "False",
-      "screenspacefade": "0",
-      "renderamt": "255",
+      "compile_source_id": "929",
+      "origin": "1293.392578 3620.000000 664.431641",
+      "angles": "0.000000 -137.499985 0.000000",
+      "scales": "1.000000 1.000000 1.000000",
+      "_template_lump_ent_index": "85"
+    }
+  },
+  {
+    "classname": "prop_dynamic",
+    "hammerUniqueId": "206714",
+    "targetname": "[PR#]torch5",
+    "properties": {
       "fadescale": "1",
-      "fademindist": "-1",
-      "rendertocubemaps": "True",
-      "disableshadows": "0",
+      "screenspacefade": "0",
       "bakelighting": "0",
+      "clothscale": "1",
+      "startdisabled": "False",
+      "forcenpcexclude": "False",
+      "createnavobstacle": "False",
+      "animateonserver": "False",
+      "lagcompensate": "False",
+      "randomizecycle": "False",
+      "idleanimationloopmode": "ANIM_LOOP_MODE_NOT_LOOPING",
+      "startinganimationloopmode": "ANIM_LOOP_MODE_NOT_LOOPING",
+      "use_animgraph": "True",
+      "disablelowviolence": "0",
       "solid": "6",
-      "skin": "default",
+      "glowteam": "-1",
+      "glowcolor": "0 0 0",
+      "glowcolor __RAW_ARRAY__ (UInt64[3])": [
+        0,
+        0,
+        0
+      ],
+      "glowrangemin": "0",
+      "glowrange": "0",
+      "glowstate": "0",
+      "lightmapstatic": "0",
+      "rendertocubemaps": "True",
+      "object_culling": "0",
+      "fademaxdist": "0",
+      "fademindist": "-1",
+      "disablereceiveshadows": "False",
       "rendercolor": "255 255 255",
       "rendercolor __RAW_ARRAY__ (UInt64[3])": [
         255,
         255,
         255
       ],
-      "model": "models/fixed_darksouls/box.vmdl",
-      "origin": "-637.607422 2673.000000 287.431641",
-      "angles": "-0.000000 4.499988 0.000000",
-      "scales": "0.750000 0.750000 0.750000",
-      "_template_lump_ent_index": "85"
+      "renderamt": "255",
+      "rendermode": "kRenderNormal",
+      "renderfx": "kRenderFxNone",
+      "breakablecontentstype": "BC_DEFAULT",
+      "burstscale": "100",
+      "pressuredelay": "0",
+      "spawnflags": "0",
+      "nointerpolate": "False",
+      "performancemode": "PM_NORMAL",
+      "exploderadius": "0",
+      "explodedamage": "0",
+      "disableshadows": "0",
+      "skin": "default",
+      "model": "models/fixed_darksouls/barrel.vmdl",
+      "clientsideentity": "0",
+      "uselocaloffset": "False",
+      "compile_source_id": "930",
+      "origin": "1339.392578 3620.000000 664.431641",
+      "angles": "-0.000000 87.499985 0.000000",
+      "scales": "1.000000 1.000000 1.000000",
+      "_template_lump_ent_index": "86"
     }
   },
   {
@@ -5561,10 +5712,11 @@
         255
       ],
       "model": "models/darkroot/vaza.vmdl",
+      "compile_source_id": "1923",
       "origin": "273.392578 4908.059570 607.431641",
       "angles": "-0.000000 -45.000004 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "86"
+      "_template_lump_ent_index": "87"
     }
   },
   {
@@ -5623,10 +5775,11 @@
         255
       ],
       "model": "models/darkroot/vaza1.vmdl",
+      "compile_source_id": "1924",
       "origin": "274.961914 5004.000000 607.536865",
       "angles": "-0.000000 -74.999992 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "87"
+      "_template_lump_ent_index": "88"
     }
   },
   {
@@ -5687,10 +5840,11 @@
         255
       ],
       "model": "models/fixed_darksouls/barrel.vmdl",
+      "compile_source_id": "1928",
       "origin": "475.393066 4742.000000 609.432129",
       "angles": "-0.000000 -77.499962 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "88"
+      "_template_lump_ent_index": "89"
     }
   },
   {
@@ -5751,10 +5905,11 @@
         255
       ],
       "model": "models/fixed_darksouls/barrel.vmdl",
+      "compile_source_id": "1929",
       "origin": "495.392578 4692.829102 616.431641",
       "angles": "21.631678 -133.383255 21.308380",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "89"
+      "_template_lump_ent_index": "90"
     }
   },
   {
@@ -5813,10 +5968,11 @@
         255
       ],
       "model": "models/darkroot/vaza1.vmdl",
+      "compile_source_id": "1942",
       "origin": "-255.870850 1152.000000 -112.463135",
       "angles": "-0.000000 90.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "90"
+      "_template_lump_ent_index": "91"
     }
   },
   {
@@ -5875,10 +6031,11 @@
         255
       ],
       "model": "models/darkroot/vaza.vmdl",
+      "compile_source_id": "1943",
       "origin": "-677.607422 1170.000000 -112.568359",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "91"
+      "_template_lump_ent_index": "92"
     }
   },
   {
@@ -5937,10 +6094,11 @@
         255
       ],
       "model": "models/darkroot/vaza.vmdl",
+      "compile_source_id": "1944",
       "origin": "154.392578 1023.000000 -112.568359",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "92"
+      "_template_lump_ent_index": "93"
     }
   },
   {
@@ -5999,10 +6157,11 @@
         255
       ],
       "model": "models/darkroot/vaza.vmdl",
+      "compile_source_id": "1945",
       "origin": "-167.607422 681.000000 -112.568359",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "93"
+      "_template_lump_ent_index": "94"
     }
   },
   {
@@ -6061,10 +6220,11 @@
         255
       ],
       "model": "models/darkroot/vaza.vmdl",
+      "compile_source_id": "1946",
       "origin": "-676.607422 569.000000 -112.568359",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "94"
+      "_template_lump_ent_index": "95"
     }
   },
   {
@@ -6123,10 +6283,11 @@
         255
       ],
       "model": "models/darkroot/vaza1.vmdl",
+      "compile_source_id": "1947",
       "origin": "-637.607422 612.000000 -112.568359",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "95"
+      "_template_lump_ent_index": "96"
     }
   },
   {
@@ -6185,10 +6346,11 @@
         255
       ],
       "model": "models/darkroot/vaza1.vmdl",
+      "compile_source_id": "1948",
       "origin": "-682.607422 619.000000 -112.568359",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "96"
+      "_template_lump_ent_index": "97"
     }
   },
   {
@@ -6247,10 +6409,11 @@
         255
       ],
       "model": "models/darkroot/vaza.vmdl",
+      "compile_source_id": "1949",
       "origin": "-675.607422 448.000000 -112.568359",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "97"
+      "_template_lump_ent_index": "98"
     }
   },
   {
@@ -6309,10 +6472,11 @@
         255
       ],
       "model": "models/darkroot/vaza.vmdl",
+      "compile_source_id": "1950",
       "origin": "-603.607422 405.000000 -112.568359",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "98"
+      "_template_lump_ent_index": "99"
     }
   },
   {
@@ -6371,10 +6535,11 @@
         255
       ],
       "model": "models/darkroot/vaza1.vmdl",
+      "compile_source_id": "1951",
       "origin": "-655.607422 399.000000 -112.568359",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "99"
+      "_template_lump_ent_index": "100"
     }
   },
   {
@@ -6433,10 +6598,11 @@
         255
       ],
       "model": "models/darkroot/vaza1.vmdl",
+      "compile_source_id": "1955",
       "origin": "-220.607422 5939.000000 1265.536865",
       "angles": "-0.000000 -90.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "100"
+      "_template_lump_ent_index": "101"
     }
   },
   {
@@ -6495,10 +6661,11 @@
         255
       ],
       "model": "models/darkroot/vaza1.vmdl",
+      "compile_source_id": "1975",
       "origin": "-1194.607422 3104.000000 991.536865",
       "angles": "-0.000000 -74.999992 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "101"
+      "_template_lump_ent_index": "102"
     }
   },
   {
@@ -6557,10 +6724,11 @@
         255
       ],
       "model": "models/darkroot/vaza1.vmdl",
+      "compile_source_id": "2398",
       "origin": "266.392578 5128.000000 287.536865",
       "angles": "-0.000000 -74.999992 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "102"
+      "_template_lump_ent_index": "103"
     }
   },
   {
@@ -6623,10 +6791,11 @@
         255
       ],
       "model": "models/fixed_darksouls/barrel.vmdl",
+      "compile_source_id": "3576",
       "origin": "-1260.607422 6443.000000 590.431763",
       "angles": "-0.000000 177.499969 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "103"
+      "_template_lump_ent_index": "104"
     }
   },
   {
@@ -6689,10 +6858,11 @@
         255
       ],
       "model": "models/fixed_darksouls/barrel.vmdl",
+      "compile_source_id": "3581",
       "origin": "-1359.607422 6632.000000 590.431763",
       "angles": "-0.000000 177.499969 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "104"
+      "_template_lump_ent_index": "105"
     }
   },
   {
@@ -6755,10 +6925,11 @@
         255
       ],
       "model": "models/fixed_darksouls/barrel.vmdl",
+      "compile_source_id": "3582",
       "origin": "-1366.607422 6709.594727 590.431763",
       "angles": "-0.000000 177.499969 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "105"
+      "_template_lump_ent_index": "106"
     }
   },
   {
@@ -6819,10 +6990,11 @@
         255
       ],
       "model": "models/fixed_darksouls/box.vmdl",
+      "compile_source_id": "3583",
       "origin": "-811.607422 6695.000000 590.431641",
       "angles": "-0.000000 122.499992 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "106"
+      "_template_lump_ent_index": "107"
     }
   },
   {
@@ -6883,10 +7055,11 @@
         255
       ],
       "model": "models/fixed_darksouls/box.vmdl",
+      "compile_source_id": "3584",
       "origin": "-1103.122314 6370.000000 590.431641",
       "angles": "0.000000 -177.499969 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "107"
+      "_template_lump_ent_index": "108"
     }
   },
   {
@@ -6945,10 +7118,11 @@
         255
       ],
       "model": "models/darkroot/vaza1.vmdl",
+      "compile_source_id": "3585",
       "origin": "637.392578 1659.000000 94.431641",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "108"
+      "_template_lump_ent_index": "109"
     }
   },
   {
@@ -7007,10 +7181,11 @@
         255
       ],
       "model": "models/darkroot/vaza1.vmdl",
+      "compile_source_id": "3586",
       "origin": "633.392578 1720.000000 94.431641",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "109"
+      "_template_lump_ent_index": "110"
     }
   },
   {
@@ -7069,10 +7244,11 @@
         255
       ],
       "model": "models/darkroot/vaza1.vmdl",
+      "compile_source_id": "4047",
       "origin": "567.392578 119.000000 -113.568359",
       "angles": "-0.000000 165.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "110"
+      "_template_lump_ent_index": "111"
     }
   },
   {
@@ -7131,10 +7307,11 @@
         255
       ],
       "model": "models/darkroot/vaza.vmdl",
+      "compile_source_id": "4048",
       "origin": "334.392578 289.000000 -113.568359",
       "angles": "-0.000000 165.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "111"
+      "_template_lump_ent_index": "112"
     }
   },
   {
@@ -7193,10 +7370,11 @@
         255
       ],
       "model": "models/darkroot/vaza1.vmdl",
+      "compile_source_id": "4049",
       "origin": "-750.607422 172.000000 -113.568359",
       "angles": "-0.000000 165.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "112"
+      "_template_lump_ent_index": "113"
     }
   },
   {
@@ -7255,10 +7433,11 @@
         255
       ],
       "model": "models/darkroot/vaza1.vmdl",
+      "compile_source_id": "4050",
       "origin": "-750.607422 125.000000 -113.568359",
       "angles": "-0.000000 165.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "113"
+      "_template_lump_ent_index": "114"
     }
   },
   {
@@ -7317,10 +7496,11 @@
         255
       ],
       "model": "models/darkroot/vaza1.vmdl",
+      "compile_source_id": "4051",
       "origin": "-341.607422 300.218262 -113.463135",
       "angles": "-0.000000 165.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "114"
+      "_template_lump_ent_index": "115"
     }
   },
   {
@@ -7379,10 +7559,11 @@
         255
       ],
       "model": "models/darkroot/vaza.vmdl",
+      "compile_source_id": "4052",
       "origin": "-390.607422 304.000000 -113.568359",
       "angles": "-0.000000 165.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "115"
+      "_template_lump_ent_index": "116"
     }
   },
   {
@@ -7445,10 +7626,11 @@
         255
       ],
       "model": "models/fixed_darksouls/box.vmdl",
+      "compile_source_id": "4150",
       "origin": "-1424.606934 6065.000000 1265.431641",
       "angles": "0.000000 -102.499977 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "116"
+      "_template_lump_ent_index": "117"
     }
   },
   {
@@ -7511,10 +7693,11 @@
         255
       ],
       "model": "models/fixed_darksouls/barrel.vmdl",
+      "compile_source_id": "4151",
       "origin": "-1550.607422 5855.000000 1264.431641",
       "angles": "-0.000000 117.499985 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "117"
+      "_template_lump_ent_index": "118"
     }
   },
   {
@@ -7577,10 +7760,11 @@
         255
       ],
       "model": "models/fixed_darksouls/barrel.vmdl",
+      "compile_source_id": "4152",
       "origin": "-1543.067871 5812.367188 1264.431641",
       "angles": "-0.000000 117.499985 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "118"
+      "_template_lump_ent_index": "119"
     }
   },
   {
@@ -7643,10 +7827,11 @@
         255
       ],
       "model": "models/fixed_darksouls/barrel.vmdl",
+      "compile_source_id": "4153",
       "origin": "-1535.607422 5835.000000 1323.431641",
       "angles": "-0.000000 177.499985 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "119"
+      "_template_lump_ent_index": "120"
     }
   },
   {
@@ -7709,10 +7894,11 @@
         255
       ],
       "model": "models/fixed_darksouls/barrel.vmdl",
+      "compile_source_id": "4154",
       "origin": "-1509.607422 5843.000000 1264.431641",
       "angles": "-0.000000 177.499985 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "120"
+      "_template_lump_ent_index": "121"
     }
   },
   {
@@ -7775,10 +7961,11 @@
         255
       ],
       "model": "models/fixed_darksouls/barrel.vmdl",
+      "compile_source_id": "4155",
       "origin": "-1392.607422 5366.000000 1323.431641",
       "angles": "0.000000 -137.499985 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "121"
+      "_template_lump_ent_index": "122"
     }
   },
   {
@@ -7841,10 +8028,11 @@
         255
       ],
       "model": "models/fixed_darksouls/barrel.vmdl",
+      "compile_source_id": "4156",
       "origin": "-1394.607422 5344.000000 1264.431641",
       "angles": "-0.000000 162.499985 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "122"
+      "_template_lump_ent_index": "123"
     }
   },
   {
@@ -7903,10 +8091,11 @@
         255
       ],
       "model": "models/darkroot/vaza1.vmdl",
+      "compile_source_id": "4157",
       "origin": "-218.607422 5395.000000 1265.536865",
       "angles": "-0.000000 -90.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "123"
+      "_template_lump_ent_index": "124"
     }
   },
   {
@@ -7965,10 +8154,11 @@
         255
       ],
       "model": "models/darkroot/vaza.vmdl",
+      "compile_source_id": "4158",
       "origin": "-177.607422 5417.000000 1265.431641",
       "angles": "-0.000000 -90.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "124"
+      "_template_lump_ent_index": "125"
     }
   },
   {
@@ -8027,10 +8217,11 @@
         255
       ],
       "model": "models/darkroot/vaza.vmdl",
+      "compile_source_id": "4159",
       "origin": "-221.607422 5441.000000 1265.431641",
       "angles": "-0.000000 -90.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "125"
+      "_template_lump_ent_index": "126"
     }
   },
   {
@@ -8089,10 +8280,11 @@
         255
       ],
       "model": "models/darkroot/vaza1.vmdl",
+      "compile_source_id": "4160",
       "origin": "-217.607422 5526.000000 1265.536865",
       "angles": "-0.000000 -90.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "126"
+      "_template_lump_ent_index": "127"
     }
   },
   {
@@ -8151,10 +8343,11 @@
         255
       ],
       "model": "models/darkroot/vaza1.vmdl",
+      "compile_source_id": "4161",
       "origin": "-220.607422 5985.000000 1265.536865",
       "angles": "-0.000000 -90.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "127"
+      "_template_lump_ent_index": "128"
     }
   },
   {
@@ -8213,10 +8406,11 @@
         255
       ],
       "model": "models/darkroot/vaza.vmdl",
+      "compile_source_id": "4162",
       "origin": "-219.482910 6033.000000 1265.431641",
       "angles": "-0.000000 -90.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "128"
+      "_template_lump_ent_index": "129"
     }
   },
   {
@@ -8275,10 +8469,11 @@
         255
       ],
       "model": "models/darkroot/vaza1.vmdl",
+      "compile_source_id": "4163",
       "origin": "-220.607422 6081.000000 1265.536865",
       "angles": "-0.000000 -90.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "129"
+      "_template_lump_ent_index": "130"
     }
   },
   {
@@ -8337,10 +8532,11 @@
         255
       ],
       "model": "models/darkroot/vaza.vmdl",
+      "compile_source_id": "4164",
       "origin": "958.392578 6244.000000 1265.431641",
       "angles": "0.000000 -179.999954 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "130"
+      "_template_lump_ent_index": "131"
     }
   },
   {
@@ -8399,10 +8595,11 @@
         255
       ],
       "model": "models/darkroot/vaza.vmdl",
+      "compile_source_id": "4165",
       "origin": "984.392578 6202.000000 1265.431641",
       "angles": "0.000000 -179.999954 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "131"
+      "_template_lump_ent_index": "132"
     }
   },
   {
@@ -8461,10 +8658,11 @@
         255
       ],
       "model": "models/darkroot/vaza1.vmdl",
+      "compile_source_id": "4166",
       "origin": "942.392578 6202.000000 1265.536865",
       "angles": "0.000000 -179.999954 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "132"
+      "_template_lump_ent_index": "133"
     }
   },
   {
@@ -8523,10 +8721,11 @@
         255
       ],
       "model": "models/darkroot/vaza1.vmdl",
+      "compile_source_id": "4167",
       "origin": "453.392578 6953.000000 1121.536865",
       "angles": "-0.000000 -74.999992 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "133"
+      "_template_lump_ent_index": "134"
     }
   },
   {
@@ -8585,10 +8784,11 @@
         255
       ],
       "model": "models/darkroot/vaza.vmdl",
+      "compile_source_id": "4168",
       "origin": "604.346680 7009.000000 1121.431641",
       "angles": "-0.000000 -74.999992 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "134"
+      "_template_lump_ent_index": "135"
     }
   },
   {
@@ -8647,10 +8847,11 @@
         255
       ],
       "model": "models/darkroot/vaza1.vmdl",
+      "compile_source_id": "4169",
       "origin": "591.392578 7053.000000 1121.536865",
       "angles": "-0.000000 -74.999992 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "135"
+      "_template_lump_ent_index": "136"
     }
   },
   {
@@ -8709,10 +8910,11 @@
         255
       ],
       "model": "models/darkroot/vaza.vmdl",
+      "compile_source_id": "4170",
       "origin": "918.392578 6368.000000 1265.431641",
       "angles": "0.000000 -179.999954 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "136"
+      "_template_lump_ent_index": "137"
     }
   },
   {
@@ -8771,10 +8973,11 @@
         255
       ],
       "model": "models/darkroot/vaza1.vmdl",
+      "compile_source_id": "4171",
       "origin": "942.392578 6409.000000 1265.536865",
       "angles": "0.000000 -179.999954 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "137"
+      "_template_lump_ent_index": "138"
     }
   },
   {
@@ -8833,10 +9036,11 @@
         255
       ],
       "model": "models/darkroot/vaza.vmdl",
+      "compile_source_id": "4172",
       "origin": "849.539062 6407.875977 1265.431641",
       "angles": "0.000000 -179.999954 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "138"
+      "_template_lump_ent_index": "139"
     }
   },
   {
@@ -8895,10 +9099,11 @@
         255
       ],
       "model": "models/darkroot/vaza1.vmdl",
+      "compile_source_id": "4173",
       "origin": "895.392578 6409.000000 1265.536865",
       "angles": "0.000000 -179.999954 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "139"
+      "_template_lump_ent_index": "140"
     }
   },
   {
@@ -8961,10 +9166,11 @@
         255
       ],
       "model": "models/fixed_darksouls/barrel.vmdl",
+      "compile_source_id": "4174",
       "origin": "1328.392578 6033.000000 1264.431641",
       "angles": "-0.000000 147.499985 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "140"
+      "_template_lump_ent_index": "141"
     }
   },
   {
@@ -9027,10 +9233,11 @@
         255
       ],
       "model": "models/fixed_darksouls/barrel.vmdl",
+      "compile_source_id": "4175",
       "origin": "1329.392578 6082.000000 1264.431641",
       "angles": "-0.000000 -77.500015 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "141"
+      "_template_lump_ent_index": "142"
     }
   },
   {
@@ -9089,10 +9296,11 @@
         255
       ],
       "model": "models/darkroot/vaza.vmdl",
+      "compile_source_id": "4178",
       "origin": "973.392578 6125.124023 1265.431641",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "142"
+      "_template_lump_ent_index": "143"
     }
   },
   {
@@ -9151,10 +9359,11 @@
         255
       ],
       "model": "models/darkroot/vaza.vmdl",
+      "compile_source_id": "4179",
       "origin": "1023.392578 6125.124023 1265.431641",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "143"
+      "_template_lump_ent_index": "144"
     }
   },
   {
@@ -9213,10 +9422,11 @@
         255
       ],
       "model": "models/darkroot/vaza1.vmdl",
+      "compile_source_id": "4180",
       "origin": "923.472656 6124.000000 1265.536865",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "144"
+      "_template_lump_ent_index": "145"
     }
   },
   {
@@ -9275,10 +9485,11 @@
         255
       ],
       "model": "models/darkroot/vaza.vmdl",
+      "compile_source_id": "4181",
       "origin": "1000.392578 4974.000000 929.431641",
       "angles": "-0.000000 -74.999992 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "145"
+      "_template_lump_ent_index": "146"
     }
   },
   {
@@ -9337,10 +9548,11 @@
         255
       ],
       "model": "models/darkroot/vaza.vmdl",
+      "compile_source_id": "4182",
       "origin": "722.392578 5410.000000 929.431641",
       "angles": "-0.000000 -74.999992 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "146"
+      "_template_lump_ent_index": "147"
     }
   },
   {
@@ -9399,10 +9611,11 @@
         255
       ],
       "model": "models/darkroot/vaza1.vmdl",
+      "compile_source_id": "4183",
       "origin": "718.392578 5309.000000 929.536865",
       "angles": "-0.000000 -74.999992 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "147"
+      "_template_lump_ent_index": "148"
     }
   },
   {
@@ -9461,10 +9674,11 @@
         255
       ],
       "model": "models/darkroot/vaza1.vmdl",
+      "compile_source_id": "4184",
       "origin": "718.392578 4978.000000 929.536865",
       "angles": "-0.000000 -74.999992 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "148"
+      "_template_lump_ent_index": "149"
     }
   },
   {
@@ -9523,10 +9737,11 @@
         255
       ],
       "model": "models/darkroot/vaza1.vmdl",
+      "compile_source_id": "4185",
       "origin": "1052.392578 4978.000000 929.536865",
       "angles": "-0.000000 -74.999992 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "149"
+      "_template_lump_ent_index": "150"
     }
   },
   {
@@ -9585,10 +9800,11 @@
         255
       ],
       "model": "models/darkroot/vaza1.vmdl",
+      "compile_source_id": "4186",
       "origin": "1058.392578 5311.000000 929.536865",
       "angles": "-0.000000 -74.999992 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "150"
+      "_template_lump_ent_index": "151"
     }
   },
   {
@@ -9647,10 +9863,11 @@
         255
       ],
       "model": "models/darkroot/vaza1.vmdl",
+      "compile_source_id": "4187",
       "origin": "1051.392578 5267.000000 929.536865",
       "angles": "-0.000000 -74.999992 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "151"
+      "_template_lump_ent_index": "152"
     }
   },
   {
@@ -9709,10 +9926,11 @@
         255
       ],
       "model": "models/darkroot/vaza.vmdl",
+      "compile_source_id": "4188",
       "origin": "1055.392578 5223.000000 929.431641",
       "angles": "-0.000000 -74.999992 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "152"
+      "_template_lump_ent_index": "153"
     }
   },
   {
@@ -9771,10 +9989,11 @@
         255
       ],
       "model": "models/darkroot/vaza1.vmdl",
+      "compile_source_id": "4189",
       "origin": "723.392578 5536.000000 929.536865",
       "angles": "-0.000000 -74.999992 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "153"
+      "_template_lump_ent_index": "154"
     }
   },
   {
@@ -9833,10 +10052,11 @@
         255
       ],
       "model": "models/darkroot/vaza1.vmdl",
+      "compile_source_id": "4190",
       "origin": "839.392578 5540.000000 929.536865",
       "angles": "-0.000000 -74.999992 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "154"
+      "_template_lump_ent_index": "155"
     }
   },
   {
@@ -9895,10 +10115,11 @@
         255
       ],
       "model": "models/darkroot/vaza.vmdl",
+      "compile_source_id": "4191",
       "origin": "792.392578 5542.000000 929.431641",
       "angles": "-0.000000 -74.999992 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "155"
+      "_template_lump_ent_index": "156"
     }
   },
   {
@@ -9957,10 +10178,11 @@
         255
       ],
       "model": "models/darkroot/vaza1.vmdl",
+      "compile_source_id": "4192",
       "origin": "1626.392578 4948.000000 929.536865",
       "angles": "-0.000000 -74.999992 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "156"
+      "_template_lump_ent_index": "157"
     }
   },
   {
@@ -10019,10 +10241,11 @@
         255
       ],
       "model": "models/darkroot/vaza.vmdl",
+      "compile_source_id": "4193",
       "origin": "1461.392578 5599.000000 929.431641",
       "angles": "-0.000000 -74.999992 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "157"
+      "_template_lump_ent_index": "158"
     }
   },
   {
@@ -10081,10 +10304,11 @@
         255
       ],
       "model": "models/darkroot/vaza.vmdl",
+      "compile_source_id": "4194",
       "origin": "1733.392578 5599.000000 929.431641",
       "angles": "-0.000000 -74.999992 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "158"
+      "_template_lump_ent_index": "159"
     }
   },
   {
@@ -10143,10 +10367,11 @@
         255
       ],
       "model": "models/darkroot/vaza1.vmdl",
+      "compile_source_id": "4195",
       "origin": "1773.392578 5543.000000 929.536865",
       "angles": "-0.000000 -74.999992 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "159"
+      "_template_lump_ent_index": "160"
     }
   },
   {
@@ -10205,10 +10430,11 @@
         255
       ],
       "model": "models/darkroot/vaza1.vmdl",
+      "compile_source_id": "4196",
       "origin": "1778.392578 5589.000000 929.536865",
       "angles": "-0.000000 -74.999992 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "160"
+      "_template_lump_ent_index": "161"
     }
   },
   {
@@ -10267,10 +10493,11 @@
         255
       ],
       "model": "models/darkroot/vaza.vmdl",
+      "compile_source_id": "4197",
       "origin": "1493.392578 5327.000000 929.431641",
       "angles": "-0.000000 -74.999992 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "161"
+      "_template_lump_ent_index": "162"
     }
   },
   {
@@ -10329,10 +10556,11 @@
         255
       ],
       "model": "models/darkroot/vaza1.vmdl",
+      "compile_source_id": "4198",
       "origin": "1451.392578 5314.000000 929.536865",
       "angles": "-0.000000 -74.999992 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "162"
+      "_template_lump_ent_index": "163"
     }
   },
   {
@@ -10391,10 +10619,11 @@
         255
       ],
       "model": "models/darkroot/vaza1.vmdl",
+      "compile_source_id": "4199",
       "origin": "1462.392578 5360.000000 929.536865",
       "angles": "-0.000000 -74.999992 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "163"
+      "_template_lump_ent_index": "164"
     }
   },
   {
@@ -10453,10 +10682,11 @@
         255
       ],
       "model": "models/darkroot/vaza.vmdl",
+      "compile_source_id": "4200",
       "origin": "1463.392578 5055.000000 929.431641",
       "angles": "-0.000000 -74.999992 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "164"
+      "_template_lump_ent_index": "165"
     }
   },
   {
@@ -10515,10 +10745,11 @@
         255
       ],
       "model": "models/darkroot/vaza1.vmdl",
+      "compile_source_id": "4201",
       "origin": "1450.392578 5009.000000 929.536865",
       "angles": "-0.000000 -74.999992 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "165"
+      "_template_lump_ent_index": "166"
     }
   },
   {
@@ -10577,10 +10808,11 @@
         255
       ],
       "model": "models/darkroot/vaza1.vmdl",
+      "compile_source_id": "4202",
       "origin": "1599.392578 4912.000000 929.536865",
       "angles": "-0.000000 -74.999992 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "166"
+      "_template_lump_ent_index": "167"
     }
   },
   {
@@ -10639,10 +10871,11 @@
         255
       ],
       "model": "models/darkroot/vaza1.vmdl",
+      "compile_source_id": "4203",
       "origin": "1652.392578 4912.000000 929.536865",
       "angles": "-0.000000 -74.999992 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "167"
+      "_template_lump_ent_index": "168"
     }
   },
   {
@@ -10701,10 +10934,11 @@
         255
       ],
       "model": "models/darkroot/vaza.vmdl",
+      "compile_source_id": "4204",
       "origin": "1540.392578 4914.000000 929.431641",
       "angles": "-0.000000 -74.999992 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "168"
+      "_template_lump_ent_index": "169"
     }
   },
   {
@@ -10763,10 +10997,11 @@
         255
       ],
       "model": "models/darkroot/vaza1.vmdl",
+      "compile_source_id": "4205",
       "origin": "952.392578 3353.000000 409.536865",
       "angles": "-0.000000 -74.999992 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "169"
+      "_template_lump_ent_index": "170"
     }
   },
   {
@@ -10825,10 +11060,11 @@
         255
       ],
       "model": "models/darkroot/vaza.vmdl",
+      "compile_source_id": "4206",
       "origin": "905.392578 3355.000000 409.431641",
       "angles": "-0.000000 -74.999992 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "170"
+      "_template_lump_ent_index": "171"
     }
   },
   {
@@ -10887,10 +11123,11 @@
         255
       ],
       "model": "models/darkroot/vaza1.vmdl",
+      "compile_source_id": "4207",
       "origin": "346.392578 3709.000000 609.536865",
       "angles": "-0.000000 -74.999992 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "171"
+      "_template_lump_ent_index": "172"
     }
   },
   {
@@ -10949,10 +11186,11 @@
         255
       ],
       "model": "models/darkroot/vaza1.vmdl",
+      "compile_source_id": "4208",
       "origin": "357.392578 3659.000000 609.536865",
       "angles": "-0.000000 -74.999992 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "172"
+      "_template_lump_ent_index": "173"
     }
   },
   {
@@ -11011,10 +11249,11 @@
         255
       ],
       "model": "models/darkroot/vaza1.vmdl",
+      "compile_source_id": "4209",
       "origin": "364.392578 4259.000000 609.536865",
       "angles": "-0.000000 -74.999992 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "173"
+      "_template_lump_ent_index": "174"
     }
   },
   {
@@ -11073,10 +11312,11 @@
         255
       ],
       "model": "models/darkroot/vaza1.vmdl",
+      "compile_source_id": "4210",
       "origin": "340.392578 4299.000000 609.536865",
       "angles": "-0.000000 -74.999992 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "174"
+      "_template_lump_ent_index": "175"
     }
   },
   {
@@ -11135,10 +11375,11 @@
         255
       ],
       "model": "models/darkroot/vaza1.vmdl",
+      "compile_source_id": "4211",
       "origin": "432.841797 4299.000000 609.536865",
       "angles": "-0.000000 -74.999992 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "175"
+      "_template_lump_ent_index": "176"
     }
   },
   {
@@ -11197,10 +11438,11 @@
         255
       ],
       "model": "models/darkroot/vaza.vmdl",
+      "compile_source_id": "4212",
       "origin": "385.841797 4301.000000 609.431641",
       "angles": "-0.000000 -74.999992 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "176"
+      "_template_lump_ent_index": "177"
     }
   },
   {
@@ -11259,10 +11501,11 @@
         255
       ],
       "model": "models/darkroot/vaza.vmdl",
+      "compile_source_id": "4213",
       "origin": "-814.607422 4138.000000 609.431641",
       "angles": "-0.000000 -74.999992 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "177"
+      "_template_lump_ent_index": "178"
     }
   },
   {
@@ -11321,10 +11564,11 @@
         255
       ],
       "model": "models/darkroot/vaza.vmdl",
+      "compile_source_id": "4214",
       "origin": "146.392578 4912.000000 287.431641",
       "angles": "-0.000000 -74.999992 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "178"
+      "_template_lump_ent_index": "179"
     }
   },
   {
@@ -11383,10 +11627,11 @@
         255
       ],
       "model": "models/darkroot/vaza1.vmdl",
+      "compile_source_id": "4215",
       "origin": "77.392578 4906.000000 287.536865",
       "angles": "-0.000000 -74.999992 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "179"
+      "_template_lump_ent_index": "180"
     }
   },
   {
@@ -11445,10 +11690,11 @@
         255
       ],
       "model": "models/darkroot/vaza1.vmdl",
+      "compile_source_id": "4216",
       "origin": "207.392578 4906.000000 287.536865",
       "angles": "-0.000000 -74.999992 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "180"
+      "_template_lump_ent_index": "181"
     }
   },
   {
@@ -11507,10 +11753,11 @@
         255
       ],
       "model": "models/darkroot/vaza1.vmdl",
+      "compile_source_id": "4217",
       "origin": "256.392578 4906.000000 287.536865",
       "angles": "-0.000000 -74.999992 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "181"
+      "_template_lump_ent_index": "182"
     }
   },
   {
@@ -11569,10 +11816,11 @@
         255
       ],
       "model": "models/darkroot/vaza.vmdl",
+      "compile_source_id": "4218",
       "origin": "-314.607422 5085.000000 287.431641",
       "angles": "-0.000000 -74.999992 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "182"
+      "_template_lump_ent_index": "183"
     }
   },
   {
@@ -11631,10 +11879,11 @@
         255
       ],
       "model": "models/darkroot/vaza1.vmdl",
+      "compile_source_id": "4219",
       "origin": "-292.607422 5124.000000 287.536865",
       "angles": "-0.000000 -74.999992 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "183"
+      "_template_lump_ent_index": "184"
     }
   },
   {
@@ -11693,10 +11942,11 @@
         255
       ],
       "model": "models/darkroot/vaza.vmdl",
+      "compile_source_id": "4220",
       "origin": "-454.607422 5091.000000 287.431641",
       "angles": "-0.000000 -74.999992 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "184"
+      "_template_lump_ent_index": "185"
     }
   },
   {
@@ -11755,10 +12005,11 @@
         255
       ],
       "model": "models/darkroot/vaza1.vmdl",
+      "compile_source_id": "4221",
       "origin": "-337.607422 5124.000000 287.536865",
       "angles": "-0.000000 -74.999992 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "185"
+      "_template_lump_ent_index": "186"
     }
   },
   {
@@ -11817,10 +12068,11 @@
         255
       ],
       "model": "models/darkroot/vaza.vmdl",
+      "compile_source_id": "4222",
       "origin": "-385.607422 5126.000000 287.431641",
       "angles": "-0.000000 -74.999992 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "186"
+      "_template_lump_ent_index": "187"
     }
   },
   {
@@ -11879,10 +12131,11 @@
         255
       ],
       "model": "models/darkroot/vaza1.vmdl",
+      "compile_source_id": "4223",
       "origin": "-1066.607422 3764.000000 767.536865",
       "angles": "-0.000000 -74.999992 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "187"
+      "_template_lump_ent_index": "188"
     }
   },
   {
@@ -11941,10 +12194,11 @@
         255
       ],
       "model": "models/darkroot/vaza1.vmdl",
+      "compile_source_id": "4224",
       "origin": "-1015.607422 3764.000000 767.536865",
       "angles": "-0.000000 -74.999992 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "188"
+      "_template_lump_ent_index": "189"
     }
   },
   {
@@ -12003,10 +12257,11 @@
         255
       ],
       "model": "models/darkroot/vaza1.vmdl",
+      "compile_source_id": "4225",
       "origin": "-1224.607422 3964.000000 767.536865",
       "angles": "-0.000000 -74.999992 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "189"
+      "_template_lump_ent_index": "190"
     }
   },
   {
@@ -12065,10 +12320,11 @@
         255
       ],
       "model": "models/darkroot/vaza1.vmdl",
+      "compile_source_id": "4226",
       "origin": "-1127.699463 3965.000000 767.536865",
       "angles": "-0.000000 -74.999992 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "190"
+      "_template_lump_ent_index": "191"
     }
   },
   {
@@ -12127,10 +12383,11 @@
         255
       ],
       "model": "models/darkroot/vaza.vmdl",
+      "compile_source_id": "4227",
       "origin": "-1174.699463 3967.000000 767.431641",
       "angles": "-0.000000 -74.999992 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "191"
+      "_template_lump_ent_index": "192"
     }
   },
   {
@@ -12189,10 +12446,11 @@
         255
       ],
       "model": "models/darkroot/vaza1.vmdl",
+      "compile_source_id": "4228",
       "origin": "-1707.607422 3030.000000 991.536865",
       "angles": "-0.000000 -74.999992 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "192"
+      "_template_lump_ent_index": "193"
     }
   },
   {
@@ -12251,10 +12509,11 @@
         255
       ],
       "model": "models/darkroot/vaza1.vmdl",
+      "compile_source_id": "4229",
       "origin": "-1676.607422 2994.000000 991.536865",
       "angles": "-0.000000 -74.999992 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "193"
+      "_template_lump_ent_index": "194"
     }
   },
   {
@@ -12313,10 +12572,11 @@
         255
       ],
       "model": "models/darkroot/vaza.vmdl",
+      "compile_source_id": "4230",
       "origin": "-1723.607422 2989.000000 991.431641",
       "angles": "-0.000000 -74.999992 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "194"
+      "_template_lump_ent_index": "195"
     }
   },
   {
@@ -12375,10 +12635,11 @@
         255
       ],
       "model": "models/darkroot/vaza.vmdl",
+      "compile_source_id": "4231",
       "origin": "-824.607422 2839.000000 567.431641",
       "angles": "-0.000000 15.000009 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "195"
+      "_template_lump_ent_index": "196"
     }
   },
   {
@@ -12437,10 +12698,11 @@
         255
       ],
       "model": "models/darkroot/vaza1.vmdl",
+      "compile_source_id": "4232",
       "origin": "-872.607422 2853.000000 567.536865",
       "angles": "-0.000000 15.000009 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "196"
+      "_template_lump_ent_index": "197"
     }
   },
   {
@@ -12499,10 +12761,11 @@
         255
       ],
       "model": "models/darkroot/vaza.vmdl",
+      "compile_source_id": "4233",
       "origin": "-874.607422 2806.000000 567.431641",
       "angles": "-0.000000 15.000009 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "197"
+      "_template_lump_ent_index": "198"
     }
   },
   {
@@ -12561,10 +12824,11 @@
         255
       ],
       "model": "models/darkroot/vaza1.vmdl",
+      "compile_source_id": "4234",
       "origin": "267.392578 2721.000000 287.536865",
       "angles": "-0.000000 -74.999992 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "198"
+      "_template_lump_ent_index": "199"
     }
   },
   {
@@ -12623,10 +12887,11 @@
         255
       ],
       "model": "models/darkroot/vaza1.vmdl",
+      "compile_source_id": "4235",
       "origin": "27.392578 2674.000000 287.536865",
       "angles": "-0.000000 -74.999992 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "199"
+      "_template_lump_ent_index": "200"
     }
   },
   {
@@ -12685,10 +12950,11 @@
         255
       ],
       "model": "models/darkroot/vaza.vmdl",
+      "compile_source_id": "4236",
       "origin": "-19.607422 2676.000000 287.431641",
       "angles": "-0.000000 -74.999992 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "200"
+      "_template_lump_ent_index": "201"
     }
   },
   {
@@ -12747,10 +13013,11 @@
         255
       ],
       "model": "models/darkroot/vaza1.vmdl",
+      "compile_source_id": "4237",
       "origin": "-2.607422 2716.000000 287.536865",
       "angles": "-0.000000 -74.999992 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "201"
+      "_template_lump_ent_index": "202"
     }
   },
   {
@@ -12809,10 +13076,11 @@
         255
       ],
       "model": "models/darkroot/vaza.vmdl",
+      "compile_source_id": "4238",
       "origin": "48.392578 2713.592773 287.431641",
       "angles": "-0.000000 -74.999992 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "202"
+      "_template_lump_ent_index": "203"
     }
   },
   {
@@ -12871,10 +13139,11 @@
         255
       ],
       "model": "models/darkroot/vaza1.vmdl",
+      "compile_source_id": "4239",
       "origin": "-52.607422 2708.000000 287.536865",
       "angles": "-0.000000 -74.999992 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "203"
+      "_template_lump_ent_index": "204"
     }
   },
   {
@@ -12933,10 +13202,11 @@
         255
       ],
       "model": "models/darkroot/vaza1.vmdl",
+      "compile_source_id": "4240",
       "origin": "-636.607422 2503.000000 287.536865",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "204"
+      "_template_lump_ent_index": "205"
     }
   },
   {
@@ -12995,10 +13265,11 @@
         255
       ],
       "model": "models/darkroot/vaza.vmdl",
+      "compile_source_id": "4241",
       "origin": "-630.607422 2547.000000 287.431641",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "205"
+      "_template_lump_ent_index": "206"
     }
   },
   {
@@ -13057,10 +13328,11 @@
         255
       ],
       "model": "models/darkroot/vaza.vmdl",
+      "compile_source_id": "4242",
       "origin": "300.392578 1608.000000 95.431641",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "206"
+      "_template_lump_ent_index": "207"
     }
   },
   {
@@ -13119,10 +13391,11 @@
         255
       ],
       "model": "models/darkroot/vaza1.vmdl",
+      "compile_source_id": "4243",
       "origin": "266.392578 1641.000000 93.431641",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "207"
+      "_template_lump_ent_index": "208"
     }
   },
   {
@@ -13181,10 +13454,11 @@
         255
       ],
       "model": "models/darkroot/vaza1.vmdl",
+      "compile_source_id": "4244",
       "origin": "254.392578 1595.000000 95.431641",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "208"
+      "_template_lump_ent_index": "209"
     }
   },
   {
@@ -13243,10 +13517,11 @@
         255
       ],
       "model": "models/darkroot/vaza.vmdl",
+      "compile_source_id": "4245",
       "origin": "-576.607422 1816.000000 95.431641",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "209"
+      "_template_lump_ent_index": "210"
     }
   },
   {
@@ -13305,10 +13580,11 @@
         255
       ],
       "model": "models/darkroot/vaza.vmdl",
+      "compile_source_id": "4246",
       "origin": "-193.607422 1797.234863 95.431641",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "210"
+      "_template_lump_ent_index": "211"
     }
   },
   {
@@ -13367,10 +13643,11 @@
         255
       ],
       "model": "models/darkroot/vaza1.vmdl",
+      "compile_source_id": "4247",
       "origin": "-295.607422 1595.000000 95.431641",
       "angles": "-0.000000 90.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "211"
+      "_template_lump_ent_index": "212"
     }
   },
   {
@@ -13429,10 +13706,11 @@
         255
       ],
       "model": "models/darkroot/vaza1.vmdl",
+      "compile_source_id": "4248",
       "origin": "-245.607422 1598.000000 95.431641",
       "angles": "-0.000000 90.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "212"
+      "_template_lump_ent_index": "213"
     }
   },
   {
@@ -13491,10 +13769,11 @@
         255
       ],
       "model": "models/darkroot/vaza.vmdl",
+      "compile_source_id": "4249",
       "origin": "373.392578 431.000000 -112.568359",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "213"
+      "_template_lump_ent_index": "214"
     }
   },
   {
@@ -13553,10 +13832,11 @@
         255
       ],
       "model": "models/darkroot/vaza.vmdl",
+      "compile_source_id": "4250",
       "origin": "445.392578 388.000000 -112.568359",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "214"
+      "_template_lump_ent_index": "215"
     }
   },
   {
@@ -13615,10 +13895,11 @@
         255
       ],
       "model": "models/darkroot/vaza1.vmdl",
+      "compile_source_id": "4251",
       "origin": "393.392578 382.000000 -112.568359",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "215"
+      "_template_lump_ent_index": "216"
     }
   },
   {
@@ -13677,10 +13958,11 @@
         255
       ],
       "model": "models/darkroot/vaza1.vmdl",
+      "compile_source_id": "4252",
       "origin": "344.392578 382.000000 -112.568359",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "216"
+      "_template_lump_ent_index": "217"
     }
   },
   {
@@ -13739,10 +14021,11 @@
         255
       ],
       "model": "models/darkroot/vaza1.vmdl",
+      "compile_source_id": "4253",
       "origin": "500.392578 397.000000 -112.568359",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "217"
+      "_template_lump_ent_index": "218"
     }
   },
   {
@@ -13801,10 +14084,11 @@
         255
       ],
       "model": "models/darkroot/vaza1.vmdl",
+      "compile_source_id": "4254",
       "origin": "500.392578 990.000000 -112.568359",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "218"
+      "_template_lump_ent_index": "219"
     }
   },
   {
@@ -13863,10 +14147,11 @@
         255
       ],
       "model": "models/darkroot/vaza1.vmdl",
+      "compile_source_id": "4255",
       "origin": "601.392578 969.000000 -112.568359",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "219"
+      "_template_lump_ent_index": "220"
     }
   },
   {
@@ -13925,10 +14210,11 @@
         255
       ],
       "model": "models/darkroot/vaza1.vmdl",
+      "compile_source_id": "4256",
       "origin": "558.392578 781.000000 -112.568359",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "220"
+      "_template_lump_ent_index": "221"
     }
   },
   {
@@ -13987,10 +14273,11 @@
         255
       ],
       "model": "models/darkroot/vaza1.vmdl",
+      "compile_source_id": "4257",
       "origin": "413.392578 1070.000000 -112.568359",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "221"
+      "_template_lump_ent_index": "222"
     }
   },
   {
@@ -14049,10 +14336,11 @@
         255
       ],
       "model": "models/darkroot/vaza1.vmdl",
+      "compile_source_id": "4258",
       "origin": "458.392578 1092.000000 -112.568359",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "222"
+      "_template_lump_ent_index": "223"
     }
   },
   {
@@ -14111,10 +14399,11 @@
         255
       ],
       "model": "models/darkroot/vaza.vmdl",
+      "compile_source_id": "4259",
       "origin": "548.392578 975.000000 -112.568359",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "223"
+      "_template_lump_ent_index": "224"
     }
   },
   {
@@ -14173,10 +14462,11 @@
         255
       ],
       "model": "models/darkroot/vaza.vmdl",
+      "compile_source_id": "4260",
       "origin": "516.392578 812.000000 -112.568359",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "224"
+      "_template_lump_ent_index": "225"
     }
   },
   {
@@ -14235,10 +14525,11 @@
         255
       ],
       "model": "models/darkroot/vaza.vmdl",
+      "compile_source_id": "4261",
       "origin": "454.392578 1040.000000 -112.568359",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "225"
+      "_template_lump_ent_index": "226"
     }
   },
   {
@@ -14297,10 +14588,11 @@
         255
       ],
       "model": "models/darkroot/vaza1.vmdl",
+      "compile_source_id": "4262",
       "origin": "150.392578 1069.000000 -112.568359",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "226"
+      "_template_lump_ent_index": "227"
     }
   },
   {
@@ -14359,10 +14651,11 @@
         255
       ],
       "model": "models/darkroot/vaza.vmdl",
+      "compile_source_id": "4263",
       "origin": "-192.607422 640.597656 -112.568359",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "227"
+      "_template_lump_ent_index": "228"
     }
   },
   {
@@ -14421,10 +14714,11 @@
         255
       ],
       "model": "models/darkroot/vaza1.vmdl",
+      "compile_source_id": "4264",
       "origin": "-192.607422 718.597656 -112.568359",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "228"
+      "_template_lump_ent_index": "229"
     }
   },
   {
@@ -14487,10 +14781,11 @@
         255
       ],
       "model": "models/fixed_darksouls/barrel.vmdl",
+      "compile_source_id": "4709",
       "origin": "-1221.927490 4452.580078 1271.681641",
       "angles": "0.000000 -137.499985 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "229"
+      "_template_lump_ent_index": "230"
     }
   },
   {
@@ -14553,10 +14848,11 @@
         255
       ],
       "model": "models/fixed_darksouls/box2.vmdl",
+      "compile_source_id": "4710",
       "origin": "-1134.607422 4202.000000 1271.451660",
       "angles": "0.000000 -177.499969 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "230"
+      "_template_lump_ent_index": "231"
     }
   },
   {
@@ -14619,10 +14915,11 @@
         255
       ],
       "model": "models/fixed_darksouls/barrel.vmdl",
+      "compile_source_id": "4712",
       "origin": "-1609.607422 6074.769531 1264.431641",
       "angles": "0.000000 -137.499985 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "231"
+      "_template_lump_ent_index": "232"
     }
   },
   {
@@ -14685,10 +14982,11 @@
         255
       ],
       "model": "models/fixed_darksouls/barrel.vmdl",
+      "compile_source_id": "4713",
       "origin": "-1390.607422 5923.000000 1265.681641",
       "angles": "0.000000 -137.499985 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "232"
+      "_template_lump_ent_index": "233"
     }
   },
   {
@@ -14751,10 +15049,11 @@
         255
       ],
       "model": "models/fixed_darksouls/barrel.vmdl",
+      "compile_source_id": "4714",
       "origin": "-1390.607422 5977.000000 1265.681641",
       "angles": "0.000000 -137.499985 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "233"
+      "_template_lump_ent_index": "234"
     }
   },
   {
@@ -14817,10 +15116,11 @@
         255
       ],
       "model": "models/fixed_darksouls/box.vmdl",
+      "compile_source_id": "4717",
       "origin": "-1644.607422 5528.000000 1265.431641",
       "angles": "0.000000 -177.499969 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "234"
+      "_template_lump_ent_index": "235"
     }
   },
   {
@@ -14883,10 +15183,11 @@
         255
       ],
       "model": "models/fixed_darksouls/barrel.vmdl",
+      "compile_source_id": "4718",
       "origin": "-1392.607422 5389.319824 1264.431641",
       "angles": "0.000000 -137.499985 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "235"
+      "_template_lump_ent_index": "236"
     }
   },
   {
@@ -14949,10 +15250,11 @@
         255
       ],
       "model": "models/fixed_darksouls/box.vmdl",
+      "compile_source_id": "4745",
       "origin": "-83.607422 5392.000000 1265.431641",
       "angles": "-0.000000 92.500000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "236"
+      "_template_lump_ent_index": "237"
     }
   },
   {
@@ -15015,10 +15317,11 @@
         255
       ],
       "model": "models/fixed_darksouls/box.vmdl",
+      "compile_source_id": "4746",
       "origin": "-55.607422 5888.000000 1265.431641",
       "angles": "0.000000 -177.499969 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "237"
+      "_template_lump_ent_index": "238"
     }
   },
   {
@@ -15081,10 +15384,11 @@
         255
       ],
       "model": "models/fixed_darksouls/barrel.vmdl",
+      "compile_source_id": "4750",
       "origin": "944.392578 5649.000000 1265.431641",
       "angles": "0.000000 -137.499985 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "238"
+      "_template_lump_ent_index": "239"
     }
   },
   {
@@ -15147,10 +15451,11 @@
         255
       ],
       "model": "models/fixed_darksouls/barrel.vmdl",
+      "compile_source_id": "4752",
       "origin": "1315.392578 5652.000000 1265.681641",
       "angles": "0.000000 -137.499985 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "239"
+      "_template_lump_ent_index": "240"
     }
   },
   {
@@ -15213,10 +15518,11 @@
         255
       ],
       "model": "models/fixed_darksouls/box.vmdl",
+      "compile_source_id": "4753",
       "origin": "1323.392578 5763.000000 1265.431641",
       "angles": "-0.000000 15.999999 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "240"
+      "_template_lump_ent_index": "241"
     }
   },
   {
@@ -15279,10 +15585,11 @@
         255
       ],
       "model": "models/fixed_darksouls/box.vmdl",
+      "compile_source_id": "4754",
       "origin": "1322.392578 5896.000000 1265.431641",
       "angles": "0.000000 -178.999969 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "241"
+      "_template_lump_ent_index": "242"
     }
   },
   {
@@ -15345,10 +15652,11 @@
         255
       ],
       "model": "models/fixed_darksouls/barrel.vmdl",
+      "compile_source_id": "4755",
       "origin": "1305.392578 6124.000000 1264.431641",
       "angles": "0.000000 -137.499985 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "242"
+      "_template_lump_ent_index": "243"
     }
   },
   {
@@ -15411,10 +15719,11 @@
         255
       ],
       "model": "models/fixed_darksouls/box2.vmdl",
+      "compile_source_id": "4756",
       "origin": "810.392578 5950.000000 1265.451660",
       "angles": "-0.000000 -88.000008 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "243"
+      "_template_lump_ent_index": "244"
     }
   },
   {
@@ -15477,10 +15786,11 @@
         255
       ],
       "model": "models/fixed_darksouls/barrel.vmdl",
+      "compile_source_id": "4757",
       "origin": "802.392578 5836.000000 1265.431641",
       "angles": "0.000000 -137.499985 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "244"
+      "_template_lump_ent_index": "245"
     }
   },
   {
@@ -15543,10 +15853,11 @@
         255
       ],
       "model": "models/fixed_darksouls/barrel.vmdl",
+      "compile_source_id": "4766",
       "origin": "632.392578 4711.000000 1285.141602",
       "angles": "-0.000000 -47.499992 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "245"
+      "_template_lump_ent_index": "246"
     }
   },
   {
@@ -15609,10 +15920,11 @@
         255
       ],
       "model": "models/fixed_darksouls/barrel.vmdl",
+      "compile_source_id": "4767",
       "origin": "634.392578 4863.000000 1285.141602",
       "angles": "-0.000000 -47.499992 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "246"
+      "_template_lump_ent_index": "247"
     }
   },
   {
@@ -15675,10 +15987,11 @@
         255
       ],
       "model": "models/fixed_darksouls/box.vmdl",
+      "compile_source_id": "4789",
       "origin": "449.392578 1849.000000 95.431641",
       "angles": "0.000000 -92.500008 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "247"
+      "_template_lump_ent_index": "248"
     }
   },
   {
@@ -15741,10 +16054,11 @@
         255
       ],
       "model": "models/fixed_darksouls/barrel.vmdl",
+      "compile_source_id": "4792",
       "origin": "260.392578 601.000000 -112.318359",
       "angles": "0.000000 -137.499985 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "248"
+      "_template_lump_ent_index": "249"
     }
   },
   {
@@ -15807,10 +16121,11 @@
         255
       ],
       "model": "models/fixed_darksouls/barrel.vmdl",
+      "compile_source_id": "4793",
       "origin": "202.392578 600.000000 -112.318359",
       "angles": "0.000000 -137.499985 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "249"
+      "_template_lump_ent_index": "250"
     }
   },
   {
@@ -15873,10 +16188,11 @@
         255
       ],
       "model": "models/fixed_darksouls/barrel.vmdl",
+      "compile_source_id": "4796",
       "origin": "-604.607422 1857.000000 95.431641",
       "angles": "0.000000 -137.499985 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "250"
+      "_template_lump_ent_index": "251"
     }
   },
   {
@@ -15939,10 +16255,11 @@
         255
       ],
       "model": "models/fixed_darksouls/barrel.vmdl",
+      "compile_source_id": "4797",
       "origin": "-546.607422 1858.000000 95.431641",
       "angles": "0.000000 -137.499985 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "251"
+      "_template_lump_ent_index": "252"
     }
   },
   {
@@ -16001,10 +16318,11 @@
       "model": "models/darkroot/vaza1.vmdl",
       "clientsideentity": "0",
       "uselocaloffset": "False",
+      "compile_source_id": "7752",
       "origin": "-811.607422 5124.000000 287.536865",
       "angles": "-0.000000 -74.999992 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "252"
+      "_template_lump_ent_index": "253"
     }
   },
   {
@@ -16065,10 +16383,11 @@
       "model": "models/fixed_darksouls/barrel.vmdl",
       "clientsideentity": "0",
       "uselocaloffset": "False",
+      "compile_source_id": "7955",
       "origin": "469.875488 2584.000000 287.431641",
       "angles": "0.000000 -137.499985 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "253"
+      "_template_lump_ent_index": "254"
     }
   },
   {
@@ -16127,10 +16446,11 @@
       "model": "models/darkroot/vaza1.vmdl",
       "clientsideentity": "0",
       "uselocaloffset": "False",
+      "compile_source_id": "7960",
       "origin": "584.100586 3531.000000 409.536865",
       "angles": "-0.000000 -74.999992 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "254"
+      "_template_lump_ent_index": "255"
     }
   },
   {
@@ -16189,10 +16509,11 @@
       "model": "models/darkroot/vaza1.vmdl",
       "clientsideentity": "0",
       "uselocaloffset": "False",
+      "compile_source_id": "7961",
       "origin": "631.392578 3531.000000 409.536865",
       "angles": "0.000000 -104.999985 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "255"
+      "_template_lump_ent_index": "256"
     }
   },
   {
@@ -16251,10 +16572,11 @@
       "model": "models/darkroot/vaza.vmdl",
       "clientsideentity": "0",
       "uselocaloffset": "False",
+      "compile_source_id": "7962",
       "origin": "677.392578 3531.000000 409.431641",
       "angles": "-0.000000 -74.999992 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "256"
+      "_template_lump_ent_index": "257"
     }
   },
   {
@@ -16313,10 +16635,11 @@
       "model": "models/darkroot/vaza1.vmdl",
       "clientsideentity": "0",
       "uselocaloffset": "False",
+      "compile_source_id": "8001",
       "origin": "-86.607422 5129.000000 287.536865",
       "angles": "-0.000000 -74.999992 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "257"
+      "_template_lump_ent_index": "258"
     }
   },
   {
@@ -16375,10 +16698,11 @@
       "model": "models/darkroot/vaza.vmdl",
       "clientsideentity": "0",
       "uselocaloffset": "False",
+      "compile_source_id": "8002",
       "origin": "-38.607422 5126.000000 287.431641",
       "angles": "0.000000 -104.999985 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "258"
+      "_template_lump_ent_index": "259"
     }
   },
   {
@@ -16437,10 +16761,11 @@
       "model": "models/darkroot/vaza1.vmdl",
       "clientsideentity": "0",
       "uselocaloffset": "False",
+      "compile_source_id": "9303",
       "origin": "-1128.419678 2853.000000 567.536865",
       "angles": "-0.000000 15.000009 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "259"
+      "_template_lump_ent_index": "260"
     }
   },
   {
@@ -16499,10 +16824,11 @@
       "model": "models/darkroot/vaza1.vmdl",
       "clientsideentity": "0",
       "uselocaloffset": "False",
+      "compile_source_id": "9304",
       "origin": "-718.695557 2853.000000 567.536865",
       "angles": "-0.000000 15.000009 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "260"
+      "_template_lump_ent_index": "261"
     }
   },
   {
@@ -16561,10 +16887,11 @@
       "model": "models/darkroot/vaza.vmdl",
       "clientsideentity": "0",
       "uselocaloffset": "False",
+      "compile_source_id": "9305",
       "origin": "-1132.207275 2806.000000 567.431641",
       "angles": "-0.000000 15.000009 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "261"
+      "_template_lump_ent_index": "262"
     }
   }
 ]

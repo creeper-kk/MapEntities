@@ -2,7 +2,7 @@
 // Made by Kyle 'Kxnrl' Frankiss.
 [
   {
-    "classname": "weapon_knife",
+    "classname": "weapon_c4",
     "hammerUniqueId": "140882",
     "targetname": "[PR#]Weapon_BF",
     "properties": {
@@ -25,7 +25,8 @@
       "renderamt": "255",
       "rendermode": "kRenderNormal",
       "renderfx": "kRenderFxNone",
-      "origin": "0.000000 0.003906 0.000000",
+      "compile_source_id": "5010",
+      "origin": "0.000000 0.003906 28.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "angles __RAW_ARRAY__ (FloatingPoint64[3])": [
         -0,
@@ -51,14 +52,6 @@
         "param": "max_health 25000",
         "delay": 0,
         "limit": 1
-      },
-      {
-        "output": "OnPlayerPickup",
-        "target": "[PR#]Item_BF_Strip",
-        "input": "Kill",
-        "param": "",
-        "delay": 0,
-        "limit": -1
       },
       {
         "output": "OnPlayerPickup",
@@ -184,6 +177,7 @@
       "renderfx": "0",
       "uselocaloffset": "False",
       "parentname": "[PR#]Item_BF_Parent",
+      "compile_source_id": "6947",
       "origin": "30.000000 2.003906 23.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -238,38 +232,12 @@
       "clientsideentity": "0",
       "uselocaloffset": "False",
       "parentname": "[PR#]Weapon_BF",
+      "compile_source_id": "7123",
       "origin": "40.000000 2.003906 23.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
       "_template_lump_ent_index": "2"
     }
-  },
-  {
-    "classname": "trigger_multiple",
-    "hammerUniqueId": "141486",
-    "targetname": "[PR#]Item_BF_Strip",
-    "properties": {
-      "wait": "0",
-      "filtername": "[PR#]filter_zm_block_item",
-      "spawnflags": "1",
-      "startdisabled": "False",
-      "uselocaloffset": "False",
-      "origin": "5.000000 -0.005859 2.489990",
-      "angles": "-0.000000 0.000000 0.000000",
-      "scales": "1.000000 1.000000 1.000000",
-      "model": "maps/ze_dark_souls/entities/item_bf_strip_141486.vmdl",
-      "_template_lump_ent_index": "3"
-    },
-    "connections": [
-      {
-        "output": "OnTrigger",
-        "target": "[PR#]Map_Stripper",
-        "input": "Use",
-        "param": "",
-        "delay": 0,
-        "limit": -1
-      }
-    ]
   },
   {
     "classname": "point_soundevent",
@@ -286,10 +254,11 @@
       "sourceentityname": "[PR#]Item_BF_Pic",
       "soundname": "darksouls.items.magic",
       "uselocaloffset": "False",
+      "compile_source_id": "5927",
       "origin": "-8.000000 10.003906 -7.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "4"
+      "_template_lump_ent_index": "3"
     }
   },
   {
@@ -303,10 +272,11 @@
       "target": "[PR#]Item_BF_Parent",
       "measurereference": "[PR#]Item_BF_Parent_Trigger",
       "measuretarget": "[PR#]Item_BF_Parent_Trigger",
+      "compile_source_id": "6282",
       "origin": "22.359863 -20.460938 -19.875000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "5"
+      "_template_lump_ent_index": "4"
     }
   },
   {
@@ -327,10 +297,11 @@
       "spawnflags": "0",
       "uselocaloffset": "False",
       "parentname": "[PR#]Item_BF_Button",
+      "compile_source_id": "7206",
       "origin": "24.000000 2.753906 -10.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "6"
+      "_template_lump_ent_index": "5"
     },
     "connections": [
       {
@@ -348,10 +319,11 @@
     "hammerUniqueId": "144146",
     "targetname": "[PR#]Item_BF_HH",
     "properties": {
+      "compile_source_id": "7166",
       "origin": "-8.000000 66.003906 12.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "7"
+      "_template_lump_ent_index": "6"
     }
   },
   {
@@ -372,10 +344,11 @@
       "case03": "2",
       "case02": "1",
       "case01": "0",
+      "compile_source_id": "7483",
       "origin": "8.000000 66.003906 12.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "8"
+      "_template_lump_ent_index": "7"
     },
     "connections": [
       {
@@ -613,10 +586,11 @@
       "min": "0",
       "startvalue": "3",
       "startdisabled": "False",
+      "compile_source_id": "6112",
       "origin": "24.000000 66.003906 12.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "9"
+      "_template_lump_ent_index": "8"
     },
     "connections": [
       {
@@ -659,10 +633,11 @@
     "targetname": "[PR#]Item_BF_PreCast",
     "properties": {
       "initialvalue": "1",
+      "compile_source_id": "6334",
       "origin": "40.000000 66.003906 12.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "10"
+      "_template_lump_ent_index": "9"
     },
     "connections": [
       {
@@ -763,10 +738,11 @@
       "clientsideentity": "0",
       "uselocaloffset": "False",
       "parentname": "[PR#]Weapon_BF",
+      "compile_source_id": "5638",
       "origin": "8.000000 2.753906 22.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "11"
+      "_template_lump_ent_index": "10"
     }
   },
   {
@@ -779,11 +755,12 @@
       "startdisabled": "False",
       "uselocaloffset": "False",
       "parentname": "[PR#]Weapon_BF",
+      "compile_source_id": "5276",
       "origin": "14.000000 -0.246094 43.000000",
       "angles": "-0.000000 179.999924 0.000000",
       "scales": "1.000000 1.000000 1.000000",
       "model": "maps/ze_dark_souls/entities/item_bf_parent_trigger_141484.vmdl",
-      "_template_lump_ent_index": "12"
+      "_template_lump_ent_index": "11"
     }
   }
 ]

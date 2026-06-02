@@ -24,7 +24,8 @@
       "renderamt": "255",
       "rendermode": "kRenderNormal",
       "renderfx": "kRenderFxNone",
-      "origin": "0.000000 0.003906 0.000000",
+      "compile_source_id": "5015",
+      "origin": "0.000000 0.003906 30.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "angles __RAW_ARRAY__ (FloatingPoint64[3])": [
         -0,
@@ -134,6 +135,7 @@
       "clientsideentity": "0",
       "uselocaloffset": "False",
       "parentname": "[PR#]Weapon_WOTG",
+      "compile_source_id": "6672",
       "origin": "8.000000 2.003906 28.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -174,6 +176,7 @@
       "renderfx": "0",
       "uselocaloffset": "False",
       "parentname": "[PR#]Weapon_WOTG",
+      "compile_source_id": "6939",
       "origin": "30.000000 2.003906 29.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -284,6 +287,7 @@
       "clientsideentity": "0",
       "uselocaloffset": "False",
       "parentname": "[PR#]Weapon_WOTG",
+      "compile_source_id": "7136",
       "origin": "40.000000 2.003906 30.290039",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -308,6 +312,7 @@
       "startdisabled": "True",
       "uselocaloffset": "False",
       "parentname": "[PR#]Item_WOTG_Phys",
+      "compile_source_id": "5106",
       "origin": "-152.000000 2.003906 112.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -333,6 +338,7 @@
       "startdisabled": "True",
       "uselocaloffset": "False",
       "parentname": "[PR#]Item_WOTG_Phys",
+      "compile_source_id": "5107",
       "origin": "8.000000 -157.996094 112.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -358,6 +364,7 @@
       "startdisabled": "True",
       "uselocaloffset": "False",
       "parentname": "[PR#]Item_WOTG_Phys",
+      "compile_source_id": "5108",
       "origin": "8.000000 162.003906 112.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -383,12 +390,50 @@
       "startdisabled": "True",
       "uselocaloffset": "False",
       "parentname": "[PR#]Item_WOTG_Phys",
+      "compile_source_id": "5109",
       "origin": "168.000000 2.003906 112.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
       "model": "maps/ze_dark_souls/entities/wotg_push_141083.vmdl",
       "_template_lump_ent_index": "7"
     }
+  },
+  {
+    "classname": "trigger_multiple",
+    "hammerUniqueId": "206671",
+    "targetname": "[PR#]WOTG_Push",
+    "properties": {
+      "wait": "1",
+      "filtername": "[PR#]SMS_Filter",
+      "spawnflags": "1024",
+      "startdisabled": "True",
+      "uselocaloffset": "False",
+      "parentname": "[PR#]Item_WOTG_Phys",
+      "compile_source_id": "9629",
+      "origin": "8.000000 2.003906 112.000000",
+      "angles": "-0.000000 0.000000 0.000000",
+      "scales": "1.000000 1.000000 1.000000",
+      "model": "maps/ze_dark_souls/entities/wotg_push_206671.vmdl",
+      "_template_lump_ent_index": "8"
+    },
+    "connections": [
+      {
+        "output": "OnStartTouch",
+        "target": "!activator",
+        "input": "FireUser1",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnStartTouch",
+        "target": "[PR#]SMS_Sound",
+        "input": "StartSound",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      }
+    ]
   },
   {
     "classname": "point_soundevent",
@@ -405,10 +450,11 @@
       "sourceentityname": "[PR#]Item_WOTG_Pic",
       "soundname": "darksouls.items.WOFG",
       "uselocaloffset": "False",
+      "compile_source_id": "5919",
       "origin": "-8.000000 10.003906 -8.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "8"
+      "_template_lump_ent_index": "9"
     }
   },
   {
@@ -416,6 +462,7 @@
     "hammerUniqueId": "143398",
     "targetname": "[PR#]Item_WOTG_Phys",
     "properties": {
+      "fluiddragscale": "1",
       "hoverposeangles": "0.000000 0.000000 0.000000",
       "hoverposeangles __RAW_ARRAY__ (FloatingPoint64[3])": [
         0,
@@ -480,11 +527,12 @@
       "exploderadius": "0",
       "explodedamage": "0",
       "disableshadows": "0",
+      "compile_source_id": "6822",
       "origin": "7.000000 2.003906 60.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
       "model": "maps/ze_dark_souls/entities/item_wotg_phys_143398.vmdl",
-      "_template_lump_ent_index": "9"
+      "_template_lump_ent_index": "10"
     }
   },
   {
@@ -495,10 +543,11 @@
       "clientsideentity": "0",
       "responsecontext": "f_wotg",
       "negated": "0",
+      "compile_source_id": "7076",
       "origin": "-41.857910 -1.686035 -8.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "10"
+      "_template_lump_ent_index": "11"
     },
     "connections": [
       {
@@ -525,10 +574,11 @@
     "targetname": "[PR#]Item_WOTG_PreCast",
     "properties": {
       "initialvalue": "1",
+      "compile_source_id": "6326",
       "origin": "-57.857910 -1.686035 -8.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "11"
+      "_template_lump_ent_index": "12"
     },
     "connections": [
       {
@@ -582,10 +632,11 @@
       "min": "0",
       "startvalue": "2",
       "startdisabled": "False",
+      "compile_source_id": "6104",
       "origin": "-75.052734 -0.378418 -8.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "12"
+      "_template_lump_ent_index": "13"
     },
     "connections": [
       {
@@ -640,10 +691,11 @@
       "case03": "2",
       "case02": "1",
       "case01": "0",
+      "compile_source_id": "7475",
       "origin": "-89.857910 -1.686035 -8.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "13"
+      "_template_lump_ent_index": "14"
     },
     "connections": [
       {
@@ -877,10 +929,11 @@
     "hammerUniqueId": "144138",
     "targetname": "[PR#]Item_WOTG_HH",
     "properties": {
+      "compile_source_id": "7158",
       "origin": "-105.857910 -1.686035 -8.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "14"
+      "_template_lump_ent_index": "15"
     }
   }
 ]

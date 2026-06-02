@@ -171,11 +171,12 @@
       ],
       "enabled": "True",
       "uselocaloffset": "False",
-      "cascadedistancefade": "0.050000",
-      "cascadecrossfade": "0.100000",
+      "cascadedistancefade": "0.05000000074505806",
+      "cascadecrossfade": "0.10000000149011612",
       "origin": "-1058.197266 5876.675293 793.901306",
       "angles": "45.000000 101.568985 2.436620",
-      "scales": "1.000000 1.000000 1.000000"
+      "scales": "1.000000 1.000000 1.000000",
+      "nearclipplane": "1"
     }
   },
   {
@@ -1418,7 +1419,7 @@
         "output": "OnUser1",
         "target": "!self",
         "input": "Add",
-        "param": "1",
+        "param": "2",
         "delay": 0,
         "limit": -1
       }
@@ -1883,22 +1884,6 @@
         "target": "[PR#]Level_Case",
         "input": "InValue",
         "param": "",
-        "delay": 0,
-        "limit": -1
-      },
-      {
-        "output": "OnHitMax",
-        "target": "[PR#]FCS_Tottal",
-        "input": "Add",
-        "param": "20",
-        "delay": 0,
-        "limit": -1
-      },
-      {
-        "output": "OnChangedFromMax",
-        "target": "[PR#]FCS_Tottal",
-        "input": "Subtract",
-        "param": "20",
         "delay": 0,
         "limit": -1
       }
@@ -3509,6 +3494,14 @@
         "param": "",
         "delay": 0.02,
         "limit": -1
+      },
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]Vote_Ember_Count_03",
+        "input": "SetMessage",
+        "param": "",
+        "delay": 0,
+        "limit": -1
       }
     ]
   },
@@ -3628,6 +3621,14 @@
         "input": "InValue",
         "param": "",
         "delay": 0.02,
+        "limit": -1
+      },
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]Vote_Ember_Count_01",
+        "input": "SetMessage",
+        "param": "",
+        "delay": 0,
         "limit": -1
       }
     ]
@@ -3757,6 +3758,14 @@
         "param": "",
         "delay": 0.02,
         "limit": -1
+      },
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]Vote_Ember_Count_00",
+        "input": "SetMessage",
+        "param": "",
+        "delay": 0,
+        "limit": -1
       }
     ]
   },
@@ -3844,6 +3853,14 @@
         "input": "InValue",
         "param": "",
         "delay": 0.02,
+        "limit": -1
+      },
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]Vote_Ember_Count_02",
+        "input": "SetMessage",
+        "param": "",
+        "delay": 0,
         "limit": -1
       }
     ]
@@ -4497,6 +4514,78 @@
         "input": "Kill",
         "param": "",
         "delay": 0,
+        "limit": -1
+      }
+    ]
+  },
+  {
+    "classname": "math_counter",
+    "hammerUniqueId": "820",
+    "targetname": "[PR#]Vote_PEmber_Phase_Counter",
+    "properties": {
+      "max": "5",
+      "min": "0",
+      "startvalue": "0",
+      "startdisabled": "False",
+      "origin": "-1090.000000 5536.000000 736.000000",
+      "angles": "0.000000 90.000000 0.000000",
+      "scales": "1.000000 1.000000 1.000000"
+    },
+    "connections": [
+      {
+        "output": "OnHitMax",
+        "target": "[PR#]Vote_Ember_Start_Relay",
+        "input": "CancelPending",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnUser1",
+        "target": "[PR#]Vote_Ember_*",
+        "input": "Kill",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnHitMax",
+        "target": "!self",
+        "input": "FireUser1",
+        "param": "",
+        "delay": 1.95,
+        "limit": -1
+      },
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]Vote_Ember_Phase_Counter_Display",
+        "input": "Subtract",
+        "param": "",
+        "delay": 0.02,
+        "limit": -1
+      },
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]Vote_Ember_Phase_Counter_Display",
+        "input": "SetValueNoFire",
+        "param": "5",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OutValue",
+        "target": "!self",
+        "input": "GetValue",
+        "param": "",
+        "delay": 0,
+        "limit": -1
+      },
+      {
+        "output": "OnGetValue",
+        "target": "[PR#]Vote_Ember_Phase_Case",
+        "input": "InValue",
+        "param": "",
+        "delay": 0.02,
         "limit": -1
       }
     ]

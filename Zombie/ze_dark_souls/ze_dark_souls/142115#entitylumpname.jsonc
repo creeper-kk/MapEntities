@@ -59,6 +59,7 @@
         255
       ],
       "model": "models/fixed_darksouls/souls2/vaza1.vmdl",
+      "compile_source_id": "1823",
       "origin": "-129.855469 -130.667969 -4161.722168",
       "angles": "-0.000000 4.500000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -123,74 +124,11 @@
         255
       ],
       "model": "models/fixed_darksouls/souls2/vaza1.vmdl",
+      "compile_source_id": "1825",
       "origin": "-167.855469 -142.667969 -4161.722168",
       "angles": "-0.000000 4.500000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
       "_template_lump_ent_index": "1"
-    }
-  },
-  {
-    "classname": "prop_dynamic",
-    "hammerUniqueId": "140863",
-    "targetname": "[PR#]torch3",
-    "properties": {
-      "clothscale": "1",
-      "startdisabled": "False",
-      "forcenpcexclude": "False",
-      "createnavobstacle": "False",
-      "animateonserver": "False",
-      "lagcompensate": "False",
-      "randomizecycle": "False",
-      "idleanimationloopmode": "ANIM_LOOP_MODE_NOT_LOOPING",
-      "startinganimationloopmode": "ANIM_LOOP_MODE_NOT_LOOPING",
-      "use_animgraph": "True",
-      "disablelowviolence": "0",
-      "glowteam": "-1",
-      "glowcolor": "0 0 0",
-      "glowcolor __RAW_ARRAY__ (UInt64[3])": [
-        0,
-        0,
-        0
-      ],
-      "glowrangemin": "0",
-      "glowrange": "0",
-      "glowstate": "0",
-      "lightmapstatic": "0",
-      "object_culling": "0",
-      "fademaxdist": "0",
-      "disablereceiveshadows": "False",
-      "rendermode": "kRenderNormal",
-      "renderfx": "kRenderFxNone",
-      "breakablecontentstype": "BC_DEFAULT",
-      "burstscale": "100",
-      "pressuredelay": "0",
-      "spawnflags": "0",
-      "nointerpolate": "False",
-      "performancemode": "PM_NORMAL",
-      "exploderadius": "0",
-      "explodedamage": "0",
-      "clientsideentity": "0",
-      "uselocaloffset": "False",
-      "screenspacefade": "0",
-      "renderamt": "255",
-      "fadescale": "1",
-      "fademindist": "-1",
-      "rendertocubemaps": "True",
-      "disableshadows": "0",
-      "bakelighting": "0",
-      "solid": "6",
-      "skin": "default",
-      "rendercolor": "255 255 255",
-      "rendercolor __RAW_ARRAY__ (UInt64[3])": [
-        255,
-        255,
-        255
-      ],
-      "model": "models/fixed_darksouls/box.vmdl",
-      "origin": "-210.855469 -279.291016 -6606.000000",
-      "angles": "-0.000000 -175.500000 0.000000",
-      "scales": "0.750000 0.750000 0.750000",
-      "_template_lump_ent_index": "2"
     }
   },
   {
@@ -251,10 +189,11 @@
         255
       ],
       "model": "models/blightown/static/fence.vmdl",
+      "compile_source_id": "1847",
       "origin": "-3754.855469 1848.332031 -6894.000000",
       "angles": "-0.000000 -34.500011 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "3"
+      "_template_lump_ent_index": "2"
     }
   },
   {
@@ -315,10 +254,11 @@
         255
       ],
       "model": "models/fixed_darksouls/souls2/vaza1.vmdl",
+      "compile_source_id": "1848",
       "origin": "-4884.855469 -458.869629 -6889.000000",
       "angles": "-0.000000 64.499985 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "4"
+      "_template_lump_ent_index": "3"
     }
   },
   {
@@ -379,10 +319,11 @@
         255
       ],
       "model": "models/blightown/static/fence.vmdl",
+      "compile_source_id": "1853",
       "origin": "-1432.855469 1911.332031 -6913.710938",
       "angles": "-8.644135 -85.433609 12.305810",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "5"
+      "_template_lump_ent_index": "4"
     }
   },
   {
@@ -443,10 +384,11 @@
         255
       ],
       "model": "models/blightown/static/fence.vmdl",
-      "origin": "-2204.855469 1956.332031 -6913.710938",
+      "compile_source_id": "1854",
+      "origin": "-2204.855469 1441.092285 -6913.710938",
       "angles": "-8.644134 -100.433601 12.305810",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "6"
+      "_template_lump_ent_index": "5"
     }
   },
   {
@@ -507,10 +449,11 @@
         255
       ],
       "model": "models/blightown/static/fence.vmdl",
-      "origin": "-1787.855469 1911.332031 -6913.710938",
+      "compile_source_id": "1855",
+      "origin": "-1787.855469 1396.092285 -6913.710938",
       "angles": "-8.644135 -85.433609 12.305810",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "7"
+      "_template_lump_ent_index": "6"
     }
   },
   {
@@ -571,10 +514,11 @@
         255
       ],
       "model": "models/blightown/static/fence.vmdl",
-      "origin": "-1927.855469 1933.332031 -6913.710938",
+      "compile_source_id": "1856",
+      "origin": "-1927.855469 1418.092285 -6913.710938",
       "angles": "-8.644135 -100.433601 12.305812",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "8"
+      "_template_lump_ent_index": "7"
     }
   },
   {
@@ -635,10 +579,11 @@
         255
       ],
       "model": "models/fixed_darksouls/souls2/vaza1.vmdl",
+      "compile_source_id": "1857",
       "origin": "-4020.617188 -407.748535 -6864.888672",
       "angles": "-4.346363 36.166904 -0.044286",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "9"
+      "_template_lump_ent_index": "8"
     }
   },
   {
@@ -699,10 +644,11 @@
         255
       ],
       "model": "models/fixed_darksouls/souls2/vaza1.vmdl",
+      "compile_source_id": "1858",
       "origin": "-4050.225098 -402.131348 -6856.723633",
       "angles": "-19.346354 36.179058 -0.046801",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "10"
+      "_template_lump_ent_index": "9"
     }
   },
   {
@@ -763,10 +709,11 @@
         255
       ],
       "model": "models/blightown/static/fence.vmdl",
+      "compile_source_id": "1860",
       "origin": "-3813.890869 1532.842285 -6894.000000",
       "angles": "-0.000000 -4.499991 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "11"
+      "_template_lump_ent_index": "10"
     }
   },
   {
@@ -827,10 +774,11 @@
         255
       ],
       "model": "models/blightown/static/fence.vmdl",
+      "compile_source_id": "1861",
       "origin": "-3849.084229 1411.070312 -6894.000000",
       "angles": "-0.000000 -64.500000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "12"
+      "_template_lump_ent_index": "11"
     }
   },
   {
@@ -891,10 +839,11 @@
         255
       ],
       "model": "models/fixed_darksouls/souls2/vaza1.vmdl",
+      "compile_source_id": "1866",
       "origin": "-3988.803711 607.604980 -6870.714844",
       "angles": "-19.346357 36.179062 -0.046801",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "13"
+      "_template_lump_ent_index": "12"
     }
   },
   {
@@ -955,10 +904,11 @@
         255
       ],
       "model": "models/fixed_darksouls/souls2/vaza1.vmdl",
+      "compile_source_id": "1867",
       "origin": "-3131.155762 651.600586 -6890.250977",
       "angles": "-7.436308 -100.308693 73.804428",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "14"
+      "_template_lump_ent_index": "13"
     }
   },
   {
@@ -1016,10 +966,11 @@
         255
       ],
       "model": "models/static_obj/torch.vmdl",
+      "compile_source_id": "1868",
       "origin": "-4066.170166 750.470215 -6874.917969",
       "angles": "-0.000000 74.999985 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "15"
+      "_template_lump_ent_index": "14"
     }
   },
   {
@@ -1077,10 +1028,11 @@
         255
       ],
       "model": "models/static_obj/torch.vmdl",
+      "compile_source_id": "1869",
       "origin": "-5120.391113 1051.788574 -6875.472656",
       "angles": "-0.000000 -45.000004 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "16"
+      "_template_lump_ent_index": "15"
     }
   },
   {
@@ -1138,76 +1090,11 @@
         255
       ],
       "model": "models/static_obj/torch.vmdl",
+      "compile_source_id": "1873",
       "origin": "-4220.855469 -1168.667969 -6884.000000",
       "angles": "-0.000000 15.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "17"
-    }
-  },
-  {
-    "classname": "prop_dynamic",
-    "hammerUniqueId": "136637",
-    "targetname": "[PR#]torch3",
-    "properties": {
-      "clothscale": "1",
-      "startdisabled": "False",
-      "forcenpcexclude": "False",
-      "createnavobstacle": "False",
-      "animateonserver": "False",
-      "lagcompensate": "False",
-      "randomizecycle": "False",
-      "idleanimationloopmode": "ANIM_LOOP_MODE_NOT_LOOPING",
-      "startinganimationloopmode": "ANIM_LOOP_MODE_NOT_LOOPING",
-      "use_animgraph": "True",
-      "disablelowviolence": "0",
-      "glowteam": "-1",
-      "glowcolor": "0 0 0",
-      "glowcolor __RAW_ARRAY__ (UInt64[3])": [
-        0,
-        0,
-        0
-      ],
-      "glowrangemin": "0",
-      "glowrange": "0",
-      "glowstate": "0",
-      "lightmapstatic": "0",
-      "object_culling": "0",
-      "fademaxdist": "0",
-      "disablereceiveshadows": "False",
-      "rendermode": "kRenderNormal",
-      "renderfx": "kRenderFxNone",
-      "breakablecontentstype": "BC_DEFAULT",
-      "burstscale": "100",
-      "pressuredelay": "0",
-      "spawnflags": "0",
-      "nointerpolate": "False",
-      "performancemode": "PM_NORMAL",
-      "exploderadius": "0",
-      "explodedamage": "0",
-      "clientsideentity": "0",
-      "uselocaloffset": "False",
-      "fademindist": "-1",
-      "fadescale": "1",
-      "lightmapresolutionx": "32",
-      "lightmapresolutiony": "32",
-      "renderamt": "255",
-      "screenspacefade": "0",
-      "rendertocubemaps": "True",
-      "disableshadows": "0",
-      "bakelighting": "0",
-      "solid": "6",
-      "skin": "default",
-      "rendercolor": "255 255 255",
-      "rendercolor __RAW_ARRAY__ (UInt64[3])": [
-        255,
-        255,
-        255
-      ],
-      "model": "models/fixed_darksouls/box.vmdl",
-      "origin": "-5112.855469 156.936523 -6862.000000",
-      "angles": "-0.000000 146.499985 0.000000",
-      "scales": "0.750000 0.750000 0.750000",
-      "_template_lump_ent_index": "18"
+      "_template_lump_ent_index": "16"
     }
   },
   {
@@ -1268,10 +1155,11 @@
         255
       ],
       "model": "models/fixed_darksouls/souls2/vaza1.vmdl",
+      "compile_source_id": "1884",
       "origin": "-4871.855469 391.332031 -6867.000000",
       "angles": "-6.397437 65.263374 -13.595752",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "19"
+      "_template_lump_ent_index": "17"
     }
   },
   {
@@ -1332,10 +1220,11 @@
         255
       ],
       "model": "models/fixed_darksouls/souls2/vaza1.vmdl",
+      "compile_source_id": "1885",
       "origin": "-4880.302734 426.437012 -6867.000000",
       "angles": "-0.000000 64.499992 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "20"
+      "_template_lump_ent_index": "18"
     }
   },
   {
@@ -1396,10 +1285,11 @@
         255
       ],
       "model": "models/fixed_darksouls/souls2/vaza1.vmdl",
+      "compile_source_id": "1889",
       "origin": "-4866.855469 67.332031 -6864.000000",
       "angles": "1.823660 -67.955727 79.535332",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "21"
+      "_template_lump_ent_index": "19"
     }
   },
   {
@@ -1460,10 +1350,11 @@
         255
       ],
       "model": "models/fixed_darksouls/souls2/vaza1.vmdl",
+      "compile_source_id": "1890",
       "origin": "-5118.855469 983.332031 -6880.000000",
       "angles": "7.344254 50.918705 65.537689",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "22"
+      "_template_lump_ent_index": "20"
     }
   },
   {
@@ -1521,10 +1412,11 @@
         255
       ],
       "model": "models/static_obj/torch.vmdl",
+      "compile_source_id": "1891",
       "origin": "-5119.855469 -591.667969 -6884.000000",
       "angles": "-0.000000 30.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "23"
+      "_template_lump_ent_index": "21"
     }
   },
   {
@@ -1585,10 +1477,11 @@
         255
       ],
       "model": "models/blightown/static/fence.vmdl",
-      "origin": "-2693.855469 1787.332031 -6902.000000",
+      "compile_source_id": "2065",
+      "origin": "-2511.484131 1277.110840 -6902.000000",
       "angles": "-0.000000 -84.500000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "24"
+      "_template_lump_ent_index": "22"
     }
   },
   {
@@ -1649,10 +1542,11 @@
         255
       ],
       "model": "models/fixed_darksouls/souls2/vaza1.vmdl",
+      "compile_source_id": "2113",
       "origin": "-1172.855469 1789.332031 -6295.439453",
       "angles": "-0.000000 4.500000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "25"
+      "_template_lump_ent_index": "23"
     }
   },
   {
@@ -1713,10 +1607,11 @@
         255
       ],
       "model": "models/fixed_darksouls/souls2/vaza1.vmdl",
+      "compile_source_id": "2114",
       "origin": "-1068.855469 1747.332031 -6295.439453",
       "angles": "-0.000000 4.500000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "26"
+      "_template_lump_ent_index": "24"
     }
   },
   {
@@ -1774,10 +1669,11 @@
         255
       ],
       "model": "models/static_obj/torch.vmdl",
+      "compile_source_id": "2116",
       "origin": "-1135.795654 1651.725586 -6297.722656",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "27"
+      "_template_lump_ent_index": "25"
     }
   },
   {
@@ -1838,10 +1734,11 @@
         255
       ],
       "model": "models/fixed_darksouls/barrel.vmdl",
+      "compile_source_id": "2140",
       "origin": "-2898.855469 12246.332031 -8077.000000",
       "angles": "-0.000000 132.500015 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "28"
+      "_template_lump_ent_index": "26"
     }
   },
   {
@@ -1902,10 +1799,11 @@
         255
       ],
       "model": "models/fixed_darksouls/barrel.vmdl",
+      "compile_source_id": "2141",
       "origin": "-2850.855469 12244.332031 -8077.000000",
       "angles": "-0.000000 -167.499939 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "29"
+      "_template_lump_ent_index": "27"
     }
   },
   {
@@ -1966,74 +1864,11 @@
         255
       ],
       "model": "models/fixed_darksouls/barrel.vmdl",
+      "compile_source_id": "2142",
       "origin": "-3092.855469 12316.332031 -7754.388672",
       "angles": "-0.000000 -167.499954 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "30"
-    }
-  },
-  {
-    "classname": "prop_dynamic",
-    "hammerUniqueId": "25461",
-    "targetname": "[PR#]torch3",
-    "properties": {
-      "clothscale": "1",
-      "startdisabled": "False",
-      "forcenpcexclude": "False",
-      "createnavobstacle": "False",
-      "animateonserver": "False",
-      "lagcompensate": "False",
-      "randomizecycle": "False",
-      "idleanimationloopmode": "ANIM_LOOP_MODE_NOT_LOOPING",
-      "startinganimationloopmode": "ANIM_LOOP_MODE_NOT_LOOPING",
-      "use_animgraph": "True",
-      "disablelowviolence": "0",
-      "glowteam": "-1",
-      "glowcolor": "0 0 0",
-      "glowcolor __RAW_ARRAY__ (UInt64[3])": [
-        0,
-        0,
-        0
-      ],
-      "glowrangemin": "0",
-      "glowrange": "0",
-      "glowstate": "0",
-      "lightmapstatic": "0",
-      "object_culling": "0",
-      "fademaxdist": "0",
-      "disablereceiveshadows": "False",
-      "rendermode": "kRenderNormal",
-      "renderfx": "kRenderFxNone",
-      "breakablecontentstype": "BC_DEFAULT",
-      "burstscale": "100",
-      "pressuredelay": "0",
-      "spawnflags": "0",
-      "nointerpolate": "False",
-      "performancemode": "PM_NORMAL",
-      "exploderadius": "0",
-      "explodedamage": "0",
-      "clientsideentity": "0",
-      "uselocaloffset": "False",
-      "fademindist": "-1",
-      "fadescale": "1",
-      "renderamt": "255",
-      "screenspacefade": "0",
-      "rendertocubemaps": "True",
-      "disableshadows": "0",
-      "bakelighting": "0",
-      "solid": "6",
-      "skin": "default",
-      "rendercolor": "255 255 255",
-      "rendercolor __RAW_ARRAY__ (UInt64[3])": [
-        255,
-        255,
-        255
-      ],
-      "model": "models/fixed_darksouls/box.vmdl",
-      "origin": "-2745.855469 12159.332031 -7754.388672",
-      "angles": "-0.000000 124.500015 0.000000",
-      "scales": "0.750000 0.750000 0.750000",
-      "_template_lump_ent_index": "31"
+      "_template_lump_ent_index": "28"
     }
   },
   {
@@ -2094,10 +1929,11 @@
         255
       ],
       "model": "models/fixed_darksouls/box2.vmdl",
+      "compile_source_id": "2273",
       "origin": "950.144531 -466.285156 -6606.000000",
       "angles": "-0.000000 68.999985 0.000000",
       "scales": "0.750000 0.750000 0.750000",
-      "_template_lump_ent_index": "32"
+      "_template_lump_ent_index": "29"
     }
   },
   {
@@ -2158,10 +1994,11 @@
         255
       ],
       "model": "models/fixed_darksouls/box2.vmdl",
+      "compile_source_id": "2274",
       "origin": "531.557617 -92.667969 -6571.000000",
       "angles": "-0.000000 68.999985 0.000000",
       "scales": "0.750000 0.750000 0.750000",
-      "_template_lump_ent_index": "33"
+      "_template_lump_ent_index": "30"
     }
   },
   {
@@ -2222,10 +2059,11 @@
         255
       ],
       "model": "models/fixed_darksouls/box2.vmdl",
+      "compile_source_id": "2275",
       "origin": "531.557617 -89.667969 -6606.000000",
       "angles": "-0.000000 98.999992 0.000000",
       "scales": "0.750000 0.750000 0.750000",
-      "_template_lump_ent_index": "34"
+      "_template_lump_ent_index": "31"
     }
   },
   {
@@ -2286,10 +2124,11 @@
         255
       ],
       "model": "models/blightown/static/fence.vmdl",
+      "compile_source_id": "2299",
       "origin": "-1073.855591 1550.332031 -6897.000000",
       "angles": "-0.000000 -31.500029 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "35"
+      "_template_lump_ent_index": "32"
     }
   },
   {
@@ -2347,10 +2186,11 @@
         255
       ],
       "model": "models/static_obj/torch.vmdl",
+      "compile_source_id": "2509",
       "origin": "-2266.685303 -1428.003906 -6878.000000",
       "angles": "10.545289 45.992973 10.728581",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "36"
+      "_template_lump_ent_index": "33"
     }
   },
   {
@@ -2408,10 +2248,11 @@
         255
       ],
       "model": "models/static_obj/torch.vmdl",
+      "compile_source_id": "2510",
       "origin": "-1815.855469 2150.332031 -6883.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "37"
+      "_template_lump_ent_index": "34"
     }
   },
   {
@@ -2469,10 +2310,11 @@
         255
       ],
       "model": "models/static_obj/torch.vmdl",
+      "compile_source_id": "2511",
       "origin": "-3846.855469 -3146.667969 -6882.000000",
       "angles": "-0.000000 -30.000010 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "38"
+      "_template_lump_ent_index": "35"
     }
   },
   {
@@ -2530,10 +2372,11 @@
         255
       ],
       "model": "models/static_obj/torch.vmdl",
+      "compile_source_id": "2512",
       "origin": "-3746.746338 -1687.778809 -6882.000000",
       "angles": "-0.000000 30.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "39"
+      "_template_lump_ent_index": "36"
     }
   },
   {
@@ -2591,10 +2434,11 @@
         255
       ],
       "model": "models/static_obj/torch.vmdl",
+      "compile_source_id": "2513",
       "origin": "-3746.855469 -876.667969 -6877.000000",
       "angles": "-0.000000 30.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "40"
+      "_template_lump_ent_index": "37"
     }
   },
   {
@@ -2652,10 +2496,11 @@
         255
       ],
       "model": "models/static_obj/torch.vmdl",
+      "compile_source_id": "2514",
       "origin": "-2213.734619 2855.824219 -6886.000000",
       "angles": "-0.000000 -30.000010 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "41"
+      "_template_lump_ent_index": "38"
     }
   },
   {
@@ -2713,10 +2558,11 @@
         255
       ],
       "model": "models/static_obj/torch.vmdl",
+      "compile_source_id": "2515",
       "origin": "-833.855469 1559.332031 -6457.822266",
       "angles": "-0.000000 -30.000010 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "42"
+      "_template_lump_ent_index": "39"
     }
   },
   {
@@ -2774,10 +2620,11 @@
         255
       ],
       "model": "models/static_obj/torch.vmdl",
+      "compile_source_id": "2516",
       "origin": "-972.855469 1095.332031 -6409.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "43"
+      "_template_lump_ent_index": "40"
     }
   },
   {
@@ -2835,10 +2682,11 @@
         255
       ],
       "model": "models/static_obj/torch.vmdl",
+      "compile_source_id": "2517",
       "origin": "-1205.855469 1433.332031 -6624.000000",
       "angles": "-0.000000 30.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "44"
+      "_template_lump_ent_index": "41"
     }
   },
   {
@@ -2896,10 +2744,11 @@
         255
       ],
       "model": "models/static_obj/torch.vmdl",
+      "compile_source_id": "2518",
       "origin": "-1265.855469 941.332031 -6616.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "45"
+      "_template_lump_ent_index": "42"
     }
   },
   {
@@ -2957,10 +2806,11 @@
         255
       ],
       "model": "models/static_obj/torch.vmdl",
+      "compile_source_id": "2519",
       "origin": "-2386.855469 -95.667969 -6887.000000",
       "angles": "-0.000000 45.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "46"
+      "_template_lump_ent_index": "43"
     }
   },
   {
@@ -3018,10 +2868,11 @@
         255
       ],
       "model": "models/static_obj/torch.vmdl",
+      "compile_source_id": "2520",
       "origin": "-3871.855469 2799.332031 -6881.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "47"
+      "_template_lump_ent_index": "44"
     }
   },
   {
@@ -3079,10 +2930,11 @@
         255
       ],
       "model": "models/static_obj/torch.vmdl",
+      "compile_source_id": "2521",
       "origin": "-5023.855469 2003.332031 -6884.000000",
       "angles": "-0.000000 15.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "48"
+      "_template_lump_ent_index": "45"
     }
   },
   {
@@ -3140,10 +2992,11 @@
         255
       ],
       "model": "models/static_obj/torch.vmdl",
+      "compile_source_id": "2522",
       "origin": "-3868.855469 1598.332031 -6885.000000",
       "angles": "-0.000000 -45.000004 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "49"
+      "_template_lump_ent_index": "46"
     }
   },
   {
@@ -3201,10 +3054,11 @@
         255
       ],
       "model": "models/static_obj/torch.vmdl",
+      "compile_source_id": "2523",
       "origin": "-3203.855469 351.332031 -6881.800781",
       "angles": "-0.000000 30.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "50"
+      "_template_lump_ent_index": "47"
     }
   },
   {
@@ -3262,10 +3116,11 @@
         255
       ],
       "model": "models/static_obj/torch.vmdl",
+      "compile_source_id": "2524",
       "origin": "-1770.855469 951.332031 -6872.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "51"
+      "_template_lump_ent_index": "48"
     }
   },
   {
@@ -3326,10 +3181,11 @@
         255
       ],
       "model": "models/fixed_darksouls/souls2/vaza1.vmdl",
+      "compile_source_id": "2547",
       "origin": "-1162.855469 1422.332031 -6622.078125",
       "angles": "-0.000000 -25.500008 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "52"
+      "_template_lump_ent_index": "49"
     }
   },
   {
@@ -3390,10 +3246,11 @@
         255
       ],
       "model": "models/fixed_darksouls/souls2/vaza1.vmdl",
+      "compile_source_id": "2548",
       "origin": "-1129.855469 1410.332031 -6622.078125",
       "angles": "-0.000000 -25.500008 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "53"
+      "_template_lump_ent_index": "50"
     }
   },
   {
@@ -3447,7 +3304,7 @@
       "rendertocubemaps": "True",
       "disableshadows": "0",
       "bakelighting": "0",
-      "solid": "6",
+      "solid": "0",
       "skin": "default",
       "rendercolor": "255 255 255",
       "rendercolor __RAW_ARRAY__ (UInt64[3])": [
@@ -3456,10 +3313,11 @@
         255
       ],
       "model": "models/props/dust_massive/rocks/cliff_rock002.vmdl",
+      "compile_source_id": "2739",
       "origin": "-2068.855469 2153.332031 -6884.000000",
       "angles": "-33.071308 58.710098 65.911789",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "54"
+      "_template_lump_ent_index": "51"
     }
   },
   {
@@ -3520,10 +3378,11 @@
         255
       ],
       "model": "models/fixed_darksouls/souls2/vaza1.vmdl",
+      "compile_source_id": "2796",
       "origin": "-2164.855469 2611.437256 -6873.000000",
       "angles": "-4.346366 14.166924 74.955704",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "55"
+      "_template_lump_ent_index": "52"
     }
   },
   {
@@ -3584,10 +3443,11 @@
         255
       ],
       "model": "models/fixed_darksouls/souls2/vaza1.vmdl",
+      "compile_source_id": "2797",
       "origin": "-2164.855469 2522.760010 -6875.000000",
       "angles": "-0.000000 -25.500008 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "56"
+      "_template_lump_ent_index": "53"
     }
   },
   {
@@ -3650,10 +3510,11 @@
         255
       ],
       "model": "models/props/dust_massive/rocks/cliff_rock002.vmdl",
+      "compile_source_id": "2798",
       "origin": "-3822.855469 -927.667969 -6881.000000",
       "angles": "12.827690 -17.242910 -108.477158",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "57"
+      "_template_lump_ent_index": "54"
     }
   },
   {
@@ -3716,10 +3577,11 @@
         255
       ],
       "model": "models/props/dust_massive/rocks/cliff_rock002.vmdl",
+      "compile_source_id": "2799",
       "origin": "-2268.855469 -297.667969 -6866.000977",
       "angles": "12.827692 43.757069 -108.477158",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "58"
+      "_template_lump_ent_index": "55"
     }
   },
   {
@@ -3782,10 +3644,11 @@
         255
       ],
       "model": "models/props/dust_massive/rocks/cliff_rock002.vmdl",
+      "compile_source_id": "2800",
       "origin": "-3896.855469 2886.332031 -6889.000000",
       "angles": "-33.071308 -76.289894 65.911789",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "59"
+      "_template_lump_ent_index": "56"
     }
   },
   {
@@ -3846,10 +3709,11 @@
         255
       ],
       "model": "models/blightown/static/fence.vmdl",
+      "compile_source_id": "2808",
       "origin": "-3285.855469 -2644.667969 -6902.000000",
       "angles": "-0.000000 95.499969 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "60"
+      "_template_lump_ent_index": "57"
     }
   },
   {
@@ -3910,10 +3774,11 @@
         255
       ],
       "model": "models/fixed_darksouls/souls2/vaza1.vmdl",
+      "compile_source_id": "2812",
       "origin": "-2412.855469 -1332.667969 -6878.000000",
       "angles": "-4.346365 76.166908 74.955704",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "61"
+      "_template_lump_ent_index": "58"
     }
   },
   {
@@ -3974,74 +3839,11 @@
         255
       ],
       "model": "models/fixed_darksouls/souls2/vaza1.vmdl",
+      "compile_source_id": "2813",
       "origin": "-1586.855469 1124.332031 -6895.000000",
       "angles": "-4.346365 61.166924 74.955704",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "62"
-    }
-  },
-  {
-    "classname": "prop_dynamic",
-    "hammerUniqueId": "23952",
-    "targetname": "[PR#]torch3",
-    "properties": {
-      "clothscale": "1",
-      "startdisabled": "False",
-      "forcenpcexclude": "False",
-      "createnavobstacle": "False",
-      "animateonserver": "False",
-      "lagcompensate": "False",
-      "randomizecycle": "False",
-      "idleanimationloopmode": "ANIM_LOOP_MODE_NOT_LOOPING",
-      "startinganimationloopmode": "ANIM_LOOP_MODE_NOT_LOOPING",
-      "use_animgraph": "True",
-      "disablelowviolence": "0",
-      "glowteam": "-1",
-      "glowcolor": "0 0 0",
-      "glowcolor __RAW_ARRAY__ (UInt64[3])": [
-        0,
-        0,
-        0
-      ],
-      "glowrangemin": "0",
-      "glowrange": "0",
-      "glowstate": "0",
-      "lightmapstatic": "0",
-      "object_culling": "0",
-      "fademaxdist": "0",
-      "disablereceiveshadows": "False",
-      "rendermode": "kRenderNormal",
-      "renderfx": "kRenderFxNone",
-      "breakablecontentstype": "BC_DEFAULT",
-      "burstscale": "100",
-      "pressuredelay": "0",
-      "spawnflags": "0",
-      "nointerpolate": "False",
-      "performancemode": "PM_NORMAL",
-      "exploderadius": "0",
-      "explodedamage": "0",
-      "clientsideentity": "0",
-      "uselocaloffset": "False",
-      "fademindist": "-1",
-      "fadescale": "1",
-      "renderamt": "255",
-      "screenspacefade": "0",
-      "rendertocubemaps": "True",
-      "disableshadows": "0",
-      "bakelighting": "0",
-      "solid": "6",
-      "skin": "default",
-      "rendercolor": "255 255 255",
-      "rendercolor __RAW_ARRAY__ (UInt64[3])": [
-        255,
-        255,
-        255
-      ],
-      "model": "models/fixed_darksouls/box.vmdl",
-      "origin": "506.144531 -710.667969 -6629.396484",
-      "angles": "-0.000000 139.499985 0.000000",
-      "scales": "0.750000 0.750000 0.750000",
-      "_template_lump_ent_index": "63"
+      "_template_lump_ent_index": "59"
     }
   },
   {
@@ -4102,10 +3904,11 @@
         255
       ],
       "model": "models/fixed_darksouls/souls2/vaza1.vmdl",
+      "compile_source_id": "2864",
       "origin": "727.144531 -1037.667969 -6606.000000",
       "angles": "-0.000000 4.500000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "64"
+      "_template_lump_ent_index": "60"
     }
   },
   {
@@ -4166,10 +3969,11 @@
         255
       ],
       "model": "models/fixed_darksouls/souls2/vaza1.vmdl",
+      "compile_source_id": "2865",
       "origin": "753.144531 -1053.667969 -6606.000000",
       "angles": "-0.000000 4.500000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "65"
+      "_template_lump_ent_index": "61"
     }
   },
   {
@@ -4230,10 +4034,11 @@
         255
       ],
       "model": "models/fixed_darksouls/souls2/vaza1.vmdl",
+      "compile_source_id": "2866",
       "origin": "753.144531 -1021.667969 -6606.000000",
       "angles": "-0.000000 4.500000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "66"
+      "_template_lump_ent_index": "62"
     }
   },
   {
@@ -4294,10 +4099,11 @@
         255
       ],
       "model": "models/fixed_darksouls/souls2/vaza1.vmdl",
+      "compile_source_id": "2867",
       "origin": "-356.855469 -1047.667969 -6627.510742",
       "angles": "-0.000000 4.500000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "67"
+      "_template_lump_ent_index": "63"
     }
   },
   {
@@ -4360,10 +4166,11 @@
         255
       ],
       "model": "models/fixed_darksouls/box.vmdl",
+      "compile_source_id": "2869",
       "origin": "-241.855469 -1624.186035 -4058.000488",
       "angles": "6.879293 160.641724 18.825304",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "68"
+      "_template_lump_ent_index": "64"
     }
   },
   {
@@ -4424,10 +4231,11 @@
         255
       ],
       "model": "models/fixed_darksouls/souls2/vaza1.vmdl",
+      "compile_source_id": "2870",
       "origin": "-167.855469 -385.667969 -4161.722168",
       "angles": "-0.000000 4.500000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "69"
+      "_template_lump_ent_index": "65"
     }
   },
   {
@@ -4488,10 +4296,11 @@
         255
       ],
       "model": "models/fixed_darksouls/souls2/vaza1.vmdl",
+      "compile_source_id": "2871",
       "origin": "205.144531 -193.667969 -4161.722168",
       "angles": "-0.000000 4.500000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "70"
+      "_template_lump_ent_index": "66"
     }
   },
   {
@@ -4552,10 +4361,11 @@
         255
       ],
       "model": "models/fixed_darksouls/souls2/vaza1.vmdl",
+      "compile_source_id": "2872",
       "origin": "205.144531 -279.667969 -4161.722168",
       "angles": "-0.000000 4.500000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "71"
+      "_template_lump_ent_index": "67"
     }
   },
   {
@@ -4616,76 +4426,11 @@
         255
       ],
       "model": "models/fixed_darksouls/souls2/vaza1.vmdl",
+      "compile_source_id": "2873",
       "origin": "205.144531 -311.674316 -4161.722168",
       "angles": "-0.000000 4.500000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "72"
-    }
-  },
-  {
-    "classname": "prop_dynamic",
-    "hammerUniqueId": "23755",
-    "targetname": "[PR#]torch3",
-    "properties": {
-      "clothscale": "1",
-      "startdisabled": "False",
-      "forcenpcexclude": "False",
-      "createnavobstacle": "False",
-      "animateonserver": "False",
-      "lagcompensate": "False",
-      "randomizecycle": "False",
-      "idleanimationloopmode": "ANIM_LOOP_MODE_NOT_LOOPING",
-      "startinganimationloopmode": "ANIM_LOOP_MODE_NOT_LOOPING",
-      "use_animgraph": "True",
-      "disablelowviolence": "0",
-      "glowteam": "-1",
-      "glowcolor": "0 0 0",
-      "glowcolor __RAW_ARRAY__ (UInt64[3])": [
-        0,
-        0,
-        0
-      ],
-      "glowrangemin": "0",
-      "glowrange": "0",
-      "glowstate": "0",
-      "lightmapstatic": "0",
-      "object_culling": "0",
-      "fademaxdist": "0",
-      "disablereceiveshadows": "False",
-      "rendermode": "kRenderNormal",
-      "renderfx": "kRenderFxNone",
-      "breakablecontentstype": "BC_DEFAULT",
-      "burstscale": "100",
-      "pressuredelay": "0",
-      "spawnflags": "0",
-      "nointerpolate": "False",
-      "performancemode": "PM_NORMAL",
-      "exploderadius": "0",
-      "explodedamage": "0",
-      "clientsideentity": "0",
-      "uselocaloffset": "False",
-      "fademindist": "-1",
-      "fadescale": "1",
-      "lightmapresolutionx": "32",
-      "lightmapresolutiony": "32",
-      "renderamt": "255",
-      "screenspacefade": "0",
-      "rendertocubemaps": "True",
-      "disableshadows": "0",
-      "bakelighting": "0",
-      "solid": "6",
-      "skin": "default",
-      "rendercolor": "255 255 255",
-      "rendercolor __RAW_ARRAY__ (UInt64[3])": [
-        255,
-        255,
-        255
-      ],
-      "model": "models/fixed_darksouls/box.vmdl",
-      "origin": "-1039.367065 1407.316895 -6396.378906",
-      "angles": "-0.000000 -93.500008 0.000000",
-      "scales": "0.750000 0.750000 0.750000",
-      "_template_lump_ent_index": "73"
+      "_template_lump_ent_index": "68"
     }
   },
   {
@@ -4746,10 +4491,11 @@
         255
       ],
       "model": "models/blightown/static/fence.vmdl",
+      "compile_source_id": "2995",
       "origin": "-3786.855469 1685.332031 -6894.000000",
       "angles": "-0.000000 -4.499991 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "74"
+      "_template_lump_ent_index": "69"
     }
   },
   {
@@ -4810,10 +4556,11 @@
         255
       ],
       "model": "models/fixed_darksouls/souls2/vaza1.vmdl",
+      "compile_source_id": "2996",
       "origin": "-4403.855469 1536.332031 -6884.000000",
       "angles": "-4.346365 36.166924 74.955704",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "75"
+      "_template_lump_ent_index": "70"
     }
   },
   {
@@ -4874,10 +4621,11 @@
         255
       ],
       "model": "models/fixed_darksouls/souls2/vaza1.vmdl",
+      "compile_source_id": "3120",
       "origin": "-1669.277832 1063.955078 -6884.000000",
       "angles": "-4.346365 1.166926 74.955704",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "76"
+      "_template_lump_ent_index": "71"
     }
   },
   {
@@ -4938,10 +4686,11 @@
         255
       ],
       "model": "models/fixed_darksouls/souls2/vaza1.vmdl",
+      "compile_source_id": "3121",
       "origin": "-900.855469 1061.332031 -6401.000000",
       "angles": "-0.000000 4.500000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "77"
+      "_template_lump_ent_index": "72"
     }
   },
   {
@@ -5002,10 +4751,11 @@
         255
       ],
       "model": "models/fixed_darksouls/souls2/vaza1.vmdl",
+      "compile_source_id": "3122",
       "origin": "-935.855469 1061.332031 -6401.000000",
       "angles": "-0.000000 4.500000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "78"
+      "_template_lump_ent_index": "73"
     }
   },
   {
@@ -5066,10 +4816,11 @@
         255
       ],
       "model": "models/fixed_darksouls/souls2/vaza1.vmdl",
+      "compile_source_id": "3123",
       "origin": "-810.855469 1118.332031 -6401.000000",
       "angles": "-0.000000 4.500000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "79"
+      "_template_lump_ent_index": "74"
     }
   },
   {
@@ -5130,10 +4881,11 @@
         255
       ],
       "model": "models/fixed_darksouls/souls2/vaza1.vmdl",
+      "compile_source_id": "3124",
       "origin": "-834.855469 1362.332031 -6396.699219",
       "angles": "-0.000000 4.500000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "80"
+      "_template_lump_ent_index": "75"
     }
   },
   {
@@ -5194,10 +4946,11 @@
         255
       ],
       "model": "models/fixed_darksouls/souls2/vaza1.vmdl",
+      "compile_source_id": "3125",
       "origin": "-1200.985718 1000.332031 -6613.167969",
       "angles": "-0.000000 -25.500008 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "81"
+      "_template_lump_ent_index": "76"
     }
   },
   {
@@ -5258,202 +5011,11 @@
         255
       ],
       "model": "models/fixed_darksouls/souls2/vaza1.vmdl",
+      "compile_source_id": "3126",
       "origin": "-1200.985840 969.332031 -6613.167969",
       "angles": "-0.000000 4.500000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "82"
-    }
-  },
-  {
-    "classname": "prop_dynamic",
-    "hammerUniqueId": "22470",
-    "targetname": "[PR#]torch3",
-    "properties": {
-      "clothscale": "1",
-      "startdisabled": "False",
-      "forcenpcexclude": "False",
-      "createnavobstacle": "False",
-      "animateonserver": "False",
-      "lagcompensate": "False",
-      "randomizecycle": "False",
-      "idleanimationloopmode": "ANIM_LOOP_MODE_NOT_LOOPING",
-      "startinganimationloopmode": "ANIM_LOOP_MODE_NOT_LOOPING",
-      "use_animgraph": "True",
-      "disablelowviolence": "0",
-      "glowteam": "-1",
-      "glowcolor": "0 0 0",
-      "glowcolor __RAW_ARRAY__ (UInt64[3])": [
-        0,
-        0,
-        0
-      ],
-      "glowrangemin": "0",
-      "glowrange": "0",
-      "glowstate": "0",
-      "lightmapstatic": "0",
-      "object_culling": "0",
-      "fademaxdist": "0",
-      "disablereceiveshadows": "False",
-      "rendermode": "kRenderNormal",
-      "renderfx": "kRenderFxNone",
-      "breakablecontentstype": "BC_DEFAULT",
-      "burstscale": "100",
-      "pressuredelay": "0",
-      "spawnflags": "0",
-      "nointerpolate": "False",
-      "performancemode": "PM_NORMAL",
-      "exploderadius": "0",
-      "explodedamage": "0",
-      "clientsideentity": "0",
-      "uselocaloffset": "False",
-      "fademindist": "-1",
-      "fadescale": "1",
-      "renderamt": "255",
-      "screenspacefade": "0",
-      "rendertocubemaps": "True",
-      "disableshadows": "0",
-      "bakelighting": "0",
-      "solid": "6",
-      "skin": "default",
-      "rendercolor": "255 255 255",
-      "rendercolor __RAW_ARRAY__ (UInt64[3])": [
-        255,
-        255,
-        255
-      ],
-      "model": "models/fixed_darksouls/box.vmdl",
-      "origin": "1147.144531 -603.667969 -6606.000000",
-      "angles": "-0.000000 -175.500000 0.000000",
-      "scales": "0.750000 0.750000 0.750000",
-      "_template_lump_ent_index": "83"
-    }
-  },
-  {
-    "classname": "prop_dynamic",
-    "hammerUniqueId": "22469",
-    "targetname": "[PR#]torch3",
-    "properties": {
-      "clothscale": "1",
-      "startdisabled": "False",
-      "forcenpcexclude": "False",
-      "createnavobstacle": "False",
-      "animateonserver": "False",
-      "lagcompensate": "False",
-      "randomizecycle": "False",
-      "idleanimationloopmode": "ANIM_LOOP_MODE_NOT_LOOPING",
-      "startinganimationloopmode": "ANIM_LOOP_MODE_NOT_LOOPING",
-      "use_animgraph": "True",
-      "disablelowviolence": "0",
-      "glowteam": "-1",
-      "glowcolor": "0 0 0",
-      "glowcolor __RAW_ARRAY__ (UInt64[3])": [
-        0,
-        0,
-        0
-      ],
-      "glowrangemin": "0",
-      "glowrange": "0",
-      "glowstate": "0",
-      "lightmapstatic": "0",
-      "object_culling": "0",
-      "fademaxdist": "0",
-      "disablereceiveshadows": "False",
-      "rendermode": "kRenderNormal",
-      "renderfx": "kRenderFxNone",
-      "breakablecontentstype": "BC_DEFAULT",
-      "burstscale": "100",
-      "pressuredelay": "0",
-      "spawnflags": "0",
-      "nointerpolate": "False",
-      "performancemode": "PM_NORMAL",
-      "exploderadius": "0",
-      "explodedamage": "0",
-      "clientsideentity": "0",
-      "uselocaloffset": "False",
-      "screenspacefade": "0",
-      "renderamt": "255",
-      "fadescale": "1",
-      "fademindist": "-1",
-      "rendertocubemaps": "True",
-      "disableshadows": "0",
-      "bakelighting": "0",
-      "solid": "6",
-      "skin": "default",
-      "rendercolor": "255 255 255",
-      "rendercolor __RAW_ARRAY__ (UInt64[3])": [
-        255,
-        255,
-        255
-      ],
-      "model": "models/fixed_darksouls/box.vmdl",
-      "origin": "1007.144531 -769.667969 -6606.000000",
-      "angles": "-0.000000 -175.500000 0.000000",
-      "scales": "0.750000 0.750000 0.750000",
-      "_template_lump_ent_index": "84"
-    }
-  },
-  {
-    "classname": "prop_dynamic",
-    "hammerUniqueId": "22468",
-    "targetname": "[PR#]torch3",
-    "properties": {
-      "clothscale": "1",
-      "startdisabled": "False",
-      "forcenpcexclude": "False",
-      "createnavobstacle": "False",
-      "animateonserver": "False",
-      "lagcompensate": "False",
-      "randomizecycle": "False",
-      "idleanimationloopmode": "ANIM_LOOP_MODE_NOT_LOOPING",
-      "startinganimationloopmode": "ANIM_LOOP_MODE_NOT_LOOPING",
-      "use_animgraph": "True",
-      "disablelowviolence": "0",
-      "glowteam": "-1",
-      "glowcolor": "0 0 0",
-      "glowcolor __RAW_ARRAY__ (UInt64[3])": [
-        0,
-        0,
-        0
-      ],
-      "glowrangemin": "0",
-      "glowrange": "0",
-      "glowstate": "0",
-      "lightmapstatic": "0",
-      "object_culling": "0",
-      "fademaxdist": "0",
-      "disablereceiveshadows": "False",
-      "rendermode": "kRenderNormal",
-      "renderfx": "kRenderFxNone",
-      "breakablecontentstype": "BC_DEFAULT",
-      "burstscale": "100",
-      "pressuredelay": "0",
-      "spawnflags": "0",
-      "nointerpolate": "False",
-      "performancemode": "PM_NORMAL",
-      "exploderadius": "0",
-      "explodedamage": "0",
-      "clientsideentity": "0",
-      "uselocaloffset": "False",
-      "fademindist": "-1",
-      "fadescale": "1",
-      "renderamt": "255",
-      "screenspacefade": "0",
-      "rendertocubemaps": "True",
-      "disableshadows": "0",
-      "bakelighting": "0",
-      "solid": "6",
-      "skin": "default",
-      "rendercolor": "255 255 255",
-      "rendercolor __RAW_ARRAY__ (UInt64[3])": [
-        255,
-        255,
-        255
-      ],
-      "model": "models/fixed_darksouls/box.vmdl",
-      "origin": "812.144531 -607.294922 -6606.000000",
-      "angles": "-0.000000 4.500005 0.000000",
-      "scales": "0.750000 0.750000 0.750000",
-      "_template_lump_ent_index": "85"
+      "_template_lump_ent_index": "77"
     }
   },
   {
@@ -5514,10 +5076,11 @@
         255
       ],
       "model": "models/props/de_inferno/stone_bench.vmdl",
+      "compile_source_id": "3288",
       "origin": "-549.855469 13903.332031 -8530.000000",
       "angles": "-0.000000 -60.000004 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "86"
+      "_template_lump_ent_index": "78"
     }
   },
   {
@@ -5578,10 +5141,11 @@
         255
       ],
       "model": "models/props/de_inferno/stone_bench.vmdl",
+      "compile_source_id": "3289",
       "origin": "-1073.855469 13594.332031 -8530.000000",
       "angles": "-0.000000 -60.000004 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "87"
+      "_template_lump_ent_index": "79"
     }
   },
   {
@@ -5642,10 +5206,11 @@
         255
       ],
       "model": "models/props/de_inferno/stone_bench.vmdl",
+      "compile_source_id": "3292",
       "origin": "-764.855469 13263.332031 -8530.000000",
       "angles": "-0.000000 -60.000004 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "88"
+      "_template_lump_ent_index": "80"
     }
   },
   {
@@ -5706,10 +5271,11 @@
         255
       ],
       "model": "models/props/de_inferno/stone_bench.vmdl",
+      "compile_source_id": "3293",
       "origin": "-878.855469 13198.332031 -8530.000000",
       "angles": "-0.000000 -60.000004 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "89"
+      "_template_lump_ent_index": "81"
     }
   },
   {
@@ -5770,10 +5336,11 @@
         255
       ],
       "model": "models/props/de_inferno/stone_bench.vmdl",
+      "compile_source_id": "3294",
       "origin": "-722.855469 13192.332031 -8530.000000",
       "angles": "-0.000000 -60.000004 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "90"
+      "_template_lump_ent_index": "82"
     }
   },
   {
@@ -5834,10 +5401,11 @@
         255
       ],
       "model": "models/props/de_inferno/stone_bench.vmdl",
+      "compile_source_id": "3295",
       "origin": "-836.855469 13127.332031 -8530.000000",
       "angles": "-0.000000 -60.000004 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "91"
+      "_template_lump_ent_index": "83"
     }
   },
   {
@@ -5898,10 +5466,11 @@
         255
       ],
       "model": "models/props/de_inferno/stone_bench.vmdl",
+      "compile_source_id": "3296",
       "origin": "-681.855469 13117.332031 -8530.000000",
       "angles": "-0.000000 -60.000004 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "92"
+      "_template_lump_ent_index": "84"
     }
   },
   {
@@ -5962,10 +5531,11 @@
         255
       ],
       "model": "models/props/de_inferno/stone_bench.vmdl",
+      "compile_source_id": "3297",
       "origin": "-795.855469 13052.332031 -8530.000000",
       "angles": "-0.000000 -60.000004 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "93"
+      "_template_lump_ent_index": "85"
     }
   },
   {
@@ -6026,10 +5596,11 @@
         255
       ],
       "model": "models/props/de_inferno/stone_bench.vmdl",
+      "compile_source_id": "3298",
       "origin": "-639.855469 13046.332031 -8530.000000",
       "angles": "-0.000000 -60.000004 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "94"
+      "_template_lump_ent_index": "86"
     }
   },
   {
@@ -6090,10 +5661,11 @@
         255
       ],
       "model": "models/props/de_inferno/stone_bench.vmdl",
+      "compile_source_id": "3299",
       "origin": "-753.855469 12981.332031 -8530.000000",
       "angles": "-0.000000 -60.000004 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "95"
+      "_template_lump_ent_index": "87"
     }
   },
   {
@@ -6154,10 +5726,11 @@
         255
       ],
       "model": "models/props/de_inferno/stone_bench.vmdl",
+      "compile_source_id": "3300",
       "origin": "-715.855469 12915.332031 -8530.000000",
       "angles": "-0.000000 -60.000004 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "96"
+      "_template_lump_ent_index": "88"
     }
   },
   {
@@ -6218,10 +5791,11 @@
         255
       ],
       "model": "models/props/de_inferno/stone_bench.vmdl",
+      "compile_source_id": "3301",
       "origin": "-601.855469 12980.332031 -8530.000000",
       "angles": "-0.000000 -60.000004 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "97"
+      "_template_lump_ent_index": "89"
     }
   },
   {
@@ -6282,10 +5856,11 @@
         255
       ],
       "model": "models/props/de_inferno/stone_bench.vmdl",
+      "compile_source_id": "3302",
       "origin": "-673.855469 12844.332031 -8530.000000",
       "angles": "-0.000000 -60.000004 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "98"
+      "_template_lump_ent_index": "90"
     }
   },
   {
@@ -6346,10 +5921,11 @@
         255
       ],
       "model": "models/props/de_inferno/stone_bench.vmdl",
+      "compile_source_id": "3303",
       "origin": "-559.855469 12909.332031 -8530.000000",
       "angles": "-0.000000 -60.000004 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "99"
+      "_template_lump_ent_index": "91"
     }
   },
   {
@@ -6410,10 +5986,11 @@
         255
       ],
       "model": "models/props/de_inferno/stone_bench.vmdl",
+      "compile_source_id": "3304",
       "origin": "-239.855469 13188.332031 -8530.000000",
       "angles": "-0.000000 -60.000004 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "100"
+      "_template_lump_ent_index": "92"
     }
   },
   {
@@ -6474,10 +6051,11 @@
         255
       ],
       "model": "models/props/de_inferno/stone_bench.vmdl",
+      "compile_source_id": "3305",
       "origin": "-125.855469 13253.332031 -8530.000000",
       "angles": "-0.000000 -60.000004 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "101"
+      "_template_lump_ent_index": "93"
     }
   },
   {
@@ -6538,10 +6116,11 @@
         255
       ],
       "model": "models/props/de_inferno/stone_bench.vmdl",
+      "compile_source_id": "3306",
       "origin": "-197.855469 13117.332031 -8530.000000",
       "angles": "-0.000000 -60.000004 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "102"
+      "_template_lump_ent_index": "94"
     }
   },
   {
@@ -6602,10 +6181,11 @@
         255
       ],
       "model": "models/props/de_inferno/stone_bench.vmdl",
+      "compile_source_id": "3307",
       "origin": "-83.855469 13182.332031 -8530.000000",
       "angles": "-0.000000 -60.000004 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "103"
+      "_template_lump_ent_index": "95"
     }
   },
   {
@@ -6666,10 +6246,11 @@
         255
       ],
       "model": "models/props/de_inferno/stone_bench.vmdl",
+      "compile_source_id": "3308",
       "origin": "-319.855469 13325.332031 -8530.000000",
       "angles": "-0.000000 -60.000004 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "104"
+      "_template_lump_ent_index": "96"
     }
   },
   {
@@ -6730,10 +6311,11 @@
         255
       ],
       "model": "models/props/de_inferno/stone_bench.vmdl",
+      "compile_source_id": "3309",
       "origin": "-205.855469 13390.332031 -8530.000000",
       "angles": "-0.000000 -60.000004 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "105"
+      "_template_lump_ent_index": "97"
     }
   },
   {
@@ -6794,10 +6376,11 @@
         255
       ],
       "model": "models/props/de_inferno/stone_bench.vmdl",
+      "compile_source_id": "3310",
       "origin": "-277.855469 13254.332031 -8530.000000",
       "angles": "-0.000000 -60.000004 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "106"
+      "_template_lump_ent_index": "98"
     }
   },
   {
@@ -6858,10 +6441,11 @@
         255
       ],
       "model": "models/props/de_inferno/stone_bench.vmdl",
+      "compile_source_id": "3311",
       "origin": "-163.855469 13319.332031 -8530.000000",
       "angles": "-0.000000 -60.000004 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "107"
+      "_template_lump_ent_index": "99"
     }
   },
   {
@@ -6922,10 +6506,11 @@
         255
       ],
       "model": "models/props/de_inferno/stone_bench.vmdl",
+      "compile_source_id": "3312",
       "origin": "-360.855469 13400.332031 -8530.000000",
       "angles": "-0.000000 -60.000004 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "108"
+      "_template_lump_ent_index": "100"
     }
   },
   {
@@ -6986,10 +6571,11 @@
         255
       ],
       "model": "models/props/de_inferno/stone_bench.vmdl",
+      "compile_source_id": "3313",
       "origin": "-246.855469 13465.332031 -8530.000000",
       "angles": "-0.000000 -60.000004 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "109"
+      "_template_lump_ent_index": "101"
     }
   },
   {
@@ -7050,10 +6636,11 @@
         255
       ],
       "model": "models/props/de_inferno/stone_bench.vmdl",
+      "compile_source_id": "3314",
       "origin": "-288.855469 13536.332031 -8530.000000",
       "angles": "-0.000000 -60.000004 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "110"
+      "_template_lump_ent_index": "102"
     }
   },
   {
@@ -7114,10 +6701,11 @@
         255
       ],
       "model": "models/props/de_inferno/stone_bench.vmdl",
+      "compile_source_id": "3315",
       "origin": "-402.855469 13471.332031 -8530.000000",
       "angles": "-0.000000 -60.000004 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "111"
+      "_template_lump_ent_index": "103"
     }
   },
   {
@@ -7178,10 +6766,11 @@
         255
       ],
       "model": "models/blightown/static/fence.vmdl",
+      "compile_source_id": "3320",
       "origin": "-2976.855469 3533.332031 -6902.000000",
       "angles": "-0.000000 -84.500000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "112"
+      "_template_lump_ent_index": "104"
     }
   },
   {
@@ -7242,10 +6831,11 @@
         255
       ],
       "model": "models/blightown/static/fence.vmdl",
+      "compile_source_id": "3327",
       "origin": "-2171.855469 3475.332031 -6902.000000",
       "angles": "-0.000000 -69.500008 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "113"
+      "_template_lump_ent_index": "105"
     }
   },
   {
@@ -7306,10 +6896,11 @@
         255
       ],
       "model": "models/blightown/static/fence.vmdl",
-      "origin": "-2791.855469 1787.332031 -6902.000000",
+      "compile_source_id": "3328",
+      "origin": "-2609.484131 1277.110840 -6902.000000",
       "angles": "-0.000000 -159.499985 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "114"
+      "_template_lump_ent_index": "106"
     }
   },
   {
@@ -7370,10 +6961,11 @@
         255
       ],
       "model": "models/blightown/static/fence.vmdl",
+      "compile_source_id": "3330",
       "origin": "-3186.855469 -818.667969 -6902.000000",
       "angles": "-0.000000 140.499969 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "115"
+      "_template_lump_ent_index": "107"
     }
   },
   {
@@ -7434,10 +7026,11 @@
         255
       ],
       "model": "models/blightown/static/fence.vmdl",
+      "compile_source_id": "3331",
       "origin": "-2581.725098 -1379.628418 -6902.000000",
       "angles": "-0.000000 -129.499985 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "116"
+      "_template_lump_ent_index": "108"
     }
   },
   {
@@ -7498,10 +7091,11 @@
         255
       ],
       "model": "models/blightown/static/fence.vmdl",
-      "origin": "-2069.855469 1938.332031 -6913.710938",
+      "compile_source_id": "3332",
+      "origin": "-2069.855469 1423.092285 -6913.710938",
       "angles": "-8.644135 -115.433594 12.305814",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "117"
+      "_template_lump_ent_index": "109"
     }
   },
   {
@@ -7562,10 +7156,11 @@
         255
       ],
       "model": "models/blightown/static/fence.vmdl",
+      "compile_source_id": "3333",
       "origin": "-578.855469 1397.332031 -6897.000000",
       "angles": "-0.000000 170.499969 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "118"
+      "_template_lump_ent_index": "110"
     }
   },
   {
@@ -7626,10 +7221,11 @@
         255
       ],
       "model": "models/blightown/static/fence.vmdl",
+      "compile_source_id": "3342",
       "origin": "-3409.855469 2901.263916 -6894.000000",
       "angles": "-0.000000 -84.500000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "119"
+      "_template_lump_ent_index": "111"
     }
   },
   {
@@ -7690,10 +7286,11 @@
         255
       ],
       "model": "models/blightown/static/fence.vmdl",
+      "compile_source_id": "3343",
       "origin": "-3289.496094 2901.263916 -6894.000000",
       "angles": "-0.000000 -144.500000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "120"
+      "_template_lump_ent_index": "112"
     }
   },
   {
@@ -7754,10 +7351,11 @@
         255
       ],
       "model": "models/blightown/static/fence.vmdl",
+      "compile_source_id": "3344",
       "origin": "-2186.855469 324.332031 -6893.000000",
       "angles": "-0.000000 -84.500000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "121"
+      "_template_lump_ent_index": "113"
     }
   },
   {
@@ -7792,10 +7390,11 @@
       "effect_name": "particles/sens/torch.vpcf",
       "clientsideentity": "0",
       "uselocaloffset": "False",
+      "compile_source_id": "6362",
       "origin": "-309.445068 -125.667969 -4066.681641",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "122"
+      "_template_lump_ent_index": "114"
     }
   },
   {
@@ -7830,10 +7429,11 @@
       "effect_name": "particles/sens/torch.vpcf",
       "clientsideentity": "0",
       "uselocaloffset": "False",
+      "compile_source_id": "6363",
       "origin": "-5121.391113 1052.788574 -6774.472656",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "123"
+      "_template_lump_ent_index": "115"
     }
   },
   {
@@ -7868,10 +7468,11 @@
       "effect_name": "particles/sens/torch.vpcf",
       "clientsideentity": "0",
       "uselocaloffset": "False",
+      "compile_source_id": "6364",
       "origin": "-4222.964844 -1168.557129 -6784.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "124"
+      "_template_lump_ent_index": "116"
     }
   },
   {
@@ -7906,10 +7507,11 @@
       "effect_name": "particles/sens/torch.vpcf",
       "clientsideentity": "0",
       "uselocaloffset": "False",
+      "compile_source_id": "6365",
       "origin": "-5121.855469 -592.667969 -6784.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "125"
+      "_template_lump_ent_index": "117"
     }
   },
   {
@@ -7944,10 +7546,11 @@
       "effect_name": "particles/sens/torch.vpcf",
       "clientsideentity": "0",
       "uselocaloffset": "False",
+      "compile_source_id": "6458",
       "origin": "-1136.855469 1652.332031 -6198.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "126"
+      "_template_lump_ent_index": "118"
     }
   },
   {
@@ -7982,10 +7585,11 @@
       "effect_name": "particles/sens/torch.vpcf",
       "clientsideentity": "0",
       "uselocaloffset": "False",
+      "compile_source_id": "6459",
       "origin": "-835.855469 1560.332031 -6358.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "127"
+      "_template_lump_ent_index": "119"
     }
   },
   {
@@ -8020,10 +7624,11 @@
       "effect_name": "particles/sens/torch.vpcf",
       "clientsideentity": "0",
       "uselocaloffset": "False",
+      "compile_source_id": "6460",
       "origin": "-974.855469 1095.332031 -6309.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "128"
+      "_template_lump_ent_index": "120"
     }
   },
   {
@@ -8058,10 +7663,11 @@
       "effect_name": "particles/sens/torch.vpcf",
       "clientsideentity": "0",
       "uselocaloffset": "False",
+      "compile_source_id": "6461",
       "origin": "-1207.855469 1432.332031 -6524.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "129"
+      "_template_lump_ent_index": "121"
     }
   },
   {
@@ -8096,10 +7702,11 @@
       "effect_name": "particles/sens/torch.vpcf",
       "clientsideentity": "0",
       "uselocaloffset": "False",
+      "compile_source_id": "6462",
       "origin": "-1267.855469 941.332031 -6516.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "130"
+      "_template_lump_ent_index": "122"
     }
   },
   {
@@ -8134,10 +7741,11 @@
       "effect_name": "particles/sens/torch.vpcf",
       "clientsideentity": "0",
       "uselocaloffset": "False",
+      "compile_source_id": "6463",
       "origin": "-1772.855469 951.332031 -6772.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "131"
+      "_template_lump_ent_index": "123"
     }
   },
   {
@@ -8172,10 +7780,11 @@
       "effect_name": "particles/sens/torch.vpcf",
       "clientsideentity": "0",
       "uselocaloffset": "False",
+      "compile_source_id": "6464",
       "origin": "-1817.855469 2150.332031 -6783.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "132"
+      "_template_lump_ent_index": "124"
     }
   },
   {
@@ -8210,10 +7819,11 @@
       "effect_name": "particles/sens/torch.vpcf",
       "clientsideentity": "0",
       "uselocaloffset": "False",
+      "compile_source_id": "6465",
       "origin": "-2215.855469 2857.332031 -6787.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "133"
+      "_template_lump_ent_index": "125"
     }
   },
   {
@@ -8248,10 +7858,11 @@
       "effect_name": "particles/sens/torch.vpcf",
       "clientsideentity": "0",
       "uselocaloffset": "False",
+      "compile_source_id": "6466",
       "origin": "-3873.855469 2799.332031 -6781.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "134"
+      "_template_lump_ent_index": "126"
     }
   },
   {
@@ -8286,10 +7897,11 @@
       "effect_name": "particles/sens/torch.vpcf",
       "clientsideentity": "0",
       "uselocaloffset": "False",
+      "compile_source_id": "6467",
       "origin": "-5025.855469 2003.332031 -6783.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "135"
+      "_template_lump_ent_index": "127"
     }
   },
   {
@@ -8324,10 +7936,11 @@
       "effect_name": "particles/sens/torch.vpcf",
       "clientsideentity": "0",
       "uselocaloffset": "False",
+      "compile_source_id": "6468",
       "origin": "-3748.855469 -877.667969 -6777.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "136"
+      "_template_lump_ent_index": "128"
     }
   },
   {
@@ -8362,10 +7975,11 @@
       "effect_name": "particles/sens/torch.vpcf",
       "clientsideentity": "0",
       "uselocaloffset": "False",
+      "compile_source_id": "6469",
       "origin": "-3205.855469 350.332031 -6782.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "137"
+      "_template_lump_ent_index": "129"
     }
   },
   {
@@ -8400,10 +8014,11 @@
       "effect_name": "particles/sens/torch.vpcf",
       "clientsideentity": "0",
       "uselocaloffset": "False",
+      "compile_source_id": "6470",
       "origin": "-2387.855469 -96.667969 -6788.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "138"
+      "_template_lump_ent_index": "130"
     }
   },
   {
@@ -8438,10 +8053,11 @@
       "effect_name": "particles/sens/torch.vpcf",
       "clientsideentity": "0",
       "uselocaloffset": "False",
+      "compile_source_id": "6471",
       "origin": "798.144531 -974.667969 -6481.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "139"
+      "_template_lump_ent_index": "131"
     }
   },
   {
@@ -8476,10 +8092,11 @@
       "effect_name": "particles/sens/torch.vpcf",
       "clientsideentity": "0",
       "uselocaloffset": "False",
+      "compile_source_id": "6472",
       "origin": "798.144531 -759.667969 -6481.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "140"
+      "_template_lump_ent_index": "132"
     }
   },
   {
@@ -8514,10 +8131,11 @@
       "effect_name": "particles/sens/torch.vpcf",
       "clientsideentity": "0",
       "uselocaloffset": "False",
+      "compile_source_id": "6473",
       "origin": "1160.144531 -759.667969 -6506.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "141"
+      "_template_lump_ent_index": "133"
     }
   },
   {
@@ -8552,10 +8170,11 @@
       "effect_name": "particles/sens/torch.vpcf",
       "clientsideentity": "0",
       "uselocaloffset": "False",
+      "compile_source_id": "6474",
       "origin": "919.144531 -286.667969 -6511.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "142"
+      "_template_lump_ent_index": "134"
     }
   },
   {
@@ -8590,10 +8209,11 @@
       "effect_name": "particles/sens/torch.vpcf",
       "clientsideentity": "0",
       "uselocaloffset": "False",
+      "compile_source_id": "6475",
       "origin": "422.144531 30.332031 -6511.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "143"
+      "_template_lump_ent_index": "135"
     }
   },
   {
@@ -8628,10 +8248,11 @@
       "effect_name": "particles/sens/torch.vpcf",
       "clientsideentity": "0",
       "uselocaloffset": "False",
+      "compile_source_id": "7510",
       "origin": "-261.855469 -317.667969 -6476.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "144"
+      "_template_lump_ent_index": "136"
     }
   },
   {
@@ -8692,10 +8313,11 @@
         255
       ],
       "model": "models/fixed_darksouls/souls2/vaza1.vmdl",
+      "compile_source_id": "7512",
       "origin": "-4020.855469 628.332031 -6870.714844",
       "angles": "-7.057997 34.140949 8.809119",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "145"
+      "_template_lump_ent_index": "137"
     }
   },
   {
@@ -8730,10 +8352,11 @@
       "effect_name": "particles/sens/torch.vpcf",
       "clientsideentity": "0",
       "uselocaloffset": "False",
+      "compile_source_id": "7513",
       "origin": "-4066.855469 749.332031 -6778.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "146"
+      "_template_lump_ent_index": "138"
     }
   },
   {
@@ -8792,10 +8415,11 @@
       "model": "models/darkroot/vaza1.vmdl",
       "clientsideentity": "0",
       "uselocaloffset": "False",
+      "compile_source_id": "7544",
       "origin": "-2891.103271 12735.031250 -7735.684570",
       "angles": "-0.000000 33.906322 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "147"
+      "_template_lump_ent_index": "139"
     }
   },
   {
@@ -8854,10 +8478,11 @@
       "model": "models/darkroot/vaza.vmdl",
       "clientsideentity": "0",
       "uselocaloffset": "False",
+      "compile_source_id": "7545",
       "origin": "-2852.997803 12760.537109 -7735.790039",
       "angles": "-0.000000 33.906322 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "148"
+      "_template_lump_ent_index": "140"
     }
   },
   {
@@ -8916,10 +8541,11 @@
       "model": "models/darkroot/vaza1.vmdl",
       "clientsideentity": "0",
       "uselocaloffset": "False",
+      "compile_source_id": "7546",
       "origin": "-2753.092285 13023.295898 -7735.684570",
       "angles": "-0.000000 88.913696 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "149"
+      "_template_lump_ent_index": "141"
     }
   },
   {
@@ -8978,10 +8604,206 @@
       "model": "models/darkroot/vaza.vmdl",
       "clientsideentity": "0",
       "uselocaloffset": "False",
+      "compile_source_id": "7547",
       "origin": "-3253.575928 12926.621094 -7735.790039",
       "angles": "-0.000000 33.906322 0.000000",
       "scales": "1.000000 1.000000 1.000000",
-      "_template_lump_ent_index": "150"
+      "_template_lump_ent_index": "142"
+    }
+  },
+  {
+    "classname": "prop_dynamic",
+    "hammerUniqueId": "206702",
+    "targetname": "[PR#]torch3",
+    "properties": {
+      "bakelighting": "0",
+      "screenspacefade": "0",
+      "fadescale": "1",
+      "clothscale": "1",
+      "startdisabled": "False",
+      "forcenpcexclude": "False",
+      "createnavobstacle": "False",
+      "animateonserver": "False",
+      "lagcompensate": "False",
+      "randomizecycle": "False",
+      "idleanimationloopmode": "ANIM_LOOP_MODE_NOT_LOOPING",
+      "startinganimationloopmode": "ANIM_LOOP_MODE_NOT_LOOPING",
+      "use_animgraph": "True",
+      "disablelowviolence": "0",
+      "solid": "6",
+      "glowteam": "-1",
+      "glowcolor": "0 0 0",
+      "glowcolor __RAW_ARRAY__ (UInt64[3])": [
+        0,
+        0,
+        0
+      ],
+      "glowrangemin": "0",
+      "glowrange": "0",
+      "glowstate": "0",
+      "lightmapstatic": "0",
+      "rendertocubemaps": "True",
+      "object_culling": "0",
+      "fademaxdist": "0",
+      "fademindist": "-1",
+      "disablereceiveshadows": "False",
+      "rendercolor": "255 255 255",
+      "rendercolor __RAW_ARRAY__ (UInt64[3])": [
+        255,
+        255,
+        255
+      ],
+      "renderamt": "255",
+      "rendermode": "kRenderNormal",
+      "renderfx": "kRenderFxNone",
+      "breakablecontentstype": "BC_DEFAULT",
+      "burstscale": "100",
+      "pressuredelay": "0",
+      "spawnflags": "0",
+      "nointerpolate": "False",
+      "performancemode": "PM_NORMAL",
+      "exploderadius": "0",
+      "explodedamage": "0",
+      "disableshadows": "0",
+      "skin": "default",
+      "model": "models/blightown/static/fence.vmdl",
+      "clientsideentity": "0",
+      "uselocaloffset": "False",
+      "compile_source_id": "9645",
+      "origin": "-2046.855469 324.332031 -6786.000000",
+      "angles": "-3.886093 -86.104958 44.867805",
+      "scales": "1.000000 1.000000 1.000000",
+      "_template_lump_ent_index": "143"
+    }
+  },
+  {
+    "classname": "prop_dynamic",
+    "hammerUniqueId": "206703",
+    "targetname": "[PR#]torch3",
+    "properties": {
+      "fadescale": "1",
+      "screenspacefade": "0",
+      "bakelighting": "0",
+      "clothscale": "1",
+      "startdisabled": "False",
+      "forcenpcexclude": "False",
+      "createnavobstacle": "False",
+      "animateonserver": "False",
+      "lagcompensate": "False",
+      "randomizecycle": "False",
+      "idleanimationloopmode": "ANIM_LOOP_MODE_NOT_LOOPING",
+      "startinganimationloopmode": "ANIM_LOOP_MODE_NOT_LOOPING",
+      "use_animgraph": "True",
+      "disablelowviolence": "0",
+      "solid": "6",
+      "glowteam": "-1",
+      "glowcolor": "0 0 0",
+      "glowcolor __RAW_ARRAY__ (UInt64[3])": [
+        0,
+        0,
+        0
+      ],
+      "glowrangemin": "0",
+      "glowrange": "0",
+      "glowstate": "0",
+      "lightmapstatic": "0",
+      "rendertocubemaps": "True",
+      "object_culling": "0",
+      "fademaxdist": "0",
+      "fademindist": "-1",
+      "disablereceiveshadows": "False",
+      "rendercolor": "255 255 255",
+      "rendercolor __RAW_ARRAY__ (UInt64[3])": [
+        255,
+        255,
+        255
+      ],
+      "renderamt": "255",
+      "rendermode": "kRenderNormal",
+      "renderfx": "kRenderFxNone",
+      "breakablecontentstype": "BC_DEFAULT",
+      "burstscale": "100",
+      "pressuredelay": "0",
+      "spawnflags": "0",
+      "nointerpolate": "False",
+      "performancemode": "PM_NORMAL",
+      "exploderadius": "0",
+      "explodedamage": "0",
+      "disableshadows": "0",
+      "skin": "default",
+      "model": "models/blightown/static/fence.vmdl",
+      "clientsideentity": "0",
+      "uselocaloffset": "False",
+      "compile_source_id": "9646",
+      "origin": "-1941.317139 339.858887 -6663.491211",
+      "angles": "-3.886093 -86.104958 44.867805",
+      "scales": "1.000000 1.000000 1.000000",
+      "_template_lump_ent_index": "144"
+    }
+  },
+  {
+    "classname": "prop_dynamic",
+    "hammerUniqueId": "206704",
+    "targetname": "[PR#]torch3",
+    "properties": {
+      "bakelighting": "0",
+      "screenspacefade": "0",
+      "fadescale": "1",
+      "clothscale": "1",
+      "startdisabled": "False",
+      "forcenpcexclude": "False",
+      "createnavobstacle": "False",
+      "animateonserver": "False",
+      "lagcompensate": "False",
+      "randomizecycle": "False",
+      "idleanimationloopmode": "ANIM_LOOP_MODE_NOT_LOOPING",
+      "startinganimationloopmode": "ANIM_LOOP_MODE_NOT_LOOPING",
+      "use_animgraph": "True",
+      "disablelowviolence": "0",
+      "solid": "6",
+      "glowteam": "-1",
+      "glowcolor": "0 0 0",
+      "glowcolor __RAW_ARRAY__ (UInt64[3])": [
+        0,
+        0,
+        0
+      ],
+      "glowrangemin": "0",
+      "glowrange": "0",
+      "glowstate": "0",
+      "lightmapstatic": "0",
+      "rendertocubemaps": "True",
+      "object_culling": "0",
+      "fademaxdist": "0",
+      "fademindist": "-1",
+      "disablereceiveshadows": "False",
+      "rendercolor": "255 255 255",
+      "rendercolor __RAW_ARRAY__ (UInt64[3])": [
+        255,
+        255,
+        255
+      ],
+      "renderamt": "255",
+      "rendermode": "kRenderNormal",
+      "renderfx": "kRenderFxNone",
+      "breakablecontentstype": "BC_DEFAULT",
+      "burstscale": "100",
+      "pressuredelay": "0",
+      "spawnflags": "0",
+      "nointerpolate": "False",
+      "performancemode": "PM_NORMAL",
+      "exploderadius": "0",
+      "explodedamage": "0",
+      "disableshadows": "0",
+      "skin": "default",
+      "model": "models/blightown/static/fence.vmdl",
+      "clientsideentity": "0",
+      "uselocaloffset": "False",
+      "compile_source_id": "9647",
+      "origin": "-1832.923706 354.619141 -6555.097656",
+      "angles": "-3.886093 -86.104958 44.867805",
+      "scales": "1.000000 1.000000 1.000000",
+      "_template_lump_ent_index": "145"
     }
   }
 ]

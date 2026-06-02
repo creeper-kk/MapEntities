@@ -6,6 +6,7 @@
     "hammerUniqueId": "143410",
     "targetname": "[PR#]FMB_Health&0000",
     "properties": {
+      "fluiddragscale": "1",
       "hoverposeangles": "0.000000 0.000000 0.000000",
       "hoverposeangles __RAW_ARRAY__ (FloatingPoint64[3])": [
         0,
@@ -68,6 +69,7 @@
       "explodedamage": "0",
       "disableshadows": "0",
       "damagefilter": "[PR#]Humans_Filter",
+      "compile_source_id": "6828",
       "origin": "-0.080566 -1.441406 7.384766",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -157,6 +159,7 @@
       "model": "models/darkroot/yasher.vmdl",
       "clientsideentity": "0",
       "uselocaloffset": "False",
+      "compile_source_id": "5652",
       "origin": "0.000000 0.000000 0.000000",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -283,6 +286,7 @@
       "effect_name": "particles/sens/lizard2.vpcf",
       "clientsideentity": "0",
       "uselocaloffset": "False",
+      "compile_source_id": "6642",
       "origin": "0.000000 0.000000 9.384766",
       "angles": "-0.000000 0.000000 0.000000",
       "scales": "1.000000 1.000000 1.000000",

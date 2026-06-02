@@ -6,6 +6,7 @@
     "hammerUniqueId": "151090",
     "targetname": "[PR#]Sirwolf_Hitbox",
     "properties": {
+      "fluiddragscale": "1",
       "hoverposeangles": "0.000000 0.000000 0.000000",
       "hoverposeangles __RAW_ARRAY__ (FloatingPoint64[3])": [
         0,
@@ -68,6 +69,7 @@
       "explodedamage": "0",
       "disableshadows": "1",
       "damagefilter": "[PR#]No_Damage",
+      "compile_source_id": "8148",
       "origin": "679.302734 508.029297 12.939453",
       "angles": "0.000000 -179.999939 0.000000",
       "scales": "1.000000 1.000000 1.000000",
@@ -102,6 +104,7 @@
       "spawnflags": "1",
       "startdisabled": "False",
       "uselocaloffset": "False",
+      "compile_source_id": "8167",
       "origin": "581.945312 550.316406 54.522461",
       "angles": "0.000000 -179.999939 0.000000",
       "scales": "1.000000 1.000000 1.000000",
